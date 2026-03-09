@@ -49,7 +49,7 @@ const MobileNav = () => {
             <div className="flex items-center justify-between p-6 border-b border-gray-50">
               <Link href="/" onClick={() => setSheetOpen(false)}>
                 <Image
-                  src="/images/icons/Renuirdark.svg"
+                  src="/images/icons/renuirdark.svg"
                   alt="Renuir Logo"
                   width={80}
                   height={28}
