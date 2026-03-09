@@ -1,0 +1,21 @@
+{
+  "rules": ".opencode/rules.md",
+  "context": [
+    ".legion/context/README.md",
+    ".legion/context/goals.md",
+    ".legion/context/priorities.md",
+    ".legion/context/projects.md",
+    ".legion/context/decisions.md",
+    ".legion/context/partners.",
+    ".legion/context/technical-debt.md"
+  ],
+  "skills": [
+    ".legion/skills/component-creation.md",
+    ".legion/skills/api-endpoint.md",
+    ".legion/skills/business-integration.md",
+    ".legion/skills/copywriting.md",
+    ".legion/skills/code-review.md",
+    ".legion/skills/debugging.md",
+    ".legion/skills/create-spec.md"
+  ]
+}
