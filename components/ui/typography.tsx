@@ -1,7 +1,7 @@
 import * as React from "react";
 import { cva, VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
-import { Slot } from "@radix-ui/react-slot";
+import { Slot } from "radix-ui";
 
 const typographyVariants = cva("text-foreground", {
   variants: {
@@ -65,9 +65,12 @@ export interface TypographyProps
 
 const Typography = React.forwardRef<HTMLElement, TypographyProps>(
   ({ className, variant, as, asChild, ...props }, ref) => {
-    const Comp = asChild
-      ? Slot
-      : (as ?? (variant ? variantElementMap[variant] : undefined) ?? "div");
+    const Comp = (
+      asChild
+        ? Slot
+        : (as ?? (variant ? variantElementMap[variant] : undefined) ?? "div")
+    ) as React.ElementType;
+
     return (
       <Comp
         className={cn(typographyVariants({ variant, className }))}
