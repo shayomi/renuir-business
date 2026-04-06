@@ -1,5 +1,5 @@
 ---
-name: new
+name: feature
 description: >
   Use this skill whenever a team member wants to start a new feature. Reads all
   project context silently, asks targeted discovery questions one at a time, writes
