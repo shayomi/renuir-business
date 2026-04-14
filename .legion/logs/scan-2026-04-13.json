@@ -1,0 +1,48 @@
+{
+  "type": "PROJECT_SCAN",
+  "agent": "scanner",
+  "project": "renuir-business",
+  "timestamp": "2026-04-13T08:28:13.870Z",
+  "findings": {
+    "security_count": 0,
+    "file_count": 156,
+    "stack": {
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "frameworks": [
+        "Next.js",
+        "React"
+      ],
+      "databases": [],
+      "cloud": [],
+      "devops": {
+        "docker": false,
+        "kubernetes": false,
+        "terraform": false,
+        "ci_cd": false
+      },
+      "testing": [],
+      "package_manager": "pnpm",
+      "monorepo": false,
+      "file_count_by_ext": {
+        ".json": 7,
+        ".md": 5,
+        "": 2,
+        ".tsx": 55,
+        ".ico": 1,
+        ".css": 1,
+        ".ts": 12,
+        ".js": 1,
+        ".mjs": 2,
+        ".yaml": 1,
+        ".svg": 27,
+        ".ttf": 14,
+        ".png": 26,
+        ".gif": 1,
+        ".tsbuildinfo": 1
+      }
+    }
+  }
+}

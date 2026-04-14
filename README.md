@@ -12,15 +12,15 @@ Renuir replaces the chaos of traditional lost-and-found with an intelligent, aud
 
 ## Tech Stack
 
-| Category | Technology |
-|----------|------------|
-| Framework | [Next.js 16](https://nextjs.org) (App Router) |
-| Language | TypeScript 5 (strict mode) |
-| Styling | [Tailwind CSS v4](https://tailwindcss.com) + [shadcn/ui](https://ui.shadcn.com) |
-| Animations | [Framer Motion](https://www.framer.com/motion/) |
-| Forms | react-hook-form + Zod |
-| Icons | [Lucide React](https://lucide.dev) |
-| Package Manager | pnpm |
+| Category        | Technology                                                                      |
+| --------------- | ------------------------------------------------------------------------------- |
+| Framework       | [Next.js 16](https://nextjs.org) (App Router)                                   |
+| Language        | TypeScript 5 (strict mode)                                                      |
+| Styling         | [Tailwind CSS v4](https://tailwindcss.com) + [shadcn/ui](https://ui.shadcn.com) |
+| Animations      | [Framer Motion](https://www.framer.com/motion/)                                 |
+| Forms           | react-hook-form + Zod                                                           |
+| Icons           | [Lucide React](https://lucide.dev)                                              |
+| Package Manager | pnpm                                                                            |
 
 ## Getting Started
 
@@ -47,12 +47,12 @@ Open [http://localhost:3000](http://localhost:3000) to view the app.
 
 ## Available Scripts
 
-| Command | Description |
-|---------|-------------|
-| `pnpm dev` | Start development server with hot reload |
-| `pnpm build` | Create optimized production build |
-| `pnpm start` | Run production server |
-| `pnpm lint` | Run ESLint |
+| Command      | Description                              |
+| ------------ | ---------------------------------------- |
+| `pnpm dev`   | Start development server with hot reload |
+| `pnpm build` | Create optimized production build        |
+| `pnpm start` | Run production server                    |
+| `pnpm lint`  | Run ESLint                               |
 
 ## Project Structure
 
@@ -93,13 +93,13 @@ renuir-business/
 
 ## Pages
 
-| Route | Description |
-|-------|-------------|
-| `/` | Home — Platform overview and value proposition |
-| `/about-us` | About — Team, mission, and contact form |
-| `/solutions` | Business Solutions — Enterprise features and testimonials |
-| `/individual` | For Individuals — Consumer app features |
-| `/developer` | Developer Hub — API documentation preview |
+| Route         | Description                                               |
+| ------------- | --------------------------------------------------------- |
+| `/`           | Home — Platform overview and value proposition            |
+| `/about-us`   | About — Team, mission, and contact form                   |
+| `/solutions`  | Business Solutions — Enterprise features and testimonials |
+| `/individual` | For Individuals — Consumer app features                   |
+| `/developer`  | Developer Hub — API documentation preview                 |
 
 ## Development Guidelines
 
@@ -119,7 +119,7 @@ renuir-business/
 ```tsx
 import { cn } from "@/lib/utils";
 
-<div className={cn("base-class", isActive && "active-class")} />
+<div className={cn("base-class", isActive && "active-class")} />;
 ```
 
 ### Imports
@@ -144,7 +144,63 @@ import AnimateIn from "@/components/ui/AnimateIn";
 
 <AnimateIn delay={0.1}>
   <YourComponent />
-</AnimateIn>
+</AnimateIn>;
+```
+
+## Legion — AI Agent System
+
+This project uses **Legion**, an AI agent system built on Claude, to assist with development. Legion brings a full team of specialised agents — architecture, security, QA, product, and more — into every session.
+
+### Setup
+
+Install Legion once on your machine:
+
+```bash
+git clone https://github.com/your-org/legion.git
+cd legion
+npm install
+chmod +x bin/legion
+npm link
+```
+
+### Using Legion in this project
+
+Legion slash commands are committed to this repo in `.claude/commands/`. They are available automatically when you open this project in Claude Code — just type `/legion` to see them.
+
+| Command                        | What it does                                          |
+| ------------------------------ | ----------------------------------------------------- |
+| `/legion-scan`                 | Scans the codebase and briefs all agents              |
+| `/legion-brief`                | Loads Legion context at the start of a session        |
+| `/legion-standup`              | Morning briefing — what to work on today              |
+| `/legion-brainstorm <feature>` | Generates PRD, tech spec, architecture doc, test plan |
+| `/legion-spec <feature>`       | Quick spec, filled in and ready to build              |
+| `/legion-review`               | Code review by LENS (quality) + CIPHER (security)     |
+| `/legion-log <message>`        | Log activity to Legion memory                         |
+| `/legion-daily`                | End-of-session wrap up and Obsidian sync              |
+
+### Recommended session flow
+
+```bash
+# Start of session
+/legion-brief       # load project context
+/legion-standup     # see what to work on
+
+# Building a feature
+/legion-brainstorm Add dark mode toggle
+/legion-review      # before marking anything done
+
+# End of session
+/legion-log "Built the dark mode toggle"
+/legion-daily       # daily report + memory sync
+```
+
+### From the terminal
+
+```bash
+legion scan                              # scan from any project directory
+legion brainstorm "your feature here"    # full spec pipeline
+legion memory log "Fixed nav bug"        # log to memory
+legion memory sync                       # sync to Obsidian
 ```
 
 ## Contributing
