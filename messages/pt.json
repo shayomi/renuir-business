@@ -445,5 +445,24 @@
       "enforcementTitle": "7. Procedimento de execução",
       "enforcementBody": "Caso não fique satisfeito com a nossa resposta ao seu comentário sobre acessibilidade, pode apresentar uma reclamação junto do organismo de conciliação (Schlichtungsstelle) nos termos do § 16 BGG (Behindertengleichstellungsgesetz), junto do Ministério Federal do Trabalho e dos Assuntos Sociais (Bundesministerium für Arbeit und Soziales, BMAS). Mais informações em www.schlichtungsstelle-bgg.de."
     }
+  },
+  "cookies": {
+    "banner": {
+      "title": "Preferências de cookies",
+      "description": "Utilizamos cookies para melhorar a sua experiência.",
+      "learnMore": "Saiba mais",
+      "customize": "Gerir preferências",
+      "necessary": "Essenciais",
+      "necessaryDesc": "Necessários para o funcionamento do site.",
+      "analytics": "Analíticos",
+      "analyticsDesc": "Ajudam-nos a compreender como utiliza o site.",
+      "functional": "Funcionais",
+      "functionalDesc": "Permitem funcionalidades personalizadas.",
+      "alwaysOn": "Sempre ativos",
+      "acceptAll": "Aceitar tudo",
+      "decline": "Recusar",
+      "declineAll": "Recusar tudo",
+      "savePreferences": "Guardar preferências"
+    }
   }
 }

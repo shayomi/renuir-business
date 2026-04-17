@@ -445,5 +445,24 @@
       "enforcementTitle": "7. Procedura egzekwowania",
       "enforcementBody": "W przypadku niezadowalającej odpowiedzi na Państwa zgłoszenie dotyczące dostępności mogą Państwo skontaktować się ze Schlichtungsstelle zgodnie z § 16 BGG przy Bundesministerium für Arbeit und Soziales (BMAS). Organ mediacyjny jest odpowiedzialny za pozasądowe rozstrzyganie sporów związanych z dostępnością. Więcej informacji na www.schlichtungsstelle-bgg.de."
     }
+  },
+  "cookies": {
+    "banner": {
+      "title": "Preferencje plików cookie",
+      "description": "Używamy plików cookie, aby ulepszyć Twoje doświadczenie.",
+      "learnMore": "Dowiedz się więcej",
+      "customize": "Zarządzaj preferencjami",
+      "necessary": "Niezbędne",
+      "necessaryDesc": "Wymagane do prawidłowego działania strony.",
+      "analytics": "Analityczne",
+      "analyticsDesc": "Pomagają nam zrozumieć, jak korzystasz ze strony.",
+      "functional": "Funkcjonalne",
+      "functionalDesc": "Umożliwiają spersonalizowane funkcje.",
+      "alwaysOn": "Zawsze aktywne",
+      "acceptAll": "Zaakceptuj wszystkie",
+      "decline": "Odrzuć",
+      "declineAll": "Odrzuć wszystkie",
+      "savePreferences": "Zapisz preferencje"
+    }
   }
 }

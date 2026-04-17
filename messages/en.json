@@ -445,5 +445,24 @@
       "enforcementTitle": "7. Enforcement Procedure",
       "enforcementBody": "If you are not satisfied with our response to your accessibility concern, you may contact the Schlichtungsstelle nach § 16 BGG at the Bundesministerium für Arbeit und Soziales (BMAS). The arbitration body is tasked with achieving an out-of-court settlement of disputes related to accessibility. More information is available at www.schlichtungsstelle-bgg.de."
     }
+  },
+  "cookies": {
+    "banner": {
+      "title": "Cookie preferences",
+      "description": "We use cookies to improve your experience.",
+      "learnMore": "Learn more",
+      "customize": "Manage preferences",
+      "necessary": "Essential",
+      "necessaryDesc": "Required for the site to work properly.",
+      "analytics": "Analytics",
+      "analyticsDesc": "Help us understand how you use the site.",
+      "functional": "Functional",
+      "functionalDesc": "Enable personalized features.",
+      "alwaysOn": "Always on",
+      "acceptAll": "Accept all",
+      "decline": "Decline",
+      "declineAll": "Decline all",
+      "savePreferences": "Save preferences"
+    }
   }
 }

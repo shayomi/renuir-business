@@ -445,5 +445,24 @@
       "enforcementTitle": "7. Durchsetzungsverfahren",
       "enforcementBody": "Wenn Sie mit unserer Reaktion auf Ihr Barrierefreiheitsanliegen nicht zufrieden sind, können Sie die Schlichtungsstelle nach § 16 BGG beim Bundesministerium für Arbeit und Soziales (BMAS) kontaktieren. Die Schlichtungsstelle hat die Aufgabe, eine außergerichtliche Beilegung von Streitigkeiten im Zusammenhang mit Barrierefreiheit herbeizuführen. Weitere Informationen unter www.schlichtungsstelle-bgg.de."
     }
+  },
+  "cookies": {
+    "banner": {
+      "title": "Cookie-Einstellungen",
+      "description": "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern.",
+      "learnMore": "Mehr erfahren",
+      "customize": "Einstellungen verwalten",
+      "necessary": "Notwendig",
+      "necessaryDesc": "Erforderlich für die Grundfunktionen der Website.",
+      "analytics": "Analyse",
+      "analyticsDesc": "Helfen uns zu verstehen, wie Sie die Website nutzen.",
+      "functional": "Funktional",
+      "functionalDesc": "Ermöglichen personalisierte Funktionen.",
+      "alwaysOn": "Immer aktiv",
+      "acceptAll": "Alle akzeptieren",
+      "decline": "Ablehnen",
+      "declineAll": "Alle ablehnen",
+      "savePreferences": "Einstellungen speichern"
+    }
   }
 }

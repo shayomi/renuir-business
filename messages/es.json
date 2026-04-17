@@ -445,5 +445,24 @@
       "enforcementTitle": "7. Procedimiento de ejecución",
       "enforcementBody": "Si no queda satisfecho con nuestra respuesta a su reclamación sobre accesibilidad, tiene derecho a iniciar un procedimiento ante la Schlichtungsstelle conforme al § 16 BGG, gestionada por el Bundesministerium für Arbeit und Soziales (BMAS)."
     }
+  },
+  "cookies": {
+    "banner": {
+      "title": "Preferencias de cookies",
+      "description": "Usamos cookies para mejorar su experiencia.",
+      "learnMore": "Más información",
+      "customize": "Gestionar preferencias",
+      "necessary": "Esenciales",
+      "necessaryDesc": "Necesarias para el funcionamiento del sitio.",
+      "analytics": "Analíticas",
+      "analyticsDesc": "Nos ayudan a entender cómo usa el sitio.",
+      "functional": "Funcionales",
+      "functionalDesc": "Permiten funciones personalizadas.",
+      "alwaysOn": "Siempre activas",
+      "acceptAll": "Aceptar todo",
+      "decline": "Rechazar",
+      "declineAll": "Rechazar todo",
+      "savePreferences": "Guardar preferencias"
+    }
   }
 }

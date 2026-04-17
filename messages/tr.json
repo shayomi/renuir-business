@@ -445,5 +445,24 @@
       "enforcementTitle": "7. Uygulama Prosedürü",
       "enforcementBody": "Erişilebilirlik talebinize tatmin edici bir yanıt alamazsanız, Almanya federal düzeyindeki tahkim makamına başvurma hakkınız bulunmaktadır: Schlichtungsstelle nach § 16 BGG, Bundesministerium für Arbeit und Soziales (BMAS). Daha fazla bilgi için: www.schlichtungsstelle-bgg.de. Tahkim prosedürü ücretsizdir ve hukuki temsil gerektirmez."
     }
+  },
+  "cookies": {
+    "banner": {
+      "title": "Çerez tercihleri",
+      "description": "Deneyiminizi iyileştirmek için çerezler kullanıyoruz.",
+      "learnMore": "Daha fazla bilgi",
+      "customize": "Tercihleri yönet",
+      "necessary": "Gerekli",
+      "necessaryDesc": "Sitenin düzgün çalışması için gereklidir.",
+      "analytics": "Analitik",
+      "analyticsDesc": "Siteyi nasıl kullandığınızı anlamamıza yardımcı olur.",
+      "functional": "İşlevsel",
+      "functionalDesc": "Kişiselleştirilmiş özellikleri etkinleştirir.",
+      "alwaysOn": "Her zaman açık",
+      "acceptAll": "Tümünü kabul et",
+      "decline": "Reddet",
+      "declineAll": "Tümünü reddet",
+      "savePreferences": "Tercihleri kaydet"
+    }
   }
 }

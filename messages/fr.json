@@ -445,5 +445,24 @@
       "enforcementTitle": "7. Procedure de conciliation",
       "enforcementBody": "Si vous estimez que notre reponse a votre signalement est insuffisante, vous avez la possibilite de saisir la Schlichtungsstelle conformement au § 16 du BGG (Behindertengleichstellungsgesetz). La Schlichtungsstelle est rattachee au Bundesministerium fur Arbeit und Soziales (BMAS). Le recours a la procedure de conciliation est gratuit. Pour plus d'informations : www.schlichtungsstelle-bgg.de."
     }
+  },
+  "cookies": {
+    "banner": {
+      "title": "Préférences de cookies",
+      "description": "Nous utilisons des cookies pour améliorer votre expérience.",
+      "learnMore": "En savoir plus",
+      "customize": "Gérer les préférences",
+      "necessary": "Essentiels",
+      "necessaryDesc": "Nécessaires au bon fonctionnement du site.",
+      "analytics": "Analytiques",
+      "analyticsDesc": "Nous aident à comprendre votre utilisation du site.",
+      "functional": "Fonctionnels",
+      "functionalDesc": "Permettent des fonctionnalités personnalisées.",
+      "alwaysOn": "Toujours actifs",
+      "acceptAll": "Tout accepter",
+      "decline": "Refuser",
+      "declineAll": "Tout refuser",
+      "savePreferences": "Enregistrer les préférences"
+    }
   }
 }

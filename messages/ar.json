@@ -445,5 +445,24 @@
       "enforcementTitle": "7. إجراءات التنفيذ",
       "enforcementBody": "إذا لم تكن راضياً عن ردنا على مخاوفك المتعلقة بإمكانية الوصول، يمكنك الاتصال بـ Schlichtungsstelle nach § 16 BGG في Bundesministerium für Arbeit und Soziales (BMAS). هيئة التحكيم مكلفة بتحقيق تسوية خارج المحكمة للنزاعات المتعلقة بإمكانية الوصول. مزيد من المعلومات على www.schlichtungsstelle-bgg.de."
     }
+  },
+  "cookies": {
+    "banner": {
+      "title": "تفضيلات ملفات تعريف الارتباط",
+      "description": "نستخدم ملفات تعريف الارتباط لتحسين تجربتك.",
+      "learnMore": "اعرف المزيد",
+      "customize": "إدارة التفضيلات",
+      "necessary": "أساسية",
+      "necessaryDesc": "مطلوبة لعمل الموقع بشكل صحيح.",
+      "analytics": "تحليلية",
+      "analyticsDesc": "تساعدنا في فهم كيفية استخدامك للموقع.",
+      "functional": "وظيفية",
+      "functionalDesc": "تتيح ميزات مخصصة.",
+      "alwaysOn": "نشط دائماً",
+      "acceptAll": "قبول الكل",
+      "decline": "رفض",
+      "declineAll": "رفض الكل",
+      "savePreferences": "حفظ التفضيلات"
+    }
   }
 }
