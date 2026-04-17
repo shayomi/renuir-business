@@ -35,7 +35,7 @@ const DualCTA = () => {
                 <Button
                   size="lg"
                   variant="secondary"
-                  className="mt-4 rounded-full px-8"
+                  className="mt-4 rounded-full"
                 >
                   {t('forBusinessCta')}
                 </Button>
@@ -55,7 +55,7 @@ const DualCTA = () => {
                 <Button
                   size="lg"
                   variant="secondary"
-                  className="mt-4 rounded-full px-8"
+                  className="mt-4 rounded-full"
                 >
                   {t('forIndividualsCta')}
                 </Button>

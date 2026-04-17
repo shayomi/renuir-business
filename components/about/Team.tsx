@@ -32,7 +32,7 @@ export function Team() {
                 <Button
                   size="lg"
                   variant="secondary"
-                  className="mt-6 sm:mt-8 rounded-full px-6"
+                  className="mt-6 sm:mt-8 rounded-full"
                 >
                   {t('cta')}
                 </Button>

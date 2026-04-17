@@ -37,12 +37,11 @@ const MobileNav = () => {
       <Sheet open={isSheetOpen} onOpenChange={setSheetOpen}>
         <SheetTrigger asChild>
           <Button
-            variant="ghost"
             size="icon"
             aria-label="Open navigation menu"
             aria-expanded={isSheetOpen}
             className={clsx(
-              "bg-primary text-white rounded-xl h-10 w-10 hover:bg-primary/90 shadow-sm",
+              "rounded-xl",
               isSheetOpen && "invisible"
             )}
           >
@@ -151,7 +150,7 @@ const MobileNav = () => {
                 <LanguageSwitcher variant="dark" />
               </div>
               <Link href="/#waitlist" onClick={() => setSheetOpen(false)}>
-                <Button className="w-full h-11 rounded-xl font-medium bg-foreground hover:bg-foreground/90 text-background text-[0.875rem]">
+                <Button size="lg" className="w-full rounded-xl">
                   {t('getApp')}
                 </Button>
               </Link>

@@ -63,7 +63,7 @@ const Nav = () => {
             <Link href="/#waitlist">
               <Button
                 size="sm"
-                className="rounded-full bg-primary px-5 text-[0.8125rem] font-medium text-primary-foreground hover:bg-primary/90 transition-colors"
+                className="rounded-full"
               >
                 {t('getApp')}
               </Button>

@@ -38,7 +38,7 @@ const Footer = () => {
                   <Button
                     size="lg"
                     variant="secondary"
-                    className="mt-3 sm:mt-4 rounded-full px-8"
+                    className="mt-3 sm:mt-4 rounded-full"
                   >
                     {t('forBusinessCta')}
                   </Button>
@@ -58,7 +58,7 @@ const Footer = () => {
                   <Button
                     size="lg"
                     variant="secondary"
-                    className="mt-3 sm:mt-4 rounded-full px-8"
+                    className="mt-3 sm:mt-4 rounded-full"
                   >
                     {t('forIndividualsCta')}
                   </Button>

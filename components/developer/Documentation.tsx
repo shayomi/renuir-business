@@ -246,7 +246,7 @@ function ApiKeysSection({ t }: { t: (key: string) => string }) {
                   </Typography>
                 </div>
 
-                <Button className="rounded-full bg-primary px-5 text-sm font-medium text-white hover:bg-primary/90 w-full sm:w-auto">
+                <Button className="rounded-full w-full sm:w-auto">
                   {t('createNewKey')}
                   <Plus className="ml-2 h-4 w-4" />
                 </Button>

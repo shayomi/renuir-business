@@ -30,7 +30,7 @@ export default function ReadyToBuildCTA() {
 
               <div className="mt-6 sm:mt-8 flex flex-col items-center gap-3 sm:flex-row sm:gap-4">
                 <Link href="/#waitlist">
-                  <Button className="rounded-full bg-primary px-7 h-11 text-sm font-medium text-white hover:bg-primary/90 w-full sm:w-auto">
+                  <Button size="lg" className="rounded-full w-full sm:w-auto">
                     {t("ctaPrimary")}
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
@@ -38,7 +38,8 @@ export default function ReadyToBuildCTA() {
 
                 <Button
                   variant="ghost"
-                  className="rounded-full border border-white/10 px-7 h-11 text-sm font-medium text-white/70 hover:bg-white/5 hover:text-white w-full sm:w-auto"
+                  size="lg"
+                  className="rounded-full border border-white/15 bg-transparent text-white/80 hover:bg-white/10 hover:text-white w-full sm:w-auto"
                 >
                   {t("ctaSecondary")}
                 </Button>

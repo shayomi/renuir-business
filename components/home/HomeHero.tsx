@@ -54,16 +54,14 @@ export function HomeHero() {
         <AnimateIn delay={0.16}>
           <div className="mt-8 sm:mt-10 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
             <Link href="/solutions" className="w-full sm:w-auto">
-              <Button size="lg" variant="secondary" className="rounded-full px-8 w-full">
+              <Button size="lg" variant="secondary" className="rounded-full w-full">
                 {t('ctaBusiness')}
               </Button>
             </Link>
 
             <Link href="/#waitlist" className="w-full sm:w-auto">
-              <Button
-                size="lg"
-                className="rounded-full bg-primary px-8 text-primary-foreground hover:bg-primary/90 w-full"
-              >
+              <Button size="lg" className="rounded-full w-full">
+
                 {t('ctaDownload')}
               </Button>
             </Link>

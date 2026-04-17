@@ -45,7 +45,7 @@ export function AboutHero() {
               <Button
                 variant="dark"
                 size="lg"
-                className="flex items-center gap-3 rounded-full px-6"
+                className="rounded-full"
               >
                 <Image
                   src="/images/icons/googleplayicon.svg"
@@ -61,7 +61,7 @@ export function AboutHero() {
               <Button
                 variant="dark"
                 size="lg"
-                className="flex items-center gap-3 rounded-full px-6"
+                className="rounded-full"
               >
                 <Image
                   src="/images/icons/appleicon.svg"

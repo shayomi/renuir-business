@@ -67,7 +67,7 @@ const DeveloperPlatform = () => {
               <Button
                 size="lg"
                 variant="outline"
-                className="mt-8 sm:mt-10 rounded-full px-8"
+                className="mt-8 sm:mt-10 rounded-full"
               >
                 {t('cta')}
               </Button>

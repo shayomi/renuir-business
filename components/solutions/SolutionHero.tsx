@@ -114,7 +114,7 @@ export function SolutionHero() {
                 type="submit"
                 size="lg"
                 disabled={loading}
-                className="h-12 px-6 text-sm font-medium rounded-full"
+                className="rounded-full"
               >
                 {loading ? tc("joining") : t('cta')}
               </Button>

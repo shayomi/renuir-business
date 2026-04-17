@@ -113,7 +113,7 @@ export function DeveloperHero() {
                 type="submit"
                 size="lg"
                 disabled={loading}
-                className="h-12 px-6 text-sm font-medium rounded-full bg-primary hover:bg-primary/90"
+                className="rounded-full"
               >
                 {loading ? tc("loading") : t("cta")}
               </Button>
@@ -124,7 +124,7 @@ export function DeveloperHero() {
         <AnimateIn delay={0.18}>
           <Typography
             variant="smallText"
-            className="mx-auto mt-3 sm:mt-4 text-white/55"
+            className="mx-auto mt-5 sm:mt-6 text-white/55"
           >
             {t("socialProof")}
           </Typography>

@@ -128,7 +128,7 @@ export function ContactForm() {
           type="submit"
           size="lg"
           disabled={loading}
-          className="w-full h-12 rounded-xl bg-primary font-medium text-primary-foreground hover:bg-primary/90 shadow-sm hover:shadow-md transition-all"
+          className="w-full rounded-xl"
         >
           {loading ? (
             <Loader2 className="h-4 w-4 animate-spin" />

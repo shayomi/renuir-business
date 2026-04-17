@@ -55,7 +55,8 @@ const Nav = () => {
             <Link href="/#waitlist">
               <Button
                 size="sm"
-                className="rounded-full bg-white px-5 text-[0.8125rem] font-medium text-slate-900 hover:bg-white/90 transition-colors"
+                variant="secondary"
+                className="rounded-full bg-white text-slate-900 hover:bg-white/90"
               >
                 {t('getApp')}
               </Button>
