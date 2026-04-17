@@ -9,15 +9,15 @@ import RenuirChange from "@/components/home/RenuirChange";
 const SECTIONS = [
   { Component: HomeHero, className: "" },
   { Component: RenuirChange, className: "" },
-  { Component: HowItWorks, className: "mt-12" },
-  { Component: ForIndividual, className: "mt-12" },
-  { Component: PrivateBeta, className: "mt-16" },
-  { Component: DeveloperPlatform, className: "mt-12" },
+  { Component: HowItWorks, className: "" },
+  { Component: ForIndividual, className: "" },
+  { Component: PrivateBeta, className: "" },
+  { Component: DeveloperPlatform, className: "" },
 ];
 
 export default function Home() {
   return (
-    <main className="overflow-hidden">
+    <main id="main-content" className="overflow-hidden">
       {SECTIONS.map(({ Component, className }, index) => (
         <section key={index} className={className}>
           <Component />

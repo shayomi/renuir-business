@@ -12,9 +12,9 @@ const SECTIONS = [
   { Component: Sectors, className: "" },
 ];
 
-export default function Home() {
+export default function AboutPage() {
   return (
-    <main className="overflow-hidden">
+    <main id="main-content" className="overflow-hidden">
       {SECTIONS.map(({ Component, className }, index) => (
         <section key={index} className={className}>
           <Component />

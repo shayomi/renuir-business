@@ -1,39 +1,39 @@
-export const team = [
+export const getTeam = (t: (key: string) => string) => [
   {
     name: "Opeyemi",
-    role: "Co-founder & CEO",
+    role: t('role1'),
     image: "/images/about/ope.png",
     linkedin: "#",
     featured: true,
   },
   {
     name: "Chimezie",
-    role: "Co-founder",
+    role: t('role2'),
     image: "/images/about/ope.png",
     linkedin: "#",
     featured: true,
   },
   {
     name: "Sayo",
-    role: "CTO",
+    role: t('role3'),
     image: "/images/about/ope.png",
     linkedin: "#",
   },
   {
     name: "Emmanuel",
-    role: "DevOps Engineer",
+    role: t('role4'),
     image: "/images/about/ope.png",
     linkedin: "#",
   },
   {
     name: "Emika",
-    role: "Backend Developer",
+    role: t('role5'),
     image: "/images/about/ope.png",
     linkedin: "#",
   },
   {
     name: "Solahudeen",
-    role: "Frontend Developer",
+    role: t('role6'),
     image: "/images/about/ope.png",
     linkedin: "#",
   },

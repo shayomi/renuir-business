@@ -1,111 +1,117 @@
-import Image from "next/image";
-import Link from "next/link";
-import { Typography } from "@/components/ui/typography";
+"use client";
 
+import Image from "next/image";
+import { Link } from "@/i18n/navigation";
+import { Typography } from "@/components/ui/typography";
 import { Button } from "@/components/ui/button";
 import { Linkedin, Twitter, Youtube } from "lucide-react";
 import AnimateIn from "@/components/ui/AnimateIn";
+import { useTranslations } from 'next-intl';
 
 const Footer = () => {
+  const t = useTranslations('footer');
+
   return (
-    <footer className="relative overflow-hidden bg-[#020617] text-white">
-      <div className="app-container py-24">
+    <footer className="relative overflow-hidden bg-slate-950 text-white" role="contentinfo">
+      <div className="app-container py-16 sm:py-20 lg:py-24">
         <AnimateIn>
-          <div className="relative overflow-hidden rounded-3xl">
+          <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl">
             <Image
               src="/images/home/glossybg.svg"
-              alt="Glossy background"
+              alt=""
               fill
-              priority
               className="object-cover"
             />
             <div className="absolute inset-0 bg-black/10 backdrop-blur-md" />
 
             <div className="relative grid divide-y divide-white/20 lg:grid-cols-2 lg:divide-x lg:divide-y-0">
-              <div className="flex flex-col gap-3 items-center px-8 py-16 text-center">
+              <div className="flex flex-col gap-3 items-center px-6 sm:px-8 py-10 sm:py-14 lg:py-16 text-center">
                 <Typography variant="h2" className="text-white">
-                  For Business
+                  {t('forBusiness')}
                 </Typography>
 
-                <Typography variant="lead" className=" text-white/80">
-                  Modernize your lost-and-found desk.
+                <Typography variant="lead" className="text-white/80">
+                  {t('forBusinessDesc')}
                 </Typography>
 
-                <Button
-                  size="lg"
-                  variant="secondary"
-                  className="mt-4 rounded-full px-8"
-                >
-                  Request a demo
-                </Button>
+                <Link href="/solutions">
+                  <Button
+                    size="lg"
+                    variant="secondary"
+                    className="mt-3 sm:mt-4 rounded-full px-8"
+                  >
+                    {t('forBusinessCta')}
+                  </Button>
+                </Link>
               </div>
 
-              <div className="flex flex-col gap-3 items-center px-8 py-16 text-center">
+              <div className="flex flex-col gap-3 items-center px-6 sm:px-8 py-10 sm:py-14 lg:py-16 text-center">
                 <Typography variant="h2" className="text-white">
-                  For individuals
+                  {t('forIndividuals')}
                 </Typography>
 
-                <Typography variant="lead" className=" text-white/80">
-                  Download the app to get started.
+                <Typography variant="lead" className="text-white/80">
+                  {t('forIndividualsDesc')}
                 </Typography>
 
-                <Button
-                  size="lg"
-                  variant="secondary"
-                  className="mt-4 rounded-full px-8"
-                >
-                  Download the app
-                </Button>
+                <Link href="/#waitlist">
+                  <Button
+                    size="lg"
+                    variant="secondary"
+                    className="mt-3 sm:mt-4 rounded-full px-8"
+                  >
+                    {t('forIndividualsCta')}
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
         </AnimateIn>
       </div>
 
-      <div className="relative app-container py-20">
-        <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
-          <span className="select-none text-[300px] font-semibold text-white/2">
+      <div className="relative app-container pb-10 sm:pb-16 lg:pb-20">
+        <div className="pointer-events-none absolute inset-0 flex items-center justify-center overflow-hidden">
+          <span className="select-none text-[120px] sm:text-[200px] lg:text-[300px] font-semibold text-white/[0.02]">
             Renuir
           </span>
         </div>
         <AnimateIn>
-          <div className="flex flex-col md:flex-row gap-4 justify-between items-start">
+          <div className="flex flex-col gap-8 sm:gap-10 lg:flex-row lg:gap-4 justify-between items-start">
             <div className="max-w-sm">
               <Image
                 src="/images/icons/renuirlogo.png"
-                alt="Renuir logo"
+                alt="Renuir"
                 width={140}
                 height={40}
-                className="mb-6"
+                className="mb-5 sm:mb-6"
               />
 
-              <Typography variant="p" className="text-white/70">
-                The operating system for lost items. Used by venues and cities to
-                return items responsibly.
+              <Typography variant="p" className="text-white/65 text-sm leading-relaxed">
+                {t('tagline')}
               </Typography>
             </div>
 
-            <div className="grid gap-12 sm:grid-cols-2">
+            <div className="grid gap-10 sm:gap-12 grid-cols-2">
               <div>
                 <Typography
                   variant="smallText"
-                  className="mb-4 uppercase tracking-wider text-white/60"
+                  className="mb-4 uppercase tracking-wider text-white/50 text-xs font-medium"
                 >
-                  Company
+                  {t('company')}
                 </Typography>
 
-                <ul className="space-y-3 text-white/80 mt-4">
+                <ul className="space-y-3 text-sm text-white/70 mt-4">
                   <li>
-                    <Link href="#">For Businesses</Link>
+                    <Link href="/solutions" className="hover:text-white transition-colors">{t('forBusinesses')}</Link>
                   </li>
                   <li>
-                    <Link href="#">For consumers</Link>
+                    <Link href="/individual" className="hover:text-white transition-colors">{t('forConsumers')}</Link>
                   </li>
                   <li>
-                    <Link href="#">Developers</Link>
+                    <Link href="/developer" className="hover:text-white transition-colors">{t('developersLink')}</Link>
                   </li>
                   <li>
-                    <Link href="#">Contact</Link>
+                    <Link href="/about-us#contact" className="hover:text-white transition-colors">{t('contactLink')}</Link>
                   </li>
                 </ul>
               </div>
@@ -113,23 +119,26 @@ const Footer = () => {
               <div>
                 <Typography
                   variant="smallText"
-                  className="mb-4 uppercase tracking-wider text-white/60"
+                  className="mb-4 uppercase tracking-wider text-white/50 text-xs font-medium"
                 >
-                  Legal
+                  {t('legal')}
                 </Typography>
 
-                <ul className="space-y-3 text-white/80 mt-4">
+                <ul className="space-y-3 text-sm text-white/70 mt-4">
                   <li>
-                    <Link href="#">Privacy Policy</Link>
+                    <Link href="/privacy" className="hover:text-white transition-colors">{t('privacy')}</Link>
                   </li>
                   <li>
-                    <Link href="#">Terms of Service</Link>
+                    <Link href="/terms" className="hover:text-white transition-colors">{t('terms')}</Link>
                   </li>
                   <li>
-                    <Link href="#">Cookies</Link>
+                    <Link href="/cookies" className="hover:text-white transition-colors">{t('cookies')}</Link>
                   </li>
                   <li>
-                    <Link href="#">Imprint</Link>
+                    <Link href="/imprint" className="hover:text-white transition-colors">{t('imprint')}</Link>
+                  </li>
+                  <li>
+                    <Link href="/accessibility" className="hover:text-white transition-colors">{t('accessibility')}</Link>
                   </li>
                 </ul>
               </div>
@@ -138,40 +147,41 @@ const Footer = () => {
         </AnimateIn>
 
         <AnimateIn delay={0.1}>
-          <div className="flex flex-col sm:flex-row items-center md:justify-between gap-4 mt-12 ">
-            <Typography variant="mutedText" className="mt-10 text-white/50">
-              © 2026 Renuir UG. All rights reserved.
+          <div className="flex flex-col sm:flex-row items-center sm:justify-between gap-4 mt-10 sm:mt-12 pt-8 border-t border-white/10">
+            <Typography variant="mutedText" className="text-white/55">
+              {t('copyright')}
             </Typography>
 
-            <div className="flex ">
-              <div className="flex items-center gap-6">
-                <Link
-                  href="https://x.com/yourhandle"
-                  target="_blank"
-                  aria-label="X"
-                  className="text-white/80 hover:text-white transition"
-                >
-                  <Twitter className="h-5 w-5" />
-                </Link>
+            <div className="flex items-center gap-3">
+              <a
+                href="https://x.com/renuirapp"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="X"
+                className="flex h-9 w-9 items-center justify-center rounded-lg text-white/60 hover:text-white hover:bg-white/8 transition-colors"
+              >
+                <Twitter className="h-4 w-4" />
+              </a>
 
-                <Link
-                  href="https://linkedin.com/company/yourcompany"
-                  target="_blank"
-                  aria-label="LinkedIn"
-                  className="text-white/80 hover:text-white transition"
-                >
-                  <Linkedin className="h-5 w-5" />
-                </Link>
+              <a
+                href="https://linkedin.com/company/renuir"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                className="flex h-9 w-9 items-center justify-center rounded-lg text-white/60 hover:text-white hover:bg-white/8 transition-colors"
+              >
+                <Linkedin className="h-4 w-4" />
+              </a>
 
-                <Link
-                  href="https://youtube.com/@yourchannel"
-                  target="_blank"
-                  aria-label="YouTube"
-                  className="text-white/80 hover:text-white transition"
-                >
-                  <Youtube className="h-5 w-5" />
-                </Link>
-              </div>
+              <a
+                href="https://youtube.com/@renuir"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="YouTube"
+                className="flex h-9 w-9 items-center justify-center rounded-lg text-white/60 hover:text-white hover:bg-white/8 transition-colors"
+              >
+                <Youtube className="h-4 w-4" />
+              </a>
             </div>
           </div>
         </AnimateIn>

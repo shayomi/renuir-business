@@ -1,27 +1,25 @@
-export const sectors = [
+export const getSectors = (t: (key: string) => string) => [
   {
-    title: "Airports & Transport",
-    description:
-      "Handling high-volume passenger flow and cross-border returns.",
+    title: t('airport'),
+    description: t('airportDesc'),
     image: "/images/about/airport.png",
     icon: "/images/icons/airport.svg",
   },
   {
-    title: "Hotels & Hospitality",
-    description: "Discreet, service-oriented item recovery for guests.",
+    title: t('hotel'),
+    description: t('hotelDesc'),
     image: "/images/about/hotel.png",
     icon: "/images/icons/hotels.svg",
   },
   {
-    title: "Retail Centers",
-    description:
-      "Connecting central management with individual store findings.",
+    title: t('retail'),
+    description: t('retailDesc'),
     image: "/images/about/retail.png",
     icon: "/images/icons/retail.svg",
   },
   {
-    title: "Universities",
-    description: "Campus-wide systems for thousands of students and staff.",
+    title: t('university'),
+    description: t('universityDesc'),
     image: "/images/about/school.png",
     icon: "/images/icons/school.svg",
   },

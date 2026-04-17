@@ -1,6 +1,6 @@
 // components/team-card.tsx
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { Card } from "@/components/ui/card";
 import { Typography } from "@/components/ui/typography";
 import { Linkedin } from "lucide-react";
@@ -14,11 +14,9 @@ interface TeamCardProps {
 
 export function TeamCard({ name, role, image, linkedin }: TeamCardProps) {
   return (
-    <Card className="flex flex-col rounded-md overflow-hidden h-full p-4">
-      {" "}
+    <Card className="flex flex-col rounded-xl overflow-hidden h-full p-4">
       <div className="flex flex-col h-full">
-        <div className="relative aspect-square w-full rounded-md overflow-hidden mb-4">
-          {" "}
+        <div className="relative aspect-square w-full rounded-lg overflow-hidden mb-4">
           <Image
             src={image}
             alt={name}

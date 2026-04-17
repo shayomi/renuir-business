@@ -1,71 +1,72 @@
-/* eslint-disable @next/next/no-img-element */
+"use client";
+
 import React from "react";
+import NextImage from "next/image";
 import { Typography } from "../ui/typography";
 import AnimateIn from "@/components/ui/AnimateIn";
+import { useTranslations } from 'next-intl';
 
-const Image = () => {
+const SolutionImage = () => {
+  const t = useTranslations('solutions.costs');
   return (
-    <section className="relative z-200">
+    <section className="relative z-10">
       <AnimateIn>
-        <img
-          src="/images/solution/solutionhero.png"
-          alt="Renuir Developer Platform"
-          className="rounded-2xl app-container w-full h-auto mx-auto"
-        />
+        <div className="app-container">
+          <NextImage
+            src="/images/solution/solutionhero.png"
+            alt={t('dashboardAlt')}
+            width={1280}
+            height={720}
+            className="rounded-2xl w-full h-auto"
+          />
+        </div>
       </AnimateIn>
 
-      <div className="app-container mt-24">
-        <div className="flex flex-col md:flex-row gap-4 items-center">
+      <div className="app-container mt-12 sm:mt-16 lg:mt-24">
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-start lg:items-center">
           <AnimateIn>
-            <div className="block">
+            <div className="flex-1">
               <Typography
                 variant="h1"
-                className="font-medium leading-8 md:leading-16 text-black"
+                className="font-medium text-foreground"
               >
-                Lost items create invisible operational costs.
+                {t('headline')}
               </Typography>
               <Typography
                 variant="lead"
-                className="font-normal mt-8 text-gray-700"
+                className="font-normal mt-4 sm:mt-6 text-muted-foreground"
               >
-                For most venues, lost-and-found isn&apos;t a core task,
-                it&apos;s an interruption. Staff deal with frantic visitors,
-                manual phone calls, and dusty storage rooms.
+                {t('subtitle')}
               </Typography>
-              <ul className="mt-6 list-disc px-4 ">
+              <ul className="mt-5 sm:mt-6 list-disc px-4 space-y-2.5">
                 <li>
-                  <Typography
-                    variant="smallText"
-                    className="text-gray-700 font-normal"
-                  >
-                    Unverified claims and no audit trail leave you liable.
+                  <Typography variant="smallText" className="text-muted-foreground font-normal">
+                    {t('bullet1')}
                   </Typography>
                 </li>
                 <li>
-                  <Typography
-                    variant="smallText"
-                    className="text-gray-700 font-normal"
-                  >
-                    Staff spend hours managing spreadsheets and emails.
+                  <Typography variant="smallText" className="text-muted-foreground font-normal">
+                    {t('bullet2')}
                   </Typography>
                 </li>
                 <li>
-                  <Typography
-                    variant="smallText"
-                    className="text-gray-700 font-normal"
-                  >
-                    Storage rooms fill up with unreturned items.
+                  <Typography variant="smallText" className="text-muted-foreground font-normal">
+                    {t('bullet3')}
                   </Typography>
                 </li>
               </ul>
             </div>
           </AnimateIn>
           <AnimateIn delay={0.12}>
-            <img
-              src="/images/solution/manuallogs.png"
-              alt="Renuir Developer Platform"
-              className="rounded-2xl app-container w-full h-auto mx-auto"
-            />
+            <div className="flex-1">
+              <NextImage
+                src="/images/solution/manuallogs.png"
+                alt={t('manualLogsAlt')}
+                width={640}
+                height={480}
+                className="rounded-2xl w-full h-auto"
+              />
+            </div>
           </AnimateIn>
         </div>
       </div>
@@ -73,4 +74,4 @@ const Image = () => {
   );
 };
 
-export default Image;
+export default SolutionImage;

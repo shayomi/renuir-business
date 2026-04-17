@@ -1,119 +1,80 @@
 "use client";
 
 import Image from "next/image";
-import { usePathname } from "next/navigation";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
+import { useTranslations } from 'next-intl';
+import { useEffect, useState } from "react";
 import { clsx } from "clsx";
 import MobileNav from "./MobileNav";
-import { menuItems } from "@/components/data/menuItems";
-
-// shadcn
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { ChevronDown } from "lucide-react";
+import { LanguageSwitcher } from "../LanguageSwitcher";
+import { ThemeToggle } from "../ThemeToggle";
+import { NavPill } from "./NavPill";
 
 const Nav = () => {
-  const pathname = usePathname();
+  const t = useTranslations('nav');
+  const [scrolled, setScrolled] = useState(false);
 
-  const linkClass = (active: boolean) =>
-    clsx(
-      active ? "text-slate-900" : "text-slate-700 hover:text-slate-700",
-      "px-4 py-2 text-sm font-semibold transition-colors",
-    );
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 20);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
-    <nav className="w-full relative z-999 bg-transparent">
-      <div className="app-container flex items-center justify-between py-4">
-        <Link href="/" className="flex items-center">
-          <Image
-            src="/images/icons/renuirdark.svg"
-            alt="Renuir Logo"
-            width={90}
-            height={90}
-            className="h-auto w-20 sm:w-24"
-            priority
-          />
-        </Link>
-
-        <div className="hidden items-center space-x-2 md:flex">
-          {menuItems.map((item, index) => {
-            // Dropdown case: Solutions
-            if (item.children?.length) {
-              const isActive =
-                pathname === "/solutions" || pathname === "/individual";
-
-              return (
-                <DropdownMenu key={index}>
-                  <DropdownMenuTrigger
-                    className={clsx(
-                      linkClass(isActive),
-                      "inline-flex items-center gap-1 rounded-none bg-transparent outline-none",
-                    )}
-                  >
-                    {item.name}
-                    <ChevronDown className="h-4 w-4 opacity-70" />
-                  </DropdownMenuTrigger>
-
-                  <DropdownMenuContent
-                    align="start"
-                    className="min-w-[180px] rounded-xl border bg-white p-2 shadow-md"
-                  >
-                    {item.children.map((child) => (
-                      <DropdownMenuItem key={child.href} asChild>
-                        <Link
-                          href={child.href}
-                          className={clsx(
-                            "w-full rounded-lg px-3 py-2 text-sm font-medium text-slate-700",
-                            "hover:bg-slate-50 hover:text-slate-900",
-                            pathname === child.href &&
-                              "bg-slate-50 text-slate-900",
-                          )}
-                        >
-                          {child.name}
-                        </Link>
-                      </DropdownMenuItem>
-                    ))}
-                  </DropdownMenuContent>
-                </DropdownMenu>
-              );
-            }
-
-            // Normal link case
-            const isActive =
-              pathname === item.href ||
-              (pathname === "/" && item.href.startsWith("/#"));
-
-            return (
-              <Link
-                key={index}
-                href={item.href}
-                className={linkClass(isActive)}
-              >
-                {item.name}
-              </Link>
-            );
-          })}
-        </div>
-
-        <div className="hidden md:flex pl-4">
-          <Link href="/#waitlist">
-            <Button
-              size="sm"
-              className="rounded-full bg-black px-5 font-medium text-white transition-all"
-            >
-              Get the app
-            </Button>
+    <>
+      <nav
+        className={clsx(
+          "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
+          scrolled
+            ? "bg-background/80 backdrop-blur-xl shadow-sm border-b border-border/50 dark:bg-background/90"
+            : "bg-transparent",
+        )}
+        aria-label="Main navigation"
+      >
+        <div className="app-container flex items-center justify-between h-16 sm:h-[72px]">
+          <Link href="/" className="flex items-center shrink-0">
+            <Image
+              src="/images/icons/renuirdark.svg"
+              alt="Renuir Logo"
+              width={90}
+              height={28}
+              className="h-auto w-[5.5rem] dark:hidden"
+              priority
+            />
+            <Image
+              src="/images/icons/renuirlogo.png"
+              alt="Renuir Logo"
+              width={90}
+              height={28}
+              className="h-auto w-[5.5rem] hidden dark:block"
+              priority
+            />
           </Link>
-        </div>
 
-        <MobileNav />
-      </div>
-    </nav>
+          <div className="hidden lg:flex">
+            <NavPill variant="dark" />
+          </div>
+
+          <div className="hidden items-center gap-2 lg:flex">
+            <ThemeToggle variant="dark" />
+            <LanguageSwitcher variant="dark" />
+            <Link href="/#waitlist">
+              <Button
+                size="sm"
+                className="rounded-full bg-primary px-5 text-[0.8125rem] font-medium text-primary-foreground hover:bg-primary/90 transition-colors"
+              >
+                {t('getApp')}
+              </Button>
+            </Link>
+          </div>
+
+          <MobileNav />
+        </div>
+      </nav>
+      <div className="h-16 sm:h-[72px]" />
+    </>
   );
 };
 

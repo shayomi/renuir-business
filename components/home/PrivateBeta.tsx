@@ -1,35 +1,40 @@
+"use client";
+
 import Image from "next/image";
+import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
 import AnimateIn from "@/components/ui/AnimateIn";
-import { features } from "../data/homefeatures";
+import { getFeatures } from "../data/homefeatures";
+import { useTranslations } from 'next-intl';
 
 const PrivateBeta = () => {
+  const t = useTranslations('home.privateBeta');
+  const features = getFeatures(t);
   return (
-    <section className="bg-[#020617]">
-      <div className="app-container grid gap-16 py-24 md:py-48 grid-cols-1 md:grid-cols-2 items-center">
+    <section className="bg-slate-950">
+      <div className="app-container grid gap-10 sm:gap-12 lg:gap-16 py-16 sm:py-24 lg:py-32 grid-cols-1 lg:grid-cols-2 items-center">
         <AnimateIn>
           <div className="max-w-xl">
             <span className="inline-flex rounded-full bg-amber-400/20 px-4 py-1 text-sm font-medium text-amber-300">
-              Private beta
+              {t('badge')}
             </span>
 
-            <Typography variant="h2" className="mt-6 text-white">
-              For venues that manage lost-and-found.
+            <Typography variant="h2" className="mt-5 sm:mt-6 text-white">
+              {t('headline')}
             </Typography>
 
-            <Typography variant="p" className="mt-6 text-white/70">
-              We are building an auditable system for airports, hotels, and
-              transport hubs. Replace spreadsheets with automated recovery.
+            <Typography variant="p" className="mt-4 sm:mt-6 text-white/75">
+              {t('subtitle')}
             </Typography>
 
-            <div className="mt-10 grid gap-6 sm:grid-cols-2">
+            <div className="mt-8 sm:mt-10 grid gap-4 sm:gap-6 sm:grid-cols-2">
               {features.map((feature) => (
                 <div
                   key={feature.title}
-                  className="rounded-2xl bg-white/5 p-6 backdrop-blur"
+                  className="rounded-2xl bg-white/5 p-5 sm:p-6 backdrop-blur"
                 >
-                  <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-white/10">
+                  <div className="mb-3 sm:mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-white/10">
                     <Image
                       src={feature.icon}
                       alt={feature.title}
@@ -52,25 +57,26 @@ const PrivateBeta = () => {
               ))}
             </div>
 
-            <Button
-              size="lg"
-              variant="secondary"
-              className="mt-10 rounded-full px-8"
-            >
-              Explore Renuir for Business
-            </Button>
+            <Link href="/#waitlist">
+              <Button
+                size="lg"
+                variant="secondary"
+                className="mt-8 sm:mt-10 rounded-full px-8"
+              >
+                {t('cta')}
+              </Button>
+            </Link>
           </div>
         </AnimateIn>
 
-        {/* Right — image sized naturally, no fill/relative needed */}
         <div className="flex items-center justify-center lg:justify-end">
           <Image
             src="/images/home/privatebetaimg.png"
-            alt="Renuir private beta"
+            alt={t('imageAlt')}
             width={600}
             height={700}
             priority
-            className="w-full max-w-full h-auto object-contain"
+            className="w-full max-w-md lg:max-w-full h-auto object-contain"
           />
         </div>
       </div>

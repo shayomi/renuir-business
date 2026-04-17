@@ -1,69 +1,77 @@
+"use client";
+
 import Image from "next/image";
+import { Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
 import AnimateIn from "@/components/ui/AnimateIn";
 import Nav from "../shared/navbar/Nav";
 
 export function AboutHero() {
+  const t = useTranslations('about.hero');
   return (
     <section className="relative overflow-hidden">
       <Image
         src="/images/about/abouthero.svg"
-        alt="Hero background"
+        alt=""
         fill
         priority
-        className="object-cover"
+        className="object-cover dark:opacity-20"
       />
       <Nav />
-      <div className="relative app-container py-40 flex flex-col items-center text-center">
+      <div className="relative app-container py-16 sm:py-24 lg:py-32 flex flex-col items-center text-center">
         <AnimateIn>
           <Typography
             variant="extraLargeText"
-            className="mt-8  text-black font-normal"
+            className="text-foreground font-normal"
           >
-            We&apos;re here to help
+            {t('headline')}
           </Typography>
         </AnimateIn>
 
         <AnimateIn delay={0.08}>
           <Typography
             variant="lead"
-            className="mx-auto mt-6 max-w-lg text-black/80"
+            className="mx-auto mt-4 sm:mt-6 max-w-lg text-foreground/80"
           >
-            Renuir exists to help people recover what they’ve lost, without
-            panic, pressure, or uncertainty.
+            {t('subtitle')}
           </Typography>
         </AnimateIn>
 
         <AnimateIn delay={0.12}>
-          <div className="mt-10 flex flex-wrap gap-4">
-            <Button
-              variant="dark"
-              size="lg"
-              className="flex items-center gap-3 rounded-full px-6"
-            >
-              <Image
-                src="/images/icons/googleplayicon.svg"
-                alt="Google Play"
-                width={20}
-                height={20}
-              />
-              Google Play
-            </Button>
+          <div className="mt-8 sm:mt-10 flex flex-wrap gap-3">
+            <Link href="/#waitlist">
+              <Button
+                variant="dark"
+                size="lg"
+                className="flex items-center gap-3 rounded-full px-6"
+              >
+                <Image
+                  src="/images/icons/googleplayicon.svg"
+                  alt="Google Play"
+                  width={20}
+                  height={20}
+                />
+                {t('googlePlay')}
+              </Button>
+            </Link>
 
-            <Button
-              variant="dark"
-              size="lg"
-              className="flex items-center gap-3 rounded-full px-6"
-            >
-              <Image
-                src="/images/icons/appleicon.svg"
-                alt="Apple Store"
-                width={20}
-                height={20}
-              />
-              Apple Store
-            </Button>
+            <Link href="/#waitlist">
+              <Button
+                variant="dark"
+                size="lg"
+                className="flex items-center gap-3 rounded-full px-6"
+              >
+                <Image
+                  src="/images/icons/appleicon.svg"
+                  alt="Apple Store"
+                  width={20}
+                  height={20}
+                />
+                {t('appleStore')}
+              </Button>
+            </Link>
           </div>
         </AnimateIn>
       </div>

@@ -1,10 +1,8 @@
 "use client";
 
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
-import { ArrowRight, Clock3, Mail } from "lucide-react";
-import Link from "next/link";
+import { Mail } from "lucide-react";
 import { useForm } from "react-hook-form";
 import {
   Form,
@@ -17,16 +15,19 @@ import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Input } from "../ui/input";
 import { useState } from "react";
-import { toast } from "sonner";
-import Nav from "../shared/navbar/Nav";
+import { useTranslations } from "next-intl";
+import Nav from "../home/HomeNav";
+import { BetaBanner } from "../shared/BetaBanner";
 import AnimateIn from "@/components/ui/AnimateIn";
 
-const formSchema = z.object({
-  email: z.string().email("Please enter a valid email"),
-});
-
 export function DeveloperHero() {
+  const t = useTranslations("developer.hero");
+  const tc = useTranslations("common");
   const [loading, setLoading] = useState(false);
+
+  const formSchema = z.object({
+    email: z.string().email(tc("emailValidation")),
+  });
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -38,96 +39,54 @@ export function DeveloperHero() {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     setLoading(true);
-
-    // try {
-    //   const res = await fetch("/api/waitlist", {
-    //     method: "POST",
-    //     headers: {
-    //       "Content-Type": "application/json",
-    //     },
-    //     body: JSON.stringify({ email: values.email }),
-    //   });
-
-    //   if (!res.ok) {
-    //     throw new Error("Submission failed");
-    //   }
-
-    //   toast.success("You're on the waitlist 🎉", {
-    //     description: "We’ll notify you when early access is ready.",
-    //   });
-
-    //   form.reset();
-    // } catch (error) {
-    //   toast.error("Something went wrong", {
-    //     description: "Please try again later.",
-    //   });
-    // } finally {
-    //   setLoading(false);
-    // }
   };
 
   return (
-    <section className="relative overflow-hidden">
-      <Image
-        src="/images/about/abouthero.svg"
-        alt="Hero background"
-        fill
-        priority
-        className="object-cover"
-      />
-      <Nav />
-
-      <div className=" relative  w-full bg-warning text-white font-medium">
-        <div className="app-container py-6">
-          <div className="flex flex-col md:flex-row gap-2 items-center justify-center  mx-auto">
-            <div className="flex flex-row gap-2 items-start">
-              <Clock3 />
-              <Typography
-                variant="smallText"
-                className="text-white text-center leading-5"
-              >
-                Developer Platform is in Private Beta. The features below are
-                currently in preview mode.
-              </Typography>
-            </div>
-            <Link href="" className="underline">
-              Join waitlist
-            </Link>
-          </div>
-        </div>
+    <section className="relative overflow-hidden bg-slate-950">
+      <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-primary/8 rounded-full blur-[120px]" />
       </div>
-      <div className="relative app-container pt-12 md:pt-24 pb-56 flex flex-col items-center text-center">
+
+      <Nav />
+      <BetaBanner
+        message={t("betaBanner")}
+        linkText={t("joinWaitlist")}
+        linkHref="/#waitlist"
+      />
+
+      <div className="relative app-container pt-12 sm:pt-20 lg:pt-24 pb-14 sm:pb-20 lg:pb-24 flex flex-col items-center text-center">
         <AnimateIn>
-          <Typography
-            variant="lead"
-            className="mx-auto mt-6 max-w-xl text-black/80"
-          >
-            DEVELOPER HUB
-          </Typography>
+          <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5">
+            <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse" />
+            <span className="text-xs font-medium text-white/70 uppercase tracking-wider">
+              {t("eyebrow")}
+            </span>
+          </div>
         </AnimateIn>
-        <AnimateIn delay={0.08}>
+
+        <AnimateIn delay={0.06}>
           <Typography
             variant="extraLargeText"
-            className="mt-0 md:mt-8  text-black leading-24  font-medium max-w-150"
+            className="mt-5 sm:mt-6 text-white font-medium max-w-3xl"
           >
-            Lost & Found API
+            {t("headline")}
           </Typography>
         </AnimateIn>
 
-        <AnimateIn delay={0.12}>
+        <AnimateIn delay={0.1}>
           <Typography
             variant="lead"
-            className="mx-auto mt-6 max-w-xl text-black/80"
+            className="mx-auto mt-3 sm:mt-4 max-w-xl text-white/70"
           >
-            Renuir provides powerful API solutions and full white-label
-            capabilities for enterprise businesses that need total control.
+            {t("subtitle")}
           </Typography>
         </AnimateIn>
-        <AnimateIn delay={0.16} className="mt-16">
+
+        <AnimateIn delay={0.14} className="mt-6 sm:mt-10">
           <Form {...form}>
             <form
               onSubmit={form.handleSubmit(onSubmit)}
-              className="flex flex-col sm:flex-row gap-3 max-w-md"
+              className="flex flex-col sm:flex-row gap-3 w-full max-w-md"
             >
               <FormField
                 control={form.control}
@@ -136,12 +95,12 @@ export function DeveloperHero() {
                   <FormItem className="flex-1">
                     <FormControl>
                       <div className="relative group">
-                        <Mail className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-gray-400 group-focus-within:text-primary-500 transition-colors" />
+                        <Mail className="absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-white/30 group-focus-within:text-primary-500 transition-colors" />
                         <Input
                           {...field}
                           disabled={loading}
-                          placeholder="Enter your work email"
-                          className="pl-12 h-14 text-base rounded-full border border-gray-200 focus:border-primary-500 focus:ring-2 focus:ring-primary-500/10 bg-white shadow-sm transition-all placeholder:text-gray-400"
+                          placeholder={t("emailPlaceholder")}
+                          className="pl-11 h-12 text-sm rounded-full border border-white/10 bg-white/5 text-white focus:border-primary-500 focus:ring-2 focus:ring-primary/20 shadow-sm transition-all placeholder:text-white/30"
                         />
                       </div>
                     </FormControl>
@@ -154,19 +113,20 @@ export function DeveloperHero() {
                 type="submit"
                 size="lg"
                 disabled={loading}
-                className="h-14 px-8 text-base font-medium rounded-full bg-primary-600 hover:bg-primary-700 text-white shadow-lg shadow-primary-600/20 hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 disabled:opacity-60"
+                className="h-12 px-6 text-sm font-medium rounded-full bg-primary hover:bg-primary/90"
               >
-                {loading ? "Joining..." : "Request API Access"}
+                {loading ? tc("loading") : t("cta")}
               </Button>
             </form>
           </Form>
         </AnimateIn>
-        <AnimateIn delay={0.2}>
+
+        <AnimateIn delay={0.18}>
           <Typography
-            variant="lead"
-            className="mx-auto mt-6 max-w-xl text-black/80 "
+            variant="smallText"
+            className="mx-auto mt-3 sm:mt-4 text-white/55"
           >
-            Join 50+ entreprise partners in the queue
+            {t("socialProof")}
           </Typography>
         </AnimateIn>
       </div>

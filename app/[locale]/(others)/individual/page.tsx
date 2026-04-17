@@ -7,12 +7,12 @@ const SECTIONS = [
   { Component: IndividualHero, className: "" },
   { Component: Overview, className: "" },
   { Component: Purpose, className: "" },
-  { Component: TrustCoreSection, className: "mt-12" },
+  { Component: TrustCoreSection, className: "" },
 ];
 
-export default function Home() {
+export default function IndividualPage() {
   return (
-    <main className="overflow-hidden">
+    <main id="main-content" className="overflow-hidden">
       {SECTIONS.map(({ Component, className }, index) => (
         <section key={index} className={className}>
           <Component />

@@ -1,13 +1,13 @@
-export const menuItems = [
-  { name: "Home", href: "/" },
-  { name: "About us", href: "/about-us" },
+export const getMenuItems = (t: (key: string) => string) => [
+  { name: t('home'), href: '/' },
+  { name: t('about'), href: '/about-us' },
   {
-    name: "Solutions",
-    href: "/solutions", // optional (used if you want click-through too)
+    name: t('solutions'),
+    href: '/solutions',
     children: [
-      { name: "Enterprise", href: "/solutions" },
-      { name: "Individual", href: "/individual" },
+      { name: t('enterprise'), href: '/solutions' },
+      { name: t('individual'), href: '/individual' },
     ],
   },
-  { name: "Developers", href: "/developer" },
+  { name: t('developers'), href: '/developer' },
 ];

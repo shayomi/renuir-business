@@ -6,15 +6,15 @@ import { Sectors } from "@/components/about/Sectors";
 
 const SECTIONS = [
   { Component: SolutionHero, className: "" },
-  { Component: Image, className: "mt-[-124]" },
-  { Component: ManageChaos, className: "mt-24" },
-  { Component: TestimonialsSection, className: "mt-16" },
-  { Component: Sectors, className: "mt-12" },
+  { Component: Image, className: "-mt-20 sm:-mt-24 lg:-mt-32" },
+  { Component: ManageChaos, className: "" },
+  { Component: TestimonialsSection, className: "" },
+  { Component: Sectors, className: "" },
 ];
 
-export default function Home() {
+export default function SolutionsPage() {
   return (
-    <main className="overflow-hidden">
+    <main id="main-content" className="overflow-hidden">
       {SECTIONS.map(({ Component, className }, index) => (
         <section key={index} className={className}>
           <Component />

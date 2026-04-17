@@ -1,73 +1,77 @@
+"use client";
+
 import Image from "next/image";
+import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
 import AnimateIn from "@/components/ui/AnimateIn";
 import { Badge } from "../ui/badge";
+import { useTranslations } from 'next-intl';
 
 const DeveloperPlatform = () => {
+  const t = useTranslations('home.developer');
   return (
-    <section className="bg-white">
-      <div className="app-container grid items-center gap-16 py-28 lg:grid-cols-2">
+    <section className="bg-background">
+      <div className="app-container grid items-center gap-10 sm:gap-12 lg:gap-16 py-16 sm:py-24 lg:py-28 lg:grid-cols-2">
         <AnimateIn>
           <div className="max-w-xl">
-          <Badge variant="default"> &gt;_ Developer platform</Badge>
+            <Badge variant="default">{t('badge')}</Badge>
 
-          <Typography variant="h1" className="mt-6">
-            Build on our trusted infrastructure.
-          </Typography>
+            <Typography variant="h1" className="mt-5 sm:mt-6">
+              {t('headline')}
+            </Typography>
 
-          <Typography variant="p" className="mt-6 text-muted-foreground">
-            Renuir provides powerful API solutions and full white-label
-            capabilities for enterprise businesses that need total control.
-          </Typography>
+            <Typography variant="p" className="mt-4 sm:mt-6 text-muted-foreground">
+              {t('subtitle')}
+            </Typography>
 
-          <div className="mt-10 space-y-4">
-            <div className="flex gap-4 rounded-2xl bg-muted p-5">
-              <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-gray-700">
-                <Image
-                  src="/images/icons/api.svg"
-                  alt="icon"
-                  width={18}
-                  height={18}
-                />
+            <div className="mt-8 sm:mt-10 space-y-3 sm:space-y-4">
+              <div className="flex gap-4 rounded-2xl bg-muted p-4 sm:p-5">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-foreground">
+                  <Image
+                    src="/images/icons/api.svg"
+                    alt="icon"
+                    width={18}
+                    height={18}
+                  />
+                </div>
+
+                <div>
+                  <Typography variant="h6">{t('apiTitle')}</Typography>
+                  <Typography variant="mutedText" className="mt-1">
+                    {t('apiDesc')}
+                  </Typography>
+                </div>
               </div>
 
-              <div>
-                <Typography variant="h6">Renuir API</Typography>
-                <Typography variant="mutedText" className="mt-1">
-                  Headless integration for item reporting, matching logic, and
-                  claim verification.
-                </Typography>
-              </div>
-            </div>
+              <div className="flex gap-4 rounded-2xl bg-muted p-4 sm:p-5">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-foreground">
+                  <Image
+                    src="/images/icons/paint.svg"
+                    alt="icon"
+                    width={18}
+                    height={18}
+                  />
+                </div>
 
-            <div className="flex gap-4 rounded-2xl bg-muted p-5">
-              <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-gray-700">
-                <Image
-                  src="/images/icons/paint.svg"
-                  alt="icon"
-                  width={18}
-                  height={18}
-                />
-              </div>
-
-              <div>
-                <Typography variant="h6">Whitelabel Solution</Typography>
-                <Typography variant="mutedText" className="mt-1">
-                  Deploy a fully branded instance on your custom domain in
-                  minutes.
-                </Typography>
+                <div>
+                  <Typography variant="h6">{t('whitelabelTitle')}</Typography>
+                  <Typography variant="mutedText" className="mt-1">
+                    {t('whitelabelDesc')}
+                  </Typography>
+                </div>
               </div>
             </div>
-          </div>
 
-          <Button
-            size="lg"
-            variant="outline"
-            className="mt-10 rounded-full px-8"
-          >
-            Explore Renuir API
-          </Button>
+            <Link href="/developer">
+              <Button
+                size="lg"
+                variant="outline"
+                className="mt-8 sm:mt-10 rounded-full px-8"
+              >
+                {t('cta')}
+              </Button>
+            </Link>
           </div>
         </AnimateIn>
 
