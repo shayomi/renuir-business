@@ -1,115 +1,81 @@
-"use client";
-
-import * as React from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { Typography } from "@/components/ui/typography";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import AnimateIn from "@/components/ui/AnimateIn";
-import { Star } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { Plane, Building2, GraduationCap } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 
-const avatars = [
+const PARTNERS = [
   {
-    src: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=128&q=80",
-    initials: "SJ",
+    icon: Plane,
+    label: "Airports and transit",
+    desc: "High-volume hubs where items cross borders and every handover has to be accounted for.",
   },
   {
-    src: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=128&q=80",
-    initials: "DC",
+    icon: Building2,
+    label: "Hotels and hospitality",
+    desc: "Front-desk teams that want a discreet, guest-friendly way to return belongings.",
   },
   {
-    src: "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=128&q=80",
-    initials: "ER",
+    icon: GraduationCap,
+    label: "Campuses and venues",
+    desc: "Large sites with thousands of daily visitors and a single lost property desk.",
   },
 ];
 
-function Stars({ count = 5 }: { count?: number }) {
-  return (
-    <div
-      className="flex items-center gap-1"
-      aria-label={`${count} out of 5 stars`}
-    >
-      {Array.from({ length: 5 }).map((_, i) => (
-        <Star
-          key={i}
-          className={[
-            "h-4 w-4",
-            i < count
-              ? "fill-amber-400 text-amber-400"
-              : "text-muted-foreground/30",
-          ].join(" ")}
-        />
-      ))}
-    </div>
-  );
-}
-
-export default function TestimonialsSection() {
-  const t = useTranslations("solutions.testimonials");
-
-  const testimonials = [
-    { quote: t("quote1"), name: t("quote1Name"), role: t("quote1Role"), avatar: avatars[0] },
-    { quote: t("quote2"), name: t("quote2Name"), role: t("quote2Role"), avatar: avatars[1] },
-    { quote: t("quote3"), name: t("quote3Name"), role: t("quote3Role"), avatar: avatars[2] },
-  ];
+export default async function TestimonialsSection() {
+  const t = await getTranslations("solutions.testimonials");
 
   return (
     <section className="w-full bg-background">
-      <div className="app-container py-16 sm:py-24 lg:py-32">
+      <div className="app-container py-20 sm:py-28 lg:py-32">
         <div className="flex flex-col items-center text-center">
           <AnimateIn>
-            <Badge
-              variant="secondary"
-              className="rounded-full bg-primary-100 dark:bg-primary/15 text-primary-700 dark:text-primary-400 px-3 py-1 text-xs font-medium"
-            >
+            <span className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-3.5 py-1.5 text-xs font-semibold uppercase tracking-wider text-primary">
               {t("badge")}
-            </Badge>
-
+            </span>
             <div className="mt-6 max-w-3xl">
               <Typography variant="h2" className="text-balance text-foreground">
                 {t("headline")}
               </Typography>
-              <Typography variant="lead" className="mt-4 text-balance">
+              <Typography variant="lead" className="mt-5 text-balance text-muted-foreground">
                 {t("subtitle")}
               </Typography>
             </div>
           </AnimateIn>
         </div>
 
-        <div className="mt-12 grid gap-6 md:grid-cols-3">
-          {testimonials.map((item, index) => (
-            <AnimateIn key={item.name} delay={index * 0.05}>
-              <Card className="rounded-2xl border-muted/60 bg-card shadow-sm transition-shadow hover:shadow-md">
-                <CardContent className="flex h-full flex-col p-6">
-                  <Stars count={5} />
-
-                  <div className="prose prose-sm mt-4 max-w-none prose-p:leading-relaxed prose-p:text-foreground">
-                    <p className="m-0">
-                      <span className="text-muted-foreground">&ldquo;</span>
-                      {item.quote}
-                      <span className="text-muted-foreground">&rdquo;</span>
-                    </p>
-                  </div>
-
-                  <div className="mt-6 flex items-center gap-3">
-                    <Avatar className="h-10 w-10">
-                      <AvatarImage src={item.avatar.src} alt={item.name} />
-                      <AvatarFallback>{item.avatar.initials}</AvatarFallback>
-                    </Avatar>
-
-                    <div className="min-w-0 text-left">
-                      <p className="truncate text-sm font-semibold">{item.name}</p>
-                      <p className="truncate text-sm text-muted-foreground">
-                        {item.role}
-                      </p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+        <div className="mt-14 grid gap-4 md:grid-cols-3">
+          {PARTNERS.map(({ icon: Icon, label, desc }, index) => (
+            <AnimateIn key={label} delay={index * 0.06}>
+              <div className="flex h-full flex-col gap-4 rounded-2xl border border-border bg-card p-6 shadow-soft">
+                <span className="flex size-11 items-center justify-center rounded-xl bg-primary/10 text-primary">
+                  <Icon className="size-5" strokeWidth={2} />
+                </span>
+                <div>
+                  <Typography
+                    variant="h5"
+                    as="h3"
+                    className="text-base font-semibold text-foreground"
+                  >
+                    {label}
+                  </Typography>
+                  <Typography
+                    variant="mutedText"
+                    className="mt-2 leading-relaxed"
+                  >
+                    {desc}
+                  </Typography>
+                </div>
+              </div>
             </AnimateIn>
           ))}
         </div>
+
+        <AnimateIn delay={0.2}>
+          <p className="mx-auto mt-10 max-w-2xl text-center text-sm text-muted-foreground">
+            We are not sharing customer logos yet. During the beta we would
+            rather earn the results than borrow someone else&rsquo;s.
+          </p>
+        </AnimateIn>
       </div>
     </section>
   );

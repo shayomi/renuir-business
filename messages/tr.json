@@ -2,9 +2,9 @@
   "nav": {
     "home": "Ana Sayfa",
     "about": "Hakkımızda",
-    "solutions": "Çözümler",
+    "solutions": "İşletmeler",
     "enterprise": "Kurumsal",
-    "individual": "Bireysel",
+    "individual": "Müşteriler",
     "developers": "Geliştiriciler",
     "getApp": "Uygulamayı indir",
     "joinWaitlist": "Bekleme listesine katıl"
@@ -13,29 +13,31 @@
     "hero": {
       "line1": "Kayıp Eşya,",
       "line2": "Yeniden Tasarlandı.",
-      "subtitle": "Tek bildirim. Akıllı eşleştirme. Güvenli teslimat. Renuir, insanları ve mekanları bir araya getirerek önemli eşyaların geri dönmesini sağlar.",
+      "subtitle": "Tek bildirim. Akıllı eşleştirme. Güvenli iade. Renuir, insanları ve mekanları bir araya getirerek önemli eşyaların geri dönmesini sağlar.",
       "ctaBusiness": "Kurumsal Çözümler",
       "ctaDownload": "Uygulamayı indir"
     },
     "change": {
-      "headline": "Eşyanın kaybolduğunu fark ettiğindeki o batma hissi.",
+      "headline": "Bir şeyini kaybettiğini fark ettiğin andaki o içine düşme hissi.",
       "body": "Havalimanında cüzdanın. Oteldeki anahtarların. Trendeki kulaklığın. Panik anında başlar. Geri alma süreci mi? Tamamen bozuk. Mekanlar Excel tabloları, cevapsız aramalar ve sahipsiz eşya kutuları arasında boğuluyor. Sen de ne yapacağını bilemiyorsun.",
       "punchline": "Renuir bunu çözüyor."
     },
     "howItWorks": {
       "badge": "Nasıl çalışır",
-      "headline": "Üç adım. Hepsi bu.",
-      "subtitle": "Bir şey kaybettin ya da buldun — süreç aynı.",
+      "headline": "Eşyanı geri almak için dört adım.",
+      "subtitle": "Bir şey kaybettin ya da bir şey buldun, yol aynı.",
       "step1Title": "Bildir",
-      "step1Desc": "Kaybettiğin ya da bulduğun eşyayı tanımla. Fotoğraf ekle. Yapay zekamız kategori, renk ve marka tespitini otomatik yapar.",
+      "step1Desc": "Kaybettiğin ya da bulduğun şeyi tanımla ve bir fotoğraf ekle. Yapay zekamız kategori, marka ve rengi senin için etiketler.",
       "step2Title": "Eşleş",
-      "step2Desc": "Renuir tanımları, fotoğrafları, konumları ve zamanlamayı karşılaştırır. Eşleşme olduğunda her iki tarafa da anında bildirim gider.",
-      "step3Title": "Güvenle teslim al",
-      "step3Desc": "Sahipliği doğrula, güvenli sohbet üzerinden iletişime geç ve teslimi ayarla. Teslim kodunu kullanarak iade işlemini onayla. Tamam."
+      "step2Desc": "Renuir fotoğrafları, tanımları ve konumları karşılaştırır. Güçlü bir eşleşme her iki tarafa da anında bildirim gönderir.",
+      "step3Title": "Sahipliği doğrula",
+      "step3Desc": "Ayrıntıları güvenli bir talep ve uygulama içi sohbet üzerinden onayla, böylece eşyalar yalnızca gerçek sahibine döner.",
+      "step4Title": "Geri al",
+      "step4Desc": "Yüz yüze teslim alma ya da kurye ile gönderim seç, teslimi onayla ve işin bitti."
     },
     "forIndividual": {
       "badge": "BİREYSEL KULLANICILAR İÇİN",
-      "headline": "Eşyaların. Ait olduğu yerde.",
+      "headline": "Eşyaların. Ait olduğu yere geri döner.",
       "subtitle": "Renuir uygulaması ücretsiz. Kayıp eşyanı bir dakikadan kısa sürede bildir, otomatik eşleş ve boşa koşturmadan geri al.",
       "feature1": "Yakındaki tüm mekanlarda yapay zeka destekli eşleştirme",
       "feature2": "Her iki tarafı da koruyan sahiplik doğrulaması",
@@ -91,20 +93,20 @@
     },
     "trust": {
       "headline": "Güven üzerine inşa edildi",
-      "subtitle": "Her tasarım kararı tek bir soruyla başlar: bu, eşyasını kaybeden kişiyi koruyor mu?",
-      "feature1Title": "Yalnızca doğrulanmış mekanlar",
-      "feature1Desc": "Eşyalar, denetlediğimiz işletmeler ve kurumlar tarafından kaydedilir.",
+      "subtitle": "Kayıp eşyalarla ilgileniyoruz, bu yüzden veri koruma isteğe bağlı değil. Renuir, GDPR standartlarına göre kurulmuştur; veriler AB'de barındırılır ve eşyaların ne kadar süre saklanacağına dair kurallar nettir.",
+      "feature1Title": "Tasarımdan gelen GDPR uyumu",
+      "feature1Desc": "Veri minimizasyonu, saklama sınırları ve talep üzerine silme sonradan eklenmedi, en baştan tasarlandı.",
       "feature2Title": "Sahiplik doğrulaması",
-      "feature2Desc": "Talepler kanıt gerektirir. Hiçbir eşya ispat olmadan teslim edilmez.",
-      "feature3Title": "Kişisel veri paylaşılmaz",
-      "feature3Desc": "Kimliğiniz, her iki taraf eşleşmeyi onaylayana kadar gizli kalır.",
+      "feature2Desc": "Talepler kanıt gerektirir. Hiçbir eşya, sahiplik ispatı olmadan teslim edilmez.",
+      "feature3Title": "Kişisel veriler herkese açık değil",
+      "feature3Desc": "Bulan kişinin ve sahibin bilgileri, her iki taraf eşleşmeyi onaylayana kadar gizli kalır.",
       "feature4Title": "Tam denetim izi",
-      "feature4Desc": "Her işlem kayıt altına alınır. Hesap verebilirlik sistemin parçasıdır."
+      "feature4Desc": "Her kayıt, talep ve teslim kaydedilir; böylece iadeler hesap verebilir ve izlenebilir kalır."
     },
     "contact": {
       "badge": "İletişim",
       "headline": "Konuşalım.",
-      "subtitle": "Demo isteyen bir mekan olun ya da yardıma ihtiyacı olan biri — buradayız.",
+      "subtitle": "Otel, havalimanı, kampüs ya da mağaza mı işletiyorsunuz? Bir tanıtım görüşmesi ayarlayın ve Renuir'ün bulunan eşyaları baştan sona nasıl yönettiğini görün.",
       "sidebar": {
         "title": "İletişim Bilgileri",
         "emailLabel": "E-posta",
@@ -125,11 +127,11 @@
         "subjectPlaceholder": "Mekanımız için Renuir",
         "message": "Mesaj",
         "messagePlaceholder": "Bize ihtiyacınızı anlatın...",
-        "submit": "Mesaj gönder"
+        "submit": "Demo talep edin"
       }
     },
     "sectors": {
-      "headline": "Sektörler arası kullanım.",
+      "headline": "Yoğun trafiğe sahip mekanlar için tasarlandı.",
       "airport": "Havalimanları ve Ulaşım",
       "airportDesc": "Yüksek yolcu trafiği. Sınır ötesi iadeler. Uyumluluk hazır.",
       "hotel": "Oteller ve Konaklama",
@@ -145,11 +147,11 @@
       "betaBanner": "İşletmeler için Renuir özel beta aşamasındadır. Şu anda seçili iş ortakları kabul edilmektedir.",
       "joinWaitlist": "Bekleme listesine katılın",
       "eyebrow": "İŞLETMELER VE KAMU KURUMLARI İÇİN",
-      "headline": "Kayıp eşyaların işletim sistemi.",
-      "subtitle": "Kayıp eşya kutusunu akıllı, denetlenebilir bir iade platformuyla değiştirin. İade süreçlerinin geleceğini şekillendiren mekanlarla birlikte olun.",
+      "headline": "Kayıp eşyayı da operasyonunuzun geri kalanı gibi yönetin.",
+      "subtitle": "Kayıp eşya kutusunu takip edilebilir, denetlenebilir bir iade platformuyla değiştirin. Eşyaları saniyeler içinde kaydedin, otomatik olarak iade edin ve gözetim zincirini istendiğinde kanıtlayın.",
       "emailPlaceholder": "Kurumsal e-postanızı girin",
       "cta": "Demo talep edin",
-      "socialProof": "Bekleme listesinde 50'den fazla kurumsal iş ortağı"
+      "socialProof": "AB'de barındırılır ve GDPR'a hazır. Her eşyanın nasıl ele alındığını kanıtlaması gereken ekipler için tasarlandı."
     },
     "costs": {
       "headline": "Kayıp eşyalar görünmez bir maliyet kalemidir.",
@@ -161,20 +163,20 @@
       "manualLogsAlt": "Manuel kayıt süreci"
     },
     "manage": {
-      "headline": "İhtiyacınız olan her şey. Gereksiz hiçbir şey.",
+      "headline": "Kayıt, iade ve uyumluluk için tek platform.",
       "feature1Title": "Bilgisayarlı görü ile kayıt",
       "feature1Desc": "Personel bir fotoğraf çeker. Yapay zekamız kategori, marka, renk ve durumu saniyeler içinde belirler. Yazma gerekmez.",
       "feature2Title": "Otomatik lojistik",
-      "feature2Desc": "Tek tıkla kargo etiketi. Kurye entegrasyonu. Eşyalar sonsuza kadar depolanmaz, iade edilir.",
+      "feature2Desc": "Tek tıkla kargo etiketi ve kurye çağırma. Eşyalar depoda beklemek yerine sahibine iade edilir.",
       "feature3Title": "Denetim ve uyumluluk",
       "feature3Desc": "Tam gözetim zinciri kayıtları. Saklama süresinden sonra otomatik imha iş akışları. GDPR uyumlu.",
       "cvPreviewAlt": "Yapay zeka ile nesne tanıma",
       "mobileAppAlt": "Renuir mobil uygulaması"
     },
     "testimonials": {
-      "badge": "Referanslar",
-      "headline": "Operasyon liderleri tarafından güveniliyor.",
-      "subtitle": "İlerici düşünen kuruluşların kayıp eşyayı bir yükten sadakat noktasına nasıl dönüştürdüğünü görün.",
+      "badge": "İlk iş ortakları",
+      "headline": "Bu sorunu her gün yaşayan ekiplerle birlikte geliştirildi.",
+      "subtitle": "Özel beta aşamasındayız; platformu gerçek iade iş akışlarına göre şekillendirmek için küçük bir mekan ve ulaşım operatörü grubuyla doğrudan çalışıyoruz.",
       "quote1": "İlk ayda eşya işleme süresini %60 azalttık. Eskiden kaos vardı — tablolar, aramalar, tahminler. Artık sistem kendi kendine çalışıyor.",
       "quote1Name": "Elif Kaya",
       "quote1Role": "Operasyon Direktörü, Grand Central Hub",
@@ -184,6 +186,19 @@
       "quote3": "Uyumluluk en büyük sorunumuzdu. Renuir'ün otomatik gözetim zinciri kayıtları bunu bir gecede çözdü.",
       "quote3Name": "Zeynep Arslan",
       "quote3Role": "Güvenlik Müdürü, Metro Transit Authority"
+    },
+    "steps": {
+      "badge": "Nasıl çalışır",
+      "headline": "Eşyanıza kavuşmanın dört adımı.",
+      "subtitle": "Bankodan sahibine, telefon trafiği ve depo odaları olmadan.",
+      "step1Title": "Ekibiniz kaydını oluşturur",
+      "step1Desc": "Personel bir fotoğraf çeker. Renuir'in yapay zekâsı kategoriyi, markayı ve rengi etiketler. Form yok, tablo yok.",
+      "step2Title": "Sahibini biz buluruz",
+      "step2Desc": "Her eşya, gelen kayıp bildirimleriyle eşleştirilir ve bir eşleşme bulunduğu anda her iki tarafa da bildirim gider.",
+      "step3Title": "Sahiplik doğrulanır",
+      "step3Desc": "Güvenli bir talep ve uygulama içi sohbet, hiçbir şey mekânınızdan çıkmadan önce gerçek sahibi teyit eder.",
+      "step4Title": "Kayıt altında teslim edilir",
+      "step4Desc": "Elden teslim ya da kurye, her teslimatın arkasında eksiksiz bir zilyetlik zinciri kaydıyla."
     }
   },
   "individual": {
@@ -191,7 +206,7 @@
       "betaBanner": "Renuir uygulaması özel beta aşamasındadır. Aşağıdaki özellikler şu anda önizleme modundadır.",
       "joinWaitlist": "Bekleme listesine katıl",
       "eyebrow": "BİREYSEL KULLANICILAR İÇİN",
-      "headline": "Bir şey mi kaybettin? Geri almanı sağlayalım.",
+      "headline": "Bir şey mi kaybettin? Boşa koşturmadan geri al.",
       "subtitle": "Renuir, kaybettiğin eşyayı onu bulan mekanla buluşturur. Akıllı eşleştirme, güvenli sohbet, doğrulanmış iadeler.",
       "googlePlay": "Google Play",
       "appleStore": "App Store",
@@ -199,30 +214,30 @@
     },
     "overview": {
       "headline": "Dört adımda eşyana kavuş.",
-      "subtitle": "Kayıp eşya kaosunu basit, adım adım bir sürece dönüştürdük.",
+      "subtitle": "Kayıp eşyayı, telefonundan takip edebileceğin basit ve adım adım bir sürece dönüştürdük.",
       "step1Title": "Bildir veya ara",
       "step1Desc": "Kaybettiğin eşyayı tanımla ya da yakınındaki mekanların bildirdiği eşyalara göz at.",
       "step2Title": "Akıllı eşleştirme",
-      "step2Desc": "Eşleşme olduğunda bildirim al. Renuir fotoğrafları, tanımları, konumu ve zamanlamayı karşılaştırır.",
+      "step2Desc": "Renuir fotoğrafları, tanımları, konumu ve zamanlamayı karşılaştırır; bir şey uyduğu an sana haber verir.",
       "step3Title": "Sahipliğini doğrula",
       "step3Desc": "Doğrulama sorularını yanıtla veya kanıt yükle. Yalnızca gerçek sahip erişim alır.",
       "step4Title": "Geri al",
       "step4Desc": "Güvenli teslim koduyla buluş veya uygun olduğunda kargo seç."
     },
     "purpose": {
-      "headline": "Gerçek hayat anları için tasarlandı.",
-      "card1Title": "Bir dakikadan kısa sürede bildir",
-      "card1Desc": "Bir fotoğraf ve birkaç detay ekle. Gerisini Renuir halleder.",
-      "card2Title": "Otomatik eşleştirme",
-      "card2Desc": "Kayıp ve bulunan eşyalar sürekli karşılaştırılır. Bir eşleşme olduğu an bildirim alırsın.",
-      "card3Title": "Mekanla sohbet et",
-      "card3Desc": "Talebin onaylandıktan sonra, sonraki adımları ayarlamak için bulan kişiye doğrudan mesaj at.",
-      "card4Title": "Esnek iade",
+      "headline": "İnsanlar neden Renuir'ü tercih ediyor?",
+      "card1Title": "Artık oradan oraya telefon yok",
+      "card1Desc": "Bekleme müziğini ve resepsiyonun umursamaz bakışını unut. Tek bir bildirim, eşyanı bulmuş olabilecek her mekana ulaşır.",
+      "card2Title": "Ortaya çıktığı an haberin olsun",
+      "card2Desc": "Eşleştirme gece gündüz çalışır. Bildirimine uyan bir şey çıktığı an telefonun bildirim verir.",
+      "card3Title": "Mekanla doğrudan konuş",
+      "card3Desc": "Talebin onaylandığında, eşyanı bulan kişilere mesaj at ve teslimi birkaç dokunuşla ayarla.",
+      "card4Title": "Sana uygun şekilde teslim al",
       "card4Desc": "Elden teslim al ya da kargolat. Seçim senin."
     },
     "trust": {
       "headline": "Gizliliğin pazarlık konusu değil.",
-      "subtitle": "Renuir, kayıp eşya kaosunu senin güvenliğin etrafında tasarlanmış bir sistemle değiştirir.",
+      "subtitle": "Eşyanı geri almak, güvenliğinden ya da verilerinden vazgeçmek anlamına gelmemeli. Renuir tam tersi mantıkla kuruldu.",
       "feature1Title": "Yalnızca doğrulanmış mekanlar",
       "feature1Desc": "Eşyalar, denetlediğimiz işletmeler ve kurumlar tarafından kaydedilir.",
       "feature2Title": "Sahiplik kontrolü",
@@ -242,7 +257,7 @@
       "subtitle": "Kayıp eşya operasyonları üzerinde tam kontrol isteyen kurumlar için eksiksiz API erişimi ve White-label dağıtım.",
       "emailPlaceholder": "Kurumsal e-postanızı girin",
       "cta": "API erişimi talep edin",
-      "socialProof": "Bekleme listesinde 50'den fazla kurumsal iş ortağı"
+      "socialProof": "Özel beta. API erişimi talep edin, sizinle iletişime geçeceğiz."
     },
     "docs": {
       "badge": "Geliştirici Platformu",
@@ -281,7 +296,7 @@
     "forIndividuals": "Bireysel Kullanıcılar İçin",
     "forIndividualsDesc": "Uygulamayı indirin ve eşyanızı geri almaya başlayın.",
     "forIndividualsCta": "Uygulamayı indir",
-    "tagline": "Kayıp eşyaların işletim sistemi. Mekanlar ve şehirler tarafından eşyaların sorumlu şekilde iadesi için kullanılır.",
+    "tagline": "Kayıp eşyalar için kurtarma platformu. Bir kez bildirin, daha hızlı geri alın.",
     "company": "Şirket",
     "legal": "Yasal",
     "forBusinesses": "İşletmeler İçin",
@@ -301,7 +316,7 @@
     "requestDemo": "Demo talep edin",
     "beta": "Beta",
     "emailValidation": "Lütfen geçerli bir e-posta adresi girin",
-    "joining": "Katılınıyor...",
+    "joining": "Katılıyor...",
     "loading": "..."
   },
   "legal": {
@@ -394,9 +409,9 @@
       "contactPhone": "Telefon: +49 (176) 3230-3721",
       "odrTitle": "AB Çevrimiçi Uyuşmazlık Çözümü",
       "odrBody": "Avrupa Komisyonu, çevrimiçi uyuşmazlık çözümü (ODR) için bir platform sağlamaktadır: https://ec.europa.eu/consumers/odr. Uyuşmazlıkları doğrudan tüketicilerimizle çözmeye kararlıyız. Bu nedenle herhangi bir sorunuz veya endişeniz olduğunda lütfen öncelikle bizimle iletişime geçin.",
-      "disclaimerTitle": "Sorumluluk Reddi — İçerik",
+      "disclaimerTitle": "Sorumluluk Reddi: İçerik",
       "disclaimerContent": "Telemedya Kanunu § 7 Abs. 1 uyarınca bu sayfalardaki kendi içeriklerimizden genel yasalar çerçevesinde sorumluyuz.",
-      "disclaimerLinksTitle": "Sorumluluk Reddi — Dış Bağlantılar",
+      "disclaimerLinksTitle": "Sorumluluk Reddi: Dış Bağlantılar",
       "disclaimerLinksBody": "Telemedya Kanunu §§ 8-10 uyarınca, iletilen veya saklanan üçüncü taraf bilgilerini izlemek veya hukuka aykırı faaliyetleri araştırmakla yükümlü değiliz. Genel yasalar kapsamındaki bilgilerin kaldırılması veya engellenmesine ilişkin yükümlülükler bundan etkilenmez. Ancak bu konudaki sorumluluk, yalnızca belirli bir ihlalin farkına varıldığı andan itibaren geçerlidir. Hukuka aykırı içeriklerden haberdar olmamız halinde ilgili içerikleri derhal kaldıracağız."
     },
     "cookies": {

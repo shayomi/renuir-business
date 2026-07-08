@@ -8,7 +8,6 @@ import { useEffect, useState } from "react";
 import { clsx } from "clsx";
 import MobileNav from "./MobileNav";
 import { LanguageSwitcher } from "../LanguageSwitcher";
-import { ThemeToggle } from "../ThemeToggle";
 import { NavPill } from "./NavPill";
 
 const Nav = () => {
@@ -58,7 +57,6 @@ const Nav = () => {
           </div>
 
           <div className="hidden items-center gap-2 lg:flex">
-            <ThemeToggle variant="dark" />
             <LanguageSwitcher variant="dark" />
             <Link href="/#waitlist">
               <Button

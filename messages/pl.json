@@ -2,9 +2,9 @@
   "nav": {
     "home": "Strona główna",
     "about": "O nas",
-    "solutions": "Rozwiązania",
-    "enterprise": "Dla firm",
-    "individual": "Dla osób prywatnych",
+    "solutions": "Firmy",
+    "enterprise": "Przedsiębiorstwa",
+    "individual": "Klienci",
     "developers": "Deweloperzy",
     "getApp": "Pobierz aplikację",
     "joinWaitlist": "Dołącz do listy"
@@ -19,19 +19,21 @@
     },
     "change": {
       "headline": "Ten moment, gdy dociera do ciebie, że to zniknęło.",
-      "body": "Portfel na lotnisku. Klucze w hotelu. Słuchawki w pociągu. Panika przychodzi natychmiast. A proces odzyskania? Nie działa. Obiekty żonglują arkuszami kalkulacyjnymi, nieodebranymi telefonami i pudłami nieodebranych rzeczy. Ty zostajasz z domysłami.",
+      "body": "Portfel na lotnisku. Klucze w hotelu. Słuchawki w pociągu. Panika przychodzi natychmiast. A proces odzyskania? Nie działa. Obiekty toną w arkuszach kalkulacyjnych, nieodebranych telefonach i pudłach z rzeczami, po które nikt nie wraca. Ty zostajesz z domysłami.",
       "punchline": "Renuir to naprawia."
     },
     "howItWorks": {
       "badge": "Jak to działa",
-      "headline": "Trzy kroki. To wszystko.",
-      "subtitle": "Niezależnie od tego, czy coś zgubiłeś, czy znalazłeś — proces jest taki sam.",
+      "headline": "Cztery kroki do odzyskania rzeczy.",
+      "subtitle": "Nieważne, czy coś zgubiłeś, czy znalazłeś, droga jest ta sama.",
       "step1Title": "Zgłoś",
-      "step1Desc": "Opisz, co zgubiłeś lub znalazłeś. Dodaj zdjęcie. Nasza AI automatycznie rozpozna kategorię, kolor i markę.",
+      "step1Desc": "Opisz, co zgubiłeś lub znalazłeś, i dodaj zdjęcie. Nasza AI oznaczy dla Ciebie kategorię, markę i kolor.",
       "step2Title": "Otrzymaj dopasowanie",
-      "step2Desc": "Renuir porównuje opisy, zdjęcia, lokalizacje i czas. Gdy pojawi się dopasowanie, obie strony zostają natychmiast powiadomione.",
-      "step3Title": "Odbierz bezpiecznie",
-      "step3Desc": "Zweryfikuj własność, porozmawiaj przez bezpieczny czat i umów się na odbiór. Użyj kodu przekazania, by potwierdzić zwrot. Gotowe."
+      "step2Desc": "Renuir porównuje zdjęcia, opisy i lokalizacje. Silne dopasowanie natychmiast powiadamia obie strony.",
+      "step3Title": "Zweryfikuj własność",
+      "step3Desc": "Potwierdź szczegóły przez bezpieczne zgłoszenie i czat w aplikacji, aby rzeczy wracały tylko do prawdziwego właściciela.",
+      "step4Title": "Odbierz",
+      "step4Desc": "Wybierz odbiór osobisty lub wysyłkę kurierem, potwierdź przekazanie, i gotowe."
     },
     "forIndividual": {
       "badge": "DLA OSÓB PRYWATNYCH",
@@ -47,7 +49,7 @@
     },
     "privateBeta": {
       "badge": "Zamknięta beta",
-      "headline": "Dla obiektów, które chcą robić biuro rzeczy znalezionych dobrze.",
+      "headline": "Dla obiektów, które chcą dobrze zarządzać rzeczami znalezionymi.",
       "subtitle": "Lotniska, hotele i węzły komunikacyjne gubią tysiące przedmiotów rocznie. Większość nigdy nie wraca do właścicieli. Renuir daje Twojemu zespołowi system, który naprawdę działa.",
       "feature1Title": "Rejestracja zdjęciem",
       "feature1Desc": "Personel rejestruje przedmioty w kilka sekund. Nasze rozpoznawanie obrazu identyfikuje przedmiot automatycznie.",
@@ -74,13 +76,13 @@
   "about": {
     "hero": {
       "headline": "Jesteśmy tu, by pomóc",
-      "subtitle": "Renuir istnieje, by pomagać ludziom odzyskiwać to, co zgubili — bez paniki, presji czy niepewności.",
+      "subtitle": "Renuir istnieje, by pomagać ludziom odzyskiwać to, co zgubili, bez paniki, presji i niepewności.",
       "googlePlay": "Google Play",
       "appleStore": "App Store"
     },
     "team": {
       "headline": "Zespół stojący za Renuir",
-      "subtitle": "Mały zespół. Wielka misja. Budujemy warstwę infrastruktury dla biur rzeczy znalezionych — zaczynając z Berlina.",
+      "subtitle": "Mały zespół. Wielka misja. Budujemy warstwę infrastruktury dla rzeczy znalezionych, zaczynając od Berlina.",
       "cta": "Skontaktuj się",
       "role1": "Współzałożyciel i CEO",
       "role2": "Współzałożyciel",
@@ -91,20 +93,20 @@
     },
     "trust": {
       "headline": "Zbudowane na zaufaniu",
-      "subtitle": "Każda decyzja projektowa zaczyna się od jednego pytania: czy to chroni osobę, która coś zgubiła?",
-      "feature1Title": "Tylko zweryfikowane obiekty",
-      "feature1Desc": "Przedmioty są rejestrowane przez firmy i instytucje, które sprawdziliśmy.",
+      "subtitle": "Zajmujemy się rzeczami znalezionymi, więc ochrona danych nie jest opcją. Renuir tworzymy zgodnie ze standardami RODO, z hostingiem danych w UE i jasnymi zasadami przechowywania przedmiotów oraz rejestrów.",
+      "feature1Title": "Zgodność z RODO od podstaw",
+      "feature1Desc": "Minimalizacja danych, limity przechowywania i usuwanie na żądanie są wbudowane w system, a nie dołożone później.",
       "feature2Title": "Weryfikacja własności",
-      "feature2Desc": "Roszczenia wymagają dowodów. Żaden przedmiot nie jest wydawany bez potwierdzenia.",
+      "feature2Desc": "Roszczenia wymagają dowodów. Żaden przedmiot nie jest wydawany bez potwierdzenia własności.",
       "feature3Title": "Brak publicznych danych osobowych",
-      "feature3Desc": "Twoja tożsamość pozostaje prywatna, dopóki obie strony nie potwierdzą dopasowania.",
+      "feature3Desc": "Dane znalazcy i właściciela pozostają prywatne, dopóki obie strony nie potwierdzą dopasowania.",
       "feature4Title": "Pełna ścieżka audytu",
-      "feature4Desc": "Każde działanie jest rejestrowane. Odpowiedzialność jest wbudowana w system."
+      "feature4Desc": "Każdy wpis, roszczenie i przekazanie są rejestrowane, dzięki czemu zwroty pozostają rozliczalne i możliwe do prześledzenia."
     },
     "contact": {
       "badge": "Kontakt",
       "headline": "Porozmawiajmy.",
-      "subtitle": "Niezależnie od tego, czy prowadzisz obiekt i szukasz demo, czy potrzebujesz pomocy — jesteśmy tu dla Ciebie.",
+      "subtitle": "Prowadzisz hotel, lotnisko, kampus lub sklep? Umów prezentację i zobacz, jak Renuir obsługuje znalezione przedmioty od początku do końca.",
       "sidebar": {
         "title": "Dane kontaktowe",
         "emailLabel": "E-mail",
@@ -112,7 +114,7 @@
         "email2": "support@renuir.com",
         "phoneLabel": "Telefon",
         "phone": "+49 (176) 3230-3721",
-        "phoneHours": "Pon.–Pt., 9:00–18:00 CET",
+        "phoneHours": "Pon.-Pt., 9:00-18:00 CET",
         "location": "Siedziba w Berlinie",
         "followUs": "Obserwuj nas"
       },
@@ -125,11 +127,11 @@
         "subjectPlaceholder": "Renuir dla naszego obiektu",
         "message": "Wiadomość",
         "messagePlaceholder": "Powiedz nam, czego potrzebujesz...",
-        "submit": "Wyślij wiadomość"
+        "submit": "Zamów demo"
       }
     },
     "sectors": {
-      "headline": "Stosowane w różnych branżach.",
+      "headline": "Stworzone dla obiektów o dużym natężeniu ruchu.",
       "airport": "Lotniska i transport",
       "airportDesc": "Duży przepływ pasażerów. Zwroty międzynarodowe. Gotowość na wymogi prawne.",
       "hotel": "Hotele i hotelarstwo",
@@ -145,15 +147,15 @@
       "betaBanner": "Renuir dla firm jest w zamkniętej becie. Aktualnie przyjmujemy wybranych partnerów.",
       "joinWaitlist": "Dołącz do listy",
       "eyebrow": "DLA FIRM I INSTYTUCJI",
-      "headline": "System operacyjny dla zgubionych przedmiotów.",
-      "subtitle": "Zamień pudło z rzeczami znalezionymi na inteligentną, audytowalną platformę zwrotów. Dołącz do obiektów, które już kształtują przyszłość zwrotów.",
+      "headline": "Rzeczy znalezione zarządzane jak reszta Twoich operacji.",
+      "subtitle": "Zamień pudło z rzeczami znalezionymi na śledzoną, audytowalną platformę zwrotów. Rejestruj przedmioty w kilka sekund, zwracaj je automatycznie i w każdej chwili udokumentuj łańcuch przechowywania.",
       "emailPlaceholder": "Wpisz służbowy e-mail",
       "cta": "Zamów demo",
-      "socialProof": "Ponad 50 partnerów korporacyjnych na liście oczekujących"
+      "socialProof": "Hosting w UE i zgodność z RODO. Stworzone dla zespołów, które muszą udokumentować, jak obsłużono każdy przedmiot."
     },
     "costs": {
       "headline": "Zgubione przedmioty to niewidoczne centrum kosztów.",
-      "subtitle": "Dla większości obiektów biuro rzeczy znalezionych nie jest priorytetem — to przeszkoda. Personel obsługuje zdenerwowanych gości, ręczne telefony i magazyny pełne nieodebranych rzeczy.",
+      "subtitle": "Dla większości obiektów to przeszkoda, a nie priorytet. Personel obsługuje zdenerwowanych gości, szuka rzeczy przez telefon i patrzy, jak magazyny zapełniają się przedmiotami, po które nikt się nie zgłasza.",
       "bullet1": "Niezweryfikowane roszczenia i brak ścieżki audytu narażają cię na odpowiedzialność.",
       "bullet2": "Personel spędza godziny tygodniowo na ręcznym rejestrowaniu i e-mailach.",
       "bullet3": "Nieodebrane przedmioty piętrzą się bez procesu utylizacji.",
@@ -161,21 +163,21 @@
       "manualLogsAlt": "Proces ręcznej rejestracji"
     },
     "manage": {
-      "headline": "Wszystko, czego potrzebujesz. Nic, czego nie.",
+      "headline": "Jedna platforma do przyjmowania, zwrotu i zgodności.",
       "feature1Title": "Rejestracja z rozpoznawaniem obrazu",
       "feature1Desc": "Personel robi zdjęcie. Nasza AI w kilka sekund rozpoznaje kategorię, markę, kolor i stan. Bez wpisywania.",
       "feature2Title": "Zautomatyzowana logistyka",
       "feature2Desc": "Etykiety wysyłkowe jednym kliknięciem. Integracja z kurierami. Przedmioty wracają do właścicieli, zamiast leżeć w magazynie.",
       "feature3Title": "Audyt i zgodność",
-      "feature3Desc": "Pełne logi łańcucha przechowywania. Zautomatyzowane procesy utylizacji po okresie przechowywania. Zgodność z GDPR.",
+      "feature3Desc": "Pełne logi łańcucha przechowywania dla każdego przedmiotu oraz automatyczna utylizacja po upływie okresu przechowywania. Zgodność z RODO w standardzie.",
       "cvPreviewAlt": "Rozpoznawanie przedmiotów przez sztuczną inteligencję",
       "mobileAppAlt": "Aplikacja mobilna Renuir"
     },
     "testimonials": {
-      "badge": "Opinie klientów",
-      "headline": "Zaufanie liderów operacyjnych.",
-      "subtitle": "Zobacz, jak innowacyjne organizacje zamieniają biuro rzeczy znalezionych z problemu w punkt lojalności klienta.",
-      "quote1": "W pierwszym miesiącu skróciliśmy czas obsługi przedmiotów o 60%. Wcześniej panował chaos — arkusze, telefony, zgadywanie. Teraz system działa sam.",
+      "badge": "Pierwsi partnerzy",
+      "headline": "Tworzymy z zespołami, które znają ten problem od podszewki.",
+      "subtitle": "Jesteśmy w zamkniętej becie i współpracujemy bezpośrednio z niewielką grupą operatorów obiektów i transportu, by kształtować platformę wokół rzeczywistych procesów odzyskiwania.",
+      "quote1": "W pierwszym miesiącu skróciliśmy czas obsługi przedmiotów o 60%. Wcześniej panował chaos: arkusze, telefony, zgadywanie. Teraz system działa sam.",
       "quote1Name": "Anna Wiśniewska",
       "quote1Role": "Dyrektor operacyjna, Grand Central Hub",
       "quote2": "Integracja API przebiegła bezproblemowo. Podłączyliśmy Renuir do naszego systemu zarządzania nieruchomościami w mniej niż tydzień.",
@@ -184,6 +186,19 @@
       "quote3": "Zgodność z przepisami była naszym największym problemem. Automatyczne logi łańcucha przechowywania w Renuir rozwiązały to z dnia na dzień.",
       "quote3Name": "Katarzyna Zielińska",
       "quote3Role": "Szefowa ochrony, Metro Transit Authority"
+    },
+    "steps": {
+      "badge": "Jak to działa",
+      "headline": "Cztery kroki do odzyskania rzeczy.",
+      "subtitle": "Od lady do właściciela, bez telefonów i magazynów.",
+      "step1Title": "Twój zespół rejestruje przedmiot",
+      "step1Desc": "Personel robi zdjęcie. Sztuczna inteligencja Renuir rozpoznaje kategorię, markę i kolor. Bez formularzy i arkuszy.",
+      "step2Title": "Znajdujemy właściciela",
+      "step2Desc": "Każdy przedmiot jest zestawiany z napływającymi zgłoszeniami zguby, a obie strony otrzymują powiadomienie w chwili dopasowania.",
+      "step3Title": "Weryfikujemy własność",
+      "step3Desc": "Bezpieczne roszczenie i czat w aplikacji potwierdzają prawdziwego właściciela, zanim cokolwiek opuści Twój obiekt.",
+      "step4Title": "Zwrot, z pełnym rejestrem",
+      "step4Desc": "Odbiór osobisty lub kurier, z pełnym rejestrem łańcucha przechowywania przy każdym przekazaniu."
     }
   },
   "individual": {
@@ -191,7 +206,7 @@
       "betaBanner": "Aplikacja Renuir jest w zamkniętej becie. Poniższe funkcje są w trybie podglądu.",
       "joinWaitlist": "Dołącz do listy",
       "eyebrow": "DLA OSÓB PRYWATNYCH",
-      "headline": "Zgubiłeś coś? Pomożemy ci to odzyskać.",
+      "headline": "Zgubiłeś coś? Odzyskaj to bez zbędnego zamieszania.",
       "subtitle": "Renuir łączy twój zgubiony przedmiot z obiektem, który go znalazł. Inteligentne dopasowanie, bezpieczny czat, zweryfikowane zwroty.",
       "googlePlay": "Google Play",
       "appleStore": "App Store",
@@ -199,7 +214,7 @@
     },
     "overview": {
       "headline": "Cztery kroki do odzyskania przedmiotu.",
-      "subtitle": "Zamieniliśmy chaos biura rzeczy znalezionych w prosty, prowadzony krok po kroku proces.",
+      "subtitle": "Zamieniliśmy rzeczy znalezione w prosty, prowadzony krok po kroku proces, który przejdziesz z poziomu telefonu.",
       "step1Title": "Zgłoś lub szukaj",
       "step1Desc": "Opisz, co zgubiłeś, lub przeglądaj przedmioty zgłoszone przez pobliskie obiekty.",
       "step2Title": "Inteligentne dopasowanie",
@@ -207,30 +222,30 @@
       "step3Title": "Zweryfikuj własność",
       "step3Desc": "Odpowiedz na pytania weryfikacyjne lub prześlij dowód. Tylko prawdziwy właściciel uzyskuje dostęp.",
       "step4Title": "Odbierz to",
-      "step4Desc": "Spotkaj się ze znalazcą z bezpiecznym kodem przekazania lub wybierz dostawę, jeśli jest dostępna."
+      "step4Desc": "Umów bezpieczne przekazanie z jednorazowym kodem lub wybierz dostawę, jeśli jest dostępna."
     },
     "purpose": {
-      "headline": "Zaprojektowane na codzienne sytuacje.",
-      "card1Title": "Zgłoś w mniej niż minutę",
-      "card1Desc": "Dodaj zdjęcie i kilka szczegółów. Renuir zajmie się resztą.",
-      "card2Title": "Automatyczne dopasowanie",
-      "card2Desc": "Zgubione i znalezione przedmioty są na bieżąco porównywane. Dostaniesz powiadomienie, gdy coś pasuje.",
-      "card3Title": "Czat z obiektem",
-      "card3Desc": "Po zatwierdzeniu roszczenia napisz bezpośrednio do znalazcy, by ustalić kolejne kroki.",
-      "card4Title": "Elastyczny zwrot",
-      "card4Desc": "Odbierz osobiście lub zamów wysyłkę. Twój wybór."
+      "headline": "Dlaczego ludzie sięgają po Renuir.",
+      "card1Title": "Koniec z obdzwanianiem",
+      "card1Desc": "Bez muzyczki na czekanie i bezradnego wzruszenia ramion w recepcji. Jedno zgłoszenie dociera do każdego obiektu, który może mieć Twoją rzecz.",
+      "card2Title": "Dowiesz się w chwili, gdy się znajdzie",
+      "card2Desc": "Dopasowywanie działa całą dobę. W sekundę, gdy coś pasuje do Twojego zgłoszenia, telefon daje znać.",
+      "card3Title": "Napisz do obiektu bezpośrednio",
+      "card3Desc": "Gdy Twoje roszczenie się potwierdzi, napisz do osób, które znalazły rzecz, i ustal przekazanie w kilku dotknięciach.",
+      "card4Title": "Odbierz po swojemu",
+      "card4Desc": "Odbierz osobiście lub zamów wysyłkę do siebie. Ty decydujesz, co jest wygodniejsze."
     },
     "trust": {
       "headline": "Twoja prywatność nie jest opcjonalna.",
-      "subtitle": "Renuir zamienia chaos biura rzeczy znalezionych w system zaprojektowany wokół twojego bezpieczeństwa.",
+      "subtitle": "Odzyskanie rzeczy nigdy nie powinno oznaczać rezygnacji z bezpieczeństwa czy prywatności danych. Renuir jest zbudowany dokładnie odwrotnie.",
       "feature1Title": "Tylko zweryfikowane obiekty",
-      "feature1Desc": "Przedmioty są rejestrowane przez firmy i instytucje, które sprawdziliśmy.",
-      "feature2Title": "Sprawdzenie własności",
-      "feature2Desc": "Roszczenia wymagają dowodów. Żaden przedmiot nie jest wydawany bez potwierdzenia.",
-      "feature3Title": "Brak publicznych danych osobowych",
-      "feature3Desc": "Twoje dane są udostępniane dopiero po potwierdzeniu dopasowania przez obie strony.",
-      "feature4Title": "Przejrzysta ścieżka audytu",
-      "feature4Desc": "Każde działanie jest rejestrowane w celu zapewnienia odpowiedzialności i przejrzystości."
+      "feature1Desc": "Przedmioty rejestrują sprawdzone przez nas firmy i instytucje, a nie anonimowi nieznajomi.",
+      "feature2Title": "Weryfikacja własności przy każdym roszczeniu",
+      "feature2Desc": "Roszczenia wymagają dowodów. Nic nie jest wydawane, dopóki nie potwierdzimy prawowitego właściciela.",
+      "feature3Title": "Żadnych danych osobowych na widoku",
+      "feature3Desc": "Twoje dane kontaktowe pozostają ukryte, dopóki obie strony nie potwierdzą dopasowania.",
+      "feature4Title": "Przejrzysty zapis każdego kroku",
+      "feature4Desc": "Każde działanie jest rejestrowane, dzięki czemu zwroty pozostają rozliczalne i łatwe do prześledzenia."
     }
   },
   "developer": {
@@ -242,20 +257,20 @@
       "subtitle": "Pełny dostęp do API i wdrożenie White-label dla firm, które potrzebują pełnej kontroli nad operacjami biura rzeczy znalezionych.",
       "emailPlaceholder": "Wpisz służbowy e-mail",
       "cta": "Poproś o dostęp do API",
-      "socialProof": "Ponad 50 partnerów korporacyjnych na liście oczekujących"
+      "socialProof": "Prywatna beta. Poproś o dostęp do API, a my się odezwiemy."
     },
     "docs": {
       "badge": "Platforma deweloperska",
       "headline": "Buduj na naszej infrastrukturze zaufania.",
       "subtitle": "Wydajne API i pełne możliwości White-label dla firm, które potrzebują pełnej kontroli.",
       "apiTitle": "Renuir API",
-      "apiDesc": "Headless integracja do zgłaszania przedmiotów, dopasowania AI, weryfikacji roszczeń i bezpiecznego czatu.",
+      "apiDesc": "Integracja headless do zgłaszania przedmiotów, dopasowania AI, weryfikacji roszczeń i bezpiecznego czatu.",
       "whitelabelTitle": "White-label",
       "whitelabelDesc": "Wdróż w pełni obrandowaną instancję Renuir na swojej domenie w kilka minut.",
       "tabDocs": "Dokumentacja",
       "tabKeys": "Klucze API",
       "tabSdks": "SDK",
-      "apiKeysTitle": "API Keys",
+      "apiKeysTitle": "Klucze API",
       "apiKeysDesc": "Zarządzaj tokenami dostępu do swojego projektu.",
       "createNewKey": "Utwórz nowy klucz",
       "productionKey": "Klucz produkcyjny",
@@ -263,13 +278,13 @@
       "active": "Aktywny",
       "rateLimits": "Limity zapytań",
       "requestsPerMinute": "Zapytań na minutę",
-      "sdksTitle": "SDKs i biblioteki",
+      "sdksTitle": "SDK i biblioteki",
       "sdksDesc": "Zacznij szybko z oficjalnymi bibliotekami klienckimi."
     },
     "ready": {
       "badge": "Rozpocznij",
       "headline": "Gotowy, by budować?",
-      "subtitle": "Headless integracja do zgłaszania przedmiotów, dopasowywania i weryfikacji roszczeń.",
+      "subtitle": "Integracja headless do zgłaszania przedmiotów, dopasowywania i weryfikacji roszczeń.",
       "ctaPrimary": "Pobierz klucze API",
       "ctaSecondary": "Przeczytaj dokumentację"
     }
@@ -281,7 +296,7 @@
     "forIndividuals": "Dla osób prywatnych",
     "forIndividualsDesc": "Pobierz aplikację i zacznij odzyskiwać.",
     "forIndividualsCta": "Pobierz aplikację",
-    "tagline": "System operacyjny dla zgubionych przedmiotów. Używany przez obiekty i miasta do odpowiedzialnego zwracania rzeczy.",
+    "tagline": "Platforma odzyskiwania zgubionych rzeczy. Zgłoś raz, odzyskaj szybciej.",
     "company": "Firma",
     "legal": "Prawne",
     "forBusinesses": "Dla firm",
@@ -394,9 +409,9 @@
       "contactPhone": "Telefon: +49 (176) 3230-3721",
       "odrTitle": "Internetowe rozstrzyganie sporów UE",
       "odrBody": "Komisja Europejska udostępnia platformę do internetowego rozstrzygania sporów (ODR): https://ec.europa.eu/consumers/odr. Nie jesteśmy zobowiązani ani gotowi do uczestnictwa w postępowaniu przed konsumenckim organem rozstrzygania sporów.",
-      "disclaimerTitle": "Wyłączenie odpowiedzialności — treści",
+      "disclaimerTitle": "Wyłączenie odpowiedzialności: treści",
       "disclaimerContent": "Treści niniejszej strony zostały opracowane z najwyższą starannością. Nie możemy jednak zagwarantować dokładności, kompletności ani aktualności treści. Jako usługodawca jesteśmy odpowiedzialni za własne treści na tych stronach zgodnie z § 7 ust. 1 TMG. Zgodnie z §§ 8-10 TMG nie jesteśmy jednak zobowiązani do monitorowania przekazywanych lub przechowywanych informacji osób trzecich.",
-      "disclaimerLinksTitle": "Wyłączenie odpowiedzialności — odnośniki",
+      "disclaimerLinksTitle": "Wyłączenie odpowiedzialności: odnośniki",
       "disclaimerLinksBody": "Nasza strona zawiera odnośniki do zewnętrznych stron internetowych podmiotów trzecich, na których treści nie mamy wpływu. Za treści stron, do których prowadzą odnośniki, odpowiada zawsze dany usługodawca lub operator strony."
     },
     "cookies": {
@@ -449,7 +464,7 @@
   "cookies": {
     "banner": {
       "title": "Preferencje plików cookie",
-      "description": "Używamy plików cookie, aby ulepszyć Twoje doświadczenie.",
+      "description": "Używamy plików cookie, aby zapewnić Ci lepsze wrażenia.",
       "learnMore": "Dowiedz się więcej",
       "customize": "Zarządzaj preferencjami",
       "necessary": "Niezbędne",

@@ -1,15 +1,19 @@
-import Image from "@/components/solutions/Image";
+import SolutionImage from "@/components/solutions/Image";
 import { SolutionHero } from "@/components/solutions/SolutionHero";
+import { BusinessSteps } from "@/components/solutions/BusinessSteps";
 import { ManageChaos } from "@/components/solutions/ManageChaos";
+import { SecurityCompliance } from "@/components/solutions/SecurityCompliance";
 import TestimonialsSection from "@/components/solutions/Testimonial";
-import { Sectors } from "@/components/about/Sectors";
+import { ClosingCTA } from "@/components/solutions/ClosingCTA";
 
 const SECTIONS = [
   { Component: SolutionHero, className: "" },
-  { Component: Image, className: "-mt-20 sm:-mt-24 lg:-mt-32" },
+  { Component: SolutionImage, className: "-mt-12 sm:-mt-16 lg:-mt-24" },
+  { Component: BusinessSteps, className: "" },
   { Component: ManageChaos, className: "" },
+  { Component: SecurityCompliance, className: "" },
   { Component: TestimonialsSection, className: "" },
-  { Component: Sectors, className: "" },
+  { Component: ClosingCTA, className: "" },
 ];
 
 export default function SolutionsPage() {

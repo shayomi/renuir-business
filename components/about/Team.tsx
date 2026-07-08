@@ -28,7 +28,7 @@ export function Team() {
                 {t('subtitle')}
               </Typography>
 
-              <Link href="/#waitlist">
+              <Link href="/about-us#contact">
                 <Button
                   size="lg"
                   variant="secondary"

@@ -2,9 +2,9 @@
   "nav": {
     "home": "Home",
     "about": "About us",
-    "solutions": "Solutions",
+    "solutions": "Businesses",
     "enterprise": "Enterprise",
-    "individual": "Individual",
+    "individual": "Customers",
     "developers": "Developers",
     "getApp": "Get the app",
     "joinWaitlist": "Join waitlist"
@@ -24,14 +24,16 @@
     },
     "howItWorks": {
       "badge": "How it works",
-      "headline": "Three steps. That's it.",
-      "subtitle": "Whether you lost something or found something, the process is the same.",
+      "headline": "Four steps to your item back.",
+      "subtitle": "Lost something or found something, the path is the same.",
       "step1Title": "Report it",
-      "step1Desc": "Describe what you lost or found. Add a photo. Our AI handles categorization, color, and brand detection automatically.",
+      "step1Desc": "Describe what you lost or found and add a photo. Our AI tags the category, brand, and colour for you.",
       "step2Title": "Get matched",
-      "step2Desc": "Renuir compares descriptions, photos, locations, and timing. When there's a match, both sides get notified instantly.",
-      "step3Title": "Return it safely",
-      "step3Desc": "Verify ownership, chat securely, and arrange a handover. Use our handover code to confirm the return. Done."
+      "step2Desc": "Renuir compares photos, descriptions, and locations. A strong match notifies both sides instantly.",
+      "step3Title": "Verify ownership",
+      "step3Desc": "Confirm the details through a secure claim and in-app chat, so items only go back to their real owner.",
+      "step4Title": "Get it back",
+      "step4Desc": "Choose in-person pickup or courier shipping, confirm the handover, and you're done."
     },
     "forIndividual": {
       "badge": "FOR INDIVIDUALS",
@@ -91,20 +93,20 @@
     },
     "trust": {
       "headline": "Built on trust",
-      "subtitle": "Every design decision starts with one question: does this protect the person who lost something?",
-      "feature1Title": "Verified venues only",
-      "feature1Desc": "Items are logged by businesses and institutions we've vetted.",
+      "subtitle": "We handle lost property, so data protection is not optional. Renuir is built to GDPR standards, with EU data hosting and clear rules for how long items and records are kept.",
+      "feature1Title": "GDPR-compliant by design",
+      "feature1Desc": "Data minimisation, retention limits, and deletion on request are built in, not bolted on.",
       "feature2Title": "Ownership verification",
-      "feature2Desc": "Claims require evidence. No item is released without proof.",
+      "feature2Desc": "Claims require evidence. No item is released without proof of ownership.",
       "feature3Title": "No public personal data",
-      "feature3Desc": "Your identity stays private until both sides confirm a match.",
+      "feature3Desc": "Finder and owner details stay private until both sides confirm a match.",
       "feature4Title": "Full audit trail",
-      "feature4Desc": "Every action is logged. Accountability is built into the system."
+      "feature4Desc": "Every log, claim, and handover is recorded, so returns stay accountable and traceable."
     },
     "contact": {
       "badge": "Contact us",
       "headline": "Let's talk.",
-      "subtitle": "Whether you're a venue looking for a demo or someone who needs help, we're here.",
+      "subtitle": "Run a hotel, airport, campus, or retail floor? Book a walkthrough and see how Renuir handles found items end to end.",
       "sidebar": {
         "title": "Contact Information",
         "emailLabel": "Email",
@@ -112,7 +114,7 @@
         "email2": "support@renuir.com",
         "phoneLabel": "Phone",
         "phone": "+49 (176) 3230-3721",
-        "phoneHours": "Mon–Fri, 9am–6pm CET",
+        "phoneHours": "Mon-Fri, 9am-6pm CET",
         "location": "Berlin HQ",
         "followUs": "Follow us"
       },
@@ -125,11 +127,11 @@
         "subjectPlaceholder": "Renuir for our venue",
         "message": "Message",
         "messagePlaceholder": "Tell us what you need...",
-        "submit": "Send message"
+        "submit": "Request a demo"
       }
     },
     "sectors": {
-      "headline": "Used across industries.",
+      "headline": "Built for high-traffic venues.",
       "airport": "Airports & Transport",
       "airportDesc": "High-volume passenger flow. Cross-border returns. Compliance-ready.",
       "hotel": "Hotels & Hospitality",
@@ -145,15 +147,15 @@
       "betaBanner": "Renuir for Business is in private beta. Currently onboarding select partners.",
       "joinWaitlist": "Join waitlist",
       "eyebrow": "FOR BUSINESS & GOVERNMENT",
-      "headline": "The operating system for lost items.",
-      "subtitle": "Replace the lost-and-found box with an intelligent, auditable recovery platform. Join the venues already shaping the future of returns.",
+      "headline": "Lost and found, run like the rest of your operation.",
+      "subtitle": "Replace the lost property box with a tracked, auditable recovery platform. Log items in seconds, return them automatically, and prove chain of custody on demand.",
       "emailPlaceholder": "Enter your work email",
       "cta": "Request a demo",
-      "socialProof": "Join 50+ enterprise partners on the waitlist"
+      "socialProof": "EU-hosted and GDPR-ready. Built for teams that have to prove how every item was handled."
     },
     "costs": {
       "headline": "Lost items are an invisible cost center.",
-      "subtitle": "For most venues, lost-and-found isn't a priority. It's an interruption. Staff deal with frantic visitors, manual phone calls, and storage rooms full of unclaimed items.",
+      "subtitle": "For most venues it is an interruption, not a priority. Staff field anxious visitors, chase items by phone, and watch storage rooms fill with things no one collects.",
       "bullet1": "Unverified claims and no audit trail leave you liable.",
       "bullet2": "Staff spend hours each week on manual logging and emails.",
       "bullet3": "Unclaimed items pile up with no disposal process.",
@@ -161,20 +163,20 @@
       "manualLogsAlt": "Manual logging process"
     },
     "manage": {
-      "headline": "Everything you need. Nothing you don't.",
+      "headline": "One platform for intake, return, and compliance.",
       "feature1Title": "Computer vision intake",
       "feature1Desc": "Staff snap a photo. Our AI identifies category, brand, color, and condition in seconds. No typing required.",
       "feature2Title": "Automated logistics",
-      "feature2Desc": "One-click shipping labels. Courier integration. Items get returned, not stored forever.",
+      "feature2Desc": "One-click shipping labels and courier pickup. Items get returned to their owner instead of sitting in storage.",
       "feature3Title": "Audit & compliance",
-      "feature3Desc": "Full chain of custody logs. Automated disposal workflows after retention period. GDPR-ready.",
+      "feature3Desc": "A full chain-of-custody log for every item, plus automatic disposal once the retention period ends. GDPR-ready by default.",
       "cvPreviewAlt": "Computer vision item recognition",
       "mobileAppAlt": "Renuir mobile app"
     },
     "testimonials": {
-      "badge": "Testimonials",
-      "headline": "Trusted by operational leaders.",
-      "subtitle": "See how forward-thinking organizations are turning lost property from a liability into a loyalty touchpoint.",
+      "badge": "Early partners",
+      "headline": "Built with the teams who live this problem.",
+      "subtitle": "We are in private beta, working directly with a small group of venue and transit operators to shape the platform around real recovery workflows.",
       "quote1": "We reduced item processing time by 60% in the first month. It used to be chaos — spreadsheets, calls, guesswork. Now it runs itself.",
       "quote1Name": "Sarah Jenkins",
       "quote1Role": "Director of Operations, Grand Central Hub",
@@ -184,6 +186,19 @@
       "quote3": "Compliance was our biggest headache. Renuir's automated chain of custody logs solved that overnight.",
       "quote3Name": "Elena Rodriguez",
       "quote3Role": "Head of Security, Metro Transit Authority"
+    },
+    "steps": {
+      "badge": "How it works",
+      "headline": "Four steps to your item back.",
+      "subtitle": "From the counter to the owner, without the phone calls and storage rooms.",
+      "step1Title": "Your team logs it",
+      "step1Desc": "Staff snap a photo. Renuir's AI tags the category, brand, and colour. No forms, no spreadsheets.",
+      "step2Title": "We find the owner",
+      "step2Desc": "Each item is matched against incoming lost reports, and both sides are notified the moment there is a fit.",
+      "step3Title": "Ownership is verified",
+      "step3Desc": "A secure claim and in-app chat confirm the real owner before anything leaves your venue.",
+      "step4Title": "It goes back, on record",
+      "step4Desc": "Pickup or courier, with a full chain-of-custody log behind every handover."
     }
   },
   "individual": {
@@ -191,46 +206,46 @@
       "betaBanner": "The Renuir app is in private beta. The features below are currently in preview mode.",
       "joinWaitlist": "Join waitlist",
       "eyebrow": "FOR INDIVIDUALS",
-      "headline": "Lost something? We'll help you get it back.",
-      "subtitle": "Renuir connects your lost item with the venue that found it. Smart matching, secure chat, verified returns.",
+      "headline": "Lost something? Get it back without the runaround.",
+      "subtitle": "Renuir connects your lost item with the venue that found it. Smart matching, secure chat, and verified returns, all in one place.",
       "googlePlay": "Google Play",
       "appleStore": "App Store",
       "appScreensAlt": "Renuir app screens"
     },
     "overview": {
       "headline": "Four steps to your item back.",
-      "subtitle": "We turned the chaos of lost-and-found into a simple, guided process.",
+      "subtitle": "We turned lost-and-found into a simple, guided process you can follow from your phone.",
       "step1Title": "Report or search",
-      "step1Desc": "Describe what you lost, or browse items reported by venues near you.",
+      "step1Desc": "Describe what you lost, or browse items venues near you have already logged.",
       "step2Title": "Smart matching",
-      "step2Desc": "Get notified when there's a match. Renuir compares photos, descriptions, location, and timing.",
-      "step3Title": "Verify ownership",
-      "step3Desc": "Answer verification questions or upload proof. Only the real owner gets access.",
+      "step2Desc": "Renuir compares photos, descriptions, location, and timing, then alerts you the moment something fits.",
+      "step3Title": "Verify it is yours",
+      "step3Desc": "Answer a few ownership questions or upload proof. Only the real owner gets access.",
       "step4Title": "Get it back",
-      "step4Desc": "Meet up with a secure handover code, or choose delivery when available."
+      "step4Desc": "Arrange a secure handover with a one-time code, or choose delivery where it is offered."
     },
     "purpose": {
-      "headline": "Built for real-life moments.",
-      "card1Title": "Report in under a minute",
-      "card1Desc": "Add a photo and a few details. Renuir handles the rest.",
-      "card2Title": "Automatic matching",
-      "card2Desc": "Lost and found items are continuously compared. You get notified the moment something fits.",
-      "card3Title": "Chat with the venue",
-      "card3Desc": "Once your claim is approved, message the finder directly to arrange next steps.",
-      "card4Title": "Flexible return",
-      "card4Desc": "Pick up in person or get it shipped. Your choice."
+      "headline": "Why people reach for Renuir.",
+      "card1Title": "No more calling around",
+      "card1Desc": "Skip the hold music and the front-desk shrug. One report reaches every venue that could be holding your item.",
+      "card2Title": "Know the moment it turns up",
+      "card2Desc": "Matching runs around the clock. The second something fits your report, your phone lights up.",
+      "card3Title": "Talk to the venue directly",
+      "card3Desc": "Once your claim checks out, message the people who found it and sort out the handover in a few taps.",
+      "card4Title": "Collect it your way",
+      "card4Desc": "Pick it up in person or have it shipped to you. You decide what is easiest."
     },
     "trust": {
       "headline": "Your privacy is not optional.",
-      "subtitle": "Renuir replaces the chaos of lost-and-found with a system designed around your safety.",
+      "subtitle": "Getting your item back should never mean giving up your safety or your data. Renuir is built the other way around.",
       "feature1Title": "Verified venues only",
-      "feature1Desc": "Items are logged by businesses and institutions we've vetted.",
-      "feature2Title": "Ownership checks",
-      "feature2Desc": "Claims require evidence. No item is released without proof.",
-      "feature3Title": "No public personal data",
-      "feature3Desc": "Your details are shared only after both sides confirm a match.",
-      "feature4Title": "Clear audit trail",
-      "feature4Desc": "Every action is logged for accountability and transparency."
+      "feature1Desc": "Items are logged by businesses and institutions we have checked, not anonymous strangers.",
+      "feature2Title": "Ownership checks on every claim",
+      "feature2Desc": "Claims need evidence. Nothing is released until the rightful owner is confirmed.",
+      "feature3Title": "No personal data in the open",
+      "feature3Desc": "Your contact details stay hidden until both sides confirm a match.",
+      "feature4Title": "A clear record of every step",
+      "feature4Desc": "Each action is logged, so returns stay accountable and easy to trace."
     }
   },
   "developer": {
@@ -242,7 +257,7 @@
       "subtitle": "Full API access and white-label deployment for enterprises that need total control over their lost-and-found operations.",
       "emailPlaceholder": "Enter your work email",
       "cta": "Request API access",
-      "socialProof": "Join 50+ enterprise partners on the waitlist"
+      "socialProof": "Private beta. Request API access and we'll be in touch."
     },
     "docs": {
       "badge": "Developer Platform",
@@ -281,7 +296,7 @@
     "forIndividuals": "For Individuals",
     "forIndividualsDesc": "Download the app and start recovering.",
     "forIndividualsCta": "Download the app",
-    "tagline": "The operating system for lost items. Used by venues and cities to return items responsibly.",
+    "tagline": "The recovery platform for lost-and-found. Report once, recover faster.",
     "company": "Company",
     "legal": "Legal",
     "forBusinesses": "For Businesses",
@@ -307,9 +322,9 @@
   "legal": {
     "privacy": {
       "title": "Privacy Policy",
-      "lastUpdated": "Last updated: April 16, 2026",
+      "lastUpdated": "Last updated: July 8, 2026",
       "controllerTitle": "1. Controller",
-      "controllerBody": "The controller responsible for data processing on this website and within the Renuir platform is Renuir UG (haftungsbeschränkt), Berlin, Germany. Email: privacy@renuir.com.",
+      "controllerBody": "The controller responsible for the processing of personal data on this website and within the Renuir platform, within the meaning of Art. 4(7) GDPR, is Renuir UG (haftungsbeschränkt), [Street address], [Postal code] Berlin, Germany. For any privacy matter, including to reach the person responsible for data protection, contact us at privacy@renuir.com. We have not appointed a statutory Data Protection Officer because we are not currently required to do so under Art. 37 GDPR; if this changes, the contact details will be published here.",
       "dataCollectedTitle": "2. Data We Collect",
       "dataCollectedIntro": "We collect and process the following categories of personal data:",
       "dataAccount": "Account data: name, email address, phone number, password (hashed)",
@@ -351,7 +366,7 @@
     },
     "terms": {
       "title": "Terms of Service",
-      "lastUpdated": "Last updated: April 16, 2026",
+      "lastUpdated": "Last updated: July 8, 2026",
       "scopeTitle": "1. Scope and Applicability",
       "scopeBody": "These Terms of Service govern the use of the Renuir platform, including the website, mobile applications, and API services, operated by Renuir UG (haftungsbeschränkt), Berlin, Germany. By creating an account or using our services, you agree to these terms.",
       "serviceTitle": "2. Service Description",
@@ -384,7 +399,7 @@
       "lastUpdated": "Information pursuant to § 5 TMG",
       "companyTitle": "Company",
       "companyName": "Renuir UG (haftungsbeschränkt)",
-      "companyAddress": "Berlin, Germany",
+      "companyAddress": "[Street address], [Postal code] Berlin, Germany",
       "companyRegistration": "Registered: Amtsgericht Charlottenburg, Berlin, HRB 283063 B",
       "companyVatId": "VAT ID (§ 27a UStG): pending assignment",
       "representativeTitle": "Managing Director",
@@ -394,14 +409,14 @@
       "contactPhone": "Phone: +49 (176) 3230-3721",
       "odrTitle": "EU Online Dispute Resolution",
       "odrBody": "The European Commission provides a platform for online dispute resolution (ODR): https://ec.europa.eu/consumers/odr. We are not obligated and not willing to participate in dispute resolution proceedings before a consumer arbitration board.",
-      "disclaimerTitle": "Disclaimer — Content",
+      "disclaimerTitle": "Disclaimer: Content",
       "disclaimerContent": "The contents of this website have been created with the utmost care. However, we cannot guarantee the accuracy, completeness, or timeliness of the content. As a service provider, we are responsible for our own content on these pages under general law (§ 7(1) TMG). However, under §§ 8-10 TMG, we are not obligated to monitor transmitted or stored third-party information.",
-      "disclaimerLinksTitle": "Disclaimer — Links",
+      "disclaimerLinksTitle": "Disclaimer: Links",
       "disclaimerLinksBody": "Our website contains links to external third-party websites over whose content we have no influence. We cannot accept liability for this external content. The respective provider or operator is always responsible for the content of linked pages."
     },
     "cookies": {
       "title": "Cookie Policy",
-      "lastUpdated": "Last updated: April 16, 2026",
+      "lastUpdated": "Last updated: July 8, 2026",
       "whatTitle": "1. What Are Cookies",
       "whatBody": "Cookies are small text files stored on your device when you visit our website. They help us provide a functional, secure, and personalized experience. This policy explains which cookies we use, why, and how you can control them.",
       "necessaryTitle": "2. Strictly Necessary Cookies",
@@ -424,7 +439,7 @@
     },
     "accessibility": {
       "title": "Accessibility Statement",
-      "lastUpdated": "Last updated: April 16, 2026",
+      "lastUpdated": "Last updated: July 8, 2026",
       "commitmentTitle": "1. Our Commitment",
       "commitmentBody": "Renuir UG is committed to ensuring digital accessibility for people with disabilities. We are continually improving the user experience for everyone and applying relevant accessibility standards, in compliance with the European Accessibility Act (EAA) and the German Barrierefreiheitsstärkungsgesetz (BFSG).",
       "standardTitle": "2. Accessibility Standard",

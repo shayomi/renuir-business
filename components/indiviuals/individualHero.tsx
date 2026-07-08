@@ -1,97 +1,98 @@
 "use client";
 
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
-import { Link } from "@/i18n/navigation";
+import { LeadForm } from "@/components/shared/LeadForm";
 import Nav from "../shared/navbar/Nav";
 import { BetaBanner } from "../shared/BetaBanner";
 import AnimateIn from "@/components/ui/AnimateIn";
-import { useTranslations } from 'next-intl';
+import { useTranslations } from "next-intl";
 
 export function IndividualHero() {
-  const t = useTranslations('individual.hero');
+  const t = useTranslations("individual.hero");
+
   return (
     <section className="relative overflow-hidden">
+      {/* Subtle topographic texture */}
       <Image
         src="/images/about/abouthero.svg"
         alt=""
         fill
         priority
-        className="object-cover dark:opacity-20"
+        className="object-cover"
       />
+
       <Nav />
       <BetaBanner
-        message={t('betaBanner')}
-        linkText={t('joinWaitlist')}
+        message={t("betaBanner")}
+        linkText={t("joinWaitlist")}
         linkHref="/#waitlist"
       />
-      <div className="relative app-container py-12 sm:py-16 lg:py-24 flex flex-col lg:flex-row gap-8 lg:gap-12 justify-between items-center">
+
+      <div className="relative app-container grid items-center gap-10 py-12 sm:py-16 lg:grid-cols-[1fr_1.1fr] lg:gap-8 lg:py-24">
+        {/* Copy */}
         <AnimateIn>
-          <div className="flex flex-col items-start gap-4 max-w-xl">
-            <Typography
-              variant="smallText"
-              className="text-muted-foreground uppercase tracking-wider"
-            >
-              {t('eyebrow')}
+          <div className="flex max-w-xl flex-col items-start gap-4">
+            <span className="text-[12px] font-medium uppercase tracking-[0.16em] text-primary">
+              {t("eyebrow")}
+            </span>
+            <Typography variant="h1" className="text-foreground font-medium tracking-tight">
+              {t("headline")}
             </Typography>
-            <Typography
-              variant="h1"
-              className="text-foreground font-medium"
-            >
-              {t('headline')}
+            <Typography variant="lead" className="mt-1 max-w-md text-muted-foreground">
+              {t("subtitle")}
             </Typography>
 
-            <Typography
-              variant="lead"
-              className="mt-2 max-w-md text-foreground/80"
-            >
-              {t('subtitle')}
-            </Typography>
-
-            <div className="mt-6 sm:mt-8 flex flex-wrap gap-3">
-              <Link href="/#waitlist">
-                <Button
-                  variant="dark"
-                  size="lg"
-                  className="rounded-full"
-                >
-                  <Image
-                    src="/images/icons/googleplayicon.svg"
-                    alt="Google Play"
-                    width={20}
-                    height={20}
-                  />
-                  {t('googlePlay')}
-                </Button>
-              </Link>
-
-              <Link href="/#waitlist">
-                <Button
-                  variant="dark"
-                  size="lg"
-                  className="rounded-full"
-                >
-                  <Image
-                    src="/images/icons/appleicon.svg"
-                    alt="Apple Store"
-                    width={20}
-                    height={20}
-                  />
-                  {t('appleStore')}
-                </Button>
-              </Link>
+            <div className="mt-6 w-full max-w-md sm:mt-8">
+              <LeadForm
+                source="waitlist"
+                cta="Join the beta"
+                placeholder="Enter your email"
+                variant="light"
+              />
+              <div className="mt-2 flex items-center gap-2.5 text-muted-foreground">
+                <Image
+                  src="/images/icons/appleicon.svg"
+                  alt=""
+                  width={16}
+                  height={16}
+                  className="opacity-60"
+                />
+                <Image
+                  src="/images/icons/googleplayicon.svg"
+                  alt=""
+                  width={16}
+                  height={16}
+                  className="opacity-60"
+                />
+                <Typography variant="smallText" className="text-muted-foreground">
+                  Coming to iOS and Android at launch.
+                </Typography>
+              </div>
             </div>
           </div>
         </AnimateIn>
-        <AnimateIn delay={0.1}>
-          <div>
+
+        {/* Device showcase */}
+        <AnimateIn delay={0.12}>
+          <div className="relative flex justify-center lg:justify-end">
+            {/* ambient brand glow */}
+            <div
+              aria-hidden
+              className="pointer-events-none absolute inset-0 -z-0"
+              style={{
+                background:
+                  "radial-gradient(50% 50% at 60% 45%, color-mix(in oklch, var(--primary) 22%, transparent), transparent 72%)",
+                filter: "blur(24px)",
+              }}
+            />
             <Image
               src="/images/solution/indivialheroimg.png"
-              alt={t('appScreensAlt')}
-              width={640}
-              height={480}
-              className="rounded-2xl w-full max-w-md lg:max-w-lg h-auto"
+              alt={t("appScreensAlt")}
+              width={900}
+              height={720}
+              priority
+              className="relative w-full max-w-lg drop-shadow-[0_30px_60px_rgba(15,23,42,0.16)] lg:max-w-[38rem] xl:max-w-[42rem]"
             />
           </div>
         </AnimateIn>

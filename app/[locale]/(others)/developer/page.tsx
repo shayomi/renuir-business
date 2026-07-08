@@ -1,10 +1,10 @@
 import { DeveloperHero } from "@/components/developer/DeveloperHero";
-import DeveloperPlatformSection from "@/components/developer/Documentation";
+import { DeveloperStory } from "@/components/developer/DeveloperStory";
 import ReadyToBuildCTA from "@/components/developer/ReadytoBuild";
 
 const SECTIONS = [
   { Component: DeveloperHero, className: "" },
-  { Component: DeveloperPlatformSection, className: "" },
+  { Component: DeveloperStory, className: "" },
   { Component: ReadyToBuildCTA, className: "" },
 ];
 

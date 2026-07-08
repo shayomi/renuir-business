@@ -1,5 +1,6 @@
 import DeveloperPlatform from "@/components/home/DeveloperPlatform";
 
+import { ClosingCTA } from "@/components/home/ClosingCTA";
 import ForIndividual from "@/components/home/ForIndividual";
 import { HomeHero } from "@/components/home/HomeHero";
 import { HowItWorks } from "@/components/home/HowItWorks";
@@ -13,6 +14,7 @@ const SECTIONS = [
   { Component: ForIndividual, className: "" },
   { Component: PrivateBeta, className: "" },
   { Component: DeveloperPlatform, className: "" },
+  { Component: ClosingCTA, className: "" },
 ];
 
 export default function Home() {

@@ -161,7 +161,8 @@
   --popover: oklch(0.985 0 0);
   --popover-foreground: oklch(0.18 0 0);
 
-  --primary: oklch(0.44 0.28 264);
+  /* Renuir brand blue #2438EB */
+  --primary: #2438eb;
   --primary-foreground: oklch(0.98 0 0);
 
   --secondary: oklch(0.96 0 0);
@@ -254,6 +255,41 @@
 
 .tracking-tightest {
   letter-spacing: -0.05em;
+}
+
+/* Professional elevation — soft, tinted to slate, never harsh black.
+   Used sparingly to lift key surfaces (cards, sticky nav, popovers). */
+.shadow-soft {
+  box-shadow:
+    0 1px 2px rgba(15, 23, 42, 0.04),
+    0 6px 16px -8px rgba(15, 23, 42, 0.08);
+}
+.shadow-elevated {
+  box-shadow:
+    0 1px 2px rgba(15, 23, 42, 0.05),
+    0 12px 32px -12px rgba(15, 23, 42, 0.14);
+}
+.shadow-brand {
+  box-shadow: 0 12px 32px -12px rgba(36, 56, 235, 0.35);
+}
+
+/* Apple-grade easing tokens for consistent motion across the app. */
+:root {
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out-soft: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
 }
 
 @keyframes slide-up {

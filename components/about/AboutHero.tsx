@@ -40,36 +40,16 @@ export function AboutHero() {
         </AnimateIn>
 
         <AnimateIn delay={0.12}>
-          <div className="mt-8 sm:mt-10 flex flex-wrap gap-3">
-            <Link href="/#waitlist">
-              <Button
-                variant="dark"
-                size="lg"
-                className="rounded-full"
-              >
-                <Image
-                  src="/images/icons/googleplayicon.svg"
-                  alt="Google Play"
-                  width={20}
-                  height={20}
-                />
-                {t('googlePlay')}
+          <div className="mt-8 sm:mt-10 flex flex-wrap justify-center gap-3">
+            <Link href="/about-us#contact">
+              <Button variant="dark" size="lg" className="rounded-full">
+                Book a demo
               </Button>
             </Link>
 
-            <Link href="/#waitlist">
-              <Button
-                variant="dark"
-                size="lg"
-                className="rounded-full"
-              >
-                <Image
-                  src="/images/icons/appleicon.svg"
-                  alt="Apple Store"
-                  width={20}
-                  height={20}
-                />
-                {t('appleStore')}
+            <Link href="/solutions">
+              <Button variant="outline" size="lg" className="rounded-full">
+                See how it works
               </Button>
             </Link>
           </div>

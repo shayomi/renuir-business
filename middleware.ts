@@ -5,8 +5,17 @@ import { routing } from './i18n/routing';
 const intlMiddleware = createIntlMiddleware(routing);
 
 function isAuthenticated(request: NextRequest): boolean {
-  const authHeader = request.headers.get('authorization');
+  const expectedUser = process.env.SITE_USER;
+  const expectedPassword = process.env.SITE_PASSWORD;
 
+  // No credentials configured => the gate is off, allow everyone through.
+  // (Must be checked BEFORE the header check, otherwise a request with no
+  // Authorization header is rejected even when no gate is configured.)
+  if (!expectedUser || !expectedPassword) {
+    return true;
+  }
+
+  const authHeader = request.headers.get('authorization');
   if (!authHeader?.startsWith('Basic ')) {
     return false;
   }
@@ -14,14 +23,6 @@ function isAuthenticated(request: NextRequest): boolean {
   const base64Credentials = authHeader.split(' ')[1];
   const credentials = atob(base64Credentials);
   const [user, password] = credentials.split(':');
-
-  const expectedUser = process.env.SITE_USER;
-  const expectedPassword = process.env.SITE_PASSWORD;
-
-  // If no credentials configured, allow through
-  if (!expectedUser || !expectedPassword) {
-    return true;
-  }
 
   return user === expectedUser && password === expectedPassword;
 }

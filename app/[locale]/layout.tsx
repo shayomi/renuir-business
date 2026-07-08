@@ -3,63 +3,63 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import { SITE_URL, shouldIndex, languageAlternates } from "@/lib/site";
 import "../globals.css";
 import Footer from "@/components/shared/footer/Footer";
 import { CookieConsent } from "@/components/shared/CookieConsent";
 import { ThemeProvider } from "@/components/shared/ThemeProvider";
 
-export const metadata: Metadata = {
-  metadataBase: new URL("https://renuir.com"),
-  title: {
-    default: "Renuir",
-    template: "%s | Renuir",
-  },
-  description:
-    "Renuir is the modern lost & found platform that actually works. Report once, and we search everywhere in real time to help you recover lost items with speed, dignity, and privacy.",
-  keywords: [
-    "Renuir",
-    "Lost and Found",
-    "Lost Items",
-    "Find My Item",
-    "Airports Lost and Found",
-    "Hotels Lost and Found",
-    "AI Lost and Found",
-    "Recovery Platform",
-    "Privacy First",
-    "Item Recovery",
-  ],
-  authors: [{ name: "Sayo Adegoroye" }],
-  openGraph: {
+const DESCRIPTION =
+  "Renuir turns the lost-and-found box into an auditable, automated recovery platform for hotels, airports, transit and venues. Computer-vision intake, secure returns, and full chain-of-custody.";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+
+  return {
+    metadataBase: new URL(SITE_URL),
     title: {
-      default: "Renuir",
+      default: "Renuir for Business — the recovery platform for lost-and-found",
       template: "%s | Renuir",
     },
-    description:
-      "Lost it? Renuir it. One report is all it takes. We search everywhere so you don't have to.",
-    type: "website",
-    siteName: "Renuir",
-  },
-  twitter: {
-    title: {
-      default: "Renuir",
-      template: "%s | Renuir",
+    description: DESCRIPTION,
+    keywords: [
+      "Renuir",
+      "lost and found software",
+      "lost and found for hotels",
+      "airport lost and found",
+      "venue item recovery",
+      "chain of custody lost property",
+      "lost property management platform",
+      "GDPR lost and found",
+    ],
+    authors: [{ name: "Renuir" }],
+    applicationName: "Renuir",
+    openGraph: {
+      title: "Renuir for Business — the recovery platform for lost-and-found",
+      description: DESCRIPTION,
+      type: "website",
+      siteName: "Renuir",
+      url: `${SITE_URL}/${locale}`,
+      locale,
     },
-    description:
-      "The modern lost & found platform that actually works. Report once. Get notified. Get it back.",
-    card: "summary_large_image",
-  },
-  alternates: {
-    canonical: "/",
-  },
-  robots: {
-    index: false,
-    follow: false,
-    googleBot: {
-      index: false,
-      follow: false,
+    twitter: {
+      title: "Renuir for Business",
+      description: DESCRIPTION,
+      card: "summary_large_image",
     },
-  },
-};
+    alternates: {
+      canonical: `${SITE_URL}/${locale}`,
+      languages: languageAlternates(""),
+    },
+    robots: shouldIndex
+      ? { index: true, follow: true, googleBot: { index: true, follow: true } }
+      : { index: false, follow: false, googleBot: { index: false, follow: false } },
+  };
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));

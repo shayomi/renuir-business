@@ -2,9 +2,9 @@
   "nav": {
     "home": "Startseite",
     "about": "Über uns",
-    "solutions": "Lösungen",
-    "enterprise": "Unternehmen",
-    "individual": "Privatpersonen",
+    "solutions": "Unternehmen",
+    "enterprise": "Enterprise",
+    "individual": "Kunden",
     "developers": "Entwickler",
     "getApp": "App laden",
     "joinWaitlist": "Warteliste"
@@ -24,19 +24,21 @@
     },
     "howItWorks": {
       "badge": "So funktioniert's",
-      "headline": "Drei Schritte. Mehr nicht.",
-      "subtitle": "Egal ob du etwas verloren oder gefunden hast — der Ablauf ist immer gleich.",
+      "headline": "In vier Schritten zurück zu deinem Gegenstand.",
+      "subtitle": "Ob verloren oder gefunden, der Weg ist derselbe.",
       "step1Title": "Melden",
-      "step1Desc": "Beschreibe den Gegenstand und mach ein Foto. Unsere KI erkennt Kategorie, Farbe und Marke automatisch.",
-      "step2Title": "Abgleich erhalten",
-      "step2Desc": "Renuir vergleicht Beschreibungen, Fotos, Standorte und Zeitpunkte. Bei einem Treffer wirst du sofort benachrichtigt.",
-      "step3Title": "Sicher zurückgeben",
-      "step3Desc": "Eigentum bestätigen, sicher chatten und die Übergabe vereinbaren. Mit unserem Übergabecode wird die Rückgabe bestätigt. Fertig."
+      "step1Desc": "Beschreibe, was du verloren oder gefunden hast, und füge ein Foto hinzu. Unsere KI erkennt Kategorie, Marke und Farbe für dich.",
+      "step2Title": "Treffer erhalten",
+      "step2Desc": "Renuir vergleicht Fotos, Beschreibungen und Standorte. Bei einem starken Treffer werden beide Seiten sofort benachrichtigt.",
+      "step3Title": "Eigentum bestätigen",
+      "step3Desc": "Bestätige die Details über eine sichere Anspruchsprüfung und den In-App-Chat, damit Gegenstände nur an ihren echten Eigentümer zurückgehen.",
+      "step4Title": "Zurückbekommen",
+      "step4Desc": "Wähle persönliche Abholung oder Kurierversand, bestätige die Übergabe, und fertig."
     },
     "forIndividual": {
       "badge": "FÜR PRIVATPERSONEN",
       "headline": "Deine Sachen. Wieder da.",
-      "subtitle": "Die Renuir-App ist kostenlos. Melde einen verlorenen Gegenstand in unter einer Minute, werde automatisch gematcht und hole ihn dir zurück — ohne Stress.",
+      "subtitle": "Die Renuir-App ist kostenlos. Melde einen verlorenen Gegenstand in unter einer Minute, lass ihn automatisch abgleichen und hol ihn dir zurück, ganz ohne Umwege.",
       "feature1": "KI-gestützter Abgleich bei allen Fundstellen in der Nähe",
       "feature2": "Eigentumsverifizierung, die beide Seiten schützt",
       "feature3": "Sicherer Chat mit dem Finder direkt in der App",
@@ -49,7 +51,7 @@
       "badge": "Private Beta",
       "headline": "Für Einrichtungen, die Fundsachen ernst nehmen.",
       "subtitle": "Flughäfen, Hotels und Verkehrsbetriebe verlieren jedes Jahr Tausende Gegenstände. Die meisten kommen nie zurück. Renuir gibt Ihrem Team ein System, das wirklich funktioniert.",
-      "feature1Title": "Foto-Aufnahme",
+      "feature1Title": "Foto-Erfassung",
       "feature1Desc": "Mitarbeiter erfassen Fundstücke in Sekunden. Unsere Bilderkennung identifiziert den Gegenstand automatisch.",
       "feature2Title": "Eigentumsverifizierung",
       "feature2Desc": "Intelligente Sicherheitsfragen stellen sicher, dass nur der echte Eigentümer einen Gegenstand erhält.",
@@ -74,13 +76,13 @@
   "about": {
     "hero": {
       "headline": "Wir sind für euch da",
-      "subtitle": "Renuir hilft Menschen, Verlorenes wiederzufinden — ohne Panik, Druck oder Ungewissheit.",
+      "subtitle": "Renuir hilft Menschen, Verlorenes wiederzufinden, ohne Panik, Druck oder Ungewissheit.",
       "googlePlay": "Google Play",
       "appleStore": "App Store"
     },
     "team": {
       "headline": "Das Team hinter Renuir",
-      "subtitle": "Kleines Team. Große Mission. Wir bauen die Infrastruktur für Fundsachen — von Berlin aus.",
+      "subtitle": "Kleines Team. Große Mission. Wir bauen die Infrastruktur für Fundsachen, von Berlin aus.",
       "cta": "Kontakt aufnehmen",
       "role1": "Mitgründer & CEO",
       "role2": "Mitgründer",
@@ -91,20 +93,20 @@
     },
     "trust": {
       "headline": "Vertrauen als Grundlage",
-      "subtitle": "Jede Designentscheidung beginnt mit einer Frage: Schützt das die Person, die etwas verloren hat?",
-      "feature1Title": "Nur verifizierte Fundstellen",
-      "feature1Desc": "Gegenstände werden nur von geprüften Unternehmen und Institutionen erfasst.",
+      "subtitle": "Wir verwalten Fundsachen, deshalb ist Datenschutz keine Option. Renuir ist nach DSGVO-Standards gebaut, mit EU-Hosting und klaren Regeln, wie lange Gegenstände und Daten aufbewahrt werden.",
+      "feature1Title": "DSGVO-konform von Grund auf",
+      "feature1Desc": "Datenminimierung, Aufbewahrungsfristen und Löschung auf Anfrage sind eingebaut, nicht nachträglich aufgesetzt.",
       "feature2Title": "Eigentumsverifizierung",
-      "feature2Desc": "Ansprüche erfordern Nachweise. Kein Gegenstand wird ohne Beweis herausgegeben.",
-      "feature3Title": "Keine öffentlichen Daten",
-      "feature3Desc": "Deine Identität bleibt privat, bis beide Seiten einen Treffer bestätigen.",
-      "feature4Title": "Lückenlose Dokumentation",
-      "feature4Desc": "Jede Aktion wird protokolliert. Nachvollziehbarkeit ist systemseitig eingebaut."
+      "feature2Desc": "Ansprüche erfordern Nachweise. Kein Gegenstand wird ohne Eigentumsnachweis herausgegeben.",
+      "feature3Title": "Keine öffentlichen personenbezogenen Daten",
+      "feature3Desc": "Angaben von Finder und Eigentümer bleiben privat, bis beide Seiten einen Treffer bestätigen.",
+      "feature4Title": "Lückenlose Nachverfolgung",
+      "feature4Desc": "Jedes Protokoll, jeder Anspruch und jede Übergabe wird erfasst, damit Rückgaben nachvollziehbar und überprüfbar bleiben."
     },
     "contact": {
       "badge": "Kontakt",
       "headline": "Lass uns reden.",
-      "subtitle": "Ob Sie eine Demo für Ihr Unternehmen suchen oder Hilfe brauchen — wir sind da.",
+      "subtitle": "Sie betreiben ein Hotel, einen Flughafen, einen Campus oder eine Verkaufsfläche? Buchen Sie eine Vorführung und sehen Sie, wie Renuir Fundsachen von A bis Z abwickelt.",
       "sidebar": {
         "title": "Kontaktinformationen",
         "emailLabel": "E-Mail",
@@ -112,7 +114,7 @@
         "email2": "support@renuir.com",
         "phoneLabel": "Telefon",
         "phone": "+49 (176) 3230-3721",
-        "phoneHours": "Mo–Fr, 9–18 Uhr MEZ",
+        "phoneHours": "Mo bis Fr, 9 bis 18 Uhr MEZ",
         "location": "Hauptsitz Berlin",
         "followUs": "Folge uns"
       },
@@ -124,12 +126,12 @@
         "subject": "Betreff",
         "subjectPlaceholder": "Renuir für unsere Einrichtung",
         "message": "Nachricht",
-        "messagePlaceholder": "Erzähl uns, was du brauchst...",
-        "submit": "Nachricht senden"
+        "messagePlaceholder": "Sagen Sie uns, was Sie brauchen...",
+        "submit": "Demo anfragen"
       }
     },
     "sectors": {
-      "headline": "Branchenübergreifend im Einsatz.",
+      "headline": "Für stark frequentierte Orte gebaut.",
       "airport": "Flughäfen & Verkehr",
       "airportDesc": "Hohes Passagieraufkommen. Grenzüberschreitende Rückgaben. Compliance-konform.",
       "hotel": "Hotels & Gastgewerbe",
@@ -145,15 +147,15 @@
       "betaBanner": "Renuir für Unternehmen ist in der Private Beta. Wir nehmen ausgewählte Partner auf.",
       "joinWaitlist": "Warteliste",
       "eyebrow": "FÜR UNTERNEHMEN & BEHÖRDEN",
-      "headline": "Das Betriebssystem für Fundsachen.",
-      "subtitle": "Ersetzen Sie die Fundkiste durch eine intelligente, prüfbare Rückgabeplattform. Werden Sie Teil der Einrichtungen, die die Zukunft der Fundabwicklung gestalten.",
+      "headline": "Fundsachen, so organisiert wie Ihr restlicher Betrieb.",
+      "subtitle": "Ersetzen Sie die Fundkiste durch eine nachverfolgbare, prüfbare Rückgabeplattform. Erfassen Sie Gegenstände in Sekunden, geben Sie sie automatisch zurück und weisen Sie die Übergabekette jederzeit nach.",
       "emailPlaceholder": "Ihre geschäftliche E-Mail",
       "cta": "Demo anfragen",
-      "socialProof": "Über 50 Unternehmenspartner auf der Warteliste"
+      "socialProof": "EU-Hosting und DSGVO-konform. Für Teams, die belegen müssen, wie jeder Gegenstand behandelt wurde."
     },
     "costs": {
       "headline": "Fundsachen sind eine unsichtbare Kostenstelle.",
-      "subtitle": "Für die meisten Einrichtungen ist das Fundbüro keine Priorität — es ist eine Unterbrechung. Mitarbeiter kümmern sich um aufgeregte Besucher, beantworten Anrufe und verwalten Lagerräume voller Fundstücke.",
+      "subtitle": "Für die meisten Einrichtungen ist das Fundbüro keine Priorität, sondern eine Unterbrechung. Mitarbeiter kümmern sich um aufgeregte Besucher, gehen Anrufen nach und verwalten Lagerräume voller Fundstücke.",
       "bullet1": "Ohne Nachweis und Dokumentation bleiben Sie haftbar.",
       "bullet2": "Mitarbeiter verbringen Stunden pro Woche mit manueller Erfassung.",
       "bullet3": "Nicht abgeholte Gegenstände häufen sich ohne Entsorgungsprozess.",
@@ -161,7 +163,7 @@
       "manualLogsAlt": "Manuelle Erfassung"
     },
     "manage": {
-      "headline": "Alles, was Sie brauchen. Nichts, was Sie nicht brauchen.",
+      "headline": "Eine Plattform für Erfassung, Rückgabe und Compliance.",
       "feature1Title": "Bildbasierte Erfassung",
       "feature1Desc": "Mitarbeiter machen ein Foto. Unsere KI erkennt Kategorie, Marke, Farbe und Zustand in Sekunden. Kein Tippen nötig.",
       "feature2Title": "Automatisierte Logistik",
@@ -172,10 +174,10 @@
       "mobileAppAlt": "Renuir Mobile-App"
     },
     "testimonials": {
-      "badge": "Referenzen",
-      "headline": "Vertraut von Betriebsleitern.",
-      "subtitle": "So machen zukunftsorientierte Einrichtungen aus einem Problem einen Service-Vorteil.",
-      "quote1": "Wir haben die Bearbeitungszeit im ersten Monat um 60% reduziert. Vorher war es Chaos — Tabellen, Anrufe, Rätselraten. Jetzt läuft es von allein.",
+      "badge": "Erste Partner",
+      "headline": "Gemeinsam mit den Teams gebaut, die dieses Problem täglich erleben.",
+      "subtitle": "Wir sind in der Private Beta und arbeiten direkt mit einer kleinen Gruppe von Betreibern aus Einrichtungen und Verkehr zusammen, um die Plattform an echten Rückgabeprozessen auszurichten.",
+      "quote1": "Wir haben die Bearbeitungszeit im ersten Monat um 60% reduziert. Vorher war es Chaos: Tabellen, Anrufe, Rätselraten. Jetzt läuft es von allein.",
       "quote1Name": "Sarah Jenkins",
       "quote1Role": "Betriebsleiterin, Grand Central Hub",
       "quote2": "Die API-Integration war nahtlos. Wir haben Renuir in weniger als einer Woche an unser Property-Management-System angebunden.",
@@ -184,6 +186,19 @@
       "quote3": "Compliance war unser größtes Problem. Die automatische Nachverfolgung von Renuir hat das über Nacht gelöst.",
       "quote3Name": "Elena Rodriguez",
       "quote3Role": "Sicherheitsleiterin, Metro Transit Authority"
+    },
+    "steps": {
+      "badge": "So funktioniert's",
+      "headline": "In vier Schritten ist der Gegenstand zurück.",
+      "subtitle": "Vom Tresen bis zum Eigentümer, ohne Anrufe und Lagerräume.",
+      "step1Title": "Ihr Team erfasst den Fund",
+      "step1Desc": "Ihre Mitarbeiter machen ein Foto. Die KI von Renuir erkennt Kategorie, Marke und Farbe. Keine Formulare, keine Tabellen.",
+      "step2Title": "Wir finden den Eigentümer",
+      "step2Desc": "Jeder Gegenstand wird mit eingehenden Verlustmeldungen abgeglichen, und beide Seiten werden benachrichtigt, sobald es eine Übereinstimmung gibt.",
+      "step3Title": "Die Eigentümerschaft wird verifiziert",
+      "step3Desc": "Ein sicherer Anspruch und der In-App-Chat bestätigen den echten Eigentümer, bevor etwas Ihre Einrichtung verlässt.",
+      "step4Title": "Rückgabe, lückenlos dokumentiert",
+      "step4Desc": "Abholung oder Kurier, mit einer vollständigen Übergabekette hinter jeder Rückgabe."
     }
   },
   "individual": {
@@ -191,7 +206,7 @@
       "betaBanner": "Die Renuir App ist in der Private Beta. Die Funktionen unten sind derzeit in der Vorschau.",
       "joinWaitlist": "Warteliste",
       "eyebrow": "FÜR PRIVATPERSONEN",
-      "headline": "Etwas verloren? Wir helfen dir, es zurückzubekommen.",
+      "headline": "Etwas verloren? Hol es dir zurück, ohne Umwege.",
       "subtitle": "Renuir verbindet deinen verlorenen Gegenstand mit dem Ort, der ihn gefunden hat. Intelligenter Abgleich, sicherer Chat, verifizierte Rückgabe.",
       "googlePlay": "Google Play",
       "appleStore": "App Store",
@@ -207,30 +222,30 @@
       "step3Title": "Eigentum bestätigen",
       "step3Desc": "Beantworte Verifizierungsfragen oder lade einen Nachweis hoch. Nur der echte Eigentümer erhält Zugang.",
       "step4Title": "Zurückholen",
-      "step4Desc": "Triff dich mit dem sicheren Übergabecode, oder lass dir den Gegenstand zuschicken."
+      "step4Desc": "Vereinbare eine sichere Übergabe mit Einmalcode, oder lass dir den Gegenstand zuschicken, wo verfügbar."
     },
     "purpose": {
-      "headline": "Für Situationen, die wirklich passieren.",
-      "card1Title": "Melden in unter einer Minute",
-      "card1Desc": "Foto und ein paar Details hinzufügen. Renuir erledigt den Rest.",
-      "card2Title": "Automatischer Abgleich",
-      "card2Desc": "Verlorene und gefundene Gegenstände werden laufend verglichen. Du wirst sofort benachrichtigt.",
-      "card3Title": "Chat mit der Fundstelle",
-      "card3Desc": "Sobald dein Anspruch bestätigt ist, schreibe dem Finder direkt, um die nächsten Schritte zu klären.",
-      "card4Title": "Flexible Rückgabe",
-      "card4Desc": "Persönlich abholen oder per Versand erhalten. Du entscheidest."
+      "headline": "Warum Menschen zu Renuir greifen.",
+      "card1Title": "Kein Herumtelefonieren mehr",
+      "card1Desc": "Schluss mit Warteschleife und Achselzucken an der Rezeption. Eine Meldung erreicht jeden Ort, der deinen Gegenstand haben könnte.",
+      "card2Title": "Wisse sofort, wenn es auftaucht",
+      "card2Desc": "Der Abgleich läuft rund um die Uhr. Sobald etwas zu deiner Meldung passt, leuchtet dein Handy auf.",
+      "card3Title": "Sprich direkt mit dem Ort",
+      "card3Desc": "Sobald dein Anspruch bestätigt ist, schreibe den Findern und klärt die Übergabe in wenigen Schritten.",
+      "card4Title": "Hol es dir, wie es dir passt",
+      "card4Desc": "Persönlich abholen oder zuschicken lassen. Du entscheidest, was am einfachsten ist."
     },
     "trust": {
       "headline": "Deine Privatsphäre ist nicht verhandelbar.",
-      "subtitle": "Renuir ersetzt das Fundbüro-Chaos durch ein System, das um deine Sicherheit herum gebaut ist.",
+      "subtitle": "Deinen Gegenstand zurückzubekommen darf nie bedeuten, deine Sicherheit oder deine Daten aufzugeben. Renuir ist andersherum gebaut.",
       "feature1Title": "Nur verifizierte Fundstellen",
       "feature1Desc": "Gegenstände werden nur von geprüften Unternehmen und Institutionen erfasst.",
-      "feature2Title": "Eigentumsnachweis",
+      "feature2Title": "Eigentumsprüfung bei jedem Anspruch",
       "feature2Desc": "Ansprüche erfordern Nachweise. Kein Gegenstand wird ohne Beweis herausgegeben.",
       "feature3Title": "Keine öffentlichen Daten",
       "feature3Desc": "Deine Daten werden erst geteilt, wenn beide Seiten einen Treffer bestätigen.",
       "feature4Title": "Lückenlose Dokumentation",
-      "feature4Desc": "Jede Aktion wird protokolliert — für Nachvollziehbarkeit und Transparenz."
+      "feature4Desc": "Jede Aktion wird protokolliert, für Nachvollziehbarkeit und Transparenz."
     }
   },
   "developer": {
@@ -242,7 +257,7 @@
       "subtitle": "Voller API-Zugang und White-Label-Deployment für Unternehmen, die die vollständige Kontrolle über ihre Fundabwicklung brauchen.",
       "emailPlaceholder": "Ihre geschäftliche E-Mail",
       "cta": "API-Zugang anfragen",
-      "socialProof": "Über 50 Unternehmenspartner auf der Warteliste"
+      "socialProof": "Private Beta. Fordern Sie API-Zugang an und wir melden uns bei Ihnen."
     },
     "docs": {
       "badge": "Entwicklerplattform",
@@ -251,11 +266,11 @@
       "apiTitle": "Renuir API",
       "apiDesc": "Headless-Integration für Fundmeldungen, KI-Abgleich, Anspruchsverifizierung und sicheren Chat.",
       "whitelabelTitle": "White-Label",
-      "whitelabelDesc": "Stellen Sie eine vollständig gebrandete Renuir-Instanz auf Ihrer Domain bereit — in Minuten.",
+      "whitelabelDesc": "Stellen Sie eine vollständig gebrandete Renuir-Instanz in Minuten auf Ihrer Domain bereit.",
       "tabDocs": "Dokumentation",
       "tabKeys": "API-Schlüssel",
       "tabSdks": "SDKs",
-      "apiKeysTitle": "API Keys",
+      "apiKeysTitle": "API-Schlüssel",
       "apiKeysDesc": "Zugriffstoken für Ihr Projekt verwalten.",
       "createNewKey": "Neuen Schlüssel erstellen",
       "productionKey": "Produktionsschlüssel",
@@ -281,7 +296,7 @@
     "forIndividuals": "Für Privatpersonen",
     "forIndividualsDesc": "Laden Sie die App herunter und starten Sie.",
     "forIndividualsCta": "App herunterladen",
-    "tagline": "Das Betriebssystem für Fundsachen. Genutzt von Einrichtungen und Städten für verantwortungsvolle Rückgaben.",
+    "tagline": "Die Fundsachen-Plattform. Einmal melden, schneller zurückbekommen.",
     "company": "Unternehmen",
     "legal": "Rechtliches",
     "forBusinesses": "Für Unternehmen",
@@ -301,7 +316,7 @@
     "requestDemo": "Demo anfragen",
     "beta": "Beta",
     "emailValidation": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
-    "joining": "Wird beigetreten...",
+    "joining": "Wird eingetragen...",
     "loading": "..."
   },
   "legal": {
@@ -394,9 +409,9 @@
       "contactPhone": "Telefon: +49 (176) 3230-3721",
       "odrTitle": "EU Online-Streitbeilegung",
       "odrBody": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr. Wir sind nicht verpflichtet und nicht bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
-      "disclaimerTitle": "Haftungsausschluss — Inhalte",
+      "disclaimerTitle": "Haftungsausschluss: Inhalte",
       "disclaimerContent": "Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt. Wir können jedoch keine Gewähr für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen.",
-      "disclaimerLinksTitle": "Haftungsausschluss — Links",
+      "disclaimerLinksTitle": "Haftungsausschluss: Links",
       "disclaimerLinksBody": "Unsere Website enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich."
     },
     "cookies": {

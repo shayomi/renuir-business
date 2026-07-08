@@ -97,7 +97,7 @@ export const faqs: FAQItem[] = [
   {
     question: "What if my item is never found?",
     answer:
-      "Unfortunately, not every lost item gets turned in. Your report stays active for 90 days, and we'll continue searching as new items are logged by our partner venues. If your item isn't found, you haven't lost anything—the service is free. We also provide tips on additional steps you can take, like contacting venues directly or filing police reports for valuable items.",
+      "Unfortunately, not every lost item gets turned in. Your report stays active for 90 days, and we'll continue searching as new items are logged by our partner venues. If your item isn't found, you haven't lost anything, the service is free. We also provide tips on additional steps you can take, like contacting venues directly or filing police reports for valuable items.",
   },
   {
     question: "Can businesses and venues use Renuir?",
@@ -128,22 +128,22 @@ export const trustedByStats = [
     icon: Clock,
     value: "Always on",
     label: "We search 24/7",
-    bg: "bg-orange-50",
-    iconColor: "text-orange-500",
+    bg: "bg-primary-50",
+    iconColor: "text-primary-600",
   },
   {
     icon: ShieldCheck,
     value: "Private",
     label: "Your info stays safe",
-    bg: "bg-green-50",
-    iconColor: "text-green-600",
+    bg: "bg-primary-50",
+    iconColor: "text-primary-600",
   },
   {
     icon: Heart,
     value: "Free",
     label: "for individuals",
-    bg: "bg-purple-50",
-    iconColor: "text-purple-600",
+    bg: "bg-primary-50",
+    iconColor: "text-primary-600",
   },
 ];
 

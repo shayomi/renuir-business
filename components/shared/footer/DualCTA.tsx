@@ -9,9 +9,9 @@ import { useTranslations } from "next-intl";
 const DualCTA = () => {
   const t = useTranslations('footer');
   return (
-    <section className="bg-slate-950 py-24">
+    <section className="bg-slate-950 py-16 sm:py-24">
       <div className="app-container">
-        <div className="relative overflow-hidden rounded-3xl">
+        <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl">
           <Image
             src="/images/home/glossybg.svg"
             alt=""
@@ -22,7 +22,7 @@ const DualCTA = () => {
           <div className="absolute inset-0 bg-black/10 backdrop-blur-md" />
 
           <div className="relative grid divide-y divide-white/20 lg:grid-cols-2 lg:divide-x lg:divide-y-0">
-            <div className="flex flex-col gap-3 items-center px-8 py-16 text-center">
+            <div className="flex flex-col gap-3 items-center px-6 sm:px-8 py-12 sm:py-16 text-center">
               <Typography variant="h2" className="text-white">
                 {t('forBusiness')}
               </Typography>
@@ -35,14 +35,14 @@ const DualCTA = () => {
                 <Button
                   size="lg"
                   variant="secondary"
-                  className="mt-4 rounded-full"
+                  className="mt-3 sm:mt-4 rounded-full"
                 >
                   {t('forBusinessCta')}
                 </Button>
               </Link>
             </div>
 
-            <div className="flex flex-col gap-3 items-center px-8 py-16 text-center">
+            <div className="flex flex-col gap-3 items-center px-6 sm:px-8 py-12 sm:py-16 text-center">
               <Typography variant="h2" className="text-white">
                 {t('forIndividuals')}
               </Typography>
@@ -55,7 +55,7 @@ const DualCTA = () => {
                 <Button
                   size="lg"
                   variant="secondary"
-                  className="mt-4 rounded-full"
+                  className="mt-3 sm:mt-4 rounded-full"
                 >
                   {t('forIndividualsCta')}
                 </Button>

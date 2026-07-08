@@ -36,7 +36,7 @@ export function TrustFeatures() {
         <div className="flex flex-col lg:flex-row gap-10 lg:gap-16 items-start justify-between">
           <AnimateIn>
             <div className="max-w-lg">
-              <Typography variant="h1" className="mb-4">
+              <Typography variant="h1" as="h2" className="mb-4">
                 {t('headline')}
               </Typography>
               <Typography variant="lead">

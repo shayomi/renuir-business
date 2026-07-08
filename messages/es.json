@@ -2,9 +2,9 @@
   "nav": {
     "home": "Inicio",
     "about": "Nosotros",
-    "solutions": "Soluciones",
+    "solutions": "Empresas",
     "enterprise": "Empresas",
-    "individual": "Particulares",
+    "individual": "Clientes",
     "developers": "Desarrolladores",
     "getApp": "Descargar la app",
     "joinWaitlist": "Unirse a la lista"
@@ -19,19 +19,21 @@
     },
     "change": {
       "headline": "Esa sensación horrible cuando te das cuenta de que ya no está.",
-      "body": "Tu cartera en el aeropuerto. Tus llaves en el hotel. Tus auriculares en el tren. El pánico es instantáneo. El proceso para recuperarlo? Está roto. Los establecimientos lidian con hojas de cálculo, llamadas sin respuesta y cajas de objetos sin reclamar. Tú te quedas adivinando.",
+      "body": "Tu cartera en el aeropuerto. Tus llaves en el hotel. Tus auriculares en el tren. El pánico es instantáneo. ¿Y el proceso para recuperarlo? Está roto. Los establecimientos lidian con hojas de cálculo, llamadas sin respuesta y cajas de objetos sin reclamar. A ti solo te queda adivinar.",
       "punchline": "Renuir soluciona esto."
     },
     "howItWorks": {
       "badge": "Cómo funciona",
-      "headline": "Tres pasos. Eso es todo.",
-      "subtitle": "Da igual si perdiste algo o encontraste algo, el proceso es el mismo.",
+      "headline": "Cuatro pasos para recuperar tu objeto.",
+      "subtitle": "Ya sea que perdiste o encontraste algo, el camino es el mismo.",
       "step1Title": "Repórtalo",
-      "step1Desc": "Describe lo que perdiste o encontraste. Añade una foto. Nuestra IA se encarga de la categorización, color y marca automáticamente.",
-      "step2Title": "Recibe tu coincidencia",
-      "step2Desc": "Renuir compara descripciones, fotos, ubicaciones y horarios. Cuando hay coincidencia, ambas partes reciben notificación al instante.",
-      "step3Title": "Devuélvelo de forma segura",
-      "step3Desc": "Verifica la propiedad, chatea de forma segura y organiza la entrega. Usa nuestro código de entrega para confirmar la devolución. Listo."
+      "step1Desc": "Describe lo que perdiste o encontraste y añade una foto. Nuestra IA etiqueta la categoría, la marca y el color por ti.",
+      "step2Title": "Encuentra tu coincidencia",
+      "step2Desc": "Renuir compara fotos, descripciones y ubicaciones. Una coincidencia fuerte notifica a ambas partes al instante.",
+      "step3Title": "Verifica la propiedad",
+      "step3Desc": "Confirma los detalles mediante una reclamación segura y el chat en la app, para que los objetos solo vuelvan a su dueño real.",
+      "step4Title": "Recupéralo",
+      "step4Desc": "Elige recogida en persona o envío por mensajería, confirma la entrega, y listo."
     },
     "forIndividual": {
       "badge": "PARA PARTICULARES",
@@ -47,7 +49,7 @@
     },
     "privateBeta": {
       "badge": "Beta privada",
-      "headline": "Para establecimientos que quieren gestionar objetos perdidos bien.",
+      "headline": "Para establecimientos que quieren gestionar bien los objetos perdidos.",
       "subtitle": "Aeropuertos, hoteles y centros de transporte pierden miles de objetos cada año. La mayoría nunca se devuelven. Renuir da a tu equipo un sistema que realmente funciona.",
       "feature1Title": "Registro con foto",
       "feature1Desc": "El personal registra objetos en segundos. Nuestra visión artificial identifica el objeto automáticamente.",
@@ -90,21 +92,21 @@
       "role6": "Desarrollador Frontend"
     },
     "trust": {
-      "headline": "Construido sobre confianza",
-      "subtitle": "Cada decisión de diseño empieza con una pregunta: ¿esto protege a la persona que perdió algo?",
-      "feature1Title": "Solo establecimientos verificados",
-      "feature1Desc": "Los objetos son registrados por negocios e instituciones que hemos verificado.",
+      "headline": "Construido sobre la confianza",
+      "subtitle": "Gestionamos objetos perdidos, así que la protección de datos no es opcional. Renuir cumple el RGPD por diseño, con alojamiento de datos en la UE y reglas claras sobre cuánto tiempo se conservan objetos y registros.",
+      "feature1Title": "Conforme al RGPD por diseño",
+      "feature1Desc": "La minimización de datos, los límites de conservación y la eliminación a petición vienen integrados de fábrica, no añadidos después.",
       "feature2Title": "Verificación de propiedad",
-      "feature2Desc": "Las reclamaciones requieren evidencia. Ningún objeto se entrega sin prueba.",
+      "feature2Desc": "Las reclamaciones requieren pruebas. Ningún objeto se entrega sin acreditar la propiedad.",
       "feature3Title": "Sin datos personales públicos",
-      "feature3Desc": "Tu identidad permanece privada hasta que ambas partes confirman la coincidencia.",
+      "feature3Desc": "Los datos de quien encuentra y quien reclama permanecen privados hasta que ambas partes confirman la coincidencia.",
       "feature4Title": "Registro de auditoría completo",
-      "feature4Desc": "Cada acción queda registrada. La responsabilidad está integrada en el sistema."
+      "feature4Desc": "Cada registro, reclamación y entrega queda documentado, para que las devoluciones sean responsables y trazables."
     },
     "contact": {
       "badge": "Contáctanos",
       "headline": "Hablemos.",
-      "subtitle": "Ya seas un establecimiento buscando una demo o alguien que necesita ayuda, estamos aquí.",
+      "subtitle": "¿Gestionas un hotel, aeropuerto, campus o comercio? Reserva una demostración y descubre cómo Renuir gestiona los objetos encontrados de principio a fin.",
       "sidebar": {
         "title": "Información de contacto",
         "emailLabel": "Email",
@@ -125,11 +127,11 @@
         "subjectPlaceholder": "Renuir para nuestro establecimiento",
         "message": "Mensaje",
         "messagePlaceholder": "Cuéntanos qué necesitas...",
-        "submit": "Enviar mensaje"
+        "submit": "Solicitar una demo"
       }
     },
     "sectors": {
-      "headline": "Usado en múltiples sectores.",
+      "headline": "Diseñado para lugares de alto tránsito.",
       "airport": "Aeropuertos y transporte",
       "airportDesc": "Alto volumen de pasajeros. Devoluciones internacionales. Listo para cumplimiento normativo.",
       "hotel": "Hoteles y hostelería",
@@ -145,15 +147,15 @@
       "betaBanner": "Renuir para Empresas está en beta privada. Actualmente incorporando socios seleccionados.",
       "joinWaitlist": "Unirse a la lista",
       "eyebrow": "PARA EMPRESAS Y GOBIERNO",
-      "headline": "El sistema operativo para objetos perdidos.",
-      "subtitle": "Sustituye la caja de objetos perdidos por una plataforma de recuperación inteligente y auditable. Únete a los establecimientos que ya están definiendo el futuro de las devoluciones.",
+      "headline": "Gestiona los objetos perdidos como el resto de tu operación.",
+      "subtitle": "Sustituye la caja de objetos perdidos por una plataforma de recuperación rastreable y auditable. Registra objetos en segundos, devuélvelos de forma automática y demuestra la cadena de custodia cuando lo necesites.",
       "emailPlaceholder": "Introduce tu email profesional",
       "cta": "Solicitar una demo",
-      "socialProof": "Únete a más de 50 socios empresariales en la lista de espera"
+      "socialProof": "Alojado en la UE y conforme al RGPD. Creado para equipos que deben demostrar cómo se gestionó cada objeto."
     },
     "costs": {
       "headline": "Los objetos perdidos son un centro de costes invisible.",
-      "subtitle": "Para la mayoría de establecimientos, los objetos perdidos no son una prioridad. Son una interrupción. El personal lidia con visitantes nerviosos, llamadas manuales y almacenes llenos de objetos sin reclamar.",
+      "subtitle": "Para la mayoría de establecimientos son una interrupción, no una prioridad. El personal atiende a visitantes nerviosos, persigue objetos por teléfono y ve cómo los almacenes se llenan de cosas que nadie recoge.",
       "bullet1": "Reclamaciones sin verificar y sin registro de auditoría te exponen a responsabilidades.",
       "bullet2": "El personal dedica horas cada semana al registro manual y emails.",
       "bullet3": "Los objetos sin reclamar se acumulan sin proceso de eliminación.",
@@ -161,20 +163,20 @@
       "manualLogsAlt": "Proceso de registro manual"
     },
     "manage": {
-      "headline": "Todo lo que necesitas. Nada que no.",
+      "headline": "Una sola plataforma para registro, devolución y cumplimiento.",
       "feature1Title": "Registro con visión artificial",
       "feature1Desc": "El personal hace una foto. Nuestra IA identifica categoría, marca, color y estado en segundos. Sin escribir nada.",
       "feature2Title": "Logística automatizada",
-      "feature2Desc": "Etiquetas de envío con un clic. Integración con mensajería. Los objetos se devuelven, no se almacenan para siempre.",
+      "feature2Desc": "Etiquetas de envío con un clic y recogida por mensajería. Los objetos vuelven a su dueño en vez de quedarse en el almacén.",
       "feature3Title": "Auditoría y cumplimiento",
-      "feature3Desc": "Registros completos de cadena de custodia. Flujos automatizados de eliminación tras el periodo de retención. Preparado para GDPR.",
+      "feature3Desc": "Un registro completo de cadena de custodia para cada objeto, además de eliminación automática cuando termina el periodo de conservación. Conforme al RGPD por defecto.",
       "cvPreviewAlt": "Reconocimiento de artículos por visión artificial",
       "mobileAppAlt": "Aplicación móvil de Renuir"
     },
     "testimonials": {
-      "badge": "Testimonios",
-      "headline": "La confianza de líderes operativos.",
-      "subtitle": "Descubre cómo organizaciones innovadoras están convirtiendo los objetos perdidos de un problema en un punto de fidelización.",
+      "badge": "Primeros socios",
+      "headline": "Creado con los equipos que viven este problema.",
+      "subtitle": "Estamos en beta privada, trabajando directamente con un grupo reducido de operadores de establecimientos y transporte para dar forma a la plataforma en torno a flujos de recuperación reales.",
       "quote1": "Reducimos el tiempo de procesamiento de objetos un 60% en el primer mes. Antes era un caos... hojas de cálculo, llamadas, suposiciones. Ahora funciona solo.",
       "quote1Name": "Sarah Jenkins",
       "quote1Role": "Directora de Operaciones, Grand Central Hub",
@@ -184,6 +186,19 @@
       "quote3": "El cumplimiento normativo era nuestro mayor dolor de cabeza. Los registros automatizados de cadena de custodia de Renuir lo solucionaron de la noche a la mañana.",
       "quote3Name": "Elena Rodriguez",
       "quote3Role": "Jefa de Seguridad, Metro Transit Authority"
+    },
+    "steps": {
+      "badge": "Cómo funciona",
+      "headline": "Cuatro pasos para recuperar el objeto.",
+      "subtitle": "Del mostrador a su dueño, sin las llamadas ni los almacenes.",
+      "step1Title": "Su equipo lo registra",
+      "step1Desc": "El personal hace una foto. La IA de Renuir etiqueta la categoría, la marca y el color. Sin formularios ni hojas de cálculo.",
+      "step2Title": "Encontramos al dueño",
+      "step2Desc": "Cada objeto se coteja con los reportes de pérdida entrantes, y ambas partes reciben aviso en cuanto hay una coincidencia.",
+      "step3Title": "Se verifica la propiedad",
+      "step3Desc": "Una reclamación segura y el chat en la app confirman al dueño real antes de que nada salga de su establecimiento.",
+      "step4Title": "Se devuelve, con registro",
+      "step4Desc": "Recogida o mensajería, con un registro completo de la cadena de custodia detrás de cada entrega."
     }
   },
   "individual": {
@@ -191,7 +206,7 @@
       "betaBanner": "La app de Renuir está en beta privada. Las funciones a continuación están en modo vista previa.",
       "joinWaitlist": "Unirse a la lista",
       "eyebrow": "PARA PARTICULARES",
-      "headline": "¿Perdiste algo? Te ayudamos a recuperarlo.",
+      "headline": "¿Perdiste algo? Recupéralo sin complicaciones.",
       "subtitle": "Renuir conecta tu objeto perdido con el establecimiento que lo encontró. Coincidencia inteligente, chat seguro, devoluciones verificadas.",
       "googlePlay": "Google Play",
       "appleStore": "App Store",
@@ -199,38 +214,38 @@
     },
     "overview": {
       "headline": "Cuatro pasos para recuperar tu objeto.",
-      "subtitle": "Convertimos el caos de los objetos perdidos en un proceso simple y guiado.",
+      "subtitle": "Convertimos los objetos perdidos en un proceso simple y guiado que puedes seguir desde tu teléfono.",
       "step1Title": "Reporta o busca",
-      "step1Desc": "Describe lo que perdiste o explora objetos reportados por establecimientos cercanos.",
+      "step1Desc": "Describe lo que perdiste o explora los objetos que ya han registrado los establecimientos cercanos.",
       "step2Title": "Coincidencia inteligente",
-      "step2Desc": "Recibe notificación cuando hay coincidencia. Renuir compara fotos, descripciones, ubicación y horario.",
-      "step3Title": "Verifica la propiedad",
-      "step3Desc": "Responde preguntas de verificación o sube una prueba. Solo el verdadero dueño obtiene acceso.",
+      "step2Desc": "Renuir compara fotos, descripciones, ubicación y hora, y te avisa en cuanto algo encaja.",
+      "step3Title": "Verifica que es tuyo",
+      "step3Desc": "Responde unas preguntas de propiedad o sube una prueba. Solo el verdadero dueño obtiene acceso.",
       "step4Title": "Recupéralo",
-      "step4Desc": "Queda en persona con un código de entrega seguro o elige el envío cuando esté disponible."
+      "step4Desc": "Coordina una entrega segura con un código de un solo uso, o elige el envío donde esté disponible."
     },
     "purpose": {
-      "headline": "Diseñado para momentos reales.",
-      "card1Title": "Reporta en menos de un minuto",
-      "card1Desc": "Añade una foto y unos detalles. Renuir se encarga del resto.",
-      "card2Title": "Coincidencia automática",
-      "card2Desc": "Objetos perdidos y encontrados se comparan continuamente. Recibes notificación en el momento que algo encaja.",
-      "card3Title": "Chatea con el establecimiento",
-      "card3Desc": "Una vez aprobada tu reclamación, escribe directamente a quien lo encontró para coordinar los siguientes pasos.",
-      "card4Title": "Devolución flexible",
-      "card4Desc": "Recógelo en persona o solicita el envío. Tú eliges."
+      "headline": "Por qué la gente elige Renuir.",
+      "card1Title": "Se acabaron las llamadas",
+      "card1Desc": "Olvídate de la música de espera y del encogimiento de hombros en recepción. Un solo reporte llega a cada establecimiento que podría tener tu objeto.",
+      "card2Title": "Entérate en cuanto aparezca",
+      "card2Desc": "La búsqueda de coincidencias funciona las 24 horas. En cuanto algo encaja con tu reporte, tu teléfono se enciende.",
+      "card3Title": "Habla directamente con el establecimiento",
+      "card3Desc": "Una vez validada tu reclamación, escribe a quienes lo encontraron y coordina la entrega en unos toques.",
+      "card4Title": "Recíbelo a tu manera",
+      "card4Desc": "Recógelo en persona o pide que te lo envíen. Tú decides qué es más fácil."
     },
     "trust": {
       "headline": "Tu privacidad no es opcional.",
-      "subtitle": "Renuir sustituye el caos de los objetos perdidos por un sistema diseñado para tu seguridad.",
+      "subtitle": "Recuperar tu objeto nunca debería costarte tu seguridad ni tus datos. Renuir está diseñado justo al revés.",
       "feature1Title": "Solo establecimientos verificados",
-      "feature1Desc": "Los objetos son registrados por negocios e instituciones que hemos verificado.",
-      "feature2Title": "Comprobación de propiedad",
-      "feature2Desc": "Las reclamaciones requieren evidencia. Ningún objeto se entrega sin prueba.",
+      "feature1Desc": "Los objetos los registran negocios e instituciones que hemos verificado, no desconocidos anónimos.",
+      "feature2Title": "Comprobación de propiedad en cada reclamación",
+      "feature2Desc": "Las reclamaciones requieren pruebas. No se entrega nada hasta confirmar al dueño legítimo.",
       "feature3Title": "Sin datos personales públicos",
-      "feature3Desc": "Tus datos se comparten solo después de que ambas partes confirmen la coincidencia.",
-      "feature4Title": "Registro de auditoría claro",
-      "feature4Desc": "Cada acción queda registrada para responsabilidad y transparencia."
+      "feature3Desc": "Tus datos de contacto permanecen ocultos hasta que ambas partes confirman la coincidencia.",
+      "feature4Title": "Un registro claro de cada paso",
+      "feature4Desc": "Cada acción queda registrada, para que las devoluciones sean responsables y fáciles de rastrear."
     }
   },
   "developer": {
@@ -242,7 +257,7 @@
       "subtitle": "Acceso completo a la API y despliegue white-label para empresas que necesitan control total sobre sus operaciones de objetos perdidos.",
       "emailPlaceholder": "Introduce tu email profesional",
       "cta": "Solicitar acceso API",
-      "socialProof": "Únete a más de 50 socios empresariales en la lista de espera"
+      "socialProof": "Beta privada. Solicita acceso a la API y nos pondremos en contacto contigo."
     },
     "docs": {
       "badge": "Plataforma para desarrolladores",
@@ -255,7 +270,7 @@
       "tabDocs": "Documentación",
       "tabKeys": "Claves API",
       "tabSdks": "SDKs",
-      "apiKeysTitle": "API Keys",
+      "apiKeysTitle": "Claves API",
       "apiKeysDesc": "Gestiona los tokens de acceso de tu proyecto.",
       "createNewKey": "Crear nueva clave",
       "productionKey": "Clave de producción",
@@ -281,7 +296,7 @@
     "forIndividuals": "Para Particulares",
     "forIndividualsDesc": "Descarga la app y empieza a recuperar.",
     "forIndividualsCta": "Descargar la app",
-    "tagline": "El sistema operativo para objetos perdidos. Usado por establecimientos y ciudades para devolver objetos de forma responsable.",
+    "tagline": "La plataforma de recuperación para objetos perdidos. Reporta una vez, recupera más rápido.",
     "company": "Empresa",
     "legal": "Legal",
     "forBusinesses": "Para Empresas",
@@ -301,7 +316,7 @@
     "requestDemo": "Solicitar una demo",
     "beta": "Beta",
     "emailValidation": "Introduce una dirección de correo electrónico válida",
-    "joining": "Uniéndose...",
+    "joining": "Uniéndote...",
     "loading": "..."
   },
   "legal": {
@@ -394,9 +409,9 @@
       "contactPhone": "Teléfono: +49 (176) 3230-3721",
       "odrTitle": "Resolución de litigios en línea de la UE",
       "odrBody": "La Comisión Europea proporciona una plataforma para la resolución de litigios en línea (ODR): https://ec.europa.eu/consumers/odr. No estamos obligados ni dispuestos a participar en procedimientos de resolución de litigios ante una junta de arbitraje de consumo.",
-      "disclaimerTitle": "Exención de responsabilidad — Contenido",
+      "disclaimerTitle": "Exención de responsabilidad: Contenido",
       "disclaimerContent": "Los contenidos de nuestras páginas han sido elaborados con el mayor esmero. No obstante, no podemos garantizar la exactitud, integridad ni actualidad de los contenidos. Como proveedor de servicios, somos responsables de nuestros propios contenidos conforme al § 7(1) TMG. Sin embargo, conforme a los §§ 8 a 10 TMG, no estamos obligados a supervisar la información transmitida o almacenada por terceros ni a investigar circunstancias que indiquen una actividad ilícita.",
-      "disclaimerLinksTitle": "Exención de responsabilidad — Enlaces",
+      "disclaimerLinksTitle": "Exención de responsabilidad: Enlaces",
       "disclaimerLinksBody": "Nuestro sitio web contiene enlaces a sitios web externos de terceros sobre cuyo contenido no tenemos influencia. Por ello, no podemos asumir responsabilidad alguna por dichos contenidos. El proveedor o administrador respectivo de las páginas enlazadas es siempre responsable de sus contenidos. Se comprobó que las páginas enlazadas no contenían infracciones legales en el momento de establecer el enlace."
     },
     "cookies": {

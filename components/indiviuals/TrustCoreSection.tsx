@@ -1,95 +1,91 @@
 "use client";
 
-import { Store, IdCard, Database, ScrollText } from "lucide-react";
+import { Lock, BadgeCheck, FileCheck, EyeOff, History } from "lucide-react";
 import { Typography } from "@/components/ui/typography";
+import { LeadForm } from "@/components/shared/LeadForm";
 import AnimateIn from "@/components/ui/AnimateIn";
 import { useTranslations } from "next-intl";
+
+const featureIcons = [BadgeCheck, FileCheck, EyeOff, History];
 
 export default function TrustCoreSection() {
   const t = useTranslations("individual.trust");
 
-  const trustItems = [
-    {
-      title: t("feature1Title"),
-      description: t("feature1Desc"),
-      icon: Store,
-      iconWrapperClass: "bg-primary-50 dark:bg-primary/15",
-      iconClass: "text-primary",
-    },
-    {
-      title: t("feature2Title"),
-      description: t("feature2Desc"),
-      icon: IdCard,
-      iconWrapperClass: "bg-rose-50 dark:bg-rose-500/15",
-      iconClass: "text-rose-600 dark:text-rose-400",
-    },
-    {
-      title: t("feature3Title"),
-      description: t("feature3Desc"),
-      icon: Database,
-      iconWrapperClass: "bg-amber-50 dark:bg-amber-500/15",
-      iconClass: "text-amber-600 dark:text-amber-400",
-    },
-    {
-      title: t("feature4Title"),
-      description: t("feature4Desc"),
-      icon: ScrollText,
-      iconWrapperClass: "bg-emerald-50 dark:bg-emerald-500/15",
-      iconClass: "text-emerald-600 dark:text-emerald-400",
-    },
-  ];
+  const features = featureIcons.map((Icon, i) => ({
+    Icon,
+    title: t(`feature${i + 1}Title` as "feature1Title" | "feature2Title" | "feature3Title" | "feature4Title"),
+    description: t(
+      `feature${i + 1}Desc` as "feature1Desc" | "feature2Desc" | "feature3Desc" | "feature4Desc",
+    ),
+  }));
 
   return (
-    <section className="w-full bg-muted py-16 sm:py-24 lg:py-32">
+    <section className="w-full py-16 sm:py-24 lg:py-32">
       <div className="app-container">
-        <div className="grid gap-10 sm:gap-12 lg:grid-cols-[1.05fr_1fr] lg:gap-x-20">
-          <AnimateIn>
-            <div className="max-w-lg">
-              <Typography
-                variant="h1"
-                className="font-semibold tracking-tight text-foreground"
-              >
-                {t("headline")}
-              </Typography>
+        <AnimateIn>
+          <div className="overflow-hidden rounded-3xl bg-card shadow-elevated ring-1 ring-border">
+            <div className="grid lg:grid-cols-[0.9fr_1.1fr]">
+              {/* privacy intro rail */}
+              <div className="border-b border-border bg-primary/5 p-8 sm:p-10 lg:border-b-0 lg:border-r lg:p-12">
+                <div className="flex size-12 items-center justify-center rounded-2xl bg-primary text-white shadow-soft">
+                  <Lock className="size-5" strokeWidth={2} />
+                </div>
+                <Typography variant="h2" className="mt-6 text-foreground">
+                  {t("headline")}
+                </Typography>
+                <Typography variant="lead" className="mt-4 text-muted-foreground">
+                  {t("subtitle")}
+                </Typography>
+              </div>
 
-              <Typography
-                variant="lead"
-                className="mt-4 sm:mt-6 lg:mt-8 text-muted-foreground"
-              >
-                {t("subtitle")}
-              </Typography>
+              {/* privacy guarantees as a checklist */}
+              <div className="p-8 sm:p-10 lg:p-12">
+                <ul className="flex flex-col">
+                  {features.map((feature, index) => {
+                    const Icon = feature.Icon;
+                    return (
+                      <li
+                        key={feature.title}
+                        className={`flex gap-4 py-5 first:pt-0 last:pb-0 ${
+                          index !== 0 ? "border-t border-border" : ""
+                        }`}
+                      >
+                        <div className="flex size-9 shrink-0 items-center justify-center rounded-xl bg-primary/10 text-primary">
+                          <Icon className="size-[18px]" strokeWidth={2} />
+                        </div>
+                        <div>
+                          <Typography variant="h4" className="text-foreground">
+                            {feature.title}
+                          </Typography>
+                          <Typography
+                            variant="mutedText"
+                            className="mt-1.5 text-muted-foreground"
+                          >
+                            {feature.description}
+                          </Typography>
+                        </div>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
             </div>
-          </AnimateIn>
 
-          <div className="grid grid-cols-1 gap-8 sm:gap-10 sm:grid-cols-2 lg:gap-x-12 lg:gap-y-12">
-            {trustItems.map((item, index) => {
-              const Icon = item.icon;
-
-              return (
-                <AnimateIn key={item.title} delay={index * 0.04}>
-                  <div className="max-w-[272px]">
-                    <div
-                      className={`flex h-10 w-10 items-center justify-center rounded-lg ${item.iconWrapperClass}`}
-                    >
-                      <Icon className={`h-5 w-5 stroke-[2] ${item.iconClass}`} />
-                    </div>
-
-                    <Typography variant="h4" className="mt-4 text-foreground">
-                      {item.title}
-                    </Typography>
-
-                    <Typography
-                      variant="mutedText"
-                      className="mt-2 sm:mt-3 text-muted-foreground"
-                    >
-                      {item.description}
-                    </Typography>
-                  </div>
-                </AnimateIn>
-              );
-            })}
+            {/* honest closing CTA */}
+            <div className="flex flex-col items-start gap-4 border-t border-border px-8 py-8 sm:flex-row sm:items-center sm:justify-between sm:px-10 lg:px-12">
+              <Typography variant="largeText" className="text-foreground">
+                Be one of the first to try Renuir.
+              </Typography>
+              <LeadForm
+                source="waitlist"
+                cta="Join the beta"
+                placeholder="Enter your email"
+                variant="light"
+                className="max-w-sm"
+              />
+            </div>
           </div>
-        </div>
+        </AnimateIn>
       </div>
     </section>
   );

@@ -11,7 +11,6 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { getMenuItems } from "@/components/data/menuItems";
 import { LanguageSwitcher } from "../LanguageSwitcher";
-import { ThemeToggle } from "../ThemeToggle";
 
 const MobileNav = () => {
   const t = useTranslations('nav');
@@ -146,7 +145,6 @@ const MobileNav = () => {
 
             <div className="p-6 border-t border-border/50 mt-auto space-y-3">
               <div className="flex items-center justify-center gap-2">
-                <ThemeToggle variant="dark" />
                 <LanguageSwitcher variant="dark" />
               </div>
               <Link href="/#waitlist" onClick={() => setSheetOpen(false)}>

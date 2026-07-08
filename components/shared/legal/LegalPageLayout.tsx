@@ -1,11 +1,19 @@
 import Nav from "@/components/shared/navbar/Nav";
 import { Typography } from "@/components/ui/typography";
+import { LegalArticle } from "@/components/shared/legal/LegalArticle";
 
 interface LegalPageLayoutProps {
   title: string;
   lastUpdated: string;
   children: React.ReactNode;
 }
+
+// Legal pages are informational and jurisdiction-sensitive, so this notice is
+// intentionally hardcoded in English across all locales.
+const LEGAL_DISCLAIMER =
+  "This document is provided for general information only and does not constitute legal advice. It should be reviewed and adapted by qualified legal counsel before you rely on it. Fields shown in square brackets are placeholders that must be completed with verified company details.";
+
+const ON_THIS_PAGE = "On this page";
 
 export function LegalPageLayout({
   title,
@@ -16,16 +24,22 @@ export function LegalPageLayout({
     <>
       <Nav />
       <main className="app-container py-12 sm:py-16 lg:py-24">
-        <div className="mx-auto max-w-3xl">
-          <Typography variant="h1" className="mb-2">
-            {title}
-          </Typography>
-          <Typography variant="mutedText" className="mb-10 sm:mb-12">
-            {lastUpdated}
-          </Typography>
-          <div className="prose max-w-none prose-headings:font-semibold prose-headings:text-foreground prose-p:text-muted-foreground prose-p:leading-relaxed prose-li:text-muted-foreground prose-a:text-primary prose-a:no-underline hover:prose-a:underline dark:prose-invert">
+        <div className="mx-auto max-w-5xl">
+          <header className="mb-12 max-w-[70ch] sm:mb-16">
+            <Typography variant="h1" className="mb-4">
+              {title}
+            </Typography>
+            <span className="inline-flex items-center rounded-full border border-border bg-muted/50 px-3 py-1 text-xs font-medium text-muted-foreground">
+              {lastUpdated}
+            </span>
+          </header>
+
+          <LegalArticle
+            disclaimer={LEGAL_DISCLAIMER}
+            onThisPageLabel={ON_THIS_PAGE}
+          >
             {children}
-          </div>
+          </LegalArticle>
         </div>
       </main>
     </>

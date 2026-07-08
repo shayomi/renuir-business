@@ -15,6 +15,7 @@ export function Sectors() {
         <AnimateIn>
           <Typography
             variant="h1"
+            as="h2"
             className="mb-10 sm:mb-12 lg:mb-16 text-center font-medium tracking-tightest"
           >
             {t('headline')}
