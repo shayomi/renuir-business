@@ -5,6 +5,7 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { ArrowRight, Check, Loader2 } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import { cn } from '@/lib/utils';
 
 const schema = z.object({
@@ -31,9 +32,11 @@ const fieldClass =
  */
 export function BusinessContactForm({
   source = 'contact',
-  cta = 'Request onboarding',
+  cta,
   className,
 }: BusinessContactFormProps) {
+  const t = useTranslations('common.contactForm');
+  const ctaLabel = cta ?? t('cta');
   const [status, setStatus] = useState<'idle' | 'loading' | 'done' | 'error'>('idle');
 
   const {
@@ -69,9 +72,9 @@ export function BusinessContactForm({
           <Check className="size-6" strokeWidth={2.5} />
         </span>
         <div>
-          <p className="text-lg font-medium text-foreground">Thanks, that&apos;s in.</p>
+          <p className="text-lg font-medium text-foreground">{t('successTitle')}</p>
           <p className="mt-1 text-[15px] text-muted-foreground">
-            Our team will reach out within one business day to set up your venue.
+            {t('successBody')}
           </p>
         </div>
       </div>
@@ -87,29 +90,29 @@ export function BusinessContactForm({
       <div className="grid gap-4 sm:grid-cols-2">
         <div className="grid gap-1.5">
           <label htmlFor="bc-name" className="text-[13px] font-medium text-foreground">
-            Name
+            {t('name')}
           </label>
-          <input id="bc-name" placeholder="Jordan Rivera" className={fieldClass} {...register('name')} />
+          <input id="bc-name" placeholder={t('namePlaceholder')} className={fieldClass} {...register('name')} />
           {errors.name && <span className="text-[12.5px] text-destructive">{errors.name.message}</span>}
         </div>
         <div className="grid gap-1.5">
           <label htmlFor="bc-company" className="text-[13px] font-medium text-foreground">
-            Organization
+            {t('organization')}
           </label>
-          <input id="bc-company" placeholder="Grand Central Hotel" className={fieldClass} {...register('company')} />
+          <input id="bc-company" placeholder={t('organizationPlaceholder')} className={fieldClass} {...register('company')} />
           {errors.company && <span className="text-[12.5px] text-destructive">{errors.company.message}</span>}
         </div>
       </div>
 
       <div className="grid gap-1.5">
         <label htmlFor="bc-email" className="text-[13px] font-medium text-foreground">
-          Work email
+          {t('email')}
         </label>
         <input
           id="bc-email"
           type="email"
           autoComplete="email"
-          placeholder="you@venue.com"
+          placeholder={t('emailPlaceholder')}
           className={fieldClass}
           {...register('email')}
         />
@@ -118,19 +121,19 @@ export function BusinessContactForm({
 
       <div className="grid gap-1.5">
         <label htmlFor="bc-message" className="text-[13px] font-medium text-foreground">
-          What would you like to know? <span className="text-muted-foreground">(optional)</span>
+          {t('messageLabel')} <span className="text-muted-foreground">{t('messageOptional')}</span>
         </label>
         <textarea
           id="bc-message"
           rows={4}
-          placeholder="Tell us about your venue and volume of lost items."
+          placeholder={t('messagePlaceholder')}
           className={cn(fieldClass, 'h-auto resize-none py-3 leading-relaxed')}
           {...register('message')}
         />
       </div>
 
       {status === 'error' && (
-        <p className="text-[13px] text-destructive">Something went wrong. Please try again.</p>
+        <p className="text-[13px] text-destructive">{t('error')}</p>
       )}
 
       <button
@@ -143,7 +146,7 @@ export function BusinessContactForm({
           <Loader2 className="size-4 animate-spin" />
         ) : (
           <>
-            {cta}
+            {ctaLabel}
             <ArrowRight className="size-4" strokeWidth={2} />
           </>
         )}

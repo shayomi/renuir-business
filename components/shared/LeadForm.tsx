@@ -5,6 +5,7 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { ArrowRight, Check, Loader2 } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import { cn } from '@/lib/utils';
 
 const schema = z.object({
@@ -29,12 +30,16 @@ interface LeadFormProps {
  */
 export function LeadForm({
   source = 'waitlist',
-  cta = 'Request access',
-  placeholder = 'Enter your work email',
+  cta,
+  placeholder,
   variant = 'light',
   className,
-  successMessage = "You're on the list. We'll be in touch shortly.",
+  successMessage,
 }: LeadFormProps) {
+  const t = useTranslations('common.leadForm');
+  const ctaLabel = cta ?? t('cta');
+  const placeholderLabel = placeholder ?? t('placeholder');
+  const successLabel = successMessage ?? t('success');
   const [status, setStatus] = useState<'idle' | 'loading' | 'done' | 'error'>('idle');
   const [error, setError] = useState<string | null>(null);
 
@@ -59,7 +64,7 @@ export function LeadForm({
       setStatus('done');
     } catch {
       setStatus('error');
-      setError('Something went wrong. Please try again.');
+      setError(t('error'));
     }
   };
 
@@ -80,7 +85,7 @@ export function LeadForm({
         >
           <Check className="size-3.5" strokeWidth={3} />
         </span>
-        {successMessage}
+        {successLabel}
       </div>
     );
   }
@@ -102,8 +107,8 @@ export function LeadForm({
         <input
           type="email"
           autoComplete="email"
-          aria-label="Work email"
-          placeholder={placeholder}
+          aria-label={t('emailLabel')}
+          placeholder={placeholderLabel}
           disabled={status === 'loading'}
           {...register('email')}
           className={cn(
@@ -126,7 +131,7 @@ export function LeadForm({
             <Loader2 className="size-4 animate-spin" />
           ) : (
             <>
-              {cta}
+              {ctaLabel}
               <ArrowRight className="size-4" strokeWidth={2} />
             </>
           )}

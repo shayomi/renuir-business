@@ -15,7 +15,16 @@
       "line2": "retrouvés.",
       "subtitle": "Un signalement. Un matching intelligent. Un retour sécurisé. Renuir relie les personnes et les lieux pour retrouver ce qui compte.",
       "ctaBusiness": "Solutions entreprises",
-      "ctaDownload": "Télécharger l'app"
+      "ctaDownload": "Télécharger l'app",
+      "waitlistCta": "Rejoindre la liste d'attente",
+      "waitlistPlaceholder": "Entrez votre e-mail professionnel"
+    },
+    "closing": {
+      "badge": "Bêta privée",
+      "headline": "Devenez un partenaire Renuir de la première heure",
+      "subtitle": "Nous intégrons un petit groupe d'établissements et d'équipes. Laissez votre e-mail professionnel et nous vous contacterons pour organiser une présentation.",
+      "leadCta": "Demander un accès",
+      "leadPlaceholder": "Entrez votre e-mail professionnel"
     },
     "change": {
       "headline": "Ce coup au cœur quand tu réalises que c'est perdu.",
@@ -74,6 +83,15 @@
     }
   },
   "about": {
+    "mission": {
+      "eyebrow": "Pourquoi nous existons",
+      "headline": "Les objets perdus, un système défaillant. Nous réparons la tuyauterie.",
+      "lead": "Chaque jour, des établissements récupèrent des objets que personne ne peut relier à un propriétaire, et des gens renoncent à des affaires qu'ils auraient pu retrouver.",
+      "body": "Renuir offre aux établissements un seul endroit pour enregistrer les objets trouvés, vérifier à qui ils appartiennent réellement et les restituer sans exposer les données personnelles de quiconque. Nous sommes une petite équipe qui construit cela avec soin, en commençant par une poignée de partenaires de conception à Berlin.",
+      "stat1Label": "Une plateforme pour chaque objet perdu, de l'enregistrement à la restitution",
+      "stat2Label": "Délai de réponse visé pour chaque demande de démo de partenaire",
+      "stat3Label": "Conçu selon les normes européennes de protection des données dès le premier jour"
+    },
     "hero": {
       "headline": "Nous sommes là pour aider",
       "subtitle": "Renuir existe pour aider chacun à retrouver ce qu'il a perdu, sans panique, sans pression et sans incertitude.",
@@ -128,7 +146,8 @@
         "message": "Message",
         "messagePlaceholder": "Dites-nous ce dont vous avez besoin...",
         "submit": "Demander une démo"
-      }
+      },
+      "formCta": "Envoyer le message"
     },
     "sectors": {
       "headline": "Conçu pour les lieux à fort trafic.",
@@ -151,7 +170,8 @@
       "subtitle": "Remplacez le carton d'objets trouvés par une plateforme de restitution suivie et auditable. Enregistrez les objets en quelques secondes, restituez-les automatiquement et prouvez la chaîne de possession à tout moment.",
       "emailPlaceholder": "Entrez votre e-mail professionnel",
       "cta": "Demander une démo",
-      "socialProof": "Hébergé dans l'UE et conforme au RGPD. Conçu pour les équipes qui doivent justifier le traitement de chaque objet."
+      "socialProof": "Hébergé dans l'UE et conforme au RGPD. Conçu pour les équipes qui doivent justifier le traitement de chaque objet.",
+      "demoSuccess": "Merci. Notre équipe vous contactera pour organiser votre démonstration."
     },
     "costs": {
       "headline": "Les objets perdus sont un centre de coûts invisible.",
@@ -185,7 +205,36 @@
       "quote2Role": "CTO, Horizon Hospitality",
       "quote3": "La conformité était notre plus gros casse-tête. Les journaux automatisés de chaîne de possession de Renuir ont réglé ça du jour au lendemain.",
       "quote3Name": "Elena Rodriguez",
-      "quote3Role": "Responsable de la sécurité, Metro Transit Authority"
+      "quote3Role": "Responsable de la sécurité, Metro Transit Authority",
+      "partner1Label": "Aéroports et transports",
+      "partner1Desc": "Des plateformes à fort trafic où les objets franchissent les frontières et où chaque transfert doit être tracé.",
+      "partner2Label": "Hôtels et hôtellerie",
+      "partner2Desc": "Des équipes de réception qui veulent un moyen discret et agréable de restituer les affaires des clients.",
+      "partner3Label": "Campus et lieux d’accueil",
+      "partner3Desc": "De grands sites accueillant des milliers de visiteurs par jour avec un seul bureau des objets trouvés.",
+      "note": "Nous ne partageons pas encore les logos de nos clients. Pendant la bêta, nous préférons mériter nos résultats plutôt que d’emprunter ceux des autres."
+    },
+    "security": {
+      "eyebrow": "Sécurité et conformité",
+      "headline": "Conçu pour les aéroports, les transports et les lieux réglementés.",
+      "subtitle": "Les équipes qui détiennent les biens d'autrui doivent pouvoir justifier leur traitement. Renuir conserve cet historique pour vous.",
+      "item1Title": "Chaîne de possession",
+      "item1Desc": "Chaque scan, remise et réclamation est horodaté et attribué à un membre du personnel. Exportez un historique complet pour n'importe quel objet, à la demande.",
+      "item2Title": "RGPD dès la conception",
+      "item2Desc": "Les données sont stockées dans l'UE. Les informations personnelles restent privées jusqu'à ce qu'une correspondance soit vérifiée, et l'accès est limité aux établissements qui en ont besoin.",
+      "item3Title": "Conservation et élimination",
+      "item3Desc": "Définissez une période de conservation par type d'objet. Renuir exécute automatiquement le processus d'élimination ou de don à son expiration, avec un enregistrement consigné.",
+      "item4Title": "Uniquement des réclamations vérifiées",
+      "item4Desc": "Des questions de propriété et des vérifications de preuves sont effectuées avant toute restitution, pour que chaque objet ne revienne qu'à la personne capable de prouver qu'il lui appartient."
+    },
+    "closing": {
+      "eyebrow": "Parlez à notre équipe",
+      "headline": "Déployez Renuir dans votre établissement.",
+      "subtitle": "Parlez-nous un peu de votre activité et nous mettrons en place une présentation et un plan d'intégration conçus sur mesure.",
+      "point1": "Une présentation avec des objets que votre équipe manipule réellement",
+      "point2": "Un accompagnement pour l'enregistrement, les restitutions et la traçabilité",
+      "point3": "Une tarification adaptée à votre établissement, et non un forfait figé",
+      "formCta": "Demander l'intégration"
     }
   },
   "individual": {
@@ -197,7 +246,10 @@
       "subtitle": "Renuir met en relation ton objet perdu avec l'établissement qui l'a trouvé. Matching intelligent, messagerie sécurisée et restitutions vérifiées, au même endroit.",
       "googlePlay": "Google Play",
       "appleStore": "App Store",
-      "appScreensAlt": "Écrans de l'application Renuir"
+      "appScreensAlt": "Écrans de l'application Renuir",
+      "waitlistCta": "Rejoindre la liste d'attente",
+      "emailPlaceholder": "Entre ton e-mail",
+      "availability": "Disponible sur iOS et Android au lancement."
     },
     "overview": {
       "headline": "Quatre étapes pour retrouver ton objet.",
@@ -232,7 +284,10 @@
       "feature3Title": "Aucune donnée personnelle exposée",
       "feature3Desc": "Tes coordonnées restent masquées jusqu'à ce que les deux parties confirment une correspondance.",
       "feature4Title": "Un historique clair de chaque étape",
-      "feature4Desc": "Chaque action est enregistrée, pour des restitutions traçables et faciles à suivre."
+      "feature4Desc": "Chaque action est enregistrée, pour des restitutions traçables et faciles à suivre.",
+      "closingHeadline": "Sois parmi les premiers à essayer Renuir.",
+      "closingCta": "Rejoindre la bêta",
+      "closingPlaceholder": "Saisis ton e-mail"
     }
   },
   "developer": {
@@ -244,7 +299,72 @@
       "subtitle": "Accès complet à l'API et déploiement en marque blanche pour les entreprises qui veulent un contrôle total sur leur gestion des objets trouvés.",
       "emailPlaceholder": "Entrez votre e-mail professionnel",
       "cta": "Demander un accès API",
-      "socialProof": "Bêta privée. Demandez un accès API et nous vous recontacterons."
+      "socialProof": "Bêta privée. Demandez un accès API et nous vous recontacterons.",
+      "devEyebrow": "Plateforme développeurs",
+      "devHeadlineLine1": "Intégrez la restitution",
+      "devHeadlineLine2": "à votre propre produit.",
+      "devSubtitle": "Une seule API pour l'enregistrement des objets, le matching par IA, les réclamations et les restitutions sécurisées. Intégrez-la à votre app, votre PMS ou votre système d'établissement et laissez Renuir gérer le plus difficile.",
+      "bannerMessage": "L'API Renuir est en bêta privée. Demandez un accès pour obtenir des clés sandbox.",
+      "bannerLink": "Demander un accès",
+      "leadCta": "Demander un accès API",
+      "leadPlaceholder": "Entrez votre e-mail professionnel",
+      "leadSuccess": "Merci. Nous vous enverrons vos clés sandbox et la documentation sous peu.",
+      "betaNote": "Bêta privée. Aucune carte bancaire, aucun appel commercial pour commencer à tester."
+    },
+    "connect": {
+      "eyebrow": "Comment ça se connecte",
+      "headline": "Une seule API entre vos systèmes et chaque objet.",
+      "subtitle": "Envoyez des objets depuis n'importe quel outil que vous utilisez déjà. Renuir gère le matching et la vérification, puis rappelle votre endpoint dès qu'il y a matière à agir.",
+      "sendEyebrow": "Vos systèmes",
+      "sendTitle": "Envoyer des objets",
+      "sendDesc": "Votre app, votre PMS, votre borne ou votre site web signale les objets trouvés en un seul appel.",
+      "callbackEyebrow": "Votre endpoint",
+      "callbackTitle": "Être rappelé",
+      "callbackDesc": "Un webhook signé atteint votre serveur dès qu'un objet fait l'objet d'une correspondance ou d'une réclamation.",
+      "pipelineIntake": "Enregistrement",
+      "pipelineIntakeMeta": "catégoriser, taguer, indexer",
+      "pipelineMatch": "Correspondance",
+      "pipelineMatchMeta": "vision + similarité",
+      "pipelineVerify": "Vérification",
+      "pipelineVerifyMeta": "réclamation sécurisée",
+      "pipelineReturn": "Restitution",
+      "pipelineReturnMeta": "remise + journal"
+    },
+    "story": {
+      "whyEyebrow": "Pourquoi Renuir",
+      "whyHeadline": "Ne construisez pas votre infrastructure de restitution de zéro.",
+      "whySubtitle": "Le matching, la vérification et la chaîne de possession sont difficiles à réussir. Nous l'avons déjà fait. Vous récupérez les endpoints.",
+      "howEyebrow": "Comment ça marche",
+      "howHeadline": "De la clé à la première correspondance en un après-midi.",
+      "whatEyebrow": "Ce que vous obtenez",
+      "whatHeadline": "Toute la plateforme, sous forme d'endpoints.",
+      "securityEyebrow": "Sécurité",
+      "securityHeadline": "Niveau entreprise dès le premier appel.",
+      "value1Title": "Headless par conception",
+      "value1Desc": "Chaque fonctionnalité tient en un appel d'API. Aucune interface Renuir requise, votre marque reste au premier plan.",
+      "value2Title": "Le moteur de matching, exposé",
+      "value2Desc": "La même vision par ordinateur et le même matching qui font tourner Renuir, disponibles via un seul endpoint.",
+      "value3Title": "Conformité intégrée",
+      "value3Desc": "Chaîne de possession, règles de conservation et gestion RGPD sont livrées avec l'API, pas comme une réflexion après coup.",
+      "step1Title": "Obtenez vos clés",
+      "step1Desc": "Créez un projet et générez une clé sandbox. Commencez à tester sans appel commercial.",
+      "step2Title": "Signalez des objets",
+      "step2Desc": "Envoyez les objets trouvés ou perdus avec une photo. Nous catégorisons, taguons et indexons chacun d'eux.",
+      "step3Title": "Obtenez une correspondance",
+      "step3Desc": "Lorsqu'un signalement de perte correspond à un objet trouvé, nous notifions votre webhook en temps réel.",
+      "step4Title": "Confirmez la restitution",
+      "step4Desc": "Vérifiez la propriété et bouclez la boucle avec un code de remise sécurisé à usage unique.",
+      "cap1Title": "API REST",
+      "cap1Desc": "Objets, correspondances, réclamations, messagerie et restitutions. Ressources prévisibles, pagination par curseur, clés d'idempotence.",
+      "cap2Title": "Webhooks",
+      "cap2Desc": "Événements en temps réel pour les correspondances, le statut des réclamations et les remises. Charges utiles signées, relances automatiques.",
+      "cap3Title": "Marque blanche",
+      "cap3Desc": "Faites tourner un parcours de restitution entièrement à votre marque, sur votre propre domaine, entièrement piloté par l'API.",
+      "cap4Title": "SDK",
+      "cap4Desc": "Bibliothèques clientes officielles pour Node, Python, Go et Swift disponibles au lancement.",
+      "security1": "Résidence des données dans l'UE et traitement conforme au RGPD",
+      "security2": "Chaîne de possession complète sur chaque objet et chaque réclamation",
+      "security3": "Clés à portée limitée, rotation et journaux d'audit complets"
     },
     "docs": {
       "badge": "Plateforme développeurs",
@@ -273,7 +393,12 @@
       "headline": "Prêt à développer ?",
       "subtitle": "Intégration headless pour le signalement d'objets, le matching et la vérification des réclamations.",
       "ctaPrimary": "Obtenir des clés API",
-      "ctaSecondary": "Lire la documentation"
+      "ctaSecondary": "Lire la documentation",
+      "buildHeadline": "Commencez à développer avec Renuir.",
+      "buildSubtitle": "Demandez un accès et nous vous fournirons vos clés sandbox et la référence complète de l'API.",
+      "leadCta": "Demander un accès API",
+      "leadPlaceholder": "Entrez votre e-mail professionnel",
+      "leadSuccess": "Merci. Nous vous enverrons vos clés sandbox et la documentation sous peu."
     }
   },
   "footer": {
@@ -304,7 +429,29 @@
     "beta": "Bêta",
     "emailValidation": "Veuillez saisir une adresse e-mail valide",
     "joining": "Inscription en cours...",
-    "loading": "..."
+    "loading": "...",
+    "leadForm": {
+      "cta": "Demander un accès",
+      "placeholder": "Entrez votre e-mail professionnel",
+      "success": "Vous êtes inscrit. Nous vous recontacterons sous peu.",
+      "error": "Une erreur est survenue. Veuillez réessayer.",
+      "emailLabel": "E-mail professionnel"
+    },
+    "contactForm": {
+      "name": "Nom",
+      "namePlaceholder": "Jean Dupont",
+      "organization": "Organisation",
+      "organizationPlaceholder": "Grand Central Hôtel",
+      "email": "E-mail professionnel",
+      "emailPlaceholder": "vous@etablissement.com",
+      "messageLabel": "Que souhaitez-vous savoir ?",
+      "messageOptional": "(facultatif)",
+      "messagePlaceholder": "Parlez-nous de votre établissement et du volume d'objets perdus.",
+      "error": "Une erreur est survenue. Veuillez réessayer.",
+      "cta": "Demander l'intégration",
+      "successTitle": "Merci, c'est enregistré.",
+      "successBody": "Notre équipe vous contactera sous un jour ouvré pour configurer votre établissement."
+    }
   },
   "legal": {
     "privacy": {

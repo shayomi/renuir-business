@@ -46,8 +46,8 @@ export function IndividualHero() {
             <div className="mt-6 w-full max-w-md sm:mt-8">
               <LeadForm
                 source="waitlist"
-                cta="Join the waitlist"
-                placeholder="Enter your email"
+                cta={t("waitlistCta")}
+                placeholder={t("emailPlaceholder")}
                 variant="light"
               />
               <div className="mt-2 flex items-center gap-2.5 text-muted-foreground">
@@ -66,7 +66,7 @@ export function IndividualHero() {
                   className="opacity-60"
                 />
                 <Typography variant="smallText" className="text-muted-foreground">
-                  Coming to iOS and Android at launch.
+                  {t("availability")}
                 </Typography>
               </div>
             </div>

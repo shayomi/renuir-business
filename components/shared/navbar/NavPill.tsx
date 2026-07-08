@@ -21,7 +21,11 @@ export function NavPill({ variant }: NavPillProps) {
 
   const isLight = variant === "light";
 
-  const pillBg = isLight ? "bg-white/15 backdrop-blur-sm" : "bg-muted";
+  // Translucent tint so the pill reads consistently over any light page
+  // background (plain white legal pages and the topo-textured hero pages).
+  const pillBg = isLight
+    ? "bg-white/15 backdrop-blur-sm"
+    : "bg-foreground/[0.05] backdrop-blur-sm";
 
   const close = useCallback(() => setOpenIndex(null), []);
 

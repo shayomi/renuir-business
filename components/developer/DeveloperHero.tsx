@@ -3,8 +3,10 @@ import { BetaBanner } from '../shared/BetaBanner';
 import AnimateIn from '@/components/ui/AnimateIn';
 import { LeadForm } from '@/components/shared/LeadForm';
 import { CodeWindow, kw, str, com } from './CodeWindow';
+import { getTranslations } from 'next-intl/server';
 
-export function DeveloperHero() {
+export async function DeveloperHero() {
+  const t = await getTranslations('developer.hero');
   return (
     <section className="relative overflow-hidden bg-slate-950">
       <div aria-hidden className="pointer-events-none absolute inset-0">
@@ -13,8 +15,8 @@ export function DeveloperHero() {
 
       <Nav />
       <BetaBanner
-        message="The Renuir API is in private beta. Request access to get sandbox keys."
-        linkText="Request access"
+        message={t('bannerMessage')}
+        linkText={t('bannerLink')}
         linkHref="#dev-access"
       />
 
@@ -22,23 +24,21 @@ export function DeveloperHero() {
         <div>
           <AnimateIn>
             <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3.5 py-1.5 text-[12px] font-medium uppercase tracking-[0.14em] text-white/60">
-              Developer platform
+              {t('devEyebrow')}
             </span>
           </AnimateIn>
 
           <AnimateIn delay={0.06}>
             <h1 className="mt-6 max-w-xl text-4xl font-medium leading-[1.05] tracking-tight text-white sm:text-5xl lg:text-[3.4rem]">
-              Build recovery into
+              {t('devHeadlineLine1')}
               <br />
-              your own product.
+              {t('devHeadlineLine2')}
             </h1>
           </AnimateIn>
 
           <AnimateIn delay={0.1}>
             <p className="mt-5 max-w-md text-[17px] leading-relaxed text-white/65">
-              One API for item intake, AI matching, claims, and secure returns.
-              Drop it into your app, PMS, or venue system and let Renuir handle
-              the hard part.
+              {t('devSubtitle')}
             </p>
           </AnimateIn>
 
@@ -46,15 +46,15 @@ export function DeveloperHero() {
             <LeadForm
               source="developer"
               variant="dark"
-              cta="Request API access"
-              placeholder="Enter your work email"
-              successMessage="Thanks. We'll send sandbox keys and docs shortly."
+              cta={t('leadCta')}
+              placeholder={t('leadPlaceholder')}
+              successMessage={t('leadSuccess')}
             />
           </AnimateIn>
 
           <AnimateIn delay={0.18}>
             <p className="mt-1 text-[13px] text-white/45">
-              Private beta. No credit card, no sales call to start testing.
+              {t('betaNote')}
             </p>
           </AnimateIn>
         </div>

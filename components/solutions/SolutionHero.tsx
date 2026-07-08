@@ -53,7 +53,7 @@ export async function SolutionHero() {
               source="demo"
               cta={t("cta")}
               placeholder={t("emailPlaceholder")}
-              successMessage="Thanks. Our team will reach out to set up your demo."
+              successMessage={t("demoSuccess")}
             />
           </AnimateIn>
           <AnimateIn delay={0.2}>

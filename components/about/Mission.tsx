@@ -1,13 +1,14 @@
 import { Typography } from "@/components/ui/typography";
 import AnimateIn from "@/components/ui/AnimateIn";
+import { getTranslations } from "next-intl/server";
 
-const STATS = [
-  { value: "1", label: "Platform for every lost item, from log to return" },
-  { value: "24h", label: "Target response on every partner demo request" },
-  { value: "GDPR", label: "Built to EU data-protection standards from day one" },
-];
-
-export function Mission() {
+export async function Mission() {
+  const t = await getTranslations("about.mission");
+  const STATS = [
+    { value: "1", label: t("stat1Label") },
+    { value: "24h", label: t("stat2Label") },
+    { value: "GDPR", label: t("stat3Label") },
+  ];
   return (
     <section className="py-16 sm:py-24 lg:py-28">
       <div className="app-container">
@@ -18,10 +19,10 @@ export function Mission() {
                 variant="mutedText"
                 className="uppercase tracking-wider text-primary text-xs font-medium"
               >
-                Why we exist
+                {t("eyebrow")}
               </Typography>
               <Typography variant="h2" as="h2" className="mt-4 tracking-tight">
-                Lost property is broken. We are fixing the plumbing.
+                {t("headline")}
               </Typography>
             </div>
           </AnimateIn>
@@ -29,14 +30,10 @@ export function Mission() {
           <AnimateIn delay={0.08}>
             <div className="max-w-xl space-y-5 text-muted-foreground">
               <Typography variant="lead" className="text-foreground/90">
-                Every day, venues collect items nobody can trace back to an
-                owner, and people give up on things they could have recovered.
+                {t("lead")}
               </Typography>
               <p className="text-[15px] leading-relaxed">
-                Renuir gives venues one place to log found items, verify who
-                really owns them, and hand them back without exposing anyone&apos;s
-                personal data. We are a small team building this carefully,
-                starting with a handful of design partners in Berlin.
+                {t("body")}
               </p>
             </div>
           </AnimateIn>

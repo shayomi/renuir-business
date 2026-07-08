@@ -3,26 +3,14 @@ import AnimateIn from "@/components/ui/AnimateIn";
 import { Plane, Building2, GraduationCap } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
-const PARTNERS = [
-  {
-    icon: Plane,
-    label: "Airports and transit",
-    desc: "High-volume hubs where items cross borders and every handover has to be accounted for.",
-  },
-  {
-    icon: Building2,
-    label: "Hotels and hospitality",
-    desc: "Front-desk teams that want a discreet, guest-friendly way to return belongings.",
-  },
-  {
-    icon: GraduationCap,
-    label: "Campuses and venues",
-    desc: "Large sites with thousands of daily visitors and a single lost property desk.",
-  },
-];
-
 export default async function TestimonialsSection() {
   const t = await getTranslations("solutions.testimonials");
+
+  const PARTNERS = [
+    { icon: Plane, label: t("partner1Label"), desc: t("partner1Desc") },
+    { icon: Building2, label: t("partner2Label"), desc: t("partner2Desc") },
+    { icon: GraduationCap, label: t("partner3Label"), desc: t("partner3Desc") },
+  ];
 
   return (
     <section className="w-full bg-background">
@@ -72,8 +60,7 @@ export default async function TestimonialsSection() {
 
         <AnimateIn delay={0.2}>
           <p className="mx-auto mt-10 max-w-2xl text-center text-sm text-muted-foreground">
-            We are not sharing customer logos yet. During the beta we would
-            rather earn the results than borrow someone else&rsquo;s.
+            {t("note")}
           </p>
         </AnimateIn>
       </div>

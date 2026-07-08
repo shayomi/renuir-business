@@ -15,7 +15,16 @@
       "line2": "neu gedacht.",
       "subtitle": "Eine Meldung. Intelligenter Abgleich. Sichere Rückgabe. Renuir verbindet Menschen und Orte, damit Verlorenes wieder zurückfindet.",
       "ctaBusiness": "Für Unternehmen",
-      "ctaDownload": "App herunterladen"
+      "ctaDownload": "App herunterladen",
+      "waitlistCta": "Auf die Warteliste",
+      "waitlistPlaceholder": "Geschäftliche E-Mail eingeben"
+    },
+    "closing": {
+      "badge": "Private Beta",
+      "headline": "Werden Sie früh Renuir-Partner",
+      "subtitle": "Wir nehmen eine kleine Gruppe von Standorten und Teams an Bord. Hinterlassen Sie Ihre geschäftliche E-Mail-Adresse und wir melden uns, um eine Demo zu vereinbaren.",
+      "leadCta": "Zugang anfragen",
+      "leadPlaceholder": "Geschäftliche E-Mail eingeben"
     },
     "change": {
       "headline": "Dieses Gefühl, wenn du merkst: Es ist weg.",
@@ -74,6 +83,15 @@
     }
   },
   "about": {
+    "mission": {
+      "eyebrow": "Warum es uns gibt",
+      "headline": "Das Fundbürowesen ist kaputt. Wir reparieren die Infrastruktur.",
+      "lead": "Jeden Tag sammeln Standorte Gegenstände, die sich keinem Eigentümer zuordnen lassen, und Menschen geben Dinge auf, die sie hätten zurückbekommen können.",
+      "body": "Renuir gibt Standorten einen zentralen Ort, um gefundene Gegenstände zu erfassen, zu prüfen, wem sie wirklich gehören, und sie zurückzugeben, ohne die persönlichen Daten von jemandem preiszugeben. Wir sind ein kleines Team, das dies sorgfältig aufbaut, beginnend mit einer Handvoll Design-Partner in Berlin.",
+      "stat1Label": "Plattform für jeden verlorenen Gegenstand, von der Erfassung bis zur Rückgabe",
+      "stat2Label": "Angestrebte Reaktionszeit auf jede Partner-Demoanfrage",
+      "stat3Label": "Von Tag eins an nach EU-Datenschutzstandards entwickelt"
+    },
     "hero": {
       "headline": "Wir sind für euch da",
       "subtitle": "Renuir hilft Menschen, Verlorenes wiederzufinden, ohne Panik, Druck oder Ungewissheit.",
@@ -128,7 +146,8 @@
         "message": "Nachricht",
         "messagePlaceholder": "Sagen Sie uns, was Sie brauchen...",
         "submit": "Demo anfragen"
-      }
+      },
+      "formCta": "Nachricht senden"
     },
     "sectors": {
       "headline": "Für stark frequentierte Orte gebaut.",
@@ -151,7 +170,8 @@
       "subtitle": "Ersetzen Sie die Fundkiste durch eine nachverfolgbare, prüfbare Rückgabeplattform. Erfassen Sie Gegenstände in Sekunden, geben Sie sie automatisch zurück und weisen Sie die Übergabekette jederzeit nach.",
       "emailPlaceholder": "Ihre geschäftliche E-Mail",
       "cta": "Demo anfragen",
-      "socialProof": "EU-Hosting und DSGVO-konform. Für Teams, die belegen müssen, wie jeder Gegenstand behandelt wurde."
+      "socialProof": "EU-Hosting und DSGVO-konform. Für Teams, die belegen müssen, wie jeder Gegenstand behandelt wurde.",
+      "demoSuccess": "Vielen Dank. Unser Team meldet sich bei Ihnen, um Ihre Demo einzurichten."
     },
     "costs": {
       "headline": "Fundsachen sind eine unsichtbare Kostenstelle.",
@@ -185,7 +205,36 @@
       "quote2Role": "CTO, Horizon Hospitality",
       "quote3": "Compliance war unser größtes Problem. Die automatische Nachverfolgung von Renuir hat das über Nacht gelöst.",
       "quote3Name": "Elena Rodriguez",
-      "quote3Role": "Sicherheitsleiterin, Metro Transit Authority"
+      "quote3Role": "Sicherheitsleiterin, Metro Transit Authority",
+      "partner1Label": "Flughäfen und Verkehr",
+      "partner1Desc": "Stark frequentierte Knotenpunkte, an denen Gegenstände Grenzen überschreiten und jede Übergabe nachvollziehbar sein muss.",
+      "partner2Label": "Hotels und Gastgewerbe",
+      "partner2Desc": "Empfangsteams, die Eigentum auf diskrete, gästefreundliche Weise zurückgeben möchten.",
+      "partner3Label": "Campus und Veranstaltungsorte",
+      "partner3Desc": "Große Standorte mit Tausenden Besuchern täglich und einem einzigen Fundbüro.",
+      "note": "Wir teilen noch keine Kundenlogos. Während der Beta möchten wir die Ergebnisse lieber selbst erarbeiten, als uns fremde zu leihen."
+    },
+    "security": {
+      "eyebrow": "Sicherheit und Compliance",
+      "headline": "Entwickelt für Flughäfen, den Nahverkehr und regulierte Standorte.",
+      "subtitle": "Teams, die fremdes Eigentum verwahren, müssen nachweisen können, wie damit umgegangen wurde. Renuir führt diesen Nachweis für Sie.",
+      "item1Title": "Lückenlose Nachweiskette",
+      "item1Desc": "Jeder Scan, jede Übergabe und jeder Anspruch wird mit Zeitstempel versehen und einem Mitarbeiter zugeordnet. Exportieren Sie auf Wunsch die vollständige Historie jedes Gegenstands.",
+      "item2Title": "DSGVO von Grund auf",
+      "item2Desc": "Die Daten werden in der EU gespeichert. Persönliche Angaben bleiben privat, bis ein Treffer bestätigt ist, und der Zugriff ist auf die Standorte beschränkt, die ihn benötigen.",
+      "item3Title": "Aufbewahrung und Entsorgung",
+      "item3Desc": "Legen Sie pro Gegenstandsart eine Aufbewahrungsfrist fest. Renuir führt den Entsorgungs- oder Spendenprozess automatisch aus, wenn sie abläuft, mit protokolliertem Nachweis.",
+      "item4Title": "Nur geprüfte Ansprüche",
+      "item4Desc": "Eigentumsfragen und Nachweisprüfungen erfolgen vor der Herausgabe, sodass Gegenstände nur an die Person gehen, die belegen kann, dass der Gegenstand ihr gehört."
+    },
+    "closing": {
+      "eyebrow": "Sprechen Sie mit unserem Team",
+      "headline": "Holen Sie Renuir an Ihren Standort.",
+      "subtitle": "Erzählen Sie uns ein wenig über Ihren Betrieb und wir vereinbaren eine Demo und erstellen einen darauf zugeschnittenen Onboarding-Plan.",
+      "point1": "Eine Demo mit Gegenständen, die Ihr Team tatsächlich handhabt",
+      "point2": "Einrichtungshilfe für Annahme, Rückgaben und den Prüfpfad",
+      "point3": "Preise, die auf Ihren Standort zugeschnitten sind, nicht auf eine feste Stufe",
+      "formCta": "Onboarding anfragen"
     }
   },
   "individual": {
@@ -197,7 +246,10 @@
       "subtitle": "Renuir verbindet deinen verlorenen Gegenstand mit dem Ort, der ihn gefunden hat. Intelligenter Abgleich, sicherer Chat, verifizierte Rückgabe.",
       "googlePlay": "Google Play",
       "appleStore": "App Store",
-      "appScreensAlt": "Renuir App-Bildschirme"
+      "appScreensAlt": "Renuir App-Bildschirme",
+      "waitlistCta": "Auf die Warteliste",
+      "emailPlaceholder": "E-Mail eingeben",
+      "availability": "Zum Start für iOS und Android verfügbar."
     },
     "overview": {
       "headline": "In vier Schritten zurück.",
@@ -232,7 +284,10 @@
       "feature3Title": "Keine öffentlichen Daten",
       "feature3Desc": "Deine Daten werden erst geteilt, wenn beide Seiten einen Treffer bestätigen.",
       "feature4Title": "Lückenlose Dokumentation",
-      "feature4Desc": "Jede Aktion wird protokolliert, für Nachvollziehbarkeit und Transparenz."
+      "feature4Desc": "Jede Aktion wird protokolliert, für Nachvollziehbarkeit und Transparenz.",
+      "closingHeadline": "Sei eine oder einer der Ersten, die Renuir ausprobieren.",
+      "closingCta": "An der Beta teilnehmen",
+      "closingPlaceholder": "E-Mail eingeben"
     }
   },
   "developer": {
@@ -244,7 +299,72 @@
       "subtitle": "Voller API-Zugang und White-Label-Deployment für Unternehmen, die die vollständige Kontrolle über ihre Fundabwicklung brauchen.",
       "emailPlaceholder": "Ihre geschäftliche E-Mail",
       "cta": "API-Zugang anfragen",
-      "socialProof": "Private Beta. Fordern Sie API-Zugang an und wir melden uns bei Ihnen."
+      "socialProof": "Private Beta. Fordern Sie API-Zugang an und wir melden uns bei Ihnen.",
+      "devEyebrow": "Entwicklerplattform",
+      "devHeadlineLine1": "Integrieren Sie Wiederbeschaffung",
+      "devHeadlineLine2": "in Ihr eigenes Produkt.",
+      "devSubtitle": "Eine API für die Annahme von Gegenständen, KI-Abgleich, Ansprüche und sichere Rückgaben. Binden Sie sie in Ihre App, Ihr PMS oder Ihr Standortsystem ein und lassen Sie Renuir den schwierigen Teil übernehmen.",
+      "bannerMessage": "Die Renuir-API befindet sich in der privaten Beta. Fragen Sie Zugang an, um Sandbox-Schlüssel zu erhalten.",
+      "bannerLink": "Zugang anfragen",
+      "leadCta": "API-Zugang anfragen",
+      "leadPlaceholder": "Geschäftliche E-Mail eingeben",
+      "leadSuccess": "Vielen Dank. Wir senden Ihnen in Kürze Sandbox-Schlüssel und die Dokumentation.",
+      "betaNote": "Private Beta. Keine Kreditkarte, kein Vertriebsgespräch, um mit dem Testen zu beginnen."
+    },
+    "connect": {
+      "eyebrow": "Wie es sich verbindet",
+      "headline": "Eine API zwischen Ihren Systemen und jedem Gegenstand.",
+      "subtitle": "Übermitteln Sie Gegenstände von überall, wo Sie bereits arbeiten. Renuir übernimmt Abgleich und Prüfung und ruft dann Ihren Endpunkt zurück, sobald es etwas zu tun gibt.",
+      "sendEyebrow": "Ihre Systeme",
+      "sendTitle": "Gegenstände senden",
+      "sendDesc": "Ihre App, Ihr PMS, Ihr Kiosk oder Ihre Website meldet gefundene Gegenstände in einem einzigen Aufruf.",
+      "callbackEyebrow": "Ihr Endpunkt",
+      "callbackTitle": "Rückruf erhalten",
+      "callbackDesc": "Ein signierter Webhook erreicht Ihren Server in dem Moment, in dem ein Gegenstand zugeordnet oder beansprucht wird.",
+      "pipelineIntake": "Annahme",
+      "pipelineIntakeMeta": "kategorisieren, taggen, indexieren",
+      "pipelineMatch": "Abgleich",
+      "pipelineMatchMeta": "Vision + Ähnlichkeit",
+      "pipelineVerify": "Prüfen",
+      "pipelineVerifyMeta": "sicherer Anspruch",
+      "pipelineReturn": "Rückgabe",
+      "pipelineReturnMeta": "Übergabe + Protokoll"
+    },
+    "story": {
+      "whyEyebrow": "Warum Renuir",
+      "whyHeadline": "Bauen Sie keine Wiederbeschaffungs-Infrastruktur von Grund auf.",
+      "whySubtitle": "Abgleich, Prüfung und lückenlose Nachweiskette richtig hinzubekommen ist schwer. Wir haben es bereits getan. Sie erhalten die Endpunkte.",
+      "howEyebrow": "So funktioniert es",
+      "howHeadline": "Vom Schlüssel zum ersten Treffer an einem Nachmittag.",
+      "whatEyebrow": "Was Sie erhalten",
+      "whatHeadline": "Die vollständige Plattform, als Endpunkte.",
+      "securityEyebrow": "Sicherheit",
+      "securityHeadline": "Enterprise-Niveau ab dem ersten Aufruf.",
+      "value1Title": "Headless by Design",
+      "value1Desc": "Jede Funktion ist ein einziger API-Aufruf. Keine Renuir-Oberfläche erforderlich, sodass Ihre Marke im Mittelpunkt bleibt.",
+      "value2Title": "Die Abgleich-Engine, offengelegt",
+      "value2Desc": "Dieselbe Computer Vision und derselbe Abgleich, die Renuir antreiben, verfügbar als einzelner Endpunkt.",
+      "value3Title": "Compliance integriert",
+      "value3Desc": "Lückenlose Nachweiskette, Aufbewahrungsregeln und DSGVO-Handling gehören zur API, nicht zu einem nachträglichen Zusatz.",
+      "step1Title": "Schlüssel erhalten",
+      "step1Desc": "Erstellen Sie ein Projekt und generieren Sie einen Sandbox-Schlüssel. Beginnen Sie mit dem Testen ohne Vertriebsgespräch.",
+      "step2Title": "Gegenstände melden",
+      "step2Desc": "Senden Sie gefundene oder verlorene Gegenstände mit einem Foto. Wir kategorisieren, taggen und indexieren jeden einzelnen.",
+      "step3Title": "Treffer erhalten",
+      "step3Desc": "Wenn eine Verlustmeldung zu einem gefundenen Gegenstand passt, benachrichtigen wir Ihren Webhook in Echtzeit.",
+      "step4Title": "Rückgabe bestätigen",
+      "step4Desc": "Prüfen Sie das Eigentum und schließen Sie den Vorgang mit einem einmaligen sicheren Übergabecode ab.",
+      "cap1Title": "REST-API",
+      "cap1Desc": "Gegenstände, Treffer, Ansprüche, Chat und Rückgaben. Vorhersehbare Ressourcen, Cursor-Paginierung, Idempotenzschlüssel.",
+      "cap2Title": "Webhooks",
+      "cap2Desc": "Echtzeit-Ereignisse für Treffer, Anspruchsstatus und Übergaben. Signierte Payloads, automatische Wiederholungen.",
+      "cap3Title": "White-Label",
+      "cap3Desc": "Betreiben Sie einen vollständig gebrandeten Wiederbeschaffungsprozess auf Ihrer eigenen Domain, vollständig über die API angetrieben.",
+      "cap4Title": "SDKs",
+      "cap4Desc": "Offizielle Client-Bibliotheken für Node, Python, Go und Swift folgen zum Start.",
+      "security1": "EU-Datenresidenz und DSGVO-konforme Verarbeitung",
+      "security2": "Lückenlose Nachweiskette für jeden Gegenstand und jeden Anspruch",
+      "security3": "Zugriffsbeschränkte Schlüssel, Rotation und vollständige Audit-Protokolle"
     },
     "docs": {
       "badge": "Entwicklerplattform",
@@ -273,7 +393,12 @@
       "headline": "Bereit zu bauen?",
       "subtitle": "Headless-Integration für Fundmeldungen, Abgleich und Anspruchsverifizierung.",
       "ctaPrimary": "API-Schlüssel erhalten",
-      "ctaSecondary": "Dokumentation lesen"
+      "ctaSecondary": "Dokumentation lesen",
+      "buildHeadline": "Beginnen Sie mit Renuir zu bauen.",
+      "buildSubtitle": "Fragen Sie Zugang an und wir richten Sie mit Sandbox-Schlüsseln und der vollständigen API-Referenz ein.",
+      "leadCta": "API-Zugang anfragen",
+      "leadPlaceholder": "Geschäftliche E-Mail eingeben",
+      "leadSuccess": "Vielen Dank. Wir senden Ihnen in Kürze Sandbox-Schlüssel und die Dokumentation."
     }
   },
   "footer": {
@@ -304,7 +429,29 @@
     "beta": "Beta",
     "emailValidation": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
     "joining": "Wird eingetragen...",
-    "loading": "..."
+    "loading": "...",
+    "leadForm": {
+      "cta": "Zugang anfragen",
+      "placeholder": "Geschäftliche E-Mail eingeben",
+      "success": "Sie stehen auf der Liste. Wir melden uns in Kürze.",
+      "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+      "emailLabel": "Geschäftliche E-Mail"
+    },
+    "contactForm": {
+      "name": "Name",
+      "namePlaceholder": "Jordan Rivera",
+      "organization": "Organisation",
+      "organizationPlaceholder": "Grand Central Hotel",
+      "email": "Geschäftliche E-Mail",
+      "emailPlaceholder": "sie@standort.de",
+      "messageLabel": "Was möchten Sie wissen?",
+      "messageOptional": "(optional)",
+      "messagePlaceholder": "Erzählen Sie uns von Ihrem Standort und der Menge an verlorenen Gegenständen.",
+      "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+      "cta": "Onboarding anfragen",
+      "successTitle": "Vielen Dank, das ist eingegangen.",
+      "successBody": "Unser Team meldet sich innerhalb eines Werktags, um Ihren Standort einzurichten."
+    }
   },
   "legal": {
     "privacy": {

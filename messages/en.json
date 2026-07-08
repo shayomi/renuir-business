@@ -15,7 +15,16 @@
       "line2": "Reimagined.",
       "subtitle": "One report. Smart matching. Secure return. Renuir connects people and places to recover what matters.",
       "ctaBusiness": "Business Solutions",
-      "ctaDownload": "Download the app"
+      "ctaDownload": "Download the app",
+      "waitlistCta": "Join the waitlist",
+      "waitlistPlaceholder": "Enter your work email"
+    },
+    "closing": {
+      "badge": "Private beta",
+      "headline": "Become an early Renuir partner",
+      "subtitle": "We are onboarding a small group of venues and teams. Leave your work email and we will reach out to set up a walkthrough.",
+      "leadCta": "Request access",
+      "leadPlaceholder": "Enter your work email"
     },
     "change": {
       "headline": "That sinking feeling when you realize it's gone.",
@@ -74,6 +83,15 @@
     }
   },
   "about": {
+    "mission": {
+      "eyebrow": "Why we exist",
+      "headline": "Lost property is broken. We are fixing the plumbing.",
+      "lead": "Every day, venues collect items nobody can trace back to an owner, and people give up on things they could have recovered.",
+      "body": "Renuir gives venues one place to log found items, verify who really owns them, and hand them back without exposing anyone's personal data. We are a small team building this carefully, starting with a handful of design partners in Berlin.",
+      "stat1Label": "Platform for every lost item, from log to return",
+      "stat2Label": "Target response on every partner demo request",
+      "stat3Label": "Built to EU data-protection standards from day one"
+    },
     "hero": {
       "headline": "We're here to help",
       "subtitle": "Renuir exists to help people recover what they've lost, without panic, pressure, or uncertainty.",
@@ -128,7 +146,8 @@
         "message": "Message",
         "messagePlaceholder": "Tell us what you need...",
         "submit": "Request a demo"
-      }
+      },
+      "formCta": "Send message"
     },
     "sectors": {
       "headline": "Built for high-traffic venues.",
@@ -151,7 +170,8 @@
       "subtitle": "Replace the lost property box with a tracked, auditable recovery platform. Log items in seconds, return them automatically, and prove chain of custody on demand.",
       "emailPlaceholder": "Enter your work email",
       "cta": "Request a demo",
-      "socialProof": "EU-hosted and GDPR-ready. Built for teams that have to prove how every item was handled."
+      "socialProof": "EU-hosted and GDPR-ready. Built for teams that have to prove how every item was handled.",
+      "demoSuccess": "Thanks. Our team will reach out to set up your demo."
     },
     "costs": {
       "headline": "Lost items are an invisible cost center.",
@@ -185,7 +205,36 @@
       "quote2Role": "CTO, Horizon Hospitality",
       "quote3": "Compliance was our biggest headache. Renuir's automated chain of custody logs solved that overnight.",
       "quote3Name": "Elena Rodriguez",
-      "quote3Role": "Head of Security, Metro Transit Authority"
+      "quote3Role": "Head of Security, Metro Transit Authority",
+      "partner1Label": "Airports and transit",
+      "partner1Desc": "High-volume hubs where items cross borders and every handover has to be accounted for.",
+      "partner2Label": "Hotels and hospitality",
+      "partner2Desc": "Front-desk teams that want a discreet, guest-friendly way to return belongings.",
+      "partner3Label": "Campuses and venues",
+      "partner3Desc": "Large sites with thousands of daily visitors and a single lost property desk.",
+      "note": "We are not sharing customer logos yet. During the beta we would rather earn the results than borrow someone else's."
+    },
+    "security": {
+      "eyebrow": "Security and compliance",
+      "headline": "Built for airports, transit, and regulated venues.",
+      "subtitle": "The teams that hold other people's property need to prove how it was handled. Renuir keeps that record for you.",
+      "item1Title": "Chain of custody",
+      "item1Desc": "Every scan, handover, and claim is time-stamped and attributed to a staff member. Export a complete history for any item on request.",
+      "item2Title": "GDPR by design",
+      "item2Desc": "Data is stored in the EU. Personal details stay private until a match is verified, and access is scoped to the venues that need it.",
+      "item3Title": "Retention and disposal",
+      "item3Desc": "Set a retention period per item type. Renuir runs the disposal or donation workflow automatically when it expires, with a logged record.",
+      "item4Title": "Verified claims only",
+      "item4Desc": "Ownership questions and evidence checks run before release, so items only go to the person who can prove the item is theirs."
+    },
+    "closing": {
+      "eyebrow": "Talk to our team",
+      "headline": "Bring Renuir to your venue.",
+      "subtitle": "Tell us a little about your operation and we will set up a walkthrough and an onboarding plan built around it.",
+      "point1": "A walkthrough with items your team actually handles",
+      "point2": "Setup guidance for intake, returns, and the audit trail",
+      "point3": "Pricing shaped around your venue, not a fixed tier",
+      "formCta": "Request onboarding"
     }
   },
   "individual": {
@@ -197,7 +246,10 @@
       "subtitle": "Renuir connects your lost item with the venue that found it. Smart matching, secure chat, and verified returns, all in one place.",
       "googlePlay": "Google Play",
       "appleStore": "App Store",
-      "appScreensAlt": "Renuir app screens"
+      "appScreensAlt": "Renuir app screens",
+      "waitlistCta": "Join the waitlist",
+      "emailPlaceholder": "Enter your email",
+      "availability": "Coming to iOS and Android at launch."
     },
     "overview": {
       "headline": "Four steps to your item back.",
@@ -232,7 +284,10 @@
       "feature3Title": "No personal data in the open",
       "feature3Desc": "Your contact details stay hidden until both sides confirm a match.",
       "feature4Title": "A clear record of every step",
-      "feature4Desc": "Each action is logged, so returns stay accountable and easy to trace."
+      "feature4Desc": "Each action is logged, so returns stay accountable and easy to trace.",
+      "closingHeadline": "Be one of the first to try Renuir.",
+      "closingCta": "Join the beta",
+      "closingPlaceholder": "Enter your email"
     }
   },
   "developer": {
@@ -244,7 +299,72 @@
       "subtitle": "Full API access and white-label deployment for enterprises that need total control over their lost-and-found operations.",
       "emailPlaceholder": "Enter your work email",
       "cta": "Request API access",
-      "socialProof": "Private beta. Request API access and we'll be in touch."
+      "socialProof": "Private beta. Request API access and we'll be in touch.",
+      "devEyebrow": "Developer platform",
+      "devHeadlineLine1": "Build recovery into",
+      "devHeadlineLine2": "your own product.",
+      "devSubtitle": "One API for item intake, AI matching, claims, and secure returns. Drop it into your app, PMS, or venue system and let Renuir handle the hard part.",
+      "bannerMessage": "The Renuir API is in private beta. Request access to get sandbox keys.",
+      "bannerLink": "Request access",
+      "leadCta": "Request API access",
+      "leadPlaceholder": "Enter your work email",
+      "leadSuccess": "Thanks. We'll send sandbox keys and docs shortly.",
+      "betaNote": "Private beta. No credit card, no sales call to start testing."
+    },
+    "connect": {
+      "eyebrow": "How it connects",
+      "headline": "One API between your systems and every item.",
+      "subtitle": "Push items from anywhere you already run. Renuir handles matching and verification, then calls your endpoint back when there is something to act on.",
+      "sendEyebrow": "Your systems",
+      "sendTitle": "Send items",
+      "sendDesc": "Your app, PMS, kiosk, or website reports found items in one call.",
+      "callbackEyebrow": "Your endpoint",
+      "callbackTitle": "Get called back",
+      "callbackDesc": "A signed webhook hits your server the moment an item is matched or claimed.",
+      "pipelineIntake": "Intake",
+      "pipelineIntakeMeta": "categorize, tag, index",
+      "pipelineMatch": "Match",
+      "pipelineMatchMeta": "vision + similarity",
+      "pipelineVerify": "Verify",
+      "pipelineVerifyMeta": "secure claim",
+      "pipelineReturn": "Return",
+      "pipelineReturnMeta": "handover + log"
+    },
+    "story": {
+      "whyEyebrow": "Why Renuir",
+      "whyHeadline": "Don't build recovery infrastructure from scratch.",
+      "whySubtitle": "Matching, verification, and chain of custody are hard to get right. We already did. You get the endpoints.",
+      "howEyebrow": "How it works",
+      "howHeadline": "From key to first match in an afternoon.",
+      "whatEyebrow": "What you get",
+      "whatHeadline": "The full platform, as endpoints.",
+      "securityEyebrow": "Security",
+      "securityHeadline": "Enterprise-grade from the first call.",
+      "value1Title": "Headless by design",
+      "value1Desc": "Every capability is one API call. No Renuir UI required, so your brand stays front and center.",
+      "value2Title": "The matching engine, exposed",
+      "value2Desc": "The same computer vision and matching that runs Renuir, available as a single endpoint.",
+      "value3Title": "Compliance built in",
+      "value3Desc": "Chain of custody, retention rules, and GDPR handling ship with the API, not as an afterthought.",
+      "step1Title": "Get your keys",
+      "step1Desc": "Create a project and generate a sandbox key. Start testing without a sales call.",
+      "step2Title": "Report items",
+      "step2Desc": "Send found or lost items with a photo. We categorize, tag, and index each one.",
+      "step3Title": "Get matched",
+      "step3Desc": "When a lost report matches a found item, we notify your webhook in real time.",
+      "step4Title": "Confirm the return",
+      "step4Desc": "Verify ownership and close the loop with a one-time secure handover code.",
+      "cap1Title": "REST API",
+      "cap1Desc": "Items, matches, claims, chat, and returns. Predictable resources, cursor pagination, idempotency keys.",
+      "cap2Title": "Webhooks",
+      "cap2Desc": "Real-time events for matches, claim status, and handovers. Signed payloads, automatic retries.",
+      "cap3Title": "White-label",
+      "cap3Desc": "Run a fully branded recovery flow on your own domain, powered entirely by the API.",
+      "cap4Title": "SDKs",
+      "cap4Desc": "Official client libraries for Node, Python, Go, and Swift arriving at launch.",
+      "security1": "EU data residency and GDPR-compliant handling",
+      "security2": "Full chain of custody on every item and claim",
+      "security3": "Scoped keys, rotation, and complete audit logs"
     },
     "docs": {
       "badge": "Developer Platform",
@@ -273,7 +393,12 @@
       "headline": "Ready to build?",
       "subtitle": "Headless integration for item reporting, matching, and claim verification.",
       "ctaPrimary": "Get API keys",
-      "ctaSecondary": "Read documentation"
+      "ctaSecondary": "Read documentation",
+      "buildHeadline": "Start building with Renuir.",
+      "buildSubtitle": "Request access and we'll set you up with sandbox keys and the full API reference.",
+      "leadCta": "Request API access",
+      "leadPlaceholder": "Enter your work email",
+      "leadSuccess": "Thanks. We'll send sandbox keys and docs shortly."
     }
   },
   "footer": {
@@ -304,7 +429,29 @@
     "beta": "Beta",
     "emailValidation": "Please enter a valid email address",
     "joining": "Joining...",
-    "loading": "..."
+    "loading": "...",
+    "leadForm": {
+      "cta": "Request access",
+      "placeholder": "Enter your work email",
+      "success": "You're on the list. We'll be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "emailLabel": "Work email"
+    },
+    "contactForm": {
+      "name": "Name",
+      "namePlaceholder": "Jordan Rivera",
+      "organization": "Organization",
+      "organizationPlaceholder": "Grand Central Hotel",
+      "email": "Work email",
+      "emailPlaceholder": "you@venue.com",
+      "messageLabel": "What would you like to know?",
+      "messageOptional": "(optional)",
+      "messagePlaceholder": "Tell us about your venue and volume of lost items.",
+      "error": "Something went wrong. Please try again.",
+      "cta": "Request onboarding",
+      "successTitle": "Thanks, that's in.",
+      "successBody": "Our team will reach out within one business day to set up your venue."
+    }
   },
   "legal": {
     "privacy": {

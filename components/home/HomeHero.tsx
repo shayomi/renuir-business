@@ -51,8 +51,8 @@ export function HomeHero() {
               <div className="w-full max-w-md">
                 <LeadForm
                   source="waitlist"
-                  cta="Join the waitlist"
-                  placeholder="Enter your work email"
+                  cta={t("waitlistCta")}
+                  placeholder={t("waitlistPlaceholder")}
                   variant="dark"
                 />
               </div>

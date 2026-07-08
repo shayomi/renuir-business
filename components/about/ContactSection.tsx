@@ -58,7 +58,7 @@ export function ContactSection() {
 
         <AnimateIn delay={0.1}>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-soft sm:p-8 lg:p-10">
-            <BusinessContactForm source="contact" cta="Send message" />
+            <BusinessContactForm source="contact" cta={t("formCta")} />
           </div>
         </AnimateIn>
       </div>

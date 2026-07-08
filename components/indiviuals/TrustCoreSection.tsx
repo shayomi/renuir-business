@@ -74,12 +74,12 @@ export default function TrustCoreSection() {
             {/* honest closing CTA */}
             <div className="flex flex-col items-start gap-4 border-t border-border px-8 py-8 sm:flex-row sm:items-center sm:justify-between sm:px-10 lg:px-12">
               <Typography variant="largeText" className="text-foreground">
-                Be one of the first to try Renuir.
+                {t("closingHeadline")}
               </Typography>
               <LeadForm
                 source="waitlist"
-                cta="Join the beta"
-                placeholder="Enter your email"
+                cta={t("closingCta")}
+                placeholder={t("closingPlaceholder")}
                 variant="light"
                 className="max-w-sm"
               />

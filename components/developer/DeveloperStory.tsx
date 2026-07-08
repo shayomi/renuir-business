@@ -11,84 +11,7 @@ import {
   Radio,
   BadgeCheck,
 } from 'lucide-react';
-
-const VALUE = [
-  {
-    Icon: Boxes,
-    title: 'Headless by design',
-    desc: 'Every capability is one API call. No Renuir UI required, so your brand stays front and center.',
-  },
-  {
-    Icon: Sparkles,
-    title: 'The matching engine, exposed',
-    desc: 'The same computer vision and matching that runs Renuir, available as a single endpoint.',
-  },
-  {
-    Icon: ShieldCheck,
-    title: 'Compliance built in',
-    desc: 'Chain of custody, retention rules, and GDPR handling ship with the API, not as an afterthought.',
-  },
-];
-
-const STEPS = [
-  {
-    n: '01',
-    Icon: KeyRound,
-    title: 'Get your keys',
-    desc: 'Create a project and generate a sandbox key. Start testing without a sales call.',
-    code: 'export RENUIR_KEY=rk_test_…',
-  },
-  {
-    n: '02',
-    Icon: Boxes,
-    title: 'Report items',
-    desc: 'Send found or lost items with a photo. We categorize, tag, and index each one.',
-    code: 'client.items.create({ photo, foundAt })',
-  },
-  {
-    n: '03',
-    Icon: Radio,
-    title: 'Get matched',
-    desc: 'When a lost report matches a found item, we notify your webhook in real time.',
-    code: 'POST /webhook  { event: "match.found" }',
-  },
-  {
-    n: '04',
-    Icon: BadgeCheck,
-    title: 'Confirm the return',
-    desc: 'Verify ownership and close the loop with a one-time secure handover code.',
-    code: 'client.claims.verify(claimId)',
-  },
-];
-
-const CAPABILITIES = [
-  {
-    Icon: Braces,
-    title: 'REST API',
-    desc: 'Items, matches, claims, chat, and returns. Predictable resources, cursor pagination, idempotency keys.',
-  },
-  {
-    Icon: Webhook,
-    title: 'Webhooks',
-    desc: 'Real-time events for matches, claim status, and handovers. Signed payloads, automatic retries.',
-  },
-  {
-    Icon: Palette,
-    title: 'White-label',
-    desc: 'Run a fully branded recovery flow on your own domain, powered entirely by the API.',
-  },
-  {
-    Icon: Package,
-    title: 'SDKs',
-    desc: 'Official client libraries for Node, Python, Go, and Swift arriving at launch.',
-  },
-];
-
-const SECURITY = [
-  'EU data residency and GDPR-compliant handling',
-  'Full chain of custody on every item and claim',
-  'Scoped keys, rotation, and complete audit logs',
-];
+import { getTranslations } from 'next-intl/server';
 
 function SectionEyebrow({ children }: { children: string }) {
   return (
@@ -106,19 +29,37 @@ function IconTile({ Icon }: { Icon: typeof Boxes }) {
   );
 }
 
-export function DeveloperStory() {
+export async function DeveloperStory() {
+  const t = await getTranslations('developer.story');
+  const VALUE = [
+    { Icon: Boxes, title: t('value1Title'), desc: t('value1Desc') },
+    { Icon: Sparkles, title: t('value2Title'), desc: t('value2Desc') },
+    { Icon: ShieldCheck, title: t('value3Title'), desc: t('value3Desc') },
+  ];
+  const STEPS = [
+    { n: '01', Icon: KeyRound, title: t('step1Title'), desc: t('step1Desc'), code: 'export RENUIR_KEY=rk_test_…' },
+    { n: '02', Icon: Boxes, title: t('step2Title'), desc: t('step2Desc'), code: 'client.items.create({ photo, foundAt })' },
+    { n: '03', Icon: Radio, title: t('step3Title'), desc: t('step3Desc'), code: 'POST /webhook  { event: "match.found" }' },
+    { n: '04', Icon: BadgeCheck, title: t('step4Title'), desc: t('step4Desc'), code: 'client.claims.verify(claimId)' },
+  ];
+  const CAPABILITIES = [
+    { Icon: Braces, title: t('cap1Title'), desc: t('cap1Desc') },
+    { Icon: Webhook, title: t('cap2Title'), desc: t('cap2Desc') },
+    { Icon: Palette, title: t('cap3Title'), desc: t('cap3Desc') },
+    { Icon: Package, title: t('cap4Title'), desc: t('cap4Desc') },
+  ];
+  const SECURITY = [t('security1'), t('security2'), t('security3')];
   return (
     <div className="bg-slate-950 text-white">
       {/* Why */}
       <section className="app-container border-t border-white/[0.06] py-20 lg:py-28">
         <AnimateIn className="max-w-2xl">
-          <SectionEyebrow>Why Renuir</SectionEyebrow>
+          <SectionEyebrow>{t('whyEyebrow')}</SectionEyebrow>
           <h2 className="mt-4 text-3xl font-medium tracking-tight sm:text-4xl">
-            Don&apos;t build recovery infrastructure from scratch.
+            {t('whyHeadline')}
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-white/60">
-            Matching, verification, and chain of custody are hard to get right.
-            We already did. You get the endpoints.
+            {t('whySubtitle')}
           </p>
         </AnimateIn>
 
@@ -140,9 +81,9 @@ export function DeveloperStory() {
       {/* How it works */}
       <section className="app-container border-t border-white/[0.06] py-20 lg:py-28">
         <AnimateIn className="max-w-2xl">
-          <SectionEyebrow>How it works</SectionEyebrow>
+          <SectionEyebrow>{t('howEyebrow')}</SectionEyebrow>
           <h2 className="mt-4 text-3xl font-medium tracking-tight sm:text-4xl">
-            From key to first match in an afternoon.
+            {t('howHeadline')}
           </h2>
         </AnimateIn>
 
@@ -181,9 +122,9 @@ export function DeveloperStory() {
       {/* What you get */}
       <section className="app-container border-t border-white/[0.06] py-20 lg:py-28">
         <AnimateIn className="max-w-2xl">
-          <SectionEyebrow>What you get</SectionEyebrow>
+          <SectionEyebrow>{t('whatEyebrow')}</SectionEyebrow>
           <h2 className="mt-4 text-3xl font-medium tracking-tight sm:text-4xl">
-            The full platform, as endpoints.
+            {t('whatHeadline')}
           </h2>
         </AnimateIn>
 
@@ -208,9 +149,9 @@ export function DeveloperStory() {
       <section className="app-container border-t border-white/[0.06] py-20 lg:py-24">
         <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:gap-16">
           <AnimateIn>
-            <SectionEyebrow>Security</SectionEyebrow>
+            <SectionEyebrow>{t('securityEyebrow')}</SectionEyebrow>
             <h2 className="mt-4 text-3xl font-medium tracking-tight sm:text-4xl">
-              Enterprise-grade from the first call.
+              {t('securityHeadline')}
             </h2>
           </AnimateIn>
           <AnimateIn delay={0.08}>

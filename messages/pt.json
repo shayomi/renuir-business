@@ -15,7 +15,16 @@
       "line2": "Reinventado.",
       "subtitle": "Um registro. Correspondência inteligente. Devolução segura. A Renuir conecta pessoas e lugares para recuperar o que importa.",
       "ctaBusiness": "Soluções para Empresas",
-      "ctaDownload": "Baixe o app"
+      "ctaDownload": "Baixe o app",
+      "waitlistCta": "Entrar na lista de espera",
+      "waitlistPlaceholder": "Introduza o seu email profissional"
+    },
+    "closing": {
+      "badge": "Beta privado",
+      "headline": "Torne-se um parceiro Renuir desde o início",
+      "subtitle": "Estamos a integrar um pequeno grupo de estabelecimentos e equipas. Deixe o seu email profissional e entraremos em contacto para agendar uma demonstração.",
+      "leadCta": "Solicitar acesso",
+      "leadPlaceholder": "Introduza o seu email profissional"
     },
     "change": {
       "headline": "Aquele aperto no peito quando você percebe que perdeu.",
@@ -74,6 +83,15 @@
     }
   },
   "about": {
+    "mission": {
+      "eyebrow": "Porque existimos",
+      "headline": "Os perdidos e achados estão avariados. Nós arranjamos a canalização.",
+      "lead": "Todos os dias, os estabelecimentos recolhem objetos que ninguém consegue devolver ao dono, e as pessoas desistem de coisas que poderiam ter recuperado.",
+      "body": "A Renuir oferece aos estabelecimentos um único lugar para registar objetos achados, verificar quem é realmente o dono e devolvê-los sem expor os dados pessoais de ninguém. Somos uma pequena equipa a construir isto com cuidado, começando com um punhado de parceiros de design em Berlim.",
+      "stat1Label": "Plataforma para cada objeto perdido, do registo à devolução",
+      "stat2Label": "Tempo de resposta previsto a cada pedido de demonstração de parceiros",
+      "stat3Label": "Construída segundo as normas de proteção de dados da UE desde o primeiro dia"
+    },
     "hero": {
       "headline": "Estamos aqui pra ajudar",
       "subtitle": "A Renuir existe para ajudar pessoas a recuperar o que perderam, sem pânico, pressão ou incerteza.",
@@ -128,7 +146,8 @@
         "message": "Mensagem",
         "messagePlaceholder": "Conte-nos o que você precisa...",
         "submit": "Solicitar demonstração"
-      }
+      },
+      "formCta": "Enviar mensagem"
     },
     "sectors": {
       "headline": "Feito para locais de alto fluxo.",
@@ -151,7 +170,8 @@
       "subtitle": "Substitua a caixa de achados e perdidos por uma plataforma de recuperação rastreável e auditável. Registre itens em segundos, devolva-os automaticamente e comprove a cadeia de custódia quando for preciso.",
       "emailPlaceholder": "Digite seu e-mail corporativo",
       "cta": "Solicitar demonstração",
-      "socialProof": "Hospedado na UE e pronto para o GDPR. Feito para equipes que precisam comprovar como cada item foi tratado."
+      "socialProof": "Hospedado na UE e pronto para o GDPR. Feito para equipes que precisam comprovar como cada item foi tratado.",
+      "demoSuccess": "Obrigado. A nossa equipa entrará em contacto para agendar a sua demonstração."
     },
     "costs": {
       "headline": "Itens perdidos são um centro de custo invisível.",
@@ -185,7 +205,36 @@
       "quote2Role": "CTO, Horizon Hospitality",
       "quote3": "Conformidade era nossa maior dor de cabeça. Os registros automatizados de cadeia de custódia da Renuir resolveram isso da noite pro dia.",
       "quote3Name": "Helena Costa",
-      "quote3Role": "Chefe de Segurança, Autoridade de Trânsito Metropolitana"
+      "quote3Role": "Chefe de Segurança, Autoridade de Trânsito Metropolitana",
+      "partner1Label": "Aeroportos e transportes",
+      "partner1Desc": "Centros de grande movimento onde os objetos cruzam fronteiras e cada transferência precisa de ser registada.",
+      "partner2Label": "Hotéis e hotelaria",
+      "partner2Desc": "Equipas de receção que procuram uma forma discreta e acolhedora de devolver pertences aos hóspedes.",
+      "partner3Label": "Campus e recintos",
+      "partner3Desc": "Grandes espaços com milhares de visitantes diários e um único balcão de perdidos e achados.",
+      "note": "Ainda não estamos a partilhar logótipos de clientes. Durante a fase beta, preferimos conquistar os resultados a pedir emprestada a reputação de outros."
+    },
+    "security": {
+      "eyebrow": "Segurança e conformidade",
+      "headline": "Concebida para aeroportos, transportes e estabelecimentos regulados.",
+      "subtitle": "As equipas que guardam bens de outras pessoas precisam de provar como foram tratados. A Renuir mantém esse registo por si.",
+      "item1Title": "Cadeia de custódia",
+      "item1Desc": "Cada leitura, entrega e reivindicação recebe uma marca temporal e é atribuída a um membro da equipa. Exporte um histórico completo de qualquer objeto quando necessário.",
+      "item2Title": "RGPD desde a conceção",
+      "item2Desc": "Os dados são armazenados na UE. Os detalhes pessoais permanecem privados até uma correspondência ser verificada, e o acesso é limitado aos estabelecimentos que dele necessitam.",
+      "item3Title": "Retenção e eliminação",
+      "item3Desc": "Defina um período de retenção por tipo de objeto. A Renuir executa automaticamente o fluxo de eliminação ou doação quando este expira, com um registo documentado.",
+      "item4Title": "Apenas reivindicações verificadas",
+      "item4Desc": "As questões de propriedade e as verificações de provas são realizadas antes da entrega, para que os objetos só sejam entregues a quem consegue provar que o objeto lhe pertence."
+    },
+    "closing": {
+      "eyebrow": "Fale com a nossa equipa",
+      "headline": "Traga a Renuir para o seu estabelecimento.",
+      "subtitle": "Conte-nos um pouco sobre a sua operação e criaremos uma demonstração e um plano de integração adaptados a ela.",
+      "point1": "Uma demonstração com objetos que a sua equipa realmente manuseia",
+      "point2": "Orientação de configuração para receção, devoluções e o registo de auditoria",
+      "point3": "Preços adaptados ao seu estabelecimento, e não a um plano fixo",
+      "formCta": "Solicitar integração"
     }
   },
   "individual": {
@@ -197,7 +246,10 @@
       "subtitle": "A Renuir conecta seu item perdido com o estabelecimento que o encontrou. Correspondência inteligente, chat seguro, devoluções verificadas.",
       "googlePlay": "Google Play",
       "appleStore": "App Store",
-      "appScreensAlt": "Telas do app Renuir"
+      "appScreensAlt": "Telas do app Renuir",
+      "waitlistCta": "Entrar na lista de espera",
+      "emailPlaceholder": "Introduza o seu email",
+      "availability": "Disponível para iOS e Android no lançamento."
     },
     "overview": {
       "headline": "Quatro passos para ter seu item de volta.",
@@ -232,7 +284,10 @@
       "feature3Title": "Sem dados pessoais públicos",
       "feature3Desc": "Seus dados são compartilhados somente após ambos os lados confirmarem a correspondência.",
       "feature4Title": "Rastreamento transparente",
-      "feature4Desc": "Cada ação é registrada para responsabilidade e transparência."
+      "feature4Desc": "Cada ação é registrada para responsabilidade e transparência.",
+      "closingHeadline": "Seja um dos primeiros a experimentar o Renuir.",
+      "closingCta": "Aderir à beta",
+      "closingPlaceholder": "Introduza o seu email"
     }
   },
   "developer": {
@@ -244,7 +299,72 @@
       "subtitle": "Acesso completo à API e implantação White-label para empresas que precisam de controle total sobre suas operações de achados e perdidos.",
       "emailPlaceholder": "Digite seu e-mail corporativo",
       "cta": "Solicitar acesso à API",
-      "socialProof": "Beta privado. Solicite acesso à API e entraremos em contato."
+      "socialProof": "Beta privado. Solicite acesso à API e entraremos em contato.",
+      "devEyebrow": "Plataforma para programadores",
+      "devHeadlineLine1": "Integre a recuperação",
+      "devHeadlineLine2": "no seu próprio produto.",
+      "devSubtitle": "Uma única API para receção de objetos, correspondência por IA, reivindicações e devoluções seguras. Integre-a na sua aplicação, PMS ou sistema do estabelecimento e deixe a Renuir tratar da parte difícil.",
+      "bannerMessage": "A API da Renuir está em beta privado. Solicite acesso para obter chaves de sandbox.",
+      "bannerLink": "Solicitar acesso",
+      "leadCta": "Solicitar acesso à API",
+      "leadPlaceholder": "Introduza o seu email profissional",
+      "leadSuccess": "Obrigado. Enviaremos em breve as chaves de sandbox e a documentação.",
+      "betaNote": "Beta privado. Sem cartão de crédito nem chamada comercial para começar a testar."
+    },
+    "connect": {
+      "eyebrow": "Como se liga",
+      "headline": "Uma única API entre os seus sistemas e cada objeto.",
+      "subtitle": "Envie objetos de qualquer lugar onde já opere. A Renuir trata da correspondência e da verificação e depois chama o seu endpoint quando há algo a resolver.",
+      "sendEyebrow": "Os seus sistemas",
+      "sendTitle": "Enviar objetos",
+      "sendDesc": "A sua aplicação, PMS, quiosque ou website comunica os objetos achados numa única chamada.",
+      "callbackEyebrow": "O seu endpoint",
+      "callbackTitle": "Receber uma chamada de retorno",
+      "callbackDesc": "Um webhook assinado chega ao seu servidor no momento em que um objeto é correspondido ou reivindicado.",
+      "pipelineIntake": "Receção",
+      "pipelineIntakeMeta": "categorizar, etiquetar, indexar",
+      "pipelineMatch": "Correspondência",
+      "pipelineMatchMeta": "visão + semelhança",
+      "pipelineVerify": "Verificação",
+      "pipelineVerifyMeta": "reivindicação segura",
+      "pipelineReturn": "Devolução",
+      "pipelineReturnMeta": "entrega + registo"
+    },
+    "story": {
+      "whyEyebrow": "Porquê a Renuir",
+      "whyHeadline": "Não construa infraestrutura de recuperação de raiz.",
+      "whySubtitle": "A correspondência, a verificação e a cadeia de custódia são difíceis de acertar. Nós já as acertámos. Você recebe os endpoints.",
+      "howEyebrow": "Como funciona",
+      "howHeadline": "Da chave à primeira correspondência numa tarde.",
+      "whatEyebrow": "O que recebe",
+      "whatHeadline": "A plataforma completa, como endpoints.",
+      "securityEyebrow": "Segurança",
+      "securityHeadline": "Nível empresarial desde a primeira chamada.",
+      "value1Title": "Headless por conceção",
+      "value1Desc": "Cada funcionalidade é uma única chamada de API. Não é necessária qualquer interface da Renuir, pelo que a sua marca permanece em primeiro plano.",
+      "value2Title": "O motor de correspondência, exposto",
+      "value2Desc": "A mesma visão computacional e correspondência que impulsiona a Renuir, disponível num único endpoint.",
+      "value3Title": "Conformidade integrada",
+      "value3Desc": "A cadeia de custódia, as regras de retenção e o tratamento segundo o RGPD acompanham a API, e não são uma reflexão tardia.",
+      "step1Title": "Obtenha as suas chaves",
+      "step1Desc": "Crie um projeto e gere uma chave de sandbox. Comece a testar sem qualquer chamada comercial.",
+      "step2Title": "Comunique objetos",
+      "step2Desc": "Envie objetos achados ou perdidos com uma fotografia. Nós categorizamos, etiquetamos e indexamos cada um.",
+      "step3Title": "Obtenha correspondências",
+      "step3Desc": "Quando um relatório de objeto perdido corresponde a um objeto achado, notificamos o seu webhook em tempo real.",
+      "step4Title": "Confirme a devolução",
+      "step4Desc": "Verifique a propriedade e feche o ciclo com um código de entrega seguro de utilização única.",
+      "cap1Title": "API REST",
+      "cap1Desc": "Objetos, correspondências, reivindicações, chat e devoluções. Recursos previsíveis, paginação por cursor, chaves de idempotência.",
+      "cap2Title": "Webhooks",
+      "cap2Desc": "Eventos em tempo real para correspondências, estado de reivindicações e entregas. Cargas assinadas, novas tentativas automáticas.",
+      "cap3Title": "Marca branca",
+      "cap3Desc": "Execute um fluxo de recuperação totalmente personalizado no seu próprio domínio, impulsionado inteiramente pela API.",
+      "cap4Title": "SDKs",
+      "cap4Desc": "Bibliotecas cliente oficiais para Node, Python, Go e Swift a chegar no lançamento.",
+      "security1": "Residência de dados na UE e tratamento em conformidade com o RGPD",
+      "security2": "Cadeia de custódia completa em cada objeto e reivindicação",
+      "security3": "Chaves com âmbito limitado, rotação e registos de auditoria completos"
     },
     "docs": {
       "badge": "Plataforma para Desenvolvedores",
@@ -273,7 +393,12 @@
       "headline": "Pronto para construir?",
       "subtitle": "Integração headless para registro de itens, correspondência e verificação de reivindicações.",
       "ctaPrimary": "Obter chaves de API",
-      "ctaSecondary": "Ler documentação"
+      "ctaSecondary": "Ler documentação",
+      "buildHeadline": "Comece a construir com a Renuir.",
+      "buildSubtitle": "Solicite acesso e configuraremos as suas chaves de sandbox e a referência completa da API.",
+      "leadCta": "Solicitar acesso à API",
+      "leadPlaceholder": "Introduza o seu email profissional",
+      "leadSuccess": "Obrigado. Enviaremos em breve as chaves de sandbox e a documentação."
     }
   },
   "footer": {
@@ -304,7 +429,29 @@
     "beta": "Beta",
     "emailValidation": "Insira um endereço de e-mail válido",
     "joining": "Entrando...",
-    "loading": "..."
+    "loading": "...",
+    "leadForm": {
+      "cta": "Solicitar acesso",
+      "placeholder": "Introduza o seu email profissional",
+      "success": "Está na lista. Entraremos em contacto em breve.",
+      "error": "Algo correu mal. Tente novamente.",
+      "emailLabel": "Email profissional"
+    },
+    "contactForm": {
+      "name": "Nome",
+      "namePlaceholder": "Jordan Rivera",
+      "organization": "Organização",
+      "organizationPlaceholder": "Grand Central Hotel",
+      "email": "Email profissional",
+      "emailPlaceholder": "você@estabelecimento.com",
+      "messageLabel": "O que gostaria de saber?",
+      "messageOptional": "(opcional)",
+      "messagePlaceholder": "Fale-nos do seu estabelecimento e do volume de objetos perdidos.",
+      "error": "Algo correu mal. Tente novamente.",
+      "cta": "Solicitar integração",
+      "successTitle": "Obrigado, está registado.",
+      "successBody": "A nossa equipa entrará em contacto no prazo de um dia útil para configurar o seu estabelecimento."
+    }
   },
   "legal": {
     "privacy": {

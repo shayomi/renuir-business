@@ -1,48 +1,32 @@
 import { Typography } from "@/components/ui/typography";
 import AnimateIn from "@/components/ui/AnimateIn";
 import { Link2, ShieldCheck, Trash2, Lock } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 
-const ITEMS = [
-  {
-    icon: Link2,
-    title: "Chain of custody",
-    desc: "Every scan, handover, and claim is time-stamped and attributed to a staff member. Export a complete history for any item on request.",
-  },
-  {
-    icon: ShieldCheck,
-    title: "GDPR by design",
-    desc: "Data is stored in the EU. Personal details stay private until a match is verified, and access is scoped to the venues that need it.",
-  },
-  {
-    icon: Trash2,
-    title: "Retention and disposal",
-    desc: "Set a retention period per item type. Renuir runs the disposal or donation workflow automatically when it expires, with a logged record.",
-  },
-  {
-    icon: Lock,
-    title: "Verified claims only",
-    desc: "Ownership questions and evidence checks run before release, so items only go to the person who can prove the item is theirs.",
-  },
-];
-
-export function SecurityCompliance() {
+export async function SecurityCompliance() {
+  const t = await getTranslations("solutions.security");
+  const ITEMS = [
+    { icon: Link2, title: t("item1Title"), desc: t("item1Desc") },
+    { icon: ShieldCheck, title: t("item2Title"), desc: t("item2Desc") },
+    { icon: Trash2, title: t("item3Title"), desc: t("item3Desc") },
+    { icon: Lock, title: t("item4Title"), desc: t("item4Desc") },
+  ];
   return (
     <section className="bg-card py-20 sm:py-28">
       <div className="app-container">
         <div className="mx-auto max-w-2xl text-center">
           <AnimateIn>
             <span className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-3.5 py-1.5 text-xs font-semibold uppercase tracking-wider text-primary">
-              Security and compliance
+              {t("eyebrow")}
             </span>
             <Typography
               variant="h2"
               className="mt-6 font-medium text-foreground"
             >
-              Built for airports, transit, and regulated venues.
+              {t("headline")}
             </Typography>
             <Typography variant="lead" className="mt-5 text-muted-foreground">
-              The teams that hold other people&rsquo;s property need to prove
-              how it was handled. Renuir keeps that record for you.
+              {t("subtitle")}
             </Typography>
           </AnimateIn>
         </div>

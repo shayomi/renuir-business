@@ -2,14 +2,11 @@ import { Typography } from "@/components/ui/typography";
 import AnimateIn from "@/components/ui/AnimateIn";
 import { BusinessContactForm } from "@/components/shared/BusinessContactForm";
 import { Check } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 
-const POINTS = [
-  "A walkthrough with items your team actually handles",
-  "Setup guidance for intake, returns, and the audit trail",
-  "Pricing shaped around your venue, not a fixed tier",
-];
-
-export function ClosingCTA() {
+export async function ClosingCTA() {
+  const t = await getTranslations("solutions.closing");
+  const POINTS = [t("point1"), t("point2"), t("point3")];
   return (
     <section id="contact" className="scroll-mt-24 bg-background pb-20 pt-4 sm:pb-28">
       <div className="app-container">
@@ -17,14 +14,13 @@ export function ClosingCTA() {
           <AnimateIn>
             <div>
               <span className="text-[12px] font-medium uppercase tracking-[0.16em] text-primary">
-                Talk to our team
+                {t("eyebrow")}
               </span>
               <Typography variant="h2" className="mt-4 font-medium text-foreground tracking-tight">
-                Bring Renuir to your venue.
+                {t("headline")}
               </Typography>
               <Typography variant="mutedText" className="mt-4 max-w-md text-muted-foreground">
-                Tell us a little about your operation and we will set up a
-                walkthrough and an onboarding plan built around it.
+                {t("subtitle")}
               </Typography>
 
               <ul className="mt-8 space-y-3">
@@ -41,7 +37,7 @@ export function ClosingCTA() {
           </AnimateIn>
 
           <AnimateIn delay={0.1}>
-            <BusinessContactForm source="demo" cta="Request onboarding" />
+            <BusinessContactForm source="demo" cta={t("formCta")} />
           </AnimateIn>
         </div>
       </div>

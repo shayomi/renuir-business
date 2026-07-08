@@ -15,7 +15,16 @@
       "line2": "Yeniden Tasarlandı.",
       "subtitle": "Tek bildirim. Akıllı eşleştirme. Güvenli iade. Renuir, insanları ve mekanları bir araya getirerek önemli eşyaların geri dönmesini sağlar.",
       "ctaBusiness": "Kurumsal Çözümler",
-      "ctaDownload": "Uygulamayı indir"
+      "ctaDownload": "Uygulamayı indir",
+      "waitlistCta": "Bekleme listesine katılın",
+      "waitlistPlaceholder": "İş e-postanızı girin"
+    },
+    "closing": {
+      "badge": "Özel beta",
+      "headline": "Renuir'in erken iş ortağı olun",
+      "subtitle": "Küçük bir mekan ve ekip grubunu platforma dahil ediyoruz. İş e-postanızı bırakın, bir tanıtım toplantısı ayarlamak için size ulaşalım.",
+      "leadCta": "Erişim talep edin",
+      "leadPlaceholder": "İş e-postanızı girin"
     },
     "change": {
       "headline": "Bir şeyini kaybettiğini fark ettiğin andaki o içine düşme hissi.",
@@ -74,6 +83,15 @@
     }
   },
   "about": {
+    "mission": {
+      "eyebrow": "Neden varız",
+      "headline": "Kayıp eşya süreci bozuk. Biz altyapıyı onarıyoruz.",
+      "lead": "Her gün mekanlar, sahibine ulaştırılamayan eşyalar topluyor ve insanlar geri alabilecekleri eşyalardan vazgeçiyor.",
+      "body": "Renuir, mekanlara bulunan eşyaları kaydetmek, gerçek sahibini doğrulamak ve kimsenin kişisel verisini açığa çıkarmadan iade etmek için tek bir platform sunar. Berlin'de birkaç tasarım ortağıyla başlayarak bunu titizlikle inşa eden küçük bir ekibiz.",
+      "stat1Label": "Kayıttan iadeye, her kayıp eşya için tek platform",
+      "stat2Label": "Her ortak demo talebinde hedeflenen yanıt süresi",
+      "stat3Label": "İlk günden itibaren AB veri koruma standartlarına uygun"
+    },
     "hero": {
       "headline": "Yardım etmek için buradayız",
       "subtitle": "Renuir, insanların kaybettiklerini panik, baskı veya belirsizlik yaşamadan geri almalarına yardımcı olmak için var.",
@@ -128,7 +146,8 @@
         "message": "Mesaj",
         "messagePlaceholder": "Bize ihtiyacınızı anlatın...",
         "submit": "Demo talep edin"
-      }
+      },
+      "formCta": "Mesaj gönder"
     },
     "sectors": {
       "headline": "Yoğun trafiğe sahip mekanlar için tasarlandı.",
@@ -151,7 +170,8 @@
       "subtitle": "Kayıp eşya kutusunu takip edilebilir, denetlenebilir bir iade platformuyla değiştirin. Eşyaları saniyeler içinde kaydedin, otomatik olarak iade edin ve gözetim zincirini istendiğinde kanıtlayın.",
       "emailPlaceholder": "Kurumsal e-postanızı girin",
       "cta": "Demo talep edin",
-      "socialProof": "AB'de barındırılır ve GDPR'a hazır. Her eşyanın nasıl ele alındığını kanıtlaması gereken ekipler için tasarlandı."
+      "socialProof": "AB'de barındırılır ve GDPR'a hazır. Her eşyanın nasıl ele alındığını kanıtlaması gereken ekipler için tasarlandı.",
+      "demoSuccess": "Teşekkürler. Ekibimiz tanıtımınızı ayarlamak için sizinle iletişime geçecek."
     },
     "costs": {
       "headline": "Kayıp eşyalar görünmez bir maliyet kalemidir.",
@@ -185,7 +205,36 @@
       "quote2Role": "CTO, Horizon Hospitality",
       "quote3": "Uyumluluk en büyük sorunumuzdu. Renuir'ün otomatik gözetim zinciri kayıtları bunu bir gecede çözdü.",
       "quote3Name": "Zeynep Arslan",
-      "quote3Role": "Güvenlik Müdürü, Metro Transit Authority"
+      "quote3Role": "Güvenlik Müdürü, Metro Transit Authority",
+      "partner1Label": "Havalimanları ve toplu taşıma",
+      "partner1Desc": "Eşyaların sınırları aştığı ve her devir teslimin hesabının verilmesi gereken yüksek yoğunluklu merkezler.",
+      "partner2Label": "Oteller ve konaklama",
+      "partner2Desc": "Eşyaları ölçülü ve misafir dostu bir şekilde iade etmek isteyen resepsiyon ekipleri.",
+      "partner3Label": "Kampüsler ve etkinlik alanları",
+      "partner3Desc": "Günde binlerce ziyaretçiye ve tek bir kayıp eşya masasına sahip büyük tesisler.",
+      "note": "Henüz müşteri logolarını paylaşmıyoruz. Beta sürecinde başkasının adını ödünç almak yerine sonuçları kendimiz hak etmeyi tercih ediyoruz."
+    },
+    "security": {
+      "eyebrow": "Güvenlik ve uyumluluk",
+      "headline": "Havalimanları, toplu taşıma ve düzenlemeye tabi mekanlar için tasarlandı.",
+      "subtitle": "Başkalarının eşyasını elinde tutan ekiplerin, bu eşyanın nasıl işlendiğini kanıtlaması gerekir. Renuir bu kaydı sizin için tutar.",
+      "item1Title": "Zilyetlik zinciri",
+      "item1Desc": "Her tarama, teslim ve talep, zaman damgalı olarak kaydedilir ve bir personele atfedilir. Talep üzerine herhangi bir eşyanın tam geçmişini dışa aktarın.",
+      "item2Title": "Tasarım gereği GDPR",
+      "item2Desc": "Veriler AB içinde saklanır. Kişisel bilgiler bir eşleşme doğrulanana kadar gizli kalır ve erişim yalnızca ihtiyaç duyan mekanlarla sınırlıdır.",
+      "item3Title": "Saklama ve imha",
+      "item3Desc": "Her eşya türü için bir saklama süresi belirleyin. Renuir, süre dolduğunda imha veya bağış sürecini otomatik olarak yürütür ve kaydını tutar.",
+      "item4Title": "Yalnızca doğrulanmış talepler",
+      "item4Desc": "Sahiplik soruları ve kanıt kontrolleri teslimden önce yapılır, böylece eşyalar yalnızca kendisine ait olduğunu kanıtlayabilen kişiye teslim edilir."
+    },
+    "closing": {
+      "eyebrow": "Ekibimizle görüşün",
+      "headline": "Renuir'i mekanınıza getirin.",
+      "subtitle": "Operasyonunuz hakkında biraz bilgi verin, size özel bir tanıtım ve kurulum planı hazırlayalım.",
+      "point1": "Ekibinizin gerçekten işlediği eşyalarla bir tanıtım",
+      "point2": "Kabul, iade ve denetim izi için kurulum rehberliği",
+      "point3": "Sabit bir paket değil, mekanınıza göre şekillenen fiyatlandırma",
+      "formCta": "Kurulum talep edin"
     }
   },
   "individual": {
@@ -197,7 +246,10 @@
       "subtitle": "Renuir, kaybettiğin eşyayı onu bulan mekanla buluşturur. Akıllı eşleştirme, güvenli sohbet, doğrulanmış iadeler.",
       "googlePlay": "Google Play",
       "appleStore": "App Store",
-      "appScreensAlt": "Renuir uygulama ekranları"
+      "appScreensAlt": "Renuir uygulama ekranları",
+      "waitlistCta": "Bekleme listesine katılın",
+      "emailPlaceholder": "E-postanızı girin",
+      "availability": "Lansmanda iOS ve Android'de kullanıma sunulacak."
     },
     "overview": {
       "headline": "Dört adımda eşyana kavuş.",
@@ -232,7 +284,10 @@
       "feature3Title": "Kişisel veri paylaşılmaz",
       "feature3Desc": "Bilgilerin ancak her iki taraf eşleşmeyi onayladıktan sonra paylaşılır.",
       "feature4Title": "Net denetim izi",
-      "feature4Desc": "Hesap verebilirlik ve şeffaflık için her işlem kayıt altına alınır."
+      "feature4Desc": "Hesap verebilirlik ve şeffaflık için her işlem kayıt altına alınır.",
+      "closingHeadline": "Renuir’ü ilk deneyenlerden biri ol.",
+      "closingCta": "Betaya katıl",
+      "closingPlaceholder": "E-postanı gir"
     }
   },
   "developer": {
@@ -244,7 +299,72 @@
       "subtitle": "Kayıp eşya operasyonları üzerinde tam kontrol isteyen kurumlar için eksiksiz API erişimi ve White-label dağıtım.",
       "emailPlaceholder": "Kurumsal e-postanızı girin",
       "cta": "API erişimi talep edin",
-      "socialProof": "Özel beta. API erişimi talep edin, sizinle iletişime geçeceğiz."
+      "socialProof": "Özel beta. API erişimi talep edin, sizinle iletişime geçeceğiz.",
+      "devEyebrow": "Geliştirici platformu",
+      "devHeadlineLine1": "Eşya kurtarmayı kendi",
+      "devHeadlineLine2": "ürününüze entegre edin.",
+      "devSubtitle": "Eşya kabulü, yapay zeka eşleştirme, talepler ve güvenli iadeler için tek bir API. Uygulamanıza, PMS veya mekan sisteminize ekleyin, zor kısmı Renuir halletsin.",
+      "bannerMessage": "Renuir API'si özel beta aşamasındadır. Sandbox anahtarları için erişim talep edin.",
+      "bannerLink": "Erişim talep edin",
+      "leadCta": "API erişimi talep edin",
+      "leadPlaceholder": "İş e-postanızı girin",
+      "leadSuccess": "Teşekkürler. Sandbox anahtarlarını ve belgeleri kısa süre içinde göndereceğiz.",
+      "betaNote": "Özel beta. Test etmeye başlamak için kredi kartı veya satış görüşmesi gerekmez."
+    },
+    "connect": {
+      "eyebrow": "Nasıl bağlanır",
+      "headline": "Sistemleriniz ile her eşya arasında tek bir API.",
+      "subtitle": "Eşyaları hâlihazırda çalıştığınız her yerden gönderin. Renuir eşleştirme ve doğrulamayı yapar, ardından harekete geçilecek bir durum olduğunda uç noktanızı geri arar.",
+      "sendEyebrow": "Sistemleriniz",
+      "sendTitle": "Eşya gönderin",
+      "sendDesc": "Uygulamanız, PMS, kiosk veya web siteniz bulunan eşyaları tek bir çağrıyla bildirir.",
+      "callbackEyebrow": "Uç noktanız",
+      "callbackTitle": "Geri çağrı alın",
+      "callbackDesc": "Bir eşya eşleştirildiği veya talep edildiği anda imzalı bir webhook sunucunuza ulaşır.",
+      "pipelineIntake": "Kabul",
+      "pipelineIntakeMeta": "categorize, tag, index",
+      "pipelineMatch": "Eşleştir",
+      "pipelineMatchMeta": "vision + similarity",
+      "pipelineVerify": "Doğrula",
+      "pipelineVerifyMeta": "secure claim",
+      "pipelineReturn": "İade",
+      "pipelineReturnMeta": "handover + log"
+    },
+    "story": {
+      "whyEyebrow": "Neden Renuir",
+      "whyHeadline": "Kurtarma altyapısını sıfırdan inşa etmeyin.",
+      "whySubtitle": "Eşleştirme, doğrulama ve zilyetlik zincirini doğru kurmak zordur. Biz zaten kurduk. Siz uç noktaları alırsınız.",
+      "howEyebrow": "Nasıl çalışır",
+      "howHeadline": "Anahtardan ilk eşleşmeye bir öğleden sonrada.",
+      "whatEyebrow": "Neler elde edersiniz",
+      "whatHeadline": "Uç noktalar hâlinde eksiksiz platform.",
+      "securityEyebrow": "Güvenlik",
+      "securityHeadline": "İlk çağrıdan itibaren kurumsal düzeyde.",
+      "value1Title": "Tasarım gereği başsız (headless)",
+      "value1Desc": "Her yetenek tek bir API çağrısıdır. Renuir arayüzü gerekmez, böylece markanız ön planda kalır.",
+      "value2Title": "Erişime açık eşleştirme motoru",
+      "value2Desc": "Renuir'i çalıştıran bilgisayarlı görü ve eşleştirmenin aynısı, tek bir uç nokta olarak sunulur.",
+      "value3Title": "Yerleşik uyumluluk",
+      "value3Desc": "Zilyetlik zinciri, saklama kuralları ve GDPR işleme, sonradan eklenen değil, API ile birlikte gelen özelliklerdir.",
+      "step1Title": "Anahtarlarınızı alın",
+      "step1Desc": "Bir proje oluşturun ve bir sandbox anahtarı üretin. Satış görüşmesi olmadan test etmeye başlayın.",
+      "step2Title": "Eşyaları bildirin",
+      "step2Desc": "Bulunan veya kayıp eşyaları bir fotoğrafla gönderin. Her birini kategorize eder, etiketler ve dizinleriz.",
+      "step3Title": "Eşleşme alın",
+      "step3Desc": "Bir kayıp bildirimi bulunan bir eşyayla eşleştiğinde, webhook'unuzu gerçek zamanlı olarak bilgilendiririz.",
+      "step4Title": "İadeyi onaylayın",
+      "step4Desc": "Sahipliği doğrulayın ve tek kullanımlık güvenli bir teslim koduyla süreci kapatın.",
+      "cap1Title": "REST API",
+      "cap1Desc": "Eşyalar, eşleşmeler, talepler, sohbet ve iadeler. Öngörülebilir kaynaklar, imleç tabanlı sayfalama, idempotency anahtarları.",
+      "cap2Title": "Webhook'lar",
+      "cap2Desc": "Eşleşmeler, talep durumu ve teslimler için gerçek zamanlı olaylar. İmzalı yükler, otomatik yeniden denemeler.",
+      "cap3Title": "Beyaz etiket",
+      "cap3Desc": "Tamamen API tarafından desteklenen, kendi alan adınızda markalı bir kurtarma akışı çalıştırın.",
+      "cap4Title": "SDK'lar",
+      "cap4Desc": "Node, Python, Go ve Swift için resmi istemci kütüphaneleri lansmanda gelecek.",
+      "security1": "AB veri ikametgahı ve GDPR uyumlu işleme",
+      "security2": "Her eşya ve talepte eksiksiz zilyetlik zinciri",
+      "security3": "Kapsamı sınırlı anahtarlar, rotasyon ve eksiksiz denetim kayıtları"
     },
     "docs": {
       "badge": "Geliştirici Platformu",
@@ -273,7 +393,12 @@
       "headline": "İnşa etmeye hazır mısınız?",
       "subtitle": "Eşya bildirimi, eşleştirme ve talep doğrulaması için headless entegrasyon.",
       "ctaPrimary": "API anahtarlarını alın",
-      "ctaSecondary": "Dokümantasyonu okuyun"
+      "ctaSecondary": "Dokümantasyonu okuyun",
+      "buildHeadline": "Renuir ile geliştirmeye başlayın.",
+      "buildSubtitle": "Erişim talep edin, sizi sandbox anahtarları ve eksiksiz API referansıyla hazır hâle getirelim.",
+      "leadCta": "API erişimi talep edin",
+      "leadPlaceholder": "İş e-postanızı girin",
+      "leadSuccess": "Teşekkürler. Sandbox anahtarlarını ve belgeleri kısa süre içinde göndereceğiz."
     }
   },
   "footer": {
@@ -304,7 +429,29 @@
     "beta": "Beta",
     "emailValidation": "Lütfen geçerli bir e-posta adresi girin",
     "joining": "Katılıyor...",
-    "loading": "..."
+    "loading": "...",
+    "leadForm": {
+      "cta": "Erişim talep edin",
+      "placeholder": "İş e-postanızı girin",
+      "success": "Listeye eklendiniz. Kısa süre içinde sizinle iletişime geçeceğiz.",
+      "error": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
+      "emailLabel": "İş e-postası"
+    },
+    "contactForm": {
+      "name": "Ad",
+      "namePlaceholder": "Jordan Rivera",
+      "organization": "Kuruluş",
+      "organizationPlaceholder": "Grand Central Hotel",
+      "email": "İş e-postası",
+      "emailPlaceholder": "siz@mekan.com",
+      "messageLabel": "Neyi öğrenmek istersiniz?",
+      "messageOptional": "(isteğe bağlı)",
+      "messagePlaceholder": "Mekanınız ve kayıp eşya hacminiz hakkında bize bilgi verin.",
+      "error": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
+      "cta": "Kurulum talep edin",
+      "successTitle": "Teşekkürler, alındı.",
+      "successBody": "Ekibimiz, mekanınızı kurmak için bir iş günü içinde sizinle iletişime geçecek."
+    }
   },
   "legal": {
     "privacy": {

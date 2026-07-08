@@ -9,13 +9,7 @@ import {
   PackageCheck,
   Webhook,
 } from "lucide-react";
-
-const PIPELINE = [
-  { Icon: ScanLine, label: "Intake", meta: "categorize, tag, index" },
-  { Icon: Sparkles, label: "Match", meta: "vision + similarity" },
-  { Icon: BadgeCheck, label: "Verify", meta: "secure claim" },
-  { Icon: PackageCheck, label: "Return", meta: "handover + log" },
-];
+import { getTranslations } from "next-intl/server";
 
 function NodeCard({
   eyebrow,
@@ -73,21 +67,26 @@ function Connector() {
   );
 }
 
-export function DeveloperConnect() {
+export async function DeveloperConnect() {
+  const t = await getTranslations("developer.connect");
+  const PIPELINE = [
+    { Icon: ScanLine, label: t("pipelineIntake"), meta: t("pipelineIntakeMeta") },
+    { Icon: Sparkles, label: t("pipelineMatch"), meta: t("pipelineMatchMeta") },
+    { Icon: BadgeCheck, label: t("pipelineVerify"), meta: t("pipelineVerifyMeta") },
+    { Icon: PackageCheck, label: t("pipelineReturn"), meta: t("pipelineReturnMeta") },
+  ];
   return (
     <section className="bg-slate-950 py-20 text-white lg:py-28">
       <div className="app-container">
         <AnimateIn className="max-w-2xl">
           <span className="text-[12px] font-medium uppercase tracking-[0.16em] text-primary-400">
-            How it connects
+            {t("eyebrow")}
           </span>
           <h2 className="mt-4 text-3xl font-medium tracking-tight sm:text-4xl">
-            One API between your systems and every item.
+            {t("headline")}
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-white/60">
-            Push items from anywhere you already run. Renuir handles matching and
-            verification, then calls your endpoint back when there is something to
-            act on.
+            {t("subtitle")}
           </p>
         </AnimateIn>
 
@@ -95,11 +94,11 @@ export function DeveloperConnect() {
         <AnimateIn delay={0.1} className="mt-14">
           <div className="flex flex-col items-stretch gap-4 lg:flex-row lg:items-center">
             <NodeCard
-              eyebrow="Your systems"
+              eyebrow={t("sendEyebrow")}
               Icon={Boxes}
-              title="Send items"
+              title={t("sendTitle")}
               code="POST /v1/items"
-              desc="Your app, PMS, kiosk, or website reports found items in one call."
+              desc={t("sendDesc")}
             />
 
             <Connector />
@@ -142,11 +141,11 @@ export function DeveloperConnect() {
             <Connector />
 
             <NodeCard
-              eyebrow="Your endpoint"
+              eyebrow={t("callbackEyebrow")}
               Icon={Webhook}
-              title="Get called back"
+              title={t("callbackTitle")}
               code={'{ "event": "match.found" }'}
-              desc="A signed webhook hits your server the moment an item is matched or claimed."
+              desc={t("callbackDesc")}
             />
           </div>
         </AnimateIn>

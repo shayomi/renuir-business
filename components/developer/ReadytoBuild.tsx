@@ -1,7 +1,9 @@
 import AnimateIn from '@/components/ui/AnimateIn';
 import { LeadForm } from '@/components/shared/LeadForm';
+import { getTranslations } from 'next-intl/server';
 
-export default function ReadyToBuildCTA() {
+export default async function ReadyToBuildCTA() {
+  const t = await getTranslations('developer.ready');
   return (
     <section id="dev-access" className="scroll-mt-24 bg-slate-950 pb-24 pt-4 lg:pb-28">
       <div className="app-container">
@@ -17,19 +19,18 @@ export default function ReadyToBuildCTA() {
             />
             <div className="relative mx-auto flex max-w-xl flex-col items-center">
               <h2 className="text-3xl font-medium tracking-tight text-white sm:text-4xl">
-                Start building with Renuir.
+                {t('buildHeadline')}
               </h2>
               <p className="mt-4 text-[17px] leading-relaxed text-white/80">
-                Request access and we&apos;ll set you up with sandbox keys and
-                the full API reference.
+                {t('buildSubtitle')}
               </p>
               <div className="mt-8 flex w-full justify-center">
                 <LeadForm
                   source="developer"
                   variant="dark"
-                  cta="Request API access"
-                  placeholder="Enter your work email"
-                  successMessage="Thanks. We'll send sandbox keys and docs shortly."
+                  cta={t('leadCta')}
+                  placeholder={t('leadPlaceholder')}
+                  successMessage={t('leadSuccess')}
                 />
               </div>
             </div>
