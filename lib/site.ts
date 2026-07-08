@@ -6,12 +6,10 @@ export const SITE_URL = (
 ).replace(/\/$/, '');
 
 /**
- * The site is indexable by default. It stays private when a basic-auth gate is
- * configured (SITE_USER) or when SITE_NOINDEX is explicitly set — so staging
- * stays dark while production gets indexed.
+ * The site is indexable by default. Set SITE_NOINDEX=true on staging to keep
+ * it out of search while production gets indexed.
  */
-export const shouldIndex =
-  !process.env.SITE_USER && process.env.SITE_NOINDEX !== 'true';
+export const shouldIndex = process.env.SITE_NOINDEX !== 'true';
 
 /** Top-level routes (locale is prefixed per entry). */
 export const ROUTES = ['', '/solutions', '/individual', '/developer', '/about-us'] as const;
