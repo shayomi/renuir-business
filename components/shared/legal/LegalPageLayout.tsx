@@ -8,11 +8,6 @@ interface LegalPageLayoutProps {
   children: React.ReactNode;
 }
 
-// Legal pages are informational and jurisdiction-sensitive, so this notice is
-// intentionally hardcoded in English across all locales.
-const LEGAL_DISCLAIMER =
-  "This document is provided for general information only and does not constitute legal advice. It should be reviewed and adapted by qualified legal counsel before you rely on it. Fields shown in square brackets are placeholders that must be completed with verified company details.";
-
 const ON_THIS_PAGE = "On this page";
 
 export function LegalPageLayout({
@@ -34,10 +29,7 @@ export function LegalPageLayout({
             </span>
           </header>
 
-          <LegalArticle
-            disclaimer={LEGAL_DISCLAIMER}
-            onThisPageLabel={ON_THIS_PAGE}
-          >
+          <LegalArticle onThisPageLabel={ON_THIS_PAGE}>
             {children}
           </LegalArticle>
         </div>

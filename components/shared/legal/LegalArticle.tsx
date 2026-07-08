@@ -18,7 +18,7 @@ function slugify(text: string): string {
 
 interface LegalArticleProps {
   children: React.ReactNode;
-  disclaimer: string;
+  disclaimer?: string;
   onThisPageLabel: string;
 }
 
@@ -78,14 +78,16 @@ export function LegalArticle({
           {children}
         </div>
 
-        <aside
-          role="note"
-          className="shadow-soft mt-16 max-w-[70ch] rounded-2xl border border-border bg-muted/40 p-6"
-        >
-          <p className="text-sm leading-relaxed text-muted-foreground">
-            {disclaimer}
-          </p>
-        </aside>
+        {disclaimer ? (
+          <aside
+            role="note"
+            className="shadow-soft mt-16 max-w-[70ch] rounded-2xl border border-border bg-muted/40 p-6"
+          >
+            <p className="text-sm leading-relaxed text-muted-foreground">
+              {disclaimer}
+            </p>
+          </aside>
+        ) : null}
       </div>
 
       {toc.length > 1 && (
