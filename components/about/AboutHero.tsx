@@ -43,13 +43,13 @@ export function AboutHero() {
           <div className="mt-8 sm:mt-10 flex flex-wrap justify-center gap-3">
             <Link href="/about-us#contact">
               <Button variant="dark" size="lg" className="rounded-full">
-                Book a demo
+                {t('ctaPrimary')}
               </Button>
             </Link>
 
             <Link href="/solutions">
               <Button variant="outline" size="lg" className="rounded-full">
-                See how it works
+                {t('ctaSecondary')}
               </Button>
             </Link>
           </div>

@@ -96,7 +96,9 @@
       "headline": "Nous sommes là pour aider",
       "subtitle": "Renuir existe pour aider chacun à retrouver ce qu'il a perdu, sans panique, sans pression et sans incertitude.",
       "googlePlay": "Google Play",
-      "appleStore": "App Store"
+      "appleStore": "App Store",
+      "ctaPrimary": "Reserver une demo",
+      "ctaSecondary": "Voir comment ca marche"
     },
     "team": {
       "headline": "L'équipe derrière Renuir",

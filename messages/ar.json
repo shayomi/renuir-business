@@ -96,7 +96,9 @@
       "headline": "نحن هنا للمساعدة",
       "subtitle": "Renuir موجود لمساعدة الناس على استعادة ما فقدوه، بدون ذعر أو ضغط أو غموض.",
       "googlePlay": "Google Play",
-      "appleStore": "App Store"
+      "appleStore": "App Store",
+      "ctaPrimary": "احجز عرضاً توضيحياً",
+      "ctaSecondary": "شاهد كيف يعمل"
     },
     "team": {
       "headline": "الفريق وراء Renuir",

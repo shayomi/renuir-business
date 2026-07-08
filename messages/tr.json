@@ -96,7 +96,9 @@
       "headline": "Yardım etmek için buradayız",
       "subtitle": "Renuir, insanların kaybettiklerini panik, baskı veya belirsizlik yaşamadan geri almalarına yardımcı olmak için var.",
       "googlePlay": "Google Play",
-      "appleStore": "App Store"
+      "appleStore": "App Store",
+      "ctaPrimary": "Demo planlayın",
+      "ctaSecondary": "Nasıl çalıştığını görün"
     },
     "team": {
       "headline": "Renuir'ün arkasındaki ekip",
