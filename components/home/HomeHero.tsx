@@ -89,7 +89,7 @@ export function HomeHero() {
               width={733}
               height={1475}
               priority
-              className="relative w-[74%] max-w-[320px] drop-shadow-[0_40px_90px_rgba(0,0,0,0.55)] sm:max-w-[360px] lg:w-full lg:max-w-[430px]"
+              className="relative w-[62%] max-w-[280px] drop-shadow-[0_40px_90px_rgba(0,0,0,0.55)] sm:max-w-[300px] lg:w-[80%] lg:max-w-[360px]"
             />
           </div>
         </AnimateIn>
