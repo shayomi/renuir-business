@@ -186,19 +186,6 @@
       "quote3": "Compliance was our biggest headache. Renuir's automated chain of custody logs solved that overnight.",
       "quote3Name": "Elena Rodriguez",
       "quote3Role": "Head of Security, Metro Transit Authority"
-    },
-    "steps": {
-      "badge": "How it works",
-      "headline": "Four steps to your item back.",
-      "subtitle": "From the counter to the owner, without the phone calls and storage rooms.",
-      "step1Title": "Your team logs it",
-      "step1Desc": "Staff snap a photo. Renuir's AI tags the category, brand, and colour. No forms, no spreadsheets.",
-      "step2Title": "We find the owner",
-      "step2Desc": "Each item is matched against incoming lost reports, and both sides are notified the moment there is a fit.",
-      "step3Title": "Ownership is verified",
-      "step3Desc": "A secure claim and in-app chat confirm the real owner before anything leaves your venue.",
-      "step4Title": "It goes back, on record",
-      "step4Desc": "Pickup or courier, with a full chain-of-custody log behind every handover."
     }
   },
   "individual": {

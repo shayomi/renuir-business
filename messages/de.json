@@ -186,19 +186,6 @@
       "quote3": "Compliance war unser größtes Problem. Die automatische Nachverfolgung von Renuir hat das über Nacht gelöst.",
       "quote3Name": "Elena Rodriguez",
       "quote3Role": "Sicherheitsleiterin, Metro Transit Authority"
-    },
-    "steps": {
-      "badge": "So funktioniert's",
-      "headline": "In vier Schritten ist der Gegenstand zurück.",
-      "subtitle": "Vom Tresen bis zum Eigentümer, ohne Anrufe und Lagerräume.",
-      "step1Title": "Ihr Team erfasst den Fund",
-      "step1Desc": "Ihre Mitarbeiter machen ein Foto. Die KI von Renuir erkennt Kategorie, Marke und Farbe. Keine Formulare, keine Tabellen.",
-      "step2Title": "Wir finden den Eigentümer",
-      "step2Desc": "Jeder Gegenstand wird mit eingehenden Verlustmeldungen abgeglichen, und beide Seiten werden benachrichtigt, sobald es eine Übereinstimmung gibt.",
-      "step3Title": "Die Eigentümerschaft wird verifiziert",
-      "step3Desc": "Ein sicherer Anspruch und der In-App-Chat bestätigen den echten Eigentümer, bevor etwas Ihre Einrichtung verlässt.",
-      "step4Title": "Rückgabe, lückenlos dokumentiert",
-      "step4Desc": "Abholung oder Kurier, mit einer vollständigen Übergabekette hinter jeder Rückgabe."
     }
   },
   "individual": {
@@ -322,9 +309,9 @@
   "legal": {
     "privacy": {
       "title": "Datenschutzerklärung",
-      "lastUpdated": "Zuletzt aktualisiert: 16. April 2026",
+      "lastUpdated": "Zuletzt aktualisiert: 8. Juli 2026",
       "controllerTitle": "1. Verantwortlicher",
-      "controllerBody": "Verantwortlich für die Datenverarbeitung auf dieser Website und innerhalb der Renuir-Plattform ist die Renuir UG (haftungsbeschränkt), Berlin, Deutschland. E-Mail: privacy@renuir.com.",
+      "controllerBody": "Verantwortlicher für die Verarbeitung personenbezogener Daten auf dieser Website und innerhalb der Renuir-Plattform im Sinne des Art. 4 Nr. 7 DSGVO ist die Renuir UG (haftungsbeschränkt), [Street address], [Postal code] Berlin, Deutschland. Für alle Datenschutzangelegenheiten, einschließlich der Kontaktaufnahme mit der für den Datenschutz verantwortlichen Person, erreichen Sie uns unter privacy@renuir.com. Wir haben keinen gesetzlichen Datenschutzbeauftragten bestellt, da wir hierzu derzeit nicht nach Art. 37 DSGVO verpflichtet sind; sollte sich dies ändern, werden die Kontaktdaten hier veröffentlicht.",
       "dataCollectedTitle": "2. Erhobene Daten",
       "dataCollectedIntro": "Wir erheben und verarbeiten folgende Kategorien personenbezogener Daten:",
       "dataAccount": "Kontodaten: Name, E-Mail-Adresse, Telefonnummer, Passwort (gehasht)",
@@ -366,7 +353,7 @@
     },
     "terms": {
       "title": "Allgemeine Geschäftsbedingungen",
-      "lastUpdated": "Zuletzt aktualisiert: 16. April 2026",
+      "lastUpdated": "Zuletzt aktualisiert: 8. Juli 2026",
       "scopeTitle": "1. Geltungsbereich",
       "scopeBody": "Diese Allgemeinen Geschäftsbedingungen regeln die Nutzung der Renuir-Plattform, einschließlich der Website, mobiler Anwendungen und API-Dienste, betrieben von der Renuir UG (haftungsbeschränkt), Berlin, Deutschland. Mit der Erstellung eines Kontos oder der Nutzung unserer Dienste stimmen Sie diesen Bedingungen zu.",
       "serviceTitle": "2. Leistungsbeschreibung",
@@ -399,7 +386,7 @@
       "lastUpdated": "Angaben gemäß § 5 TMG",
       "companyTitle": "Unternehmen",
       "companyName": "Renuir UG (haftungsbeschränkt)",
-      "companyAddress": "Berlin, Deutschland",
+      "companyAddress": "[Street address], [Postal code] Berlin, Deutschland",
       "companyRegistration": "Eingetragen: Amtsgericht Charlottenburg, Berlin, HRB 283063 B",
       "companyVatId": "USt-IdNr. (§ 27a UStG): wird nachgetragen",
       "representativeTitle": "Geschäftsführer",
@@ -416,7 +403,7 @@
     },
     "cookies": {
       "title": "Cookie-Richtlinie",
-      "lastUpdated": "Zuletzt aktualisiert: 16. April 2026",
+      "lastUpdated": "Zuletzt aktualisiert: 8. Juli 2026",
       "whatTitle": "1. Was sind Cookies",
       "whatBody": "Cookies sind kleine Textdateien, die auf Ihrem Gerät gespeichert werden, wenn Sie unsere Website besuchen. Sie helfen uns, ein funktionales, sicheres und personalisiertes Erlebnis zu bieten. Diese Richtlinie erklärt, welche Cookies wir verwenden, warum und wie Sie diese kontrollieren können.",
       "necessaryTitle": "2. Unbedingt notwendige Cookies",
@@ -439,7 +426,7 @@
     },
     "accessibility": {
       "title": "Erklärung zur Barrierefreiheit",
-      "lastUpdated": "Zuletzt aktualisiert: 16. April 2026",
+      "lastUpdated": "Zuletzt aktualisiert: 8. Juli 2026",
       "commitmentTitle": "1. Unser Engagement",
       "commitmentBody": "Die Renuir UG engagiert sich für die digitale Barrierefreiheit für Menschen mit Behinderungen. Wir verbessern kontinuierlich die Nutzererfahrung für alle und wenden die relevanten Barrierefreiheitsstandards an, in Übereinstimmung mit dem European Accessibility Act (EAA) und dem Barrierefreiheitsstärkungsgesetz (BFSG).",
       "standardTitle": "2. Barrierefreiheitsstandard",

@@ -186,19 +186,6 @@
       "quote3": "Zgodność z przepisami była naszym największym problemem. Automatyczne logi łańcucha przechowywania w Renuir rozwiązały to z dnia na dzień.",
       "quote3Name": "Katarzyna Zielińska",
       "quote3Role": "Szefowa ochrony, Metro Transit Authority"
-    },
-    "steps": {
-      "badge": "Jak to działa",
-      "headline": "Cztery kroki do odzyskania rzeczy.",
-      "subtitle": "Od lady do właściciela, bez telefonów i magazynów.",
-      "step1Title": "Twój zespół rejestruje przedmiot",
-      "step1Desc": "Personel robi zdjęcie. Sztuczna inteligencja Renuir rozpoznaje kategorię, markę i kolor. Bez formularzy i arkuszy.",
-      "step2Title": "Znajdujemy właściciela",
-      "step2Desc": "Każdy przedmiot jest zestawiany z napływającymi zgłoszeniami zguby, a obie strony otrzymują powiadomienie w chwili dopasowania.",
-      "step3Title": "Weryfikujemy własność",
-      "step3Desc": "Bezpieczne roszczenie i czat w aplikacji potwierdzają prawdziwego właściciela, zanim cokolwiek opuści Twój obiekt.",
-      "step4Title": "Zwrot, z pełnym rejestrem",
-      "step4Desc": "Odbiór osobisty lub kurier, z pełnym rejestrem łańcucha przechowywania przy każdym przekazaniu."
     }
   },
   "individual": {
@@ -322,9 +309,9 @@
   "legal": {
     "privacy": {
       "title": "Polityka prywatności",
-      "lastUpdated": "Ostatnia aktualizacja: 16 kwietnia 2026",
+      "lastUpdated": "Ostatnia aktualizacja: 8 lipca 2026",
       "controllerTitle": "1. Administrator danych",
-      "controllerBody": "Administratorem Państwa danych osobowych jest Renuir UG (haftungsbeschränkt), z siedzibą w Berlinie, Niemcy. W sprawach dotyczących ochrony danych prosimy o kontakt pod adresem privacy@renuir.com.",
+      "controllerBody": "Administratorem odpowiedzialnym za przetwarzanie danych osobowych na tej stronie internetowej oraz w ramach platformy Renuir, w rozumieniu art. 4 pkt 7 RODO, jest Renuir UG (haftungsbeschränkt), [Street address], [Postal code] Berlin, Niemcy. We wszystkich sprawach dotyczących ochrony danych, w tym w celu skontaktowania się z osobą odpowiedzialną za ochronę danych, prosimy o kontakt pod adresem privacy@renuir.com. Nie powołaliśmy ustawowego inspektora ochrony danych, ponieważ obecnie nie jesteśmy do tego zobowiązani na podstawie art. 37 RODO; w przypadku zmiany tego stanu dane kontaktowe zostaną opublikowane w tym miejscu.",
       "dataCollectedTitle": "2. Zbierane dane",
       "dataCollectedIntro": "Zbieramy i przetwarzamy następujące kategorie danych osobowych:",
       "dataAccount": "Dane konta: imię i nazwisko, adres e-mail, numer telefonu, hasło (zaszyfrowane)",
@@ -366,7 +353,7 @@
     },
     "terms": {
       "title": "Regulamin",
-      "lastUpdated": "Ostatnia aktualizacja: 16 kwietnia 2026",
+      "lastUpdated": "Ostatnia aktualizacja: 8 lipca 2026",
       "scopeTitle": "1. Zakres stosowania",
       "scopeBody": "Niniejszy regulamin określa zasady korzystania z platformy Renuir, w tym strony internetowej, aplikacji mobilnych i usług API, prowadzonych przez Renuir UG (haftungsbeschränkt), Berlin, Niemcy. Rejestrując konto lub korzystając z naszych usług, wyrażają Państwo zgodę na niniejsze warunki.",
       "serviceTitle": "2. Opis usługi",
@@ -399,9 +386,9 @@
       "lastUpdated": "Informacje zgodnie z § 5 TMG",
       "companyTitle": "Firma",
       "companyName": "Renuir UG (haftungsbeschränkt)",
-      "companyAddress": "Berlin, Niemcy",
+      "companyAddress": "[Street address], [Postal code] Berlin, Niemcy",
       "companyRegistration": "Rejestracja: Amtsgericht Charlottenburg, Berlin, HRB 283063 B",
-      "companyVatId": "NIP (§ 27a UStG): [w trakcie przyznawania]",
+      "companyVatId": "NIP (§ 27a UStG): w trakcie przyznawania",
       "representativeTitle": "Dyrektor zarządzający",
       "representativeBody": "Ajimati Opeyemi",
       "contactTitle": "Kontakt",
@@ -416,7 +403,7 @@
     },
     "cookies": {
       "title": "Polityka plików cookie",
-      "lastUpdated": "Ostatnia aktualizacja: 16 kwietnia 2026",
+      "lastUpdated": "Ostatnia aktualizacja: 8 lipca 2026",
       "whatTitle": "1. Czym są pliki cookie",
       "whatBody": "Pliki cookie to małe pliki tekstowe przechowywane na Państwa urządzeniu podczas odwiedzania naszej strony internetowej. Pomagają nam zapewnić funkcjonalne, bezpieczne i spersonalizowane doświadczenie. Niniejsza polityka wyjaśnia, jakie pliki cookie stosujemy, dlaczego i jak mogą je Państwo kontrolować.",
       "necessaryTitle": "2. Niezbędne pliki cookie",
@@ -439,7 +426,7 @@
     },
     "accessibility": {
       "title": "Oświadczenie o dostępności",
-      "lastUpdated": "Ostatnia aktualizacja: 16 kwietnia 2026",
+      "lastUpdated": "Ostatnia aktualizacja: 8 lipca 2026",
       "commitmentTitle": "1. Nasze zobowiązanie",
       "commitmentBody": "Renuir UG zobowiązuje się do zapewnienia dostępności cyfrowej dla osób z niepełnosprawnościami. Stale ulepszamy doświadczenie użytkownika dla wszystkich i stosujemy odpowiednie standardy dostępności, zgodnie z European Accessibility Act (EAA) i niemiecką ustawą Barrierefreiheitsstärkungsgesetz (BFSG).",
       "standardTitle": "2. Standard dostępności",
