@@ -46,7 +46,7 @@ export function IndividualHero() {
             <div className="mt-6 w-full max-w-md sm:mt-8">
               <LeadForm
                 source="waitlist"
-                cta="Join the beta"
+                cta="Join the waitlist"
                 placeholder="Enter your email"
                 variant="light"
               />

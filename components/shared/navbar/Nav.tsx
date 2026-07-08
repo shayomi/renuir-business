@@ -63,7 +63,7 @@ const Nav = () => {
                 size="sm"
                 className="rounded-full"
               >
-                {t('getApp')}
+                {t('joinWaitlist')}
               </Button>
             </Link>
           </div>

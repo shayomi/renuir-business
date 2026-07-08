@@ -18,47 +18,79 @@ export function HomeHero() {
         priority
         className="object-cover"
       />
-      <div className="absolute inset-0 bg-slate-950/40" />
+      <div className="absolute inset-0 bg-slate-950/55" />
 
       <div className="relative">
         <Nav />
       </div>
 
-      <div className="relative app-container py-20 sm:py-28 lg:py-36 flex flex-col items-center text-center">
-        <AnimateIn>
-          <Typography variant="extraLargeText" className="text-white">
-            <span className="block font-normal text-white/70">{t("line1")}</span>
-            <span className="block tracking-tightest">{t("line2")}</span>
-          </Typography>
-        </AnimateIn>
+      <div className="relative app-container grid items-center gap-12 py-16 sm:py-20 lg:grid-cols-[1.05fr_0.95fr] lg:gap-10 lg:py-28">
+        {/* Copy */}
+        <div className="max-w-xl text-center lg:text-left">
+          <AnimateIn>
+            <Typography variant="extraLargeText" className="text-white">
+              <span className="block font-normal text-white/70">{t("line1")}</span>
+              <span className="block tracking-tightest">{t("line2")}</span>
+            </Typography>
+          </AnimateIn>
 
-        <AnimateIn delay={0.06}>
-          <Typography
-            variant="lead"
-            className="mx-auto mt-5 sm:mt-6 max-w-xl text-white/80"
-          >
-            {t("subtitle")}
-          </Typography>
-        </AnimateIn>
+          <AnimateIn delay={0.06}>
+            <Typography
+              variant="lead"
+              className="mx-auto mt-5 max-w-md text-white/80 lg:mx-0"
+            >
+              {t("subtitle")}
+            </Typography>
+          </AnimateIn>
 
-        <AnimateIn delay={0.12}>
-          <div
-            id="waitlist"
-            className="mt-8 sm:mt-10 flex w-full scroll-mt-24 flex-col items-center gap-4"
-          >
-            <LeadForm
-              source="waitlist"
-              cta="Request access"
-              placeholder="Enter your work email"
-              variant="dark"
-              className="mx-auto"
+          <AnimateIn delay={0.12}>
+            <div
+              id="waitlist"
+              className="mt-8 flex scroll-mt-24 flex-col items-center gap-4 sm:flex-row lg:items-start"
+            >
+              <div className="w-full max-w-md">
+                <LeadForm
+                  source="waitlist"
+                  cta="Join the waitlist"
+                  placeholder="Enter your work email"
+                  variant="dark"
+                />
+              </div>
+            </div>
+            <div className="mt-4 flex justify-center lg:justify-start">
+              <Link href="/solutions">
+                <Button
+                  size="lg"
+                  variant="ghost"
+                  className="rounded-full border border-white/20 bg-transparent text-white hover:bg-white/10 hover:text-white"
+                >
+                  {t("ctaBusiness")}
+                </Button>
+              </Link>
+            </div>
+          </AnimateIn>
+        </div>
+
+        {/* Product device */}
+        <AnimateIn delay={0.16}>
+          <div className="relative flex justify-center lg:justify-end">
+            <div
+              aria-hidden
+              className="pointer-events-none absolute inset-0"
+              style={{
+                background:
+                  "radial-gradient(50% 45% at 55% 45%, color-mix(in oklch, var(--primary) 45%, transparent), transparent 70%)",
+                filter: "blur(30px)",
+              }}
             />
-
-            <Link href="/solutions">
-              <Button size="lg" variant="secondary" className="rounded-full">
-                {t("ctaBusiness")}
-              </Button>
-            </Link>
+            <Image
+              src="/images/solution/mobile2.png"
+              alt="A matched item in the Renuir app"
+              width={720}
+              height={1180}
+              priority
+              className="relative w-[62%] max-w-[300px] drop-shadow-[0_30px_70px_rgba(0,0,0,0.5)] lg:w-[78%]"
+            />
           </div>
         </AnimateIn>
       </div>

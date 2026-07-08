@@ -56,7 +56,7 @@ const Nav = () => {
                 variant="secondary"
                 className="rounded-full bg-white text-slate-900 hover:bg-white/90"
               >
-                {t('getApp')}
+                {t('joinWaitlist')}
               </Button>
             </Link>
           </div>

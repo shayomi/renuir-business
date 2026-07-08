@@ -149,7 +149,7 @@ const MobileNav = () => {
               </div>
               <Link href="/#waitlist" onClick={() => setSheetOpen(false)}>
                 <Button size="lg" className="w-full rounded-xl">
-                  {t('getApp')}
+                  {t('joinWaitlist')}
                 </Button>
               </Link>
             </div>
