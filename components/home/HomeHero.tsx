@@ -84,12 +84,12 @@ export function HomeHero() {
               }}
             />
             <Image
-              src="/images/solution/mobile2.png"
-              alt="A matched item in the Renuir app"
-              width={720}
-              height={1180}
+              src="/images/home/hero-app.png"
+              alt="The Renuir app home screen"
+              width={1642}
+              height={2000}
               priority
-              className="relative w-[62%] max-w-[300px] drop-shadow-[0_30px_70px_rgba(0,0,0,0.5)] lg:w-[78%]"
+              className="relative w-[74%] max-w-[360px] drop-shadow-[0_30px_70px_rgba(0,0,0,0.5)] lg:w-[92%]"
             />
           </div>
         </AnimateIn>
