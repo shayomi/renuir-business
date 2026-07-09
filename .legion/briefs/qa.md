@@ -1,5 +1,5 @@
 # AEGIS QA Brief — renuir-business
-_Scanned: 2026-04-13_
+_Scanned: 2026-07-09_
 
 Testing: 🔴 NONE — critical gap
 CI/CD: ✗ No CI

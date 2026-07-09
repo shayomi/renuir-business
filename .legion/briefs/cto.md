@@ -1,10 +1,10 @@
 # CTO Brief — renuir-business
-_Scanned: 2026-04-13_
+_Scanned: 2026-07-09_
 
 ## Executive Summary
 **Project:** renuir-business
 **Stack:** TypeScript, JavaScript | Next.js, React
-**Scale:** 156 files | Monorepo: No
+**Scale:** 209 files | Monorepo: No
 
 ## Architecture Signals
 - Frameworks: Next.js, React
