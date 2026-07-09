@@ -63,7 +63,7 @@ export async function DeveloperStory() {
           </p>
         </AnimateIn>
 
-        <div className="mt-12 grid gap-4 md:grid-cols-3">
+        <div className="mt-12 grid grid-cols-1 gap-4 md:grid-cols-3">
           {VALUE.map((v, i) => (
             <AnimateIn key={v.title} delay={i * 0.08}>
               <div className="h-full rounded-2xl border border-white/[0.08] bg-white/[0.02] p-7">
@@ -87,7 +87,7 @@ export async function DeveloperStory() {
           </h2>
         </AnimateIn>
 
-        <div className="mt-14 grid gap-x-10 gap-y-12 md:grid-cols-2">
+        <div className="mt-14 grid grid-cols-1 gap-x-10 gap-y-12 md:grid-cols-2">
           {STEPS.map((s, i) => (
             <AnimateIn key={s.n} delay={i * 0.06}>
               <div className="flex gap-5">
@@ -128,7 +128,7 @@ export async function DeveloperStory() {
           </h2>
         </AnimateIn>
 
-        <div className="mt-12 grid gap-4 sm:grid-cols-2">
+        <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2">
           {CAPABILITIES.map((c, i) => (
             <AnimateIn key={c.title} delay={i * 0.06}>
               <div className="flex h-full gap-5 rounded-2xl border border-white/[0.08] bg-white/[0.02] p-7">
@@ -147,7 +147,7 @@ export async function DeveloperStory() {
 
       {/* Security */}
       <section className="app-container border-t border-white/[0.06] py-20 lg:py-24">
-        <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:gap-16">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:gap-16">
           <AnimateIn>
             <SectionEyebrow>{t('securityEyebrow')}</SectionEyebrow>
             <h2 className="mt-4 text-3xl font-medium tracking-tight sm:text-4xl">

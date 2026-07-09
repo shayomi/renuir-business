@@ -20,8 +20,8 @@ export async function DeveloperHero() {
         linkHref="#dev-access"
       />
 
-      <div className="relative app-container grid items-center gap-12 pt-14 pb-16 sm:pt-20 lg:grid-cols-[1.05fr_1fr] lg:gap-16 lg:pt-24 lg:pb-24">
-        <div>
+      <div className="relative app-container grid grid-cols-1 items-center gap-12 pt-14 pb-16 sm:pt-20 lg:grid-cols-[1.05fr_1fr] lg:gap-16 lg:pt-24 lg:pb-24">
+        <div className="min-w-0">
           <AnimateIn>
             <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3.5 py-1.5 text-[12px] font-medium uppercase tracking-[0.14em] text-white/60">
               {t('devEyebrow')}
@@ -59,7 +59,7 @@ export async function DeveloperHero() {
           </AnimateIn>
         </div>
 
-        <AnimateIn delay={0.16} className="lg:pl-4">
+        <AnimateIn delay={0.16} className="min-w-0 lg:pl-4">
           <CodeWindow endpoint="POST api.renuir.com/v1/items">
             {kw('const')} client {com('=')} {kw('new')} RenuirClient({'{'}
             {'\n'}
