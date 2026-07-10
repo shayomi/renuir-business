@@ -28,6 +28,8 @@ function getStoredConsent(): ConsentState | null {
 
 function storeConsent(consent: ConsentState) {
   localStorage.setItem(CONSENT_KEY, JSON.stringify(consent));
+  // Notify consent-gated integrations (e.g. analytics) to re-evaluate.
+  window.dispatchEvent(new Event("renuir-consent-change"));
 }
 
 export function CookieConsent() {
@@ -44,6 +46,21 @@ export function CookieConsent() {
       const timer = setTimeout(() => setVisible(true), 800);
       return () => clearTimeout(timer);
     }
+  }, []);
+
+  // Allow a "Cookie settings" control (e.g. in the footer) to reopen the banner
+  // so visitors can review or withdraw consent at any time.
+  useEffect(() => {
+    const open = () => {
+      const stored = getStoredConsent();
+      setAnalytics(stored?.analytics ?? false);
+      setFunctional(stored?.functional ?? false);
+      setClosing(false);
+      setShowDetails(true);
+      setVisible(true);
+    };
+    window.addEventListener("renuir-open-consent", open);
+    return () => window.removeEventListener("renuir-open-consent", open);
   }, []);
 
   const dismiss = useCallback(() => {

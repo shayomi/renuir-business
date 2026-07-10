@@ -148,9 +148,20 @@ const Footer = () => {
 
         <AnimateIn delay={0.1}>
           <div className="flex flex-col sm:flex-row items-center sm:justify-between gap-4 mt-10 sm:mt-12 pt-8 border-t border-white/10">
-            <Typography variant="mutedText" className="text-white/55">
-              {t('copyright')}
-            </Typography>
+            <div className="flex flex-col items-center gap-1 sm:flex-row sm:gap-4">
+              <Typography variant="mutedText" className="text-white/55">
+                {t('copyright')}
+              </Typography>
+              <button
+                type="button"
+                onClick={() =>
+                  window.dispatchEvent(new Event('renuir-open-consent'))
+                }
+                className="text-sm text-white/55 underline-offset-2 transition-colors hover:text-white hover:underline"
+              >
+                {t('cookieSettings')}
+              </button>
+            </div>
 
             <div className="flex items-center gap-3">
               <a

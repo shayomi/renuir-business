@@ -422,7 +422,8 @@
     "cookies": "Pliki cookie",
     "imprint": "Impressum",
     "accessibility": "Dostępność",
-    "copyright": "© 2026 Renuir UG. Wszelkie prawa zastrzeżone."
+    "copyright": "© 2026 Renuir UG. Wszelkie prawa zastrzeżone.",
+    "cookieSettings": "Ustawienia plików cookie"
   },
   "common": {
     "learnMore": "Dowiedz się więcej",
