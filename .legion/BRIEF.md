@@ -1,5 +1,5 @@
 # Legion Master Brief — renuir-business
-_Scanned: 2026-04-13T08:28:13.870Z_
+_Scanned: 2026-07-09T11:50:15.523Z_
 
 ## Stack
 - Languages: TypeScript, JavaScript
@@ -15,7 +15,7 @@ Docker: ✗ | K8s: ✗ | Terraform: ✗ | CI/CD: ✗ MISSING
 ✓ No automated findings
 
 ## Git
-Branch: master | Last commit: d6bc254 fix: rename /new skill to /feature to avoid built-in command conflict
+Branch: master | Last commit: f392983 Fix developer page mobile overflow (constrain implicit grids)
 
 ## Agent Briefs
 - [cto](.legion/briefs/cto.md)

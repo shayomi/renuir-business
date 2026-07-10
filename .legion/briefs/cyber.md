@@ -1,5 +1,5 @@
 # CIPHER Security Brief — renuir-business
-_Scanned: 2026-04-13_
+_Scanned: 2026-07-09_
 
 ## Findings (0 total)
 No automated findings. Manual audit still recommended.
