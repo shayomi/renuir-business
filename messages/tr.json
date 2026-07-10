@@ -453,7 +453,9 @@
       "cta": "Kurulum talep edin",
       "successTitle": "Teşekkürler, alındı.",
       "successBody": "Ekibimiz, mekanınızı kurmak için bir iş günü içinde sizinle iletişime geçecek."
-    }
+    },
+    "consentText": "Göndererek, Renuir tarafından iletişime geçilmesini kabul edersiniz.",
+    "consentLink": "Gizlilik Politikası"
   },
   "legal": {
     "privacy": {

@@ -453,7 +453,9 @@
       "cta": "Onboarding anfragen",
       "successTitle": "Vielen Dank, das ist eingegangen.",
       "successBody": "Unser Team meldet sich innerhalb eines Werktags, um Ihren Standort einzurichten."
-    }
+    },
+    "consentText": "Mit dem Absenden stimmst du zu, von Renuir kontaktiert zu werden.",
+    "consentLink": "Datenschutzerklärung"
   },
   "legal": {
     "privacy": {

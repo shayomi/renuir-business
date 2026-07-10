@@ -453,7 +453,9 @@
       "cta": "Demander l'intégration",
       "successTitle": "Merci, c'est enregistré.",
       "successBody": "Notre équipe vous contactera sous un jour ouvré pour configurer votre établissement."
-    }
+    },
+    "consentText": "En soumettant, vous acceptez d'être contacté par Renuir.",
+    "consentLink": "Politique de confidentialité"
   },
   "legal": {
     "privacy": {

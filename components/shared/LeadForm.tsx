@@ -6,10 +6,13 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { ArrowRight, Check, Loader2 } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import { cn } from '@/lib/utils';
 
 const schema = z.object({
   email: z.string().email('Enter a valid work email'),
+  // Honeypot: hidden from real users; bots that fill it are rejected server-side.
+  website: z.string().optional(),
 });
 
 type Values = z.infer<typeof schema>;
@@ -37,6 +40,7 @@ export function LeadForm({
   successMessage,
 }: LeadFormProps) {
   const t = useTranslations('common.leadForm');
+  const tc = useTranslations('common');
   const ctaLabel = cta ?? t('cta');
   const placeholderLabel = placeholder ?? t('placeholder');
   const successLabel = successMessage ?? t('success');
@@ -96,6 +100,14 @@ export function LeadForm({
       noValidate
       className={cn('w-full max-w-md', className)}
     >
+      <input
+        type="text"
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+        className="hidden"
+        {...register('website')}
+      />
       <div
         className={cn(
           'flex items-center gap-2 rounded-full p-1.5 shadow-soft ring-1 transition-shadow',
@@ -140,6 +152,12 @@ export function LeadForm({
       <div className={cn('min-h-5 px-4 pt-2 text-[13px]', dark ? 'text-white/70' : 'text-muted-foreground')}>
         {errors.email?.message ?? error ?? ''}
       </div>
+      <p className={cn('px-4 text-[12px] leading-relaxed', dark ? 'text-white/50' : 'text-muted-foreground')}>
+        {tc('consentText')}{' '}
+        <Link href="/privacy" className="underline underline-offset-2 hover:opacity-80">
+          {tc('consentLink')}
+        </Link>
+      </p>
     </form>
   );
 }

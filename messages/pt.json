@@ -453,7 +453,9 @@
       "cta": "Solicitar integração",
       "successTitle": "Obrigado, está registado.",
       "successBody": "A nossa equipa entrará em contacto no prazo de um dia útil para configurar o seu estabelecimento."
-    }
+    },
+    "consentText": "Ao enviar, concordas em ser contactado pela Renuir.",
+    "consentLink": "Política de Privacidade"
   },
   "legal": {
     "privacy": {

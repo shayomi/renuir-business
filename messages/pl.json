@@ -453,7 +453,9 @@
       "cta": "Poproś o wdrożenie",
       "successTitle": "Dziękujemy, przyjęliśmy zgłoszenie.",
       "successBody": "Nasz zespół skontaktuje się w ciągu jednego dnia roboczego, aby skonfigurować Twój obiekt."
-    }
+    },
+    "consentText": "Wysyłając, zgadzasz się na kontakt ze strony Renuir.",
+    "consentLink": "Polityka prywatności"
   },
   "legal": {
     "privacy": {

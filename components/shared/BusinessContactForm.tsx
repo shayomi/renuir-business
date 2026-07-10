@@ -6,6 +6,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { ArrowRight, Check, Loader2 } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import { cn } from '@/lib/utils';
 
 const schema = z.object({
@@ -13,6 +14,8 @@ const schema = z.object({
   email: z.string().email('Enter a valid work email'),
   company: z.string().min(2, 'Please enter your organization'),
   message: z.string().max(1200).optional(),
+  // Honeypot: hidden from real users; bots that fill it are rejected server-side.
+  website: z.string().optional(),
 });
 
 type Values = z.infer<typeof schema>;
@@ -36,6 +39,7 @@ export function BusinessContactForm({
   className,
 }: BusinessContactFormProps) {
   const t = useTranslations('common.contactForm');
+  const tc = useTranslations('common');
   const ctaLabel = cta ?? t('cta');
   const [status, setStatus] = useState<'idle' | 'loading' | 'done' | 'error'>('idle');
 
@@ -87,6 +91,14 @@ export function BusinessContactForm({
       noValidate
       className={cn('grid gap-4', className)}
     >
+      <input
+        type="text"
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+        className="hidden"
+        {...register('website')}
+      />
       <div className="grid gap-4 sm:grid-cols-2">
         <div className="grid gap-1.5">
           <label htmlFor="bc-name" className="text-[13px] font-medium text-foreground">
@@ -151,6 +163,12 @@ export function BusinessContactForm({
           </>
         )}
       </button>
+      <p className="text-[12px] leading-relaxed text-muted-foreground">
+        {tc('consentText')}{' '}
+        <Link href="/privacy" className="underline underline-offset-2 hover:opacity-80">
+          {tc('consentLink')}
+        </Link>
+      </p>
     </form>
   );
 }

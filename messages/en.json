@@ -453,7 +453,9 @@
       "cta": "Request onboarding",
       "successTitle": "Thanks, that's in.",
       "successBody": "Our team will reach out within one business day to set up your venue."
-    }
+    },
+    "consentText": "By submitting, you agree to be contacted about Renuir.",
+    "consentLink": "Privacy Policy"
   },
   "legal": {
     "privacy": {
