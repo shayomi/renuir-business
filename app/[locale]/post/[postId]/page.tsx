@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import PostDeepLinkLanding from "@/components/shared/PostDeepLinkLanding";
 
 type Props = { params: Promise<{ locale: string; postId: string }> };
@@ -11,11 +12,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: "Open this shared lost-and-found post in the Renuir app.",
     alternates: { canonical },
     openGraph: { title: `Renuir post #${postId}`, description: "Open this shared lost-and-found post in the Renuir app.", url: canonical, type: "website" },
+    twitter: { card: "summary", title: `Renuir post #${postId}`, description: "Open this shared lost-and-found post in the Renuir app." },
+    robots: { index: false, follow: false },
     other: { "apple-itunes-app": `app-id=6758735828, app-argument=${canonical}` },
   };
 }
 
 export default async function PostPage({ params }: Props) {
   const { postId } = await params;
+  if (!/^\d+$/.test(postId)) notFound();
   return <PostDeepLinkLanding postId={postId} />;
 }

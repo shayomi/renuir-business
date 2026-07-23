@@ -105,7 +105,7 @@ export default function PostDeepLinkLanding({ postId }: PostDeepLinkLandingProps
   };
 
   return (
-    <main className="min-h-screen bg-[#f5f7fb] text-[#15171f]">
+    <main id="main-content" className="min-h-screen bg-[#f5f7fb] text-[#15171f]">
       <div className="mx-auto flex min-h-screen w-full max-w-6xl flex-col px-5 py-5 sm:px-8 sm:py-8">
         <header className="flex items-center justify-between">
           <Link href="/" aria-label="Renuir home" className="inline-flex items-center gap-2">
@@ -148,7 +148,6 @@ export default function PostDeepLinkLanding({ postId }: PostDeepLinkLandingProps
             </div>
           </div>
         </section>
-        <footer className="flex flex-col gap-2 border-t border-[#e2e6ef] pt-5 text-xs text-[#596174] sm:flex-row sm:items-center sm:justify-between"><span>Renuir · Reuniting people with what matters.</span><Link href="/" className="font-semibold text-[#596174] hover:text-[#2541e8]">Visit Renuir.com</Link></footer>
       </div>
     </main>
   );
