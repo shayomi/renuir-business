@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.renuir.app",
+      "sha256_cert_fingerprints": ["2C:2B:D1:68:2E:40:01:24:68:69:B9:2D:A4:6E:30:BC:83:51:99:4B:E4:B4:DA:DE:EC:13:EF:59:66:9E:22:5C"]
+    }
+  }
+]

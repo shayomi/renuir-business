@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "A3H3NSC234.com.renuir.app",
+        "paths": ["/post/*", "/match/*", "/chat/*", "/claim/*"]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": ["A3H3NSC234.com.renuir.app"]
+  }
+}
