@@ -113,6 +113,9 @@ const Footer = () => {
                   <li>
                     <Link href="/about-us#contact" className="hover:text-white transition-colors">{t('contactLink')}</Link>
                   </li>
+                  <li>
+                    <Link href="/support" className="hover:text-white transition-colors">{t('support')}</Link>
+                  </li>
                 </ul>
               </div>
 
@@ -130,6 +133,9 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link href="/terms" className="hover:text-white transition-colors">{t('terms')}</Link>
+                  </li>
+                  <li>
+                    <Link href="/delete-account" className="hover:text-white transition-colors">{t('deleteAccount')}</Link>
                   </li>
                   <li>
                     <Link href="/cookies" className="hover:text-white transition-colors">{t('cookies')}</Link>
