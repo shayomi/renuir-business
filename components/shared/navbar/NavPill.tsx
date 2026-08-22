@@ -50,25 +50,18 @@ export function NavPill({ variant }: NavPillProps) {
     };
   }, [openIndex, close]);
 
-  // Close on route change
-  useEffect(() => {
-    close();
-  }, [pathname, close]);
-
   // Determine which item is active
-  const getIsActive = (item: { href: string; children?: { href: string }[] }, index: number) => {
+  const getIsActive = (item: { href: string; children?: { href: string }[] }) => {
     if (item.children?.length) {
       return pathname === "/solutions" || pathname === "/individual";
     }
     return pathname === item.href || (pathname === "/" && item.href.startsWith("/#"));
   };
 
-  const activeIndex = menuItems.findIndex((item, i) => getIsActive(item, i));
-
   return (
     <div className={clsx("relative flex items-center gap-0.5 rounded-full p-1", pillBg)}>
       {menuItems.map((item, index) => {
-        const isActive = getIsActive(item, index);
+        const isActive = getIsActive(item);
 
         if (item.children?.length) {
           const isOpen = openIndex === index;
@@ -144,6 +137,7 @@ export function NavPill({ variant }: NavPillProps) {
           <Link
             key={index}
             href={item.href}
+            onClick={close}
             className={clsx(
               "relative z-10 rounded-full px-4 py-2 text-[0.8125rem] font-medium transition-colors duration-200",
               isActive

@@ -12,7 +12,19 @@ export const SITE_URL = (
 export const shouldIndex = process.env.SITE_NOINDEX !== 'true';
 
 /** Top-level routes (locale is prefixed per entry). */
-export const ROUTES = ['', '/solutions', '/individual', '/developer', '/about-us'] as const;
+export const ROUTES = [
+  '',
+  '/solutions',
+  '/individual',
+  '/developer',
+  '/about-us',
+  '/privacy',
+  '/support',
+  '/terms',
+  '/delete-account',
+  '/accessibility',
+  '/imprint',
+] as const;
 
 /** Build the hreflang alternates map for a given route across every locale. */
 export function languageAlternates(route: string): Record<string, string> {

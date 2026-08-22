@@ -36,6 +36,37 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+  async redirects() {
+    return [
+      {
+        source: '/privacy',
+        destination: '/en/privacy',
+        permanent: true,
+      },
+      {
+        source: '/terms',
+        destination: '/en/terms',
+        permanent: true,
+      },
+      {
+        source: '/support',
+        destination: '/en/support',
+        permanent: true,
+      },
+      {
+        source: '/delete-account',
+        destination: '/en/delete-account',
+        permanent: true,
+      },
+      ...['ar', 'es', 'fr', 'pl', 'pt', 'tr'].flatMap((locale) =>
+        ['privacy', 'terms', 'support', 'delete-account'].map((page) => ({
+          source: `/${locale}/${page}`,
+          destination: `/en/${page}`,
+          permanent: false,
+        })),
+      ),
+    ];
+  },
   async headers() {
     return [
       { source: "/:path*", headers: securityHeaders },

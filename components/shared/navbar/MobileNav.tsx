@@ -5,7 +5,7 @@ import { Link, usePathname } from "@/i18n/navigation";
 import Image from "next/image";
 
 import { clsx } from "clsx";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useTranslations } from 'next-intl';
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
@@ -18,10 +18,6 @@ const MobileNav = () => {
   const [expandedItems, setExpandedItems] = useState<string[]>([]);
   const pathname = usePathname();
   const menuItems = getMenuItems(t);
-
-  useEffect(() => {
-    setSheetOpen(false);
-  }, [pathname]);
 
   const toggleExpand = (itemName: string) => {
     setExpandedItems((prev) =>
