@@ -366,7 +366,7 @@
       "cap4Desc": "Oficjalne biblioteki klienckie dla Node, Python, Go i Swift pojawią się w momencie premiery.",
       "security1": "Rezydencja danych w UE i obsługa zgodna z RODO",
       "security2": "Pełny łańcuch nadzoru dla każdego przedmiotu i roszczenia",
-      "security3": "Klucze z ograniczonym zakresem, rotacja i kompletne dzienniki audytu"
+      "security3": "Klucze z ograniczonym zakresem, unieważnianie i telemetria użycia"
     },
     "docs": {
       "badge": "Platforma deweloperska",
@@ -482,10 +482,10 @@
       "basisLegal": "Obowiązek prawny (art. 6 ust. 1 lit. c): dokumentacja podatkowa, zgodność z przepisami i żądania organów ścigania",
       "thirdPartiesTitle": "4. Podmioty trzecie i podwykonawcy",
       "thirdPartiesIntro": "Udostępniamy dane następującym kategoriom podwykonawców, z którymi wiążą nas umowy powierzenia przetwarzania danych:",
-      "processorHosting": "Hosting i infrastruktura: Vercel (UE/USA), hosting strony internetowej i aplikacji",
-      "processorPayments": "Przetwarzanie płatności: Stripe, bezpieczna obsługa płatności przez Stripe Connect",
-      "processorAI": "Usługi AI: rozpoznawanie obrazów i dopasowywanie przedmiotów (minimalizacja danych, bez przesyłania danych identyfikacyjnych)",
-      "processorAnalytics": "Analityka: narzędzia analityczne respektujące prywatność do analizy wzorców użytkowania",
+      "processorHosting": "Hosting i infrastruktura: Google Cloud, Firebase, Expo i Vercel dla API, bazy danych, multimediów, uwierzytelniania, powiadomień, aktualizacji aplikacji i hostingu strony internetowej",
+      "processorPayments": "Płatności i weryfikacja: Apple App Store, Google Play i Stripe, w tym Stripe Identity do weryfikacji dokumentu i zgodnego selfie; Renuir nie przechowuje obrazów tożsamości",
+      "processorAI": "Usługi AI: usługi Google Cloud do analizy bezpieczeństwa, ekstrakcji tekstu, rozpoznawania obrazów i dopasowywania przedmiotów, z danymi ograniczonymi do żądanej operacji",
+      "processorAnalytics": "Diagnostyka i ulepszanie usługi: Sentry do raportów o awariach i śladów wydajności oraz analityka internetowa oparta na zgodzie",
       "retentionTitle": "5. Okres przechowywania",
       "retentionBody": "Dane konta są przechowywane przez okres istnienia konta i do 30 dni po jego usunięciu. Zgłoszenia przedmiotów i powiązane zdjęcia są przechowywane przez 12 miesięcy po rozwiązaniu sprawy lub 6 miesięcy po wygaśnięciu w przypadku nierozwiązanych zgłoszeń. Wiadomości czatu są przechowywane przez 6 miesięcy po rozwiązaniu roszczenia. Dokumentacja płatności jest przechowywana przez 10 lat zgodnie z niemieckim prawem podatkowym (§ 147 AO). Logi techniczne są usuwane po 90 dniach.",
       "transfersTitle": "6. Przekazywanie danych międzynarodowe",

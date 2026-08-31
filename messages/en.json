@@ -366,7 +366,7 @@
       "cap4Desc": "Official client libraries for Node, Python, Go, and Swift arriving at launch.",
       "security1": "EU data residency and GDPR-compliant handling",
       "security2": "Full chain of custody on every item and claim",
-      "security3": "Scoped keys, rotation, and complete audit logs"
+      "security3": "Scoped keys, revocation, and usage telemetry"
     },
     "docs": {
       "badge": "Developer Platform",

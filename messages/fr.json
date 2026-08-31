@@ -366,7 +366,7 @@
       "cap4Desc": "Bibliothèques clientes officielles pour Node, Python, Go et Swift disponibles au lancement.",
       "security1": "Résidence des données dans l'UE et traitement conforme au RGPD",
       "security2": "Chaîne de possession complète sur chaque objet et chaque réclamation",
-      "security3": "Clés à portée limitée, rotation et journaux d'audit complets"
+      "security3": "Clés à portée limitée, révocation et télémétrie d'utilisation"
     },
     "docs": {
       "badge": "Plateforme développeurs",
@@ -482,10 +482,10 @@
       "basisLegal": "Obligation legale (art. 6, par. 1, point c) : pour les documents fiscaux, la conformite reglementaire et les demandes des autorites",
       "thirdPartiesTitle": "4. Sous-traitants tiers",
       "thirdPartiesIntro": "Nous partageons des donnees avec les categories de sous-traitants suivantes, toutes liees par des accords de traitement des donnees :",
-      "processorHosting": "Hebergement et infrastructure : Vercel (UE/Etats-Unis), pour l'hebergement du site internet et de l'application",
-      "processorPayments": "Traitement des paiements : Stripe, pour la gestion securisee des paiements via Stripe Connect",
-      "processorAI": "Services d'IA : pour la reconnaissance d'images et la mise en correspondance des objets (donnees minimisees, aucun identifiant personnel transmis)",
-      "processorAnalytics": "Analyse : outils d'analyse respectueux de la vie privee pour comprendre les habitudes d'utilisation",
+      "processorHosting": "Hébergement et infrastructure : Google Cloud, Firebase, Expo et Vercel, pour l'API, la base de données, les médias, l'authentification, les notifications, les mises à jour de l'application et l'hébergement du site web",
+      "processorPayments": "Paiements et vérification : Apple App Store, Google Play et Stripe, y compris Stripe Identity pour la vérification des documents et du selfie correspondant ; Renuir ne stocke pas les images d'identité",
+      "processorAI": "Services d'IA : services Google Cloud pour l'analyse de sécurité, l'extraction de texte, la reconnaissance d'images et la mise en correspondance des objets, avec des données limitées à l'opération demandée",
+      "processorAnalytics": "Diagnostic et amélioration du service : Sentry pour les rapports de plantage et les traces de performance, ainsi que des analyses web fondées sur le consentement",
       "retentionTitle": "5. Duree de conservation",
       "retentionBody": "Les donnees de compte sont conservees pendant la duree de votre compte et jusqu'a 30 jours apres sa suppression. Les signalements d'objets et les photos associees sont conserves pendant 12 mois apres leur resolution, ou 6 mois apres leur expiration s'ils restent non resolus. Les messages de discussion sont conserves pendant 6 mois apres la resolution d'une reclamation. Les documents de paiement sont conserves pendant 10 ans, conformement au droit fiscal allemand (§ 147 AO). Les journaux techniques sont supprimes apres 90 jours.",
       "transfersTitle": "6. Transferts internationaux",

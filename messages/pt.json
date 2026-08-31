@@ -366,7 +366,7 @@
       "cap4Desc": "Bibliotecas cliente oficiais para Node, Python, Go e Swift a chegar no lançamento.",
       "security1": "Residência de dados na UE e tratamento em conformidade com o RGPD",
       "security2": "Cadeia de custódia completa em cada objeto e reivindicação",
-      "security3": "Chaves com âmbito limitado, rotação e registos de auditoria completos"
+      "security3": "Chaves com âmbito limitado, revogação e telemetria de utilização"
     },
     "docs": {
       "badge": "Plataforma para Desenvolvedores",
@@ -482,10 +482,10 @@
       "basisLegal": "Obrigação legal (Art. 6(1)(c)): para registos fiscais, cumprimento regulamentar e pedidos das autoridades",
       "thirdPartiesTitle": "4. Subcontratantes terceiros",
       "thirdPartiesIntro": "Partilhamos dados com as seguintes categorias de subcontratantes, todos vinculados por acordos de tratamento de dados:",
-      "processorHosting": "Alojamento e infraestrutura: Vercel (UE/EUA), para alojamento do website e da aplicação",
-      "processorPayments": "Processamento de pagamentos: Stripe, para gestão segura de pagamentos via Stripe Connect",
-      "processorAI": "Serviços de IA: para reconhecimento de imagens e correspondência de itens (dados minimizados, sem envio de identificadores pessoais)",
-      "processorAnalytics": "Análise: ferramentas de análise centradas na privacidade para compreender os padrões de utilização",
+      "processorHosting": "Alojamento e infraestrutura: Google Cloud, Firebase, Expo e Vercel, para API, base de dados, multimédia, autenticação, notificações, atualizações da aplicação e alojamento do website",
+      "processorPayments": "Pagamentos e verificação: Apple App Store, Google Play e Stripe, incluindo Stripe Identity para verificação de documentos e selfie correspondente; a Renuir não armazena imagens de identidade",
+      "processorAI": "Serviços de IA: serviços Google Cloud para análise de segurança, extração de texto, reconhecimento de imagens e correspondência de itens, com os dados minimizados para a operação solicitada",
+      "processorAnalytics": "Diagnóstico e melhoria do serviço: Sentry para relatórios de falhas e rastreios de desempenho, além de análise do website baseada no consentimento",
       "retentionTitle": "5. Conservação dos dados",
       "retentionBody": "Os dados da conta são conservados durante a vigência da sua conta e até 30 dias após a eliminação. Os registos de itens e as fotografias associadas são conservados durante 12 meses após a resolução ou 6 meses após a expiração se não forem resolvidos. As mensagens de chat são conservadas durante 6 meses após a resolução da reivindicação. Os registos de pagamento são conservados durante 10 anos, conforme exigido pela legislação fiscal alemã (§ 147 AO). Os registos técnicos são eliminados após 90 dias.",
       "transfersTitle": "6. Transferências internacionais",

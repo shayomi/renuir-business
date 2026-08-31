@@ -366,7 +366,7 @@
       "cap4Desc": "Node, Python, Go ve Swift için resmi istemci kütüphaneleri lansmanda gelecek.",
       "security1": "AB veri ikametgahı ve GDPR uyumlu işleme",
       "security2": "Her eşya ve talepte eksiksiz zilyetlik zinciri",
-      "security3": "Kapsamı sınırlı anahtarlar, rotasyon ve eksiksiz denetim kayıtları"
+      "security3": "Kapsamı sınırlı anahtarlar, iptal ve kullanım telemetrisi"
     },
     "docs": {
       "badge": "Geliştirici Platformu",
@@ -482,10 +482,10 @@
       "basisLegal": "Hukuki yükümlülük (Madde 6(1)(c)): vergi kayıtları, mevzuata uyum ve kolluk kuvveti talepleri için",
       "thirdPartiesTitle": "4. Üçüncü Taraf Veri İşleyiciler",
       "thirdPartiesIntro": "Verileri, tümü veri işleme sözleşmeleriyle bağlı olan aşağıdaki veri işleyici kategorileriyle paylaşıyoruz:",
-      "processorHosting": "Barındırma ve altyapı: Vercel (AB/ABD), web sitesi ve uygulama barındırma için",
-      "processorPayments": "Ödeme işleme: Stripe, Stripe Connect üzerinden güvenli ödeme işleme için",
-      "processorAI": "Yapay zeka hizmetleri: görüntü tanıma ve eşya eşleştirme için (veriler minimize edilir, kişisel tanımlayıcı gönderilmez)",
-      "processorAnalytics": "Analitik: kullanım kalıplarını anlamak için gizlilik odaklı analitik araçları",
+      "processorHosting": "Barındırma ve altyapı: API, veritabanı, medya, kimlik doğrulama, bildirimler, uygulama güncellemeleri ve web sitesi barındırması için Google Cloud, Firebase, Expo ve Vercel",
+      "processorPayments": "Ödemeler ve doğrulama: belge ve eşleşen selfie doğrulaması için Stripe Identity dahil Apple App Store, Google Play ve Stripe; Renuir kimlik görüntülerini saklamaz",
+      "processorAI": "Yapay zeka hizmetleri: güvenlik analizi, metin çıkarma, görüntü tanıma ve eşya eşleştirme için Google Cloud hizmetleri; veriler istenen işlemle sınırlı tutulur",
+      "processorAnalytics": "Tanılama ve hizmet iyileştirme: çökme raporları ve performans izleri için Sentry ile izne dayalı web sitesi analitiği",
       "retentionTitle": "5. Veri Saklama",
       "retentionBody": "Hesap verileri, hesabınızın süresi boyunca ve silme işleminden sonra 30 güne kadar saklanır. Eşya bildirimleri ve ilişkili fotoğraflar, çözümden sonra 12 ay veya çözülmezse süresi dolduktan sonra 6 ay saklanır. Sohbet mesajları, talep çözümünden sonra 6 ay saklanır. Ödeme kayıtları, Alman vergi mevzuatının (§ 147 AO) gerektirdiği üzere 10 yıl saklanır. Teknik günlükler 90 gün sonra silinir.",
       "transfersTitle": "6. Uluslararası Aktarımlar",
