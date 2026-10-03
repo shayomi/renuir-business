@@ -30,6 +30,7 @@ export const getTeam = (t: (key: string) => string): TeamMember[] => [
   {
     name: "Emmanuel",
     role: t('role4'),
+    image: "/images/about/emmanuel-headshot.jpg",
   },
   {
     name: "Emika",
