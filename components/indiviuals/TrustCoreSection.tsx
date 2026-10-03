@@ -2,7 +2,7 @@
 
 import { Lock, BadgeCheck, FileCheck, EyeOff, History } from "lucide-react";
 import { Typography } from "@/components/ui/typography";
-import { LeadForm } from "@/components/shared/LeadForm";
+import { StoreDownloads } from "@/components/shared/StoreDownloads";
 import AnimateIn from "@/components/ui/AnimateIn";
 import { useTranslations } from "next-intl";
 
@@ -76,13 +76,7 @@ export default function TrustCoreSection() {
               <Typography variant="largeText" className="text-foreground">
                 {t("closingHeadline")}
               </Typography>
-              <LeadForm
-                source="waitlist"
-                cta={t("closingCta")}
-                placeholder={t("closingPlaceholder")}
-                variant="light"
-                className="max-w-sm"
-              />
+              <StoreDownloads />
             </div>
           </div>
         </AnimateIn>

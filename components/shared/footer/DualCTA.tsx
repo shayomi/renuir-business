@@ -51,7 +51,7 @@ const DualCTA = () => {
                 {t('forIndividualsDesc')}
               </Typography>
 
-              <Link href="/#waitlist">
+              <Link href="/individual#download">
                 <Button
                   size="lg"
                   variant="secondary"

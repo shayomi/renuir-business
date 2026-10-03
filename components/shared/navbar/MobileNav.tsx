@@ -143,9 +143,9 @@ const MobileNav = () => {
               <div className="flex items-center justify-center gap-2">
                 <LanguageSwitcher variant="dark" />
               </div>
-              <Link href="/#waitlist" onClick={() => setSheetOpen(false)}>
+              <Link href="/individual#download" onClick={() => setSheetOpen(false)}>
                 <Button size="lg" className="w-full rounded-xl">
-                  {t('joinWaitlist')}
+                  {t('getApp')}
                 </Button>
               </Link>
             </div>

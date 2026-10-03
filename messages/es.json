@@ -6,8 +6,7 @@
     "enterprise": "Empresas",
     "individual": "Clientes",
     "developers": "Desarrolladores",
-    "getApp": "Descargar la app",
-    "joinWaitlist": "Unirse a la lista"
+    "getApp": "Descargar la app"
   },
   "home": {
     "hero": {
@@ -15,15 +14,13 @@
       "line2": "reinventados.",
       "subtitle": "Un reporte. Coincidencia inteligente. Devolución segura. Renuir conecta personas y lugares para recuperar lo que importa.",
       "ctaBusiness": "Soluciones empresariales",
-      "ctaDownload": "Descargar la app",
-      "waitlistCta": "Únete a la lista de espera",
-      "waitlistPlaceholder": "Introduce tu correo de trabajo"
+      "ctaDownload": "Descargar la app"
     },
     "closing": {
-      "badge": "Beta privada",
-      "headline": "Conviértete en un socio inicial de Renuir",
-      "subtitle": "Estamos incorporando a un grupo reducido de establecimientos y equipos. Déjanos tu correo de trabajo y nos pondremos en contacto para organizar una demostración.",
-      "leadCta": "Solicitar acceso",
+      "badge": "Renuir para empresas",
+      "headline": "Lleva Renuir a tu equipo.",
+      "subtitle": "Solicita una demostración para descubrir cómo Renuir mejora la gestión y devolución de objetos perdidos.",
+      "leadCta": "Solicitar una demo",
       "leadPlaceholder": "Introduce tu correo de trabajo"
     },
     "change": {
@@ -57,7 +54,7 @@
       "appAlt": "Aplicación móvil de Renuir"
     },
     "privateBeta": {
-      "badge": "Beta privada",
+      "badge": "Renuir para empresas",
       "headline": "Para establecimientos que quieren gestionar bien los objetos perdidos.",
       "subtitle": "Aeropuertos, hoteles y centros de transporte pierden miles de objetos cada año. La mayoría nunca se devuelven. Renuir da a tu equipo un sistema que realmente funciona.",
       "feature1Title": "Registro con foto",
@@ -69,7 +66,7 @@
       "feature4Title": "Panel de control",
       "feature4Desc": "Visibilidad completa de tasas de devolución, tiempo de almacenamiento y actividad del personal.",
       "cta": "Explorar Renuir para Empresas",
-      "imageAlt": "Vista previa de la beta privada de Renuir"
+      "imageAlt": "Renuir para empresas"
     },
     "developer": {
       "badge": ">_ Plataforma para desarrolladores",
@@ -166,8 +163,6 @@
   },
   "solutions": {
     "hero": {
-      "betaBanner": "Renuir para Empresas está en beta privada. Actualmente incorporando socios seleccionados.",
-      "joinWaitlist": "Unirse a la lista",
       "eyebrow": "PARA EMPRESAS Y GOBIERNO",
       "headline": "Gestiona los objetos perdidos como el resto de tu operación.",
       "subtitle": "Sustituye la caja de objetos perdidos por una plataforma de recuperación rastreable y auditable. Registra objetos en segundos, devuélvelos de forma automática y demuestra la cadena de custodia cuando lo necesites.",
@@ -197,9 +192,9 @@
       "mobileAppAlt": "Aplicación móvil de Renuir"
     },
     "testimonials": {
-      "badge": "Primeros socios",
+      "badge": "Renuir para empresas",
       "headline": "Creado con los equipos que viven este problema.",
-      "subtitle": "Estamos en beta privada, trabajando directamente con un grupo reducido de operadores de establecimientos y transporte para dar forma a la plataforma en torno a flujos de recuperación reales.",
+      "subtitle": "Solicita una demostración para descubrir cómo Renuir mejora la gestión y devolución de objetos perdidos.",
       "quote1": "Reducimos el tiempo de procesamiento de objetos un 60% en el primer mes. Antes era un caos... hojas de cálculo, llamadas, suposiciones. Ahora funciona solo.",
       "quote1Name": "Sarah Jenkins",
       "quote1Role": "Directora de Operaciones, Grand Central Hub",
@@ -215,7 +210,7 @@
       "partner2Desc": "Equipos de recepción que buscan una forma discreta y cómoda para el huésped de devolver sus pertenencias.",
       "partner3Label": "Campus y recintos",
       "partner3Desc": "Grandes instalaciones con miles de visitantes diarios y un único punto de objetos perdidos.",
-      "note": "Todavía no compartimos logotipos de clientes. Durante la beta preferimos ganarnos los resultados antes que tomar prestados los de otros."
+      "note": "Cuéntanos un poco sobre tu operación y organizaremos una demostración y un plan de incorporación adaptado a ella."
     },
     "security": {
       "eyebrow": "Seguridad y cumplimiento",
@@ -242,17 +237,13 @@
   },
   "individual": {
     "hero": {
-      "betaBanner": "La app de Renuir está en beta privada. Las funciones a continuación están en modo vista previa.",
-      "joinWaitlist": "Unirse a la lista",
       "eyebrow": "PARA PARTICULARES",
       "headline": "¿Perdiste algo? Recupéralo sin complicaciones.",
       "subtitle": "Renuir conecta tu objeto perdido con el establecimiento que lo encontró. Coincidencia inteligente, chat seguro, devoluciones verificadas.",
       "googlePlay": "Google Play",
       "appleStore": "App Store",
       "appScreensAlt": "Pantallas de la app de Renuir",
-      "waitlistCta": "Únete a la lista de espera",
-      "emailPlaceholder": "Introduce tu correo electrónico",
-      "availability": "Disponible en iOS y Android en el lanzamiento."
+      "emailPlaceholder": "Introduce tu correo electrónico"
     },
     "overview": {
       "headline": "Cuatro pasos para recuperar tu objeto.",
@@ -288,31 +279,25 @@
       "feature3Desc": "Tus datos de contacto permanecen ocultos hasta que ambas partes confirman la coincidencia.",
       "feature4Title": "Un registro claro de cada paso",
       "feature4Desc": "Cada acción queda registrada, para que las devoluciones sean responsables y fáciles de rastrear.",
-      "closingHeadline": "Sé de los primeros en probar Renuir.",
-      "closingCta": "Únete a la beta",
-      "closingPlaceholder": "Introduce tu correo electrónico"
+      "closingHeadline": "Empieza tu búsqueda con Renuir."
     }
   },
   "developer": {
     "hero": {
-      "betaBanner": "La plataforma para desarrolladores está en beta privada. Las funciones a continuación están en modo vista previa.",
-      "joinWaitlist": "Unirse a la lista",
       "eyebrow": "CENTRO DE DESARROLLADORES",
       "headline": "Lost & Found API",
       "subtitle": "Acceso completo a la API y despliegue white-label para empresas que necesitan control total sobre sus operaciones de objetos perdidos.",
       "emailPlaceholder": "Introduce tu email profesional",
       "cta": "Solicitar acceso API",
-      "socialProof": "Beta privada. Solicita acceso a la API y nos pondremos en contacto contigo.",
+      "socialProof": "Contacta con nuestro equipo para acceder a la API y recibir ayuda con la integración.",
       "devEyebrow": "Plataforma para desarrolladores",
       "devHeadlineLine1": "Integra la recuperación en",
       "devHeadlineLine2": "tu propio producto.",
       "devSubtitle": "Una única API para el registro de objetos, la coincidencia con IA, las reclamaciones y las devoluciones seguras. Intégrala en tu aplicación, PMS o sistema del establecimiento y deja que Renuir se encargue de lo difícil.",
-      "bannerMessage": "La API de Renuir está en beta privada. Solicita acceso para obtener claves de entorno de pruebas.",
-      "bannerLink": "Solicitar acceso",
       "leadCta": "Solicitar acceso a la API",
       "leadPlaceholder": "Introduce tu correo de trabajo",
       "leadSuccess": "Gracias. Te enviaremos en breve las claves de pruebas y la documentación.",
-      "betaNote": "Beta privada. Sin tarjeta de crédito ni llamada comercial para empezar a probar."
+      "accessNote": "Contacta con nuestro equipo para acceder a la API y recibir ayuda con la integración."
     },
     "connect": {
       "eyebrow": "Cómo se conecta",
@@ -364,7 +349,7 @@
       "cap3Title": "Marca blanca",
       "cap3Desc": "Ejecuta un flujo de recuperación totalmente personalizado en tu propio dominio, impulsado íntegramente por la API.",
       "cap4Title": "SDK",
-      "cap4Desc": "Bibliotecas cliente oficiales para Node, Python, Go y Swift disponibles en el lanzamiento.",
+      "cap4Desc": "Contacta con nuestro equipo para acceder a la API y recibir ayuda con la integración.",
       "security1": "Residencia de datos en la UE y gestión conforme al RGPD",
       "security2": "Cadena de custodia completa en cada objeto y reclamación",
       "security3": "Claves con alcance limitado, revocación y telemetría de uso"
@@ -621,5 +606,9 @@
       "declineAll": "Rechazar todo",
       "savePreferences": "Guardar preferencias"
     }
+  },
+  "downloads": {
+    "platforms": "Para iOS y Android",
+    "unavailable": "Enlace de descarga aún no disponible"
   }
 }

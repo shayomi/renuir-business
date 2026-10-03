@@ -59,14 +59,14 @@ export async function sendEmails(lead: Lead): Promise<boolean> {
   if (!RESEND_API_KEY) return false;
 
   const resend = new Resend(RESEND_API_KEY);
-  const source = lead.source ?? 'waitlist';
+  const source = lead.source ?? 'contact';
 
   await resend.emails.send({
     from: FROM,
     to: [TEAM_INBOX],
-    subject: 'New Waitlist Signup',
+    subject: 'New Renuir enquiry',
     html: `
-      <p>🎉 New waitlist signup</p>
+      <p>New Renuir enquiry</p>
       <p><strong>Email:</strong> ${lead.email}</p>
       <p><strong>Source:</strong> ${source}</p>
     `,
@@ -75,10 +75,10 @@ export async function sendEmails(lead: Lead): Promise<boolean> {
   await resend.emails.send({
     from: FROM,
     to: lead.email,
-    subject: 'Thank you for joining the Renuir waitlist.🎉',
+    subject: 'Thank you for contacting Renuir',
     html: `
-      <p>You are now on the list. Renuir helps lost items return to their owners quickly and securely.</p>
-      <p>You will receive an email notification when we launch in the next few months.</p>
+      <p>Thank you for your interest in Renuir. We have received your request.</p>
+      <p>Our team will follow up with you about your enquiry.</p>
       <p>— Renuir Team</p>
     `,
   });

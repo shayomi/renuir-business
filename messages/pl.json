@@ -6,8 +6,7 @@
     "enterprise": "Przedsiębiorstwa",
     "individual": "Klienci",
     "developers": "Deweloperzy",
-    "getApp": "Pobierz aplikację",
-    "joinWaitlist": "Dołącz do listy"
+    "getApp": "Pobierz aplikację"
   },
   "home": {
     "hero": {
@@ -15,15 +14,13 @@
       "line2": "na nowo.",
       "subtitle": "Jedno zgłoszenie. Inteligentne dopasowanie. Bezpieczny zwrot. Renuir łączy ludzi i miejsca, by odzyskać to, co ważne.",
       "ctaBusiness": "Rozwiązania dla firm",
-      "ctaDownload": "Pobierz aplikację",
-      "waitlistCta": "Dołącz do listy oczekujących",
-      "waitlistPlaceholder": "Wpisz swój służbowy adres e-mail"
+      "ctaDownload": "Pobierz aplikację"
     },
     "closing": {
-      "badge": "Zamknięta wersja beta",
-      "headline": "Zostań wczesnym partnerem Renuir",
-      "subtitle": "Wdrażamy niewielką grupę obiektów i zespołów. Zostaw swój służbowy adres e-mail, a skontaktujemy się, aby umówić prezentację.",
-      "leadCta": "Poproś o dostęp",
+      "badge": "Renuir dla firm",
+      "headline": "Wprowadź Renuir do swojego zespołu.",
+      "subtitle": "Umów prezentację i zobacz, jak Renuir wspiera obsługę oraz zwrot znalezionych przedmiotów.",
+      "leadCta": "Zamów demo",
       "leadPlaceholder": "Wpisz swój służbowy adres e-mail"
     },
     "change": {
@@ -57,7 +54,7 @@
       "appAlt": "Aplikacja mobilna Renuir"
     },
     "privateBeta": {
-      "badge": "Zamknięta beta",
+      "badge": "Renuir dla firm",
       "headline": "Dla obiektów, które chcą dobrze zarządzać rzeczami znalezionymi.",
       "subtitle": "Lotniska, hotele i węzły komunikacyjne gubią tysiące przedmiotów rocznie. Większość nigdy nie wraca do właścicieli. Renuir daje Twojemu zespołowi system, który naprawdę działa.",
       "feature1Title": "Rejestracja zdjęciem",
@@ -69,7 +66,7 @@
       "feature4Title": "Panel zarządzania",
       "feature4Desc": "Pełen wgląd w wskaźniki zwrotów, czas przechowywania i aktywność personelu.",
       "cta": "Poznaj Renuir dla firm",
-      "imageAlt": "Podgląd zamkniętej bety Renuir"
+      "imageAlt": "Renuir dla firm"
     },
     "developer": {
       "badge": ">_ Platforma deweloperska",
@@ -166,8 +163,6 @@
   },
   "solutions": {
     "hero": {
-      "betaBanner": "Renuir dla firm jest w zamkniętej becie. Aktualnie przyjmujemy wybranych partnerów.",
-      "joinWaitlist": "Dołącz do listy",
       "eyebrow": "DLA FIRM I INSTYTUCJI",
       "headline": "Rzeczy znalezione zarządzane jak reszta Twoich operacji.",
       "subtitle": "Zamień pudło z rzeczami znalezionymi na śledzoną, audytowalną platformę zwrotów. Rejestruj przedmioty w kilka sekund, zwracaj je automatycznie i w każdej chwili udokumentuj łańcuch przechowywania.",
@@ -197,9 +192,9 @@
       "mobileAppAlt": "Aplikacja mobilna Renuir"
     },
     "testimonials": {
-      "badge": "Pierwsi partnerzy",
+      "badge": "Renuir dla firm",
       "headline": "Tworzymy z zespołami, które znają ten problem od podszewki.",
-      "subtitle": "Jesteśmy w zamkniętej becie i współpracujemy bezpośrednio z niewielką grupą operatorów obiektów i transportu, by kształtować platformę wokół rzeczywistych procesów odzyskiwania.",
+      "subtitle": "Umów prezentację i zobacz, jak Renuir wspiera obsługę oraz zwrot znalezionych przedmiotów.",
       "quote1": "W pierwszym miesiącu skróciliśmy czas obsługi przedmiotów o 60%. Wcześniej panował chaos: arkusze, telefony, zgadywanie. Teraz system działa sam.",
       "quote1Name": "Anna Wiśniewska",
       "quote1Role": "Dyrektor operacyjna, Grand Central Hub",
@@ -215,7 +210,7 @@
       "partner2Desc": "Zespoły recepcji, które chcą dyskretnego, przyjaznego dla gości sposobu zwrotu rzeczy.",
       "partner3Label": "Kampusy i obiekty",
       "partner3Desc": "Duże lokalizacje z tysiącami odwiedzających dziennie i jednym punktem rzeczy znalezionych.",
-      "note": "Nie udostępniamy jeszcze logotypów klientów. W trakcie bety wolimy zapracować na wyniki, niż pożyczać cudze."
+      "note": "Opowiedz nam trochę o swojej działalności, a przygotujemy prezentację oraz plan wdrożenia dopasowany do Twoich potrzeb."
     },
     "security": {
       "eyebrow": "Bezpieczeństwo i zgodność z przepisami",
@@ -242,17 +237,13 @@
   },
   "individual": {
     "hero": {
-      "betaBanner": "Aplikacja Renuir jest w zamkniętej becie. Poniższe funkcje są w trybie podglądu.",
-      "joinWaitlist": "Dołącz do listy",
       "eyebrow": "DLA OSÓB PRYWATNYCH",
       "headline": "Zgubiłeś coś? Odzyskaj to bez zbędnego zamieszania.",
       "subtitle": "Renuir łączy twój zgubiony przedmiot z obiektem, który go znalazł. Inteligentne dopasowanie, bezpieczny czat, zweryfikowane zwroty.",
       "googlePlay": "Google Play",
       "appleStore": "App Store",
       "appScreensAlt": "Ekrany aplikacji Renuir",
-      "waitlistCta": "Dołącz do listy oczekujących",
-      "emailPlaceholder": "Wpisz swój adres e-mail",
-      "availability": "Dostępne na iOS i Androida w momencie premiery."
+      "emailPlaceholder": "Wpisz swój adres e-mail"
     },
     "overview": {
       "headline": "Cztery kroki do odzyskania przedmiotu.",
@@ -288,31 +279,25 @@
       "feature3Desc": "Twoje dane kontaktowe pozostają ukryte, dopóki obie strony nie potwierdzą dopasowania.",
       "feature4Title": "Przejrzysty zapis każdego kroku",
       "feature4Desc": "Każde działanie jest rejestrowane, dzięki czemu zwroty pozostają rozliczalne i łatwe do prześledzenia.",
-      "closingHeadline": "Bądź jednym z pierwszych, którzy wypróbują Renuir.",
-      "closingCta": "Dołącz do bety",
-      "closingPlaceholder": "Wpisz swój e-mail"
+      "closingHeadline": "Rozpocznij poszukiwania z Renuir."
     }
   },
   "developer": {
     "hero": {
-      "betaBanner": "Platforma deweloperska jest w zamkniętej becie. Poniższe funkcje są w trybie podglądu.",
-      "joinWaitlist": "Dołącz do listy",
       "eyebrow": "CENTRUM DEWELOPERSKIE",
       "headline": "Lost & Found API",
       "subtitle": "Pełny dostęp do API i wdrożenie White-label dla firm, które potrzebują pełnej kontroli nad operacjami biura rzeczy znalezionych.",
       "emailPlaceholder": "Wpisz służbowy e-mail",
       "cta": "Poproś o dostęp do API",
-      "socialProof": "Prywatna beta. Poproś o dostęp do API, a my się odezwiemy.",
+      "socialProof": "Skontaktuj się z naszym zespołem w sprawie dostępu do API i wsparcia integracji.",
       "devEyebrow": "Platforma dla deweloperów",
       "devHeadlineLine1": "Wbuduj odzyskiwanie",
       "devHeadlineLine2": "we własny produkt.",
       "devSubtitle": "Jedno API do przyjmowania przedmiotów, dopasowywania z użyciem AI, roszczeń i bezpiecznych zwrotów. Dodaj je do swojej aplikacji, systemu PMS lub systemu obiektu i pozwól, by Renuir zajął się najtrudniejszą częścią.",
-      "bannerMessage": "API Renuir jest w zamkniętej wersji beta. Poproś o dostęp, aby otrzymać klucze do środowiska testowego.",
-      "bannerLink": "Poproś o dostęp",
       "leadCta": "Poproś o dostęp do API",
       "leadPlaceholder": "Wpisz swój służbowy adres e-mail",
       "leadSuccess": "Dziękujemy. Wkrótce prześlemy klucze do środowiska testowego oraz dokumentację.",
-      "betaNote": "Zamknięta wersja beta. Aby rozpocząć testy, nie potrzebujesz karty kredytowej ani rozmowy z działem sprzedaży."
+      "accessNote": "Skontaktuj się z naszym zespołem w sprawie dostępu do API i wsparcia integracji."
     },
     "connect": {
       "eyebrow": "Jak to się łączy",
@@ -364,7 +349,7 @@
       "cap3Title": "White-label",
       "cap3Desc": "Uruchom w pełni markowy proces odzyskiwania we własnej domenie, napędzany wyłącznie przez API.",
       "cap4Title": "SDK",
-      "cap4Desc": "Oficjalne biblioteki klienckie dla Node, Python, Go i Swift pojawią się w momencie premiery.",
+      "cap4Desc": "Skontaktuj się z naszym zespołem w sprawie dostępu do API i wsparcia integracji.",
       "security1": "Rezydencja danych w UE i obsługa zgodna z RODO",
       "security2": "Pełny łańcuch nadzoru dla każdego przedmiotu i roszczenia",
       "security3": "Klucze z ograniczonym zakresem, unieważnianie i telemetria użycia"
@@ -621,5 +606,9 @@
       "declineAll": "Odrzuć wszystkie",
       "savePreferences": "Zapisz preferencje"
     }
+  },
+  "downloads": {
+    "platforms": "Na iOS i Androida",
+    "unavailable": "Link do pobrania nie jest jeszcze dostępny"
   }
 }

@@ -24,7 +24,7 @@ export async function ClosingCTA() {
 
           <div className="mt-8 flex justify-center sm:mt-10">
             <LeadForm
-              source="waitlist"
+              source="demo"
               cta={t("leadCta")}
               placeholder={t("leadPlaceholder")}
               variant="light"

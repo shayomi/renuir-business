@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
-import { getMessages, setRequestLocale } from "next-intl/server";
+import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { SITE_URL, shouldIndex, languageAlternates } from "@/lib/site";
@@ -9,23 +9,22 @@ import Footer from "@/components/shared/footer/Footer";
 import { CookieConsent } from "@/components/shared/CookieConsent";
 import { ConsentedAnalytics } from "@/components/shared/ConsentedAnalytics";
 
-const DESCRIPTION =
-  "Renuir turns the lost-and-found box into an auditable, automated recovery platform for hotels, airports, transit and venues. Computer-vision intake, secure returns, and full chain-of-custody.";
-
 export async function generateMetadata({
   params,
 }: {
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "home.hero" });
+  const description = t("subtitle");
 
   return {
     metadataBase: new URL(SITE_URL),
     title: {
-      default: "Renuir for Business — the recovery platform for lost-and-found",
+      default: "Renuir: AI Lost & Found",
       template: "%s | Renuir",
     },
-    description: DESCRIPTION,
+    description,
     keywords: [
       "Renuir",
       "lost and found software",
@@ -39,16 +38,16 @@ export async function generateMetadata({
     authors: [{ name: "Renuir" }],
     applicationName: "Renuir",
     openGraph: {
-      title: "Renuir for Business — the recovery platform for lost-and-found",
-      description: DESCRIPTION,
+      title: "Renuir: AI Lost & Found",
+      description,
       type: "website",
       siteName: "Renuir",
       url: `${SITE_URL}/${locale}`,
       locale,
     },
     twitter: {
-      title: "Renuir for Business",
-      description: DESCRIPTION,
+      title: "Renuir: AI Lost & Found",
+      description,
       card: "summary_large_image",
     },
     alternates: {

@@ -1,5 +1,4 @@
 import Nav from '../home/HomeNav';
-import { BetaBanner } from '../shared/BetaBanner';
 import AnimateIn from '@/components/ui/AnimateIn';
 import { LeadForm } from '@/components/shared/LeadForm';
 import { CodeWindow, kw, str, com } from './CodeWindow';
@@ -14,11 +13,6 @@ export async function DeveloperHero() {
       </div>
 
       <Nav />
-      <BetaBanner
-        message={t('bannerMessage')}
-        linkText={t('bannerLink')}
-        linkHref="#dev-access"
-      />
 
       <div className="relative app-container grid grid-cols-1 items-center gap-12 pt-14 pb-16 sm:pt-20 lg:grid-cols-[1.05fr_1fr] lg:gap-16 lg:pt-24 lg:pb-24">
         <div className="min-w-0">
@@ -54,7 +48,7 @@ export async function DeveloperHero() {
 
           <AnimateIn delay={0.18}>
             <p className="mt-1 text-[13px] text-white/45">
-              {t('betaNote')}
+              {t('accessNote')}
             </p>
           </AnimateIn>
         </div>

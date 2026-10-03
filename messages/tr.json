@@ -6,8 +6,7 @@
     "enterprise": "Kurumsal",
     "individual": "Müşteriler",
     "developers": "Geliştiriciler",
-    "getApp": "Uygulamayı indir",
-    "joinWaitlist": "Bekleme listesine katıl"
+    "getApp": "Uygulamayı indir"
   },
   "home": {
     "hero": {
@@ -15,15 +14,13 @@
       "line2": "Yeniden Tasarlandı.",
       "subtitle": "Tek bildirim. Akıllı eşleştirme. Güvenli iade. Renuir, insanları ve mekanları bir araya getirerek önemli eşyaların geri dönmesini sağlar.",
       "ctaBusiness": "Kurumsal Çözümler",
-      "ctaDownload": "Uygulamayı indir",
-      "waitlistCta": "Bekleme listesine katılın",
-      "waitlistPlaceholder": "İş e-postanızı girin"
+      "ctaDownload": "Uygulamayı indir"
     },
     "closing": {
-      "badge": "Özel beta",
-      "headline": "Renuir'in erken iş ortağı olun",
-      "subtitle": "Küçük bir mekan ve ekip grubunu platforma dahil ediyoruz. İş e-postanızı bırakın, bir tanıtım toplantısı ayarlamak için size ulaşalım.",
-      "leadCta": "Erişim talep edin",
+      "badge": "İşletmeler için Renuir",
+      "headline": "Renuir’i ekibinize taşıyın.",
+      "subtitle": "Renuir’in kayıp eşya yönetimi ve iade süreçlerinizi nasıl desteklediğini görmek için demo isteyin.",
+      "leadCta": "Demo talep edin",
       "leadPlaceholder": "İş e-postanızı girin"
     },
     "change": {
@@ -57,7 +54,7 @@
       "appAlt": "Renuir mobil uygulaması"
     },
     "privateBeta": {
-      "badge": "Özel beta",
+      "badge": "İşletmeler için Renuir",
       "headline": "Kayıp eşya yönetimini doğru yapmak isteyen mekanlar için.",
       "subtitle": "Havalimanları, oteller ve ulaşım merkezleri her yıl binlerce eşya kaybeder. Çoğu asla geri dönmez. Renuir, ekibinize gerçekten işe yarayan bir sistem sunar.",
       "feature1Title": "Fotoğraflı kayıt",
@@ -69,7 +66,7 @@
       "feature4Title": "Kontrol paneli",
       "feature4Desc": "İade oranları, depolama süreleri ve personel aktivitesi üzerinde tam görünürlük.",
       "cta": "İşletmeler için Renuir'ü keşfedin",
-      "imageAlt": "Renuir özel beta önizlemesi"
+      "imageAlt": "İşletmeler için Renuir"
     },
     "developer": {
       "badge": ">_ Geliştirici platformu",
@@ -166,8 +163,6 @@
   },
   "solutions": {
     "hero": {
-      "betaBanner": "İşletmeler için Renuir özel beta aşamasındadır. Şu anda seçili iş ortakları kabul edilmektedir.",
-      "joinWaitlist": "Bekleme listesine katılın",
       "eyebrow": "İŞLETMELER VE KAMU KURUMLARI İÇİN",
       "headline": "Kayıp eşyayı da operasyonunuzun geri kalanı gibi yönetin.",
       "subtitle": "Kayıp eşya kutusunu takip edilebilir, denetlenebilir bir iade platformuyla değiştirin. Eşyaları saniyeler içinde kaydedin, otomatik olarak iade edin ve gözetim zincirini istendiğinde kanıtlayın.",
@@ -197,9 +192,9 @@
       "mobileAppAlt": "Renuir mobil uygulaması"
     },
     "testimonials": {
-      "badge": "İlk iş ortakları",
+      "badge": "İşletmeler için Renuir",
       "headline": "Bu sorunu her gün yaşayan ekiplerle birlikte geliştirildi.",
-      "subtitle": "Özel beta aşamasındayız; platformu gerçek iade iş akışlarına göre şekillendirmek için küçük bir mekan ve ulaşım operatörü grubuyla doğrudan çalışıyoruz.",
+      "subtitle": "Renuir’in kayıp eşya yönetimi ve iade süreçlerinizi nasıl desteklediğini görmek için demo isteyin.",
       "quote1": "İlk ayda eşya işleme süresini %60 azalttık. Eskiden kaos vardı — tablolar, aramalar, tahminler. Artık sistem kendi kendine çalışıyor.",
       "quote1Name": "Elif Kaya",
       "quote1Role": "Operasyon Direktörü, Grand Central Hub",
@@ -215,7 +210,7 @@
       "partner2Desc": "Eşyaları ölçülü ve misafir dostu bir şekilde iade etmek isteyen resepsiyon ekipleri.",
       "partner3Label": "Kampüsler ve etkinlik alanları",
       "partner3Desc": "Günde binlerce ziyaretçiye ve tek bir kayıp eşya masasına sahip büyük tesisler.",
-      "note": "Henüz müşteri logolarını paylaşmıyoruz. Beta sürecinde başkasının adını ödünç almak yerine sonuçları kendimiz hak etmeyi tercih ediyoruz."
+      "note": "Operasyonunuz hakkında biraz bilgi verin, size özel bir tanıtım ve kurulum planı hazırlayalım."
     },
     "security": {
       "eyebrow": "Güvenlik ve uyumluluk",
@@ -242,17 +237,13 @@
   },
   "individual": {
     "hero": {
-      "betaBanner": "Renuir uygulaması özel beta aşamasındadır. Aşağıdaki özellikler şu anda önizleme modundadır.",
-      "joinWaitlist": "Bekleme listesine katıl",
       "eyebrow": "BİREYSEL KULLANICILAR İÇİN",
       "headline": "Bir şey mi kaybettin? Boşa koşturmadan geri al.",
       "subtitle": "Renuir, kaybettiğin eşyayı onu bulan mekanla buluşturur. Akıllı eşleştirme, güvenli sohbet, doğrulanmış iadeler.",
       "googlePlay": "Google Play",
       "appleStore": "App Store",
       "appScreensAlt": "Renuir uygulama ekranları",
-      "waitlistCta": "Bekleme listesine katılın",
-      "emailPlaceholder": "E-postanızı girin",
-      "availability": "Lansmanda iOS ve Android'de kullanıma sunulacak."
+      "emailPlaceholder": "E-postanızı girin"
     },
     "overview": {
       "headline": "Dört adımda eşyana kavuş.",
@@ -288,31 +279,25 @@
       "feature3Desc": "Bilgilerin ancak her iki taraf eşleşmeyi onayladıktan sonra paylaşılır.",
       "feature4Title": "Net denetim izi",
       "feature4Desc": "Hesap verebilirlik ve şeffaflık için her işlem kayıt altına alınır.",
-      "closingHeadline": "Renuir’ü ilk deneyenlerden biri ol.",
-      "closingCta": "Betaya katıl",
-      "closingPlaceholder": "E-postanı gir"
+      "closingHeadline": "Aramanıza Renuir ile başlayın."
     }
   },
   "developer": {
     "hero": {
-      "betaBanner": "Geliştirici Platformu özel beta aşamasındadır. Aşağıdaki özellikler önizleme modundadır.",
-      "joinWaitlist": "Bekleme listesine katılın",
       "eyebrow": "GELİŞTİRİCİ MERKEZİ",
       "headline": "Lost & Found API",
       "subtitle": "Kayıp eşya operasyonları üzerinde tam kontrol isteyen kurumlar için eksiksiz API erişimi ve White-label dağıtım.",
       "emailPlaceholder": "Kurumsal e-postanızı girin",
       "cta": "API erişimi talep edin",
-      "socialProof": "Özel beta. API erişimi talep edin, sizinle iletişime geçeceğiz.",
+      "socialProof": "API erişimi ve entegrasyon desteği için ekibimizle iletişime geçin.",
       "devEyebrow": "Geliştirici platformu",
       "devHeadlineLine1": "Eşya kurtarmayı kendi",
       "devHeadlineLine2": "ürününüze entegre edin.",
       "devSubtitle": "Eşya kabulü, yapay zeka eşleştirme, talepler ve güvenli iadeler için tek bir API. Uygulamanıza, PMS veya mekan sisteminize ekleyin, zor kısmı Renuir halletsin.",
-      "bannerMessage": "Renuir API'si özel beta aşamasındadır. Sandbox anahtarları için erişim talep edin.",
-      "bannerLink": "Erişim talep edin",
       "leadCta": "API erişimi talep edin",
       "leadPlaceholder": "İş e-postanızı girin",
       "leadSuccess": "Teşekkürler. Sandbox anahtarlarını ve belgeleri kısa süre içinde göndereceğiz.",
-      "betaNote": "Özel beta. Test etmeye başlamak için kredi kartı veya satış görüşmesi gerekmez."
+      "accessNote": "API erişimi ve entegrasyon desteği için ekibimizle iletişime geçin."
     },
     "connect": {
       "eyebrow": "Nasıl bağlanır",
@@ -364,7 +349,7 @@
       "cap3Title": "Beyaz etiket",
       "cap3Desc": "Tamamen API tarafından desteklenen, kendi alan adınızda markalı bir kurtarma akışı çalıştırın.",
       "cap4Title": "SDK'lar",
-      "cap4Desc": "Node, Python, Go ve Swift için resmi istemci kütüphaneleri lansmanda gelecek.",
+      "cap4Desc": "API erişimi ve entegrasyon desteği için ekibimizle iletişime geçin.",
       "security1": "AB veri ikametgahı ve GDPR uyumlu işleme",
       "security2": "Her eşya ve talepte eksiksiz zilyetlik zinciri",
       "security3": "Kapsamı sınırlı anahtarlar, iptal ve kullanım telemetrisi"
@@ -621,5 +606,9 @@
       "declineAll": "Tümünü reddet",
       "savePreferences": "Tercihleri kaydet"
     }
+  },
+  "downloads": {
+    "platforms": "iOS ve Android için",
+    "unavailable": "İndirme bağlantısı henüz mevcut değil"
   }
 }

@@ -217,3 +217,7 @@ Proprietary — All rights reserved by Renuir UG.
 ---
 
 Built with care in Berlin.
+
+### App download links
+
+The public website uses launch copy and links visitors to `/individual#download`. Set the official Apple and Google store URLs in `lib/app-stores.ts` once the listings are public. Empty URLs render disabled store buttons rather than empty links or waitlist redirects. The same settings are used by shared-post pages. Business and developer enquiry forms remain active.

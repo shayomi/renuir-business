@@ -50,13 +50,13 @@ const Nav = () => {
 
           <div className="hidden items-center gap-2 lg:flex">
             <LanguageSwitcher variant="light" />
-            <Link href="/#waitlist">
+            <Link href="/individual#download">
               <Button
                 size="sm"
                 variant="secondary"
                 className="rounded-full bg-white text-slate-900 hover:bg-white/90"
               >
-                {t('joinWaitlist')}
+                {t('getApp')}
               </Button>
             </Link>
           </div>

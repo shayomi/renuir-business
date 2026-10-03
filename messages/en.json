@@ -6,8 +6,7 @@
     "enterprise": "Enterprise",
     "individual": "Customers",
     "developers": "Developers",
-    "getApp": "Get the app",
-    "joinWaitlist": "Join waitlist"
+    "getApp": "Get the app"
   },
   "home": {
     "hero": {
@@ -15,15 +14,13 @@
       "line2": "Reimagined.",
       "subtitle": "One report. Smart matching. Secure return. Renuir connects people and places to recover what matters.",
       "ctaBusiness": "Business Solutions",
-      "ctaDownload": "Download the app",
-      "waitlistCta": "Join the waitlist",
-      "waitlistPlaceholder": "Enter your work email"
+      "ctaDownload": "Download the app"
     },
     "closing": {
-      "badge": "Private beta",
-      "headline": "Become an early Renuir partner",
-      "subtitle": "We are onboarding a small group of venues and teams. Leave your work email and we will reach out to set up a walkthrough.",
-      "leadCta": "Request access",
+      "badge": "Renuir for Business",
+      "headline": "Bring Renuir to your team.",
+      "subtitle": "Book a walkthrough and explore how Renuir fits your intake, ownership checks and return process.",
+      "leadCta": "Request a demo",
       "leadPlaceholder": "Enter your work email"
     },
     "change": {
@@ -47,17 +44,17 @@
     "forIndividual": {
       "badge": "FOR INDIVIDUALS",
       "headline": "Your stuff. Back where it belongs.",
-      "subtitle": "The Renuir app is free. Report a lost item in under a minute, get matched automatically, and recover it without the runaround.",
+      "subtitle": "Report lost or found items, explore nearby reports and possible matches, and arrange a return through in-app chat.",
       "feature1": "AI-powered matching across all nearby venues",
       "feature2": "Ownership verification that protects both sides",
       "feature3": "Secure in-app chat with the finder",
-      "feature4": "Delivery option when meeting isn't possible",
+      "feature4": "Arrange a handover with a confirmation code",
       "googlePlay": "Google Play",
       "appleStore": "App Store",
       "appAlt": "Renuir mobile app"
     },
     "privateBeta": {
-      "badge": "Private beta",
+      "badge": "Renuir for Business",
       "headline": "For venues that want to do lost-and-found right.",
       "subtitle": "Airports, hotels, and transport hubs lose thousands of items each year. Most never get returned. Renuir gives your team a system that actually works.",
       "feature1Title": "Photo intake",
@@ -69,7 +66,7 @@
       "feature4Title": "Dashboard",
       "feature4Desc": "Full visibility on return rates, storage time, and staff activity.",
       "cta": "Explore Renuir for Business",
-      "imageAlt": "Renuir private beta preview"
+      "imageAlt": "Renuir for Business"
     },
     "developer": {
       "badge": ">_ Developer platform",
@@ -87,7 +84,7 @@
       "eyebrow": "Why we exist",
       "headline": "Lost property is broken. We are fixing the plumbing.",
       "lead": "Every day, venues collect items nobody can trace back to an owner, and people give up on things they could have recovered.",
-      "body": "Renuir gives venues one place to log found items, verify who really owns them, and hand them back without exposing anyone's personal data. We are a small team building this carefully, starting with a handful of design partners in Berlin.",
+      "body": "Renuir connects people who lose items with those who find them. Report, compare, check identifying details and arrange a return in one place. For businesses, Renuir brings item intake and returns into a clear, accountable workflow.",
       "stat1Label": "Platform for every lost item, from log to return",
       "stat2Label": "Target response on every partner demo request",
       "stat3Label": "Built to EU data-protection standards from day one"
@@ -166,8 +163,6 @@
   },
   "solutions": {
     "hero": {
-      "betaBanner": "Renuir for Business is in private beta. Currently onboarding select partners.",
-      "joinWaitlist": "Join waitlist",
       "eyebrow": "FOR BUSINESS & GOVERNMENT",
       "headline": "Lost and found, run like the rest of your operation.",
       "subtitle": "Replace the lost property box with a tracked, auditable recovery platform. Log items in seconds, return them automatically, and prove chain of custody on demand.",
@@ -197,9 +192,9 @@
       "mobileAppAlt": "Renuir mobile app"
     },
     "testimonials": {
-      "badge": "Early partners",
+      "badge": "Renuir for Business",
       "headline": "Built with the teams who live this problem.",
-      "subtitle": "We are in private beta, working directly with a small group of venue and transit operators to shape the platform around real recovery workflows.",
+      "subtitle": "Book a walkthrough and explore how Renuir fits your intake, ownership checks and return process.",
       "quote1": "We reduced item processing time by 60% in the first month. It used to be chaos — spreadsheets, calls, guesswork. Now it runs itself.",
       "quote1Name": "Sarah Jenkins",
       "quote1Role": "Director of Operations, Grand Central Hub",
@@ -215,7 +210,7 @@
       "partner2Desc": "Front-desk teams that want a discreet, guest-friendly way to return belongings.",
       "partner3Label": "Campuses and venues",
       "partner3Desc": "Large sites with thousands of daily visitors and a single lost property desk.",
-      "note": "We are not sharing customer logos yet. During the beta we would rather earn the results than borrow someone else's."
+      "note": "Tell us a little about your operation and we will set up a walkthrough and an onboarding plan built around it."
     },
     "security": {
       "eyebrow": "Security and compliance",
@@ -242,17 +237,13 @@
   },
   "individual": {
     "hero": {
-      "betaBanner": "The Renuir app is in private beta. The features below are currently in preview mode.",
-      "joinWaitlist": "Join waitlist",
       "eyebrow": "FOR INDIVIDUALS",
       "headline": "Lost something? Get it back without the runaround.",
-      "subtitle": "Renuir connects your lost item with the venue that found it. Smart matching, secure chat, and verified returns, all in one place.",
+      "subtitle": "Report a loss or a find. Explore nearby items, compare possible matches and connect directly with finders or owners.",
       "googlePlay": "Google Play",
       "appleStore": "App Store",
       "appScreensAlt": "Renuir app screens",
-      "waitlistCta": "Join the waitlist",
-      "emailPlaceholder": "Enter your email",
-      "availability": "Coming to iOS and Android at launch."
+      "emailPlaceholder": "Enter your email"
     },
     "overview": {
       "headline": "Four steps to your item back.",
@@ -288,31 +279,25 @@
       "feature3Desc": "Your contact details stay hidden until both sides confirm a match.",
       "feature4Title": "A clear record of every step",
       "feature4Desc": "Each action is logged, so returns stay accountable and easy to trace.",
-      "closingHeadline": "Be one of the first to try Renuir.",
-      "closingCta": "Join the beta",
-      "closingPlaceholder": "Enter your email"
+      "closingHeadline": "Start your search with Renuir."
     }
   },
   "developer": {
     "hero": {
-      "betaBanner": "Developer Platform is in private beta. Features below are in preview mode.",
-      "joinWaitlist": "Join waitlist",
       "eyebrow": "DEVELOPER HUB",
       "headline": "Lost & Found API",
       "subtitle": "Full API access and white-label deployment for enterprises that need total control over their lost-and-found operations.",
       "emailPlaceholder": "Enter your work email",
       "cta": "Request API access",
-      "socialProof": "Private beta. Request API access and we'll be in touch.",
+      "socialProof": "Contact our team for API access and integration guidance.",
       "devEyebrow": "Developer platform",
       "devHeadlineLine1": "Build recovery into",
       "devHeadlineLine2": "your own product.",
       "devSubtitle": "One API for item intake, AI matching, claims, and secure returns. Drop it into your app, PMS, or venue system and let Renuir handle the hard part.",
-      "bannerMessage": "The Renuir API is in private beta. Request access to get sandbox keys.",
-      "bannerLink": "Request access",
       "leadCta": "Request API access",
       "leadPlaceholder": "Enter your work email",
       "leadSuccess": "Thanks. We'll send sandbox keys and docs shortly.",
-      "betaNote": "Private beta. No credit card, no sales call to start testing."
+      "accessNote": "Contact our team for API access and integration guidance."
     },
     "connect": {
       "eyebrow": "How it connects",
@@ -364,7 +349,7 @@
       "cap3Title": "White-label",
       "cap3Desc": "Run a fully branded recovery flow on your own domain, powered entirely by the API.",
       "cap4Title": "SDKs",
-      "cap4Desc": "Official client libraries for Node, Python, Go, and Swift arriving at launch.",
+      "cap4Desc": "Talk to our team about client libraries and integration options for your stack.",
       "security1": "EU data residency and GDPR-compliant handling",
       "security2": "Full chain of custody on every item and claim",
       "security3": "Scoped keys, revocation, and usage telemetry"
@@ -621,5 +606,9 @@
       "declineAll": "Decline all",
       "savePreferences": "Save preferences"
     }
+  },
+  "downloads": {
+    "platforms": "For iOS and Android",
+    "unavailable": "Download link not available yet"
   }
 }

@@ -32,7 +32,7 @@ interface LeadFormProps {
  * shows real loading / success / error states (the previous forms were inert).
  */
 export function LeadForm({
-  source = 'waitlist',
+  source = 'contact',
   cta,
   placeholder,
   variant = 'light',

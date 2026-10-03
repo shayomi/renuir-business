@@ -6,8 +6,7 @@
     "enterprise": "Enterprise",
     "individual": "Kunden",
     "developers": "Entwickler",
-    "getApp": "App laden",
-    "joinWaitlist": "Warteliste"
+    "getApp": "App laden"
   },
   "home": {
     "hero": {
@@ -15,15 +14,13 @@
       "line2": "neu gedacht.",
       "subtitle": "Eine Meldung. Intelligenter Abgleich. Sichere Rückgabe. Renuir verbindet Menschen und Orte, damit Verlorenes wieder zurückfindet.",
       "ctaBusiness": "Für Unternehmen",
-      "ctaDownload": "App herunterladen",
-      "waitlistCta": "Auf die Warteliste",
-      "waitlistPlaceholder": "Geschäftliche E-Mail eingeben"
+      "ctaDownload": "App herunterladen"
     },
     "closing": {
-      "badge": "Private Beta",
-      "headline": "Werden Sie früh Renuir-Partner",
-      "subtitle": "Wir nehmen eine kleine Gruppe von Standorten und Teams an Bord. Hinterlassen Sie Ihre geschäftliche E-Mail-Adresse und wir melden uns, um eine Demo zu vereinbaren.",
-      "leadCta": "Zugang anfragen",
+      "badge": "Renuir für Unternehmen",
+      "headline": "Bringen Sie Renuir in Ihr Team.",
+      "subtitle": "Vereinbaren Sie eine Demo und entdecken Sie, wie Renuir Ihre Erfassung, Eigentumsprüfung und Rückgabe unterstützt.",
+      "leadCta": "Demo anfragen",
       "leadPlaceholder": "Geschäftliche E-Mail eingeben"
     },
     "change": {
@@ -47,17 +44,17 @@
     "forIndividual": {
       "badge": "FÜR PRIVATPERSONEN",
       "headline": "Deine Sachen. Wieder da.",
-      "subtitle": "Die Renuir-App ist kostenlos. Melde einen verlorenen Gegenstand in unter einer Minute, lass ihn automatisch abgleichen und hol ihn dir zurück, ganz ohne Umwege.",
+      "subtitle": "Melde verlorene oder gefundene Gegenstände, entdecke Meldungen und mögliche Treffer in deiner Nähe und vereinbare die Rückgabe im App-Chat.",
       "feature1": "KI-gestützter Abgleich bei allen Fundstellen in der Nähe",
       "feature2": "Eigentumsverifizierung, die beide Seiten schützt",
       "feature3": "Sicherer Chat mit dem Finder direkt in der App",
-      "feature4": "Versandoption, wenn ein Treffen nicht möglich ist",
+      "feature4": "Übergabe mit einem Bestätigungscode vereinbaren",
       "googlePlay": "Google Play",
       "appleStore": "App Store",
       "appAlt": "Renuir Mobile-App"
     },
     "privateBeta": {
-      "badge": "Private Beta",
+      "badge": "Renuir für Unternehmen",
       "headline": "Für Einrichtungen, die Fundsachen ernst nehmen.",
       "subtitle": "Flughäfen, Hotels und Verkehrsbetriebe verlieren jedes Jahr Tausende Gegenstände. Die meisten kommen nie zurück. Renuir gibt Ihrem Team ein System, das wirklich funktioniert.",
       "feature1Title": "Foto-Erfassung",
@@ -69,7 +66,7 @@
       "feature4Title": "Dashboard",
       "feature4Desc": "Volle Übersicht über Rückgabequoten, Lagerzeit und Mitarbeiteraktivität.",
       "cta": "Renuir für Unternehmen entdecken",
-      "imageAlt": "Renuir Private-Beta-Vorschau"
+      "imageAlt": "Renuir für Unternehmen"
     },
     "developer": {
       "badge": ">_ Entwicklerplattform",
@@ -87,7 +84,7 @@
       "eyebrow": "Warum es uns gibt",
       "headline": "Das Fundbürowesen ist kaputt. Wir reparieren die Infrastruktur.",
       "lead": "Jeden Tag sammeln Standorte Gegenstände, die sich keinem Eigentümer zuordnen lassen, und Menschen geben Dinge auf, die sie hätten zurückbekommen können.",
-      "body": "Renuir gibt Standorten einen zentralen Ort, um gefundene Gegenstände zu erfassen, zu prüfen, wem sie wirklich gehören, und sie zurückzugeben, ohne die persönlichen Daten von jemandem preiszugeben. Wir sind ein kleines Team, das dies sorgfältig aufbaut, beginnend mit einer Handvoll Design-Partner in Berlin.",
+      "body": "Renuir verbindet Menschen, die etwas verlieren, mit denen, die es finden. Melden, vergleichen, besondere Merkmale prüfen und die Rückgabe vereinbaren – alles an einem Ort. Für Unternehmen bringt Renuir Erfassung und Rückgabe in einen klaren, nachvollziehbaren Ablauf.",
       "stat1Label": "Plattform für jeden verlorenen Gegenstand, von der Erfassung bis zur Rückgabe",
       "stat2Label": "Angestrebte Reaktionszeit auf jede Partner-Demoanfrage",
       "stat3Label": "Von Tag eins an nach EU-Datenschutzstandards entwickelt"
@@ -166,8 +163,6 @@
   },
   "solutions": {
     "hero": {
-      "betaBanner": "Renuir für Unternehmen ist in der Private Beta. Wir nehmen ausgewählte Partner auf.",
-      "joinWaitlist": "Warteliste",
       "eyebrow": "FÜR UNTERNEHMEN & BEHÖRDEN",
       "headline": "Fundsachen, so organisiert wie Ihr restlicher Betrieb.",
       "subtitle": "Ersetzen Sie die Fundkiste durch eine nachverfolgbare, prüfbare Rückgabeplattform. Erfassen Sie Gegenstände in Sekunden, geben Sie sie automatisch zurück und weisen Sie die Übergabekette jederzeit nach.",
@@ -197,9 +192,9 @@
       "mobileAppAlt": "Renuir Mobile-App"
     },
     "testimonials": {
-      "badge": "Erste Partner",
+      "badge": "Renuir für Unternehmen",
       "headline": "Gemeinsam mit den Teams gebaut, die dieses Problem täglich erleben.",
-      "subtitle": "Wir sind in der Private Beta und arbeiten direkt mit einer kleinen Gruppe von Betreibern aus Einrichtungen und Verkehr zusammen, um die Plattform an echten Rückgabeprozessen auszurichten.",
+      "subtitle": "Vereinbaren Sie eine Demo und entdecken Sie, wie Renuir Ihre Erfassung, Eigentumsprüfung und Rückgabe unterstützt.",
       "quote1": "Wir haben die Bearbeitungszeit im ersten Monat um 60% reduziert. Vorher war es Chaos: Tabellen, Anrufe, Rätselraten. Jetzt läuft es von allein.",
       "quote1Name": "Sarah Jenkins",
       "quote1Role": "Betriebsleiterin, Grand Central Hub",
@@ -215,7 +210,7 @@
       "partner2Desc": "Empfangsteams, die Eigentum auf diskrete, gästefreundliche Weise zurückgeben möchten.",
       "partner3Label": "Campus und Veranstaltungsorte",
       "partner3Desc": "Große Standorte mit Tausenden Besuchern täglich und einem einzigen Fundbüro.",
-      "note": "Wir teilen noch keine Kundenlogos. Während der Beta möchten wir die Ergebnisse lieber selbst erarbeiten, als uns fremde zu leihen."
+      "note": "Erzählen Sie uns ein wenig über Ihren Betrieb und wir vereinbaren eine Demo und erstellen einen darauf zugeschnittenen Onboarding-Plan."
     },
     "security": {
       "eyebrow": "Sicherheit und Compliance",
@@ -242,17 +237,13 @@
   },
   "individual": {
     "hero": {
-      "betaBanner": "Die Renuir App ist in der Private Beta. Die Funktionen unten sind derzeit in der Vorschau.",
-      "joinWaitlist": "Warteliste",
       "eyebrow": "FÜR PRIVATPERSONEN",
       "headline": "Etwas verloren? Hol es dir zurück, ohne Umwege.",
-      "subtitle": "Renuir verbindet deinen verlorenen Gegenstand mit dem Ort, der ihn gefunden hat. Intelligenter Abgleich, sicherer Chat, verifizierte Rückgabe.",
+      "subtitle": "Melde einen Verlust oder einen Fund. Entdecke Gegenstände in deiner Nähe, prüfe mögliche Treffer und kontaktiere Finder oder Eigentümer direkt.",
       "googlePlay": "Google Play",
       "appleStore": "App Store",
       "appScreensAlt": "Renuir App-Bildschirme",
-      "waitlistCta": "Auf die Warteliste",
-      "emailPlaceholder": "E-Mail eingeben",
-      "availability": "Zum Start für iOS und Android verfügbar."
+      "emailPlaceholder": "E-Mail eingeben"
     },
     "overview": {
       "headline": "In vier Schritten zurück.",
@@ -288,31 +279,25 @@
       "feature3Desc": "Deine Daten werden erst geteilt, wenn beide Seiten einen Treffer bestätigen.",
       "feature4Title": "Lückenlose Dokumentation",
       "feature4Desc": "Jede Aktion wird protokolliert, für Nachvollziehbarkeit und Transparenz.",
-      "closingHeadline": "Sei eine oder einer der Ersten, die Renuir ausprobieren.",
-      "closingCta": "An der Beta teilnehmen",
-      "closingPlaceholder": "E-Mail eingeben"
+      "closingHeadline": "Starte deine Suche mit Renuir."
     }
   },
   "developer": {
     "hero": {
-      "betaBanner": "Die Entwicklerplattform ist in der Private Beta. Funktionen unten sind in der Vorschau.",
-      "joinWaitlist": "Warteliste",
       "eyebrow": "ENTWICKLER-HUB",
       "headline": "Lost & Found API",
       "subtitle": "Voller API-Zugang und White-Label-Deployment für Unternehmen, die die vollständige Kontrolle über ihre Fundabwicklung brauchen.",
       "emailPlaceholder": "Ihre geschäftliche E-Mail",
       "cta": "API-Zugang anfragen",
-      "socialProof": "Private Beta. Fordern Sie API-Zugang an und wir melden uns bei Ihnen.",
+      "socialProof": "Kontaktieren Sie unser Team für API-Zugang und Unterstützung bei der Integration.",
       "devEyebrow": "Entwicklerplattform",
       "devHeadlineLine1": "Integrieren Sie Wiederbeschaffung",
       "devHeadlineLine2": "in Ihr eigenes Produkt.",
       "devSubtitle": "Eine API für die Annahme von Gegenständen, KI-Abgleich, Ansprüche und sichere Rückgaben. Binden Sie sie in Ihre App, Ihr PMS oder Ihr Standortsystem ein und lassen Sie Renuir den schwierigen Teil übernehmen.",
-      "bannerMessage": "Die Renuir-API befindet sich in der privaten Beta. Fragen Sie Zugang an, um Sandbox-Schlüssel zu erhalten.",
-      "bannerLink": "Zugang anfragen",
       "leadCta": "API-Zugang anfragen",
       "leadPlaceholder": "Geschäftliche E-Mail eingeben",
       "leadSuccess": "Vielen Dank. Wir senden Ihnen in Kürze Sandbox-Schlüssel und die Dokumentation.",
-      "betaNote": "Private Beta. Keine Kreditkarte, kein Vertriebsgespräch, um mit dem Testen zu beginnen."
+      "accessNote": "Kontaktieren Sie unser Team für API-Zugang und Unterstützung bei der Integration."
     },
     "connect": {
       "eyebrow": "Wie es sich verbindet",
@@ -364,7 +349,7 @@
       "cap3Title": "White-Label",
       "cap3Desc": "Betreiben Sie einen vollständig gebrandeten Wiederbeschaffungsprozess auf Ihrer eigenen Domain, vollständig über die API angetrieben.",
       "cap4Title": "SDKs",
-      "cap4Desc": "Offizielle Client-Bibliotheken für Node, Python, Go und Swift folgen zum Start.",
+      "cap4Desc": "Sprechen Sie mit unserem Team über Client-Bibliotheken und Integrationsmöglichkeiten für Ihren Stack.",
       "security1": "EU-Datenresidenz und DSGVO-konforme Verarbeitung",
       "security2": "Lückenlose Nachweiskette für jeden Gegenstand und jeden Anspruch",
       "security3": "Zugriffsbeschränkte Schlüssel, Widerruf und Nutzungsmetriken"
@@ -621,5 +606,9 @@
       "declineAll": "Alle ablehnen",
       "savePreferences": "Einstellungen speichern"
     }
+  },
+  "downloads": {
+    "platforms": "Für iOS und Android",
+    "unavailable": "Download-Link noch nicht verfügbar"
   }
 }

@@ -2,9 +2,8 @@
 
 import Image from "next/image";
 import { Typography } from "@/components/ui/typography";
-import { LeadForm } from "@/components/shared/LeadForm";
+import { StoreDownloads } from "@/components/shared/StoreDownloads";
 import Nav from "../shared/navbar/Nav";
-import { BetaBanner } from "../shared/BetaBanner";
 import AnimateIn from "@/components/ui/AnimateIn";
 import { useTranslations } from "next-intl";
 import { AppShowcase } from "@/components/shared/AppMockup";
@@ -24,11 +23,6 @@ export function IndividualHero() {
       />
 
       <Nav />
-      <BetaBanner
-        message={t("betaBanner")}
-        linkText={t("joinWaitlist")}
-        linkHref="/#waitlist"
-      />
 
       <div className="relative app-container grid items-center gap-10 py-12 sm:py-16 lg:grid-cols-[1fr_1.1fr] lg:gap-8 lg:py-24">
         {/* Copy */}
@@ -44,32 +38,8 @@ export function IndividualHero() {
               {t("subtitle")}
             </Typography>
 
-            <div className="mt-6 w-full max-w-md sm:mt-8">
-              <LeadForm
-                source="waitlist"
-                cta={t("waitlistCta")}
-                placeholder={t("emailPlaceholder")}
-                variant="light"
-              />
-              <div className="mt-2 flex items-center gap-2.5 text-muted-foreground">
-                <Image
-                  src="/images/icons/appleicon.svg"
-                  alt=""
-                  width={16}
-                  height={16}
-                  className="opacity-60"
-                />
-                <Image
-                  src="/images/icons/googleplayicon.svg"
-                  alt=""
-                  width={16}
-                  height={16}
-                  className="opacity-60"
-                />
-                <Typography variant="smallText" className="text-muted-foreground">
-                  {t("availability")}
-                </Typography>
-              </div>
+            <div id="download" className="mt-6 w-full scroll-mt-28 sm:mt-8">
+              <StoreDownloads />
             </div>
           </div>
         </AnimateIn>

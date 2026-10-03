@@ -1,7 +1,6 @@
 import { Typography } from "@/components/ui/typography";
 import { LeadForm } from "@/components/shared/LeadForm";
 import Nav from "../shared/navbar/Nav";
-import { BetaBanner } from "../shared/BetaBanner";
 import AnimateIn from "@/components/ui/AnimateIn";
 import { getTranslations } from "next-intl/server";
 
@@ -21,11 +20,6 @@ export async function SolutionHero() {
 
       <div className="relative z-10">
         <Nav />
-        <BetaBanner
-          message={t("betaBanner")}
-          linkText={t("joinWaitlist")}
-          linkHref="/#waitlist"
-        />
         <div className="app-container flex flex-col items-center pt-12 pb-24 text-center sm:pt-16 sm:pb-32 lg:pt-24 lg:pb-40">
           <AnimateIn>
             <span className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-3.5 py-1.5 text-xs font-semibold uppercase tracking-wider text-primary">

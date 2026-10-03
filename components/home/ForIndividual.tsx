@@ -1,8 +1,6 @@
-import Image from "next/image";
 import { Check } from "lucide-react";
-import { Link } from "@/i18n/navigation";
 import { Typography } from "@/components/ui/typography";
-import { Button } from "@/components/ui/button";
+import { StoreDownloads } from "@/components/shared/StoreDownloads";
 import AnimateIn from "@/components/ui/AnimateIn";
 import { useTranslations } from "next-intl";
 import { AppShowcase } from "@/components/shared/AppMockup";
@@ -40,31 +38,7 @@ const ForIndividual = () => {
             ))}
           </ul>
 
-          <div className="mt-8 flex flex-wrap gap-3 sm:mt-10">
-            <Link href="/#waitlist">
-              <Button variant="dark" size="lg" className="rounded-full">
-                <Image
-                  src="/images/icons/googleplayicon.svg"
-                  alt=""
-                  width={20}
-                  height={20}
-                />
-                {t("googlePlay")}
-              </Button>
-            </Link>
-
-            <Link href="/#waitlist">
-              <Button variant="dark" size="lg" className="rounded-full">
-                <Image
-                  src="/images/icons/appleicon.svg"
-                  alt=""
-                  width={20}
-                  height={20}
-                />
-                {t("appleStore")}
-              </Button>
-            </Link>
-          </div>
+          <div className="mt-8 sm:mt-10"><StoreDownloads /></div>
         </div>
       </AnimateIn>
 

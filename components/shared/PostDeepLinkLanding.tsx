@@ -5,8 +5,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, Check, Copy, ExternalLink, Smartphone } from "lucide-react";
 
-const IOS_STORE_URL = "https://apps.apple.com/app/id6758735828";
-const ANDROID_STORE_URL = "https://play.google.com/store/apps/details?id=com.renuir.app";
+import { appStoreLinks } from "@/lib/app-stores";
+
+const IOS_STORE_URL: string = appStoreLinks.apple;
+const ANDROID_STORE_URL: string = appStoreLinks.google;
 
 type PostDeepLinkLandingProps = { postId: string };
 
@@ -124,11 +126,13 @@ export default function PostDeepLinkLanding({ postId }: PostDeepLinkLandingProps
             <p className="mt-6 max-w-lg text-base leading-7 text-[#626a7c] sm:text-lg">Open the shared post to view the item, contact the poster, and help return it to its owner.</p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
               <a href={appUrl} onClick={handleOpenApp} className="inline-flex h-12 items-center justify-center gap-2 rounded-xl bg-[#2541e8] px-5 text-sm font-bold text-white shadow-[0_12px_28px_rgba(37,65,232,0.25)] transition hover:bg-[#1d35c6] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#2541e8]">Open in Renuir <ArrowUpRight className="size-4" aria-hidden="true" /></a>
-              <a href={storeUrl} className="inline-flex h-12 items-center justify-center gap-2 rounded-xl border border-[#d5dbe8] bg-white px-5 text-sm font-bold text-[#202638] transition hover:border-[#2541e8] hover:text-[#2541e8] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#2541e8]">Get the app <ExternalLink className="size-4" aria-hidden="true" /></a>
+              {storeUrl ? (<a href={storeUrl} className="inline-flex h-12 items-center justify-center gap-2 rounded-xl border border-[#d5dbe8] bg-white px-5 text-sm font-bold text-[#202638] transition hover:border-[#2541e8] hover:text-[#2541e8] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#2541e8]">Get the app <ExternalLink className="size-4" aria-hidden="true" /></a>) : (
+                <button type="button" disabled title="Download link not available yet" className="inline-flex h-12 cursor-not-allowed items-center justify-center gap-2 rounded-xl border border-[#d5dbe8] bg-white px-5 text-sm font-bold text-[#202638] opacity-60">Get the app <ExternalLink className="size-4" aria-hidden="true" /></button>
+              )}
             </div>
             <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm font-semibold text-[#2541e8]">
-              <a href={IOS_STORE_URL} className="hover:underline">App Store</a>
-              <a href={ANDROID_STORE_URL} className="hover:underline">Google Play</a>
+              {IOS_STORE_URL && <a href={IOS_STORE_URL} className="hover:underline">App Store</a>}
+              {ANDROID_STORE_URL && <a href={ANDROID_STORE_URL} className="hover:underline">Google Play</a>}
               <button type="button" onClick={handleCopy} className="inline-flex items-center gap-1.5 text-[#596174] hover:text-[#2541e8]" aria-label="Copy share link">
                 {copied ? <Check className="size-4 text-emerald-600" aria-hidden="true" /> : <Copy className="size-4" aria-hidden="true" />}
                 {copied ? "Copied" : "Copy link"}

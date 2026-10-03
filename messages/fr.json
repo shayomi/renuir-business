@@ -6,8 +6,7 @@
     "enterprise": "Grands comptes",
     "individual": "Particuliers",
     "developers": "Développeurs",
-    "getApp": "Télécharger l'app",
-    "joinWaitlist": "Rejoindre la liste d'attente"
+    "getApp": "Télécharger l'app"
   },
   "home": {
     "hero": {
@@ -15,15 +14,13 @@
       "line2": "retrouvés.",
       "subtitle": "Un signalement. Un matching intelligent. Un retour sécurisé. Renuir relie les personnes et les lieux pour retrouver ce qui compte.",
       "ctaBusiness": "Solutions entreprises",
-      "ctaDownload": "Télécharger l'app",
-      "waitlistCta": "Rejoindre la liste d'attente",
-      "waitlistPlaceholder": "Entrez votre e-mail professionnel"
+      "ctaDownload": "Télécharger l'app"
     },
     "closing": {
-      "badge": "Bêta privée",
-      "headline": "Devenez un partenaire Renuir de la première heure",
-      "subtitle": "Nous intégrons un petit groupe d'établissements et d'équipes. Laissez votre e-mail professionnel et nous vous contacterons pour organiser une présentation.",
-      "leadCta": "Demander un accès",
+      "badge": "Renuir pour les entreprises",
+      "headline": "Adoptez Renuir dans votre équipe.",
+      "subtitle": "Demandez une démonstration pour découvrir comment Renuir accompagne votre gestion des objets trouvés.",
+      "leadCta": "Demander une démo",
       "leadPlaceholder": "Entrez votre e-mail professionnel"
     },
     "change": {
@@ -57,7 +54,7 @@
       "appAlt": "Application mobile Renuir"
     },
     "privateBeta": {
-      "badge": "Bêta privée",
+      "badge": "Renuir pour les entreprises",
       "headline": "Pour les établissements qui veulent gérer les objets trouvés comme il faut.",
       "subtitle": "Les aéroports, hôtels et pôles de transport perdent des milliers d'objets chaque année. La plupart ne sont jamais restitués. Renuir donne à votre équipe un système qui fonctionne vraiment.",
       "feature1Title": "Enregistrement par photo",
@@ -69,7 +66,7 @@
       "feature4Title": "Tableau de bord",
       "feature4Desc": "Une visibilité complète sur les taux de restitution, les durées de stockage et l'activité de vos équipes.",
       "cta": "Découvrir Renuir pour les entreprises",
-      "imageAlt": "Aperçu de la bêta privée Renuir"
+      "imageAlt": "Renuir pour les entreprises"
     },
     "developer": {
       "badge": ">_ Plateforme développeurs",
@@ -166,8 +163,6 @@
   },
   "solutions": {
     "hero": {
-      "betaBanner": "Renuir pour les entreprises est en bêta privée. Nous intégrons actuellement une sélection de partenaires.",
-      "joinWaitlist": "Rejoindre la liste d'attente",
       "eyebrow": "POUR LES ENTREPRISES ET LE SECTEUR PUBLIC",
       "headline": "Les objets trouvés, gérés comme le reste de vos opérations.",
       "subtitle": "Remplacez le carton d'objets trouvés par une plateforme de restitution suivie et auditable. Enregistrez les objets en quelques secondes, restituez-les automatiquement et prouvez la chaîne de possession à tout moment.",
@@ -197,9 +192,9 @@
       "mobileAppAlt": "Application mobile Renuir"
     },
     "testimonials": {
-      "badge": "Premiers partenaires",
+      "badge": "Renuir pour les entreprises",
       "headline": "Construit avec les équipes qui vivent ce problème au quotidien.",
-      "subtitle": "Nous sommes en bêta privée et travaillons directement avec un petit groupe d'établissements et d'opérateurs de transport pour construire la plateforme autour de vrais processus de restitution.",
+      "subtitle": "Demandez une démonstration pour découvrir comment Renuir accompagne votre gestion des objets trouvés.",
       "quote1": "Nous avons réduit le temps de traitement des objets de 60 % dès le premier mois. Avant, c'était le chaos : tableurs, appels, approximations. Aujourd'hui, tout se fait presque tout seul.",
       "quote1Name": "Sophie Martin",
       "quote1Role": "Directrice des opérations, Grand Central Hub",
@@ -215,7 +210,7 @@
       "partner2Desc": "Des équipes de réception qui veulent un moyen discret et agréable de restituer les affaires des clients.",
       "partner3Label": "Campus et lieux d’accueil",
       "partner3Desc": "De grands sites accueillant des milliers de visiteurs par jour avec un seul bureau des objets trouvés.",
-      "note": "Nous ne partageons pas encore les logos de nos clients. Pendant la bêta, nous préférons mériter nos résultats plutôt que d’emprunter ceux des autres."
+      "note": "Parlez-nous un peu de votre activité et nous mettrons en place une présentation et un plan d'intégration conçus sur mesure."
     },
     "security": {
       "eyebrow": "Sécurité et conformité",
@@ -242,17 +237,13 @@
   },
   "individual": {
     "hero": {
-      "betaBanner": "L'app Renuir est en bêta privée. Les fonctionnalités ci-dessous sont en mode aperçu.",
-      "joinWaitlist": "Rejoindre la liste d'attente",
       "eyebrow": "POUR LES PARTICULIERS",
       "headline": "Tu as perdu quelque chose ? Récupère-le sans galère.",
       "subtitle": "Renuir met en relation ton objet perdu avec l'établissement qui l'a trouvé. Matching intelligent, messagerie sécurisée et restitutions vérifiées, au même endroit.",
       "googlePlay": "Google Play",
       "appleStore": "App Store",
       "appScreensAlt": "Écrans de l'application Renuir",
-      "waitlistCta": "Rejoindre la liste d'attente",
-      "emailPlaceholder": "Entre ton e-mail",
-      "availability": "Disponible sur iOS et Android au lancement."
+      "emailPlaceholder": "Entre ton e-mail"
     },
     "overview": {
       "headline": "Quatre étapes pour retrouver ton objet.",
@@ -288,31 +279,25 @@
       "feature3Desc": "Tes coordonnées restent masquées jusqu'à ce que les deux parties confirment une correspondance.",
       "feature4Title": "Un historique clair de chaque étape",
       "feature4Desc": "Chaque action est enregistrée, pour des restitutions traçables et faciles à suivre.",
-      "closingHeadline": "Sois parmi les premiers à essayer Renuir.",
-      "closingCta": "Rejoindre la bêta",
-      "closingPlaceholder": "Saisis ton e-mail"
+      "closingHeadline": "Commencez votre recherche avec Renuir."
     }
   },
   "developer": {
     "hero": {
-      "betaBanner": "La plateforme développeurs est en bêta privée. Les fonctionnalités ci-dessous sont en mode aperçu.",
-      "joinWaitlist": "Rejoindre la liste d'attente",
       "eyebrow": "ESPACE DÉVELOPPEURS",
       "headline": "API Objets trouvés",
       "subtitle": "Accès complet à l'API et déploiement en marque blanche pour les entreprises qui veulent un contrôle total sur leur gestion des objets trouvés.",
       "emailPlaceholder": "Entrez votre e-mail professionnel",
       "cta": "Demander un accès API",
-      "socialProof": "Bêta privée. Demandez un accès API et nous vous recontacterons.",
+      "socialProof": "Contactez notre équipe pour accéder à l’API et être accompagné dans l’intégration.",
       "devEyebrow": "Plateforme développeurs",
       "devHeadlineLine1": "Intégrez la restitution",
       "devHeadlineLine2": "à votre propre produit.",
       "devSubtitle": "Une seule API pour l'enregistrement des objets, le matching par IA, les réclamations et les restitutions sécurisées. Intégrez-la à votre app, votre PMS ou votre système d'établissement et laissez Renuir gérer le plus difficile.",
-      "bannerMessage": "L'API Renuir est en bêta privée. Demandez un accès pour obtenir des clés sandbox.",
-      "bannerLink": "Demander un accès",
       "leadCta": "Demander un accès API",
       "leadPlaceholder": "Entrez votre e-mail professionnel",
       "leadSuccess": "Merci. Nous vous enverrons vos clés sandbox et la documentation sous peu.",
-      "betaNote": "Bêta privée. Aucune carte bancaire, aucun appel commercial pour commencer à tester."
+      "accessNote": "Contactez notre équipe pour accéder à l’API et être accompagné dans l’intégration."
     },
     "connect": {
       "eyebrow": "Comment ça se connecte",
@@ -364,7 +349,7 @@
       "cap3Title": "Marque blanche",
       "cap3Desc": "Faites tourner un parcours de restitution entièrement à votre marque, sur votre propre domaine, entièrement piloté par l'API.",
       "cap4Title": "SDK",
-      "cap4Desc": "Bibliothèques clientes officielles pour Node, Python, Go et Swift disponibles au lancement.",
+      "cap4Desc": "Contactez notre équipe pour accéder à l’API et être accompagné dans l’intégration.",
       "security1": "Résidence des données dans l'UE et traitement conforme au RGPD",
       "security2": "Chaîne de possession complète sur chaque objet et chaque réclamation",
       "security3": "Clés à portée limitée, révocation et télémétrie d'utilisation"
@@ -621,5 +606,9 @@
       "declineAll": "Tout refuser",
       "savePreferences": "Enregistrer les préférences"
     }
+  },
+  "downloads": {
+    "platforms": "Pour iOS et Android",
+    "unavailable": "Lien de téléchargement pas encore disponible"
   }
 }

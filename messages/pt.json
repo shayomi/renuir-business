@@ -6,8 +6,7 @@
     "enterprise": "Empresas",
     "individual": "Clientes",
     "developers": "Desenvolvedores",
-    "getApp": "Baixe o app",
-    "joinWaitlist": "Entrar na lista de espera"
+    "getApp": "Baixe o app"
   },
   "home": {
     "hero": {
@@ -15,15 +14,13 @@
       "line2": "Reinventado.",
       "subtitle": "Um registro. Correspondência inteligente. Devolução segura. A Renuir conecta pessoas e lugares para recuperar o que importa.",
       "ctaBusiness": "Soluções para Empresas",
-      "ctaDownload": "Baixe o app",
-      "waitlistCta": "Entrar na lista de espera",
-      "waitlistPlaceholder": "Introduza o seu email profissional"
+      "ctaDownload": "Baixe o app"
     },
     "closing": {
-      "badge": "Beta privado",
-      "headline": "Torne-se um parceiro Renuir desde o início",
-      "subtitle": "Estamos a integrar um pequeno grupo de estabelecimentos e equipas. Deixe o seu email profissional e entraremos em contacto para agendar uma demonstração.",
-      "leadCta": "Solicitar acesso",
+      "badge": "Renuir para empresas",
+      "headline": "Leve o Renuir à sua equipa.",
+      "subtitle": "Peça uma demonstração para descobrir como o Renuir apoia a gestão e devolução de objetos perdidos.",
+      "leadCta": "Solicitar demonstração",
       "leadPlaceholder": "Introduza o seu email profissional"
     },
     "change": {
@@ -57,7 +54,7 @@
       "appAlt": "Aplicativo móvel Renuir"
     },
     "privateBeta": {
-      "badge": "Beta privado",
+      "badge": "Renuir para empresas",
       "headline": "Para estabelecimentos que querem fazer achados e perdidos direito.",
       "subtitle": "Aeroportos, hotéis e terminais de transporte perdem milhares de itens por ano. A maioria nunca é devolvida. A Renuir dá à sua equipe um sistema que realmente funciona.",
       "feature1Title": "Registro por foto",
@@ -69,7 +66,7 @@
       "feature4Title": "Painel de controle",
       "feature4Desc": "Visibilidade total sobre taxas de devolução, tempo de armazenamento e atividade da equipe.",
       "cta": "Conheça a Renuir para Empresas",
-      "imageAlt": "Pré-visualização do beta privado Renuir"
+      "imageAlt": "Renuir para empresas"
     },
     "developer": {
       "badge": ">_ Plataforma para desenvolvedores",
@@ -166,8 +163,6 @@
   },
   "solutions": {
     "hero": {
-      "betaBanner": "A Renuir para Empresas está em beta privado. Atualmente integrando parceiros selecionados.",
-      "joinWaitlist": "Entrar na lista de espera",
       "eyebrow": "PARA EMPRESAS E GOVERNO",
       "headline": "Gerencie achados e perdidos como o resto da sua operação.",
       "subtitle": "Substitua a caixa de achados e perdidos por uma plataforma de recuperação rastreável e auditável. Registre itens em segundos, devolva-os automaticamente e comprove a cadeia de custódia quando for preciso.",
@@ -197,9 +192,9 @@
       "mobileAppAlt": "Aplicativo móvel Renuir"
     },
     "testimonials": {
-      "badge": "Primeiros parceiros",
+      "badge": "Renuir para empresas",
       "headline": "Feito com as equipes que vivem esse problema.",
-      "subtitle": "Estamos em beta privado, trabalhando diretamente com um pequeno grupo de operadores de estabelecimentos e transporte para moldar a plataforma em torno de fluxos reais de recuperação.",
+      "subtitle": "Peça uma demonstração para descobrir como o Renuir apoia a gestão e devolução de objetos perdidos.",
       "quote1": "Reduzimos o tempo de processamento de itens em 60% no primeiro mês. Antes era um caos: planilhas, ligações, achismos. Agora funciona sozinho.",
       "quote1Name": "Ana Souza",
       "quote1Role": "Diretora de Operações, Grand Central Hub",
@@ -215,7 +210,7 @@
       "partner2Desc": "Equipas de receção que procuram uma forma discreta e acolhedora de devolver pertences aos hóspedes.",
       "partner3Label": "Campus e recintos",
       "partner3Desc": "Grandes espaços com milhares de visitantes diários e um único balcão de perdidos e achados.",
-      "note": "Ainda não estamos a partilhar logótipos de clientes. Durante a fase beta, preferimos conquistar os resultados a pedir emprestada a reputação de outros."
+      "note": "Conte-nos um pouco sobre a sua operação e criaremos uma demonstração e um plano de integração adaptados a ela."
     },
     "security": {
       "eyebrow": "Segurança e conformidade",
@@ -242,17 +237,13 @@
   },
   "individual": {
     "hero": {
-      "betaBanner": "O app Renuir está em beta privado. Os recursos abaixo estão em modo de pré-visualização.",
-      "joinWaitlist": "Entrar na lista de espera",
       "eyebrow": "PARA PESSOAS",
       "headline": "Perdeu algo? A gente te ajuda a recuperar.",
       "subtitle": "A Renuir conecta seu item perdido com o estabelecimento que o encontrou. Correspondência inteligente, chat seguro, devoluções verificadas.",
       "googlePlay": "Google Play",
       "appleStore": "App Store",
       "appScreensAlt": "Telas do app Renuir",
-      "waitlistCta": "Entrar na lista de espera",
-      "emailPlaceholder": "Introduza o seu email",
-      "availability": "Disponível para iOS e Android no lançamento."
+      "emailPlaceholder": "Introduza o seu email"
     },
     "overview": {
       "headline": "Quatro passos para ter seu item de volta.",
@@ -288,31 +279,25 @@
       "feature3Desc": "Seus dados são compartilhados somente após ambos os lados confirmarem a correspondência.",
       "feature4Title": "Rastreamento transparente",
       "feature4Desc": "Cada ação é registrada para responsabilidade e transparência.",
-      "closingHeadline": "Seja um dos primeiros a experimentar o Renuir.",
-      "closingCta": "Aderir à beta",
-      "closingPlaceholder": "Introduza o seu email"
+      "closingHeadline": "Comece a sua pesquisa com o Renuir."
     }
   },
   "developer": {
     "hero": {
-      "betaBanner": "A Plataforma para Desenvolvedores está em beta privado. Os recursos abaixo estão em modo de pré-visualização.",
-      "joinWaitlist": "Entrar na lista de espera",
       "eyebrow": "CENTRAL DO DESENVOLVEDOR",
       "headline": "API de Achados e Perdidos",
       "subtitle": "Acesso completo à API e implantação White-label para empresas que precisam de controle total sobre suas operações de achados e perdidos.",
       "emailPlaceholder": "Digite seu e-mail corporativo",
       "cta": "Solicitar acesso à API",
-      "socialProof": "Beta privado. Solicite acesso à API e entraremos em contato.",
+      "socialProof": "Contacte a nossa equipa para obter acesso à API e apoio na integração.",
       "devEyebrow": "Plataforma para programadores",
       "devHeadlineLine1": "Integre a recuperação",
       "devHeadlineLine2": "no seu próprio produto.",
       "devSubtitle": "Uma única API para receção de objetos, correspondência por IA, reivindicações e devoluções seguras. Integre-a na sua aplicação, PMS ou sistema do estabelecimento e deixe a Renuir tratar da parte difícil.",
-      "bannerMessage": "A API da Renuir está em beta privado. Solicite acesso para obter chaves de sandbox.",
-      "bannerLink": "Solicitar acesso",
       "leadCta": "Solicitar acesso à API",
       "leadPlaceholder": "Introduza o seu email profissional",
       "leadSuccess": "Obrigado. Enviaremos em breve as chaves de sandbox e a documentação.",
-      "betaNote": "Beta privado. Sem cartão de crédito nem chamada comercial para começar a testar."
+      "accessNote": "Contacte a nossa equipa para obter acesso à API e apoio na integração."
     },
     "connect": {
       "eyebrow": "Como se liga",
@@ -364,7 +349,7 @@
       "cap3Title": "Marca branca",
       "cap3Desc": "Execute um fluxo de recuperação totalmente personalizado no seu próprio domínio, impulsionado inteiramente pela API.",
       "cap4Title": "SDKs",
-      "cap4Desc": "Bibliotecas cliente oficiais para Node, Python, Go e Swift a chegar no lançamento.",
+      "cap4Desc": "Contacte a nossa equipa para obter acesso à API e apoio na integração.",
       "security1": "Residência de dados na UE e tratamento em conformidade com o RGPD",
       "security2": "Cadeia de custódia completa em cada objeto e reivindicação",
       "security3": "Chaves com âmbito limitado, revogação e telemetria de utilização"
@@ -621,5 +606,9 @@
       "declineAll": "Recusar tudo",
       "savePreferences": "Salvar preferências"
     }
+  },
+  "downloads": {
+    "platforms": "Para iOS e Android",
+    "unavailable": "Link de download ainda não disponível"
   }
 }

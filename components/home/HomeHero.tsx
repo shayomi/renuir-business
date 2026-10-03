@@ -3,7 +3,7 @@ import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
 import AnimateIn from "@/components/ui/AnimateIn";
-import { LeadForm } from "@/components/shared/LeadForm";
+import { StoreDownloads } from "@/components/shared/StoreDownloads";
 import { AppMockup } from "@/components/shared/AppMockup";
 import Nav from "./HomeNav";
 import { useTranslations } from "next-intl";
@@ -46,16 +46,11 @@ export function HomeHero() {
 
           <AnimateIn delay={0.12}>
             <div
-              id="waitlist"
+              id="download"
               className="mt-8 flex scroll-mt-24 flex-col items-center gap-4 sm:flex-row lg:items-start"
             >
               <div className="w-full max-w-md">
-                <LeadForm
-                  source="waitlist"
-                  cta={t("waitlistCta")}
-                  placeholder={t("waitlistPlaceholder")}
-                  variant="dark"
-                />
+                <StoreDownloads dark />
               </div>
             </div>
             <div className="mt-4 flex justify-center lg:justify-start">
