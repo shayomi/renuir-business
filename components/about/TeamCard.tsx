@@ -3,11 +3,13 @@ import { Link } from "@/i18n/navigation";
 import { Card } from "@/components/ui/card";
 import { Typography } from "@/components/ui/typography";
 import { Linkedin } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 interface TeamCardProps {
   name: string;
   role: string;
   image?: string;
+  imageClassName?: string;
   linkedin?: string;
 }
 
@@ -20,19 +22,19 @@ function getInitials(name: string): string {
     .toUpperCase();
 }
 
-export function TeamCard({ name, role, image, linkedin }: TeamCardProps) {
+export function TeamCard({ name, role, image, imageClassName, linkedin }: TeamCardProps) {
   const hasLinkedin = Boolean(linkedin && linkedin !== "#");
 
   return (
     <Card className="flex flex-col rounded-2xl overflow-hidden h-full p-4 shadow-soft">
       <div className="flex flex-col h-full">
-        <div className="relative aspect-square w-full rounded-xl overflow-hidden mb-4">
+        <div className="relative aspect-square w-full rounded-full overflow-hidden mb-4">
           {image ? (
             <Image
               src={image}
               alt={name}
               fill
-              className="object-cover"
+              className={cn("object-cover", imageClassName)}
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
             />
           ) : (
