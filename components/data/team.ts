@@ -18,14 +18,14 @@ export const getTeam = (t: (key: string) => string): TeamMember[] => [
     name: "Chimezie",
     role: t('role2'),
     image: "/images/about/chimezie-headshot.jpg",
-    imageClassName: "scale-[1.24]",
+    imageClassName: "scale-[1.34]",
     featured: true,
   },
   {
     name: "Sayo",
     role: t('role3'),
     image: "/images/about/sayo-headshot.jpg",
-    imageClassName: "scale-[1.05]",
+    imageClassName: "scale-[1.14]",
   },
   {
     name: "Emmanuel",
