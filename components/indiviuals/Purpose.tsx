@@ -1,18 +1,18 @@
 "use client";
 
-import Image from "next/image";
-import { PhoneOff, BellRing, MessageSquare, Truck } from "lucide-react";
+import { Search, Sparkles, MessageSquare, PackageCheck } from "lucide-react";
+import { AppMockup, type AppScreen } from "@/components/shared/AppMockup";
 import { Typography } from "@/components/ui/typography";
 import AnimateIn from "@/components/ui/AnimateIn";
 import { fadeInLeft, fadeInRight } from "@/lib/animations";
 import { useTranslations } from "next-intl";
 
 const cardMeta = [
-  { image: "/images/solution/mobile1.png", Icon: PhoneOff },
-  { image: "/images/solution/mobile2.png", Icon: BellRing },
-  { image: "/images/solution/mobile3.png", Icon: MessageSquare },
-  { image: "/images/solution/mobile4.png", Icon: Truck },
-];
+  { screen: "report", Icon: Search },
+  { screen: "matches", Icon: Sparkles },
+  { screen: "chat", Icon: MessageSquare },
+  { screen: "handover", Icon: PackageCheck },
+] satisfies { screen: AppScreen; Icon: typeof Search }[];
 
 export default function Purpose() {
   const t = useTranslations("individual.purpose");
@@ -64,12 +64,10 @@ export default function Purpose() {
                   </div>
 
                   <div className="flex w-full shrink-0 justify-center lg:w-auto">
-                    <Image
-                      src={item.image}
-                      alt=""
-                      width={220}
-                      height={400}
-                      className="h-[240px] w-auto object-contain sm:h-[300px] lg:h-[320px]"
+                    <AppMockup
+                      screen={item.screen}
+                      sizes="(max-width: 639px) 200px, 230px"
+                      className="w-[200px] sm:w-[230px]"
                     />
                   </div>
                 </div>

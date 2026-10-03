@@ -5,6 +5,7 @@ import { Typography } from "@/components/ui/typography";
 import { Button } from "@/components/ui/button";
 import AnimateIn from "@/components/ui/AnimateIn";
 import { useTranslations } from "next-intl";
+import { AppShowcase } from "@/components/shared/AppMockup";
 
 const ForIndividual = () => {
   const t = useTranslations("home.forIndividual");
@@ -68,16 +69,7 @@ const ForIndividual = () => {
       </AnimateIn>
 
       <AnimateIn delay={0.1}>
-        <div className="relative mx-auto w-full max-w-md">
-          <Image
-            src="/images/home/individual.png"
-            alt={t("appAlt")}
-            width={620}
-            height={860}
-            priority
-            className="mx-auto"
-          />
-        </div>
+        <AppShowcase variant="recovery" />
       </AnimateIn>
     </section>
   );

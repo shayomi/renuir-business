@@ -7,6 +7,7 @@ import Nav from "../shared/navbar/Nav";
 import { BetaBanner } from "../shared/BetaBanner";
 import AnimateIn from "@/components/ui/AnimateIn";
 import { useTranslations } from "next-intl";
+import { AppShowcase } from "@/components/shared/AppMockup";
 
 export function IndividualHero() {
   const t = useTranslations("individual.hero");
@@ -86,14 +87,7 @@ export function IndividualHero() {
                 filter: "blur(24px)",
               }}
             />
-            <Image
-              src="/images/solution/indivialheroimg.png"
-              alt={t("appScreensAlt")}
-              width={900}
-              height={720}
-              priority
-              className="relative w-full max-w-lg drop-shadow-[0_30px_60px_rgba(15,23,42,0.16)] lg:max-w-[38rem] xl:max-w-[42rem]"
-            />
+            <AppShowcase priority />
           </div>
         </AnimateIn>
       </div>

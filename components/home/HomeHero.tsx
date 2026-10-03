@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
 import AnimateIn from "@/components/ui/AnimateIn";
 import { LeadForm } from "@/components/shared/LeadForm";
+import { AppMockup } from "@/components/shared/AppMockup";
 import Nav from "./HomeNav";
 import { useTranslations } from "next-intl";
 
@@ -83,13 +84,11 @@ export function HomeHero() {
                 filter: "blur(30px)",
               }}
             />
-            <Image
-              src="/images/home/hero-app.png"
-              alt="The Renuir app home screen"
-              width={733}
-              height={1475}
+            <AppMockup
+              screen="discover"
               priority
-              className="relative w-[62%] max-w-[280px] drop-shadow-[0_40px_90px_rgba(0,0,0,0.55)] sm:max-w-[300px] lg:w-[80%] lg:max-w-[360px]"
+              sizes="(max-width: 639px) 62vw, (max-width: 1023px) 300px, 340px"
+              className="relative w-[62%] max-w-[280px] text-white/80 sm:max-w-[300px] lg:w-[80%] lg:max-w-[340px]"
             />
           </div>
         </AnimateIn>

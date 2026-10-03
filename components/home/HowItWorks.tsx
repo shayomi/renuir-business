@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { AppMockup, type AppScreen } from "@/components/shared/AppMockup";
 import { Typography } from "@/components/ui/typography";
 import AnimateIn from "@/components/ui/AnimateIn";
 import { useTranslations } from "next-intl";
@@ -6,11 +6,11 @@ import { useTranslations } from "next-intl";
 export function HowItWorks() {
   const t = useTranslations("home.howItWorks");
 
-  const STEPS = [
-    { number: "01", image: "/images/solution/mobile1.png", title: t("step1Title"), desc: t("step1Desc") },
-    { number: "02", image: "/images/solution/mobile2.png", title: t("step2Title"), desc: t("step2Desc") },
-    { number: "03", image: "/images/solution/mobile3.png", title: t("step3Title"), desc: t("step3Desc") },
-    { number: "04", image: "/images/solution/mobile4.png", title: t("step4Title"), desc: t("step4Desc") },
+  const STEPS: { number: string; screen: AppScreen; title: string; desc: string }[] = [
+    { number: "01", screen: "report", title: t("step1Title"), desc: t("step1Desc") },
+    { number: "02", screen: "matches", title: t("step2Title"), desc: t("step2Desc") },
+    { number: "03", screen: "ownership", title: t("step3Title"), desc: t("step3Desc") },
+    { number: "04", screen: "handover", title: t("step4Title"), desc: t("step4Desc") },
   ];
 
   return (
@@ -35,17 +35,15 @@ export function HowItWorks() {
             <AnimateIn key={step.number} delay={i * 0.08}>
               <div className="flex flex-col">
                 {/* Device well */}
-                <div className="relative overflow-hidden rounded-[1.5rem] bg-gradient-to-b from-primary/[0.08] to-transparent pt-7">
+                <div className="relative overflow-hidden rounded-[1.5rem] bg-gradient-to-b from-primary/[0.08] to-transparent py-7">
                   <div
                     aria-hidden
                     className="pointer-events-none absolute inset-x-6 top-5 bottom-0 rounded-t-[1.5rem] bg-primary/[0.04]"
                   />
-                  <Image
-                    src={step.image}
-                    alt={step.title}
-                    width={720}
-                    height={1180}
-                    className="relative mx-auto w-[78%] max-w-[220px] drop-shadow-[0_20px_40px_rgba(15,23,42,0.13)]"
+                  <AppMockup
+                    screen={step.screen}
+                    sizes="(max-width: 639px) 220px, (max-width: 1023px) 210px, 200px"
+                    className="relative mx-auto w-[78%] max-w-[220px]"
                   />
                 </div>
 
