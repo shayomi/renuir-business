@@ -50,7 +50,7 @@ export function Team() {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-4 sm:gap-6 sm:grid-cols-2 lg:grid-cols-4 mt-12 sm:mt-16 lg:mt-20">
+        <div className="grid grid-cols-1 gap-4 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 mt-12 sm:mt-16 lg:mt-20">
           {rest.map((member, index) => (
             <AnimateIn key={member.name} delay={index * 0.03}>
               <TeamCard {...member} />

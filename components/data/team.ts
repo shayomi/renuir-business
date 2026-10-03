@@ -33,4 +33,8 @@ export const getTeam = (t: (key: string) => string): TeamMember[] => [
     name: "Solahudeen",
     role: t('role6'),
   },
+  {
+    name: "Michael",
+    role: t('role7'),
+  },
 ];
