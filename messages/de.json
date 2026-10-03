@@ -449,7 +449,7 @@
   "legal": {
     "privacy": {
       "title": "Datenschutzerklärung",
-      "lastUpdated": "Zuletzt aktualisiert: 22. August 2026",
+      "lastUpdated": "Zuletzt aktualisiert: 3. Oktober 2026",
       "controllerTitle": "1. Verantwortlicher",
       "controllerBody": "Verantwortlicher für die Verarbeitung personenbezogener Daten auf dieser Website und innerhalb der Renuir-Plattform im Sinne des Art. 4 Nr. 7 DSGVO ist die Renuir UG (haftungsbeschränkt), Hönower Wiesenweg 57, 10318 Berlin, Deutschland. Für alle Datenschutzangelegenheiten, einschließlich der Kontaktaufnahme mit der für den Datenschutz verantwortlichen Person, erreichen Sie uns unter privacy@renuir.com. Wir haben keinen gesetzlichen Datenschutzbeauftragten bestellt, da wir hierzu derzeit nicht nach Art. 37 DSGVO verpflichtet sind; sollte sich dies ändern, werden die Kontaktdaten hier veröffentlicht.",
       "dataCollectedTitle": "2. Erhobene Daten",
@@ -473,7 +473,7 @@
       "processorAI": "KI-Dienste: Google-Cloud-Dienste für Sicherheitsanalyse, Texterkennung, Bilderkennung und Gegenstandsabgleich; die Daten werden auf den jeweiligen Vorgang beschränkt",
       "processorAnalytics": "Diagnose und Dienstverbesserung: Sentry für Absturzberichte und Leistungsmessungen sowie einwilligungsbasierte Website-Analyse",
       "retentionTitle": "5. Speicherdauer",
-      "retentionBody": "Kontodaten werden für die Dauer Ihres Kontos und bis zu 30 Tage nach Löschung gespeichert. Fundmeldungen und zugehörige Fotos werden 12 Monate nach Abschluss oder 6 Monate nach Ablauf bei ungelösten Fällen gespeichert. Chat-Nachrichten werden 6 Monate nach Abschluss eines Anspruchs gespeichert. Zahlungsunterlagen werden gemäß § 147 AO 10 Jahre aufbewahrt. Technische Protokolle werden nach 90 Tagen gelöscht.",
+      "retentionBody": "Wir speichern personenbezogene Daten nur so lange, wie es für den Betrieb des Dienstes erforderlich ist. Bei einer Kontolöschung gilt eine Frist von 14 Tagen vor der endgültigen Entfernung. Abgeschlossene Fund- und Verlustmeldungen werden normalerweise nach 60 Tagen entfernt. Nachrichten, Ansprüche, Moderations-, Zahlungs-, Steuer-, Sicherheits-, Betrugspräventions- und rechtliche Unterlagen können länger aufbewahrt werden, soweit dies gesetzlich vorgeschrieben, für Streitfälle oder zum Schutz des Dienstes erforderlich ist. Eine rechtliche Sicherungsanordnung gilt nur für die betroffenen Unterlagen.",
       "transfersTitle": "6. Internationale Übermittlungen",
       "transfersBody": "Einige unserer Auftragsverarbeiter sind außerhalb der EU/des EWR tätig. Bei internationalen Datenübermittlungen stellen wir den Schutz durch EU-Standardvertragsklauseln (SCCs) oder Angemessenheitsbeschlüsse sicher. Stripe und Vercel verfügen über EU-Datenverarbeitungsverpflichtungen.",
       "rightsTitle": "7. Ihre Rechte",

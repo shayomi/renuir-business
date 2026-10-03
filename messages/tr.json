@@ -473,7 +473,7 @@
       "processorAI": "Yapay zeka hizmetleri: güvenlik analizi, metin çıkarma, görüntü tanıma ve eşya eşleştirme için Google Cloud hizmetleri; veriler istenen işlemle sınırlı tutulur",
       "processorAnalytics": "Tanılama ve hizmet iyileştirme: çökme raporları ve performans izleri için Sentry ile izne dayalı web sitesi analitiği",
       "retentionTitle": "5. Veri Saklama",
-      "retentionBody": "Hesap verileri, hesabınızın süresi boyunca ve silme işleminden sonra 30 güne kadar saklanır. Eşya bildirimleri ve ilişkili fotoğraflar, çözümden sonra 12 ay veya çözülmezse süresi dolduktan sonra 6 ay saklanır. Sohbet mesajları, talep çözümünden sonra 6 ay saklanır. Ödeme kayıtları, Alman vergi mevzuatının (§ 147 AO) gerektirdiği üzere 10 yıl saklanır. Teknik günlükler 90 gün sonra silinir.",
+      "retentionBody": "Kişisel verileri yalnızca hizmetin işletilmesi için gerekli olduğu sürece saklarız. Hesap silme talepleri, kalıcı silme öncesinde 14 günlük bir bekleme süresine tabidir. Çözümlenen eşya bildirimleri normalde 60 gün sonra kaldırılır. Mesajlar, talepler, moderasyon, ödeme, vergi, güvenlik, dolandırıcılık önleme ve hukuki kayıtlar; yasa, uyuşmazlıklar veya hizmetin korunması gerektirdiğinde daha uzun saklanabilir. Hukuki koruma yükümlülüğü yalnızca ilgili kayıtları kapsar.",
       "transfersTitle": "6. Uluslararası Aktarımlar",
       "transfersBody": "Bazı veri işleyicilerimiz AB/AEA dışında faaliyet göstermektedir. Verilerin uluslararası olarak aktarıldığı durumlarda, AB Standart Sözleşme Hükümleri (SCC'ler) veya yeterlilik kararları aracılığıyla yeterli korumayı sağlıyoruz. Stripe ve Vercel, AB veri işleme taahhütlerini sürdürmektedir.",
       "rightsTitle": "7. Haklarınız",

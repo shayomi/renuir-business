@@ -449,7 +449,7 @@
   "legal": {
     "privacy": {
       "title": "Privacy Policy",
-      "lastUpdated": "Last updated: August 22, 2026",
+      "lastUpdated": "Last updated: October 3, 2026",
       "controllerTitle": "1. Controller",
       "controllerBody": "The controller responsible for the processing of personal data on this website and within the Renuir platform, within the meaning of Art. 4(7) GDPR, is Renuir UG (haftungsbeschränkt), Hönower Wiesenweg 57, 10318 Berlin, Germany. For any privacy matter, including to reach the person responsible for data protection, contact us at privacy@renuir.com. We have not appointed a statutory Data Protection Officer because we are not currently required to do so under Art. 37 GDPR; if this changes, the contact details will be published here.",
       "dataCollectedTitle": "2. Data We Collect",
@@ -473,7 +473,7 @@
       "processorAI": "AI services: Google Cloud services for safety analysis, text extraction, image recognition, and item matching, with data minimized for the requested operation",
       "processorAnalytics": "Diagnostics and service improvement: Sentry for crash reports and performance traces, and consent-based website analytics",
       "retentionTitle": "5. Data Retention",
-      "retentionBody": "Account data is retained for the duration of your account and up to 30 days after deletion. Item reports and associated photos are retained for 12 months after resolution or 6 months after expiry if unresolved. Chat messages are retained for 6 months after claim resolution. Payment records are retained for 10 years as required by German tax law (§ 147 AO). Technical logs are deleted after 90 days.",
+      "retentionBody": "We keep personal data only as long as needed to operate the service. Account deletion requests enter a 14-day grace period before permanent removal. Resolved item reports are normally removed after 60 days. Messages, claims, moderation, payment, tax, security, fraud-prevention and legal records may be retained longer where required by law, needed for disputes or necessary to protect the service. Any legal preservation hold applies only to the affected records.",
       "transfersTitle": "6. International Transfers",
       "transfersBody": "Some of our processors operate outside the EU/EEA. Where data is transferred internationally, we ensure adequate protection through EU Standard Contractual Clauses (SCCs) or adequacy decisions. Stripe and Vercel maintain EU data processing commitments.",
       "rightsTitle": "7. Your Rights",

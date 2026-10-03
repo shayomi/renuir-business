@@ -47,13 +47,13 @@ export default async function DeleteAccountPage({
         <h2>{german ? "Was danach passiert" : "What happens next"}</h2>
         <p>
           {german
-            ? "Dein Konto wird für 14 Tage zur Löschung vorgemerkt. Während dieser Frist kannst du die Löschung im Datenschutzbereich der App widerrufen. Danach wird dein Konto deaktiviert und deine personenbezogenen Kontodaten werden innerhalb von bis zu 30 Tagen gelöscht oder anonymisiert."
-            : "Your account is scheduled for deletion with a 14-day grace period. During that period, you can cancel the request from the app's Privacy screen. Afterward, the account is disabled and your personal account data is deleted or anonymized within up to 30 days."}
+            ? "Dein Konto wird für 14 Tage zur Löschung vorgemerkt und pausiert. Während dieser Frist kannst du die Löschung unter Einstellungen → Sicherheit abbrechen. Nach Ablauf der Frist wird dein Konto endgültig gelöscht, sofern keine gesetzliche Aufbewahrungspflicht oder offene Zahlung die Löschung verhindert."
+            : "Your account is paused and scheduled for deletion with a 14-day grace period. You can cancel the request in Settings → Security during that period. After the grace period, your account is permanently deleted unless a legal preservation obligation or an unresolved payment prevents deletion."}
         </p>
         <p>
           {german
-            ? "Bestimmte Daten werden nur so lange aufbewahrt, wie es für Sicherheit, Betrugsprävention oder gesetzliche Pflichten erforderlich ist: Fundmeldungen und Fotos 12 Monate nach Abschluss oder 6 Monate nach Ablauf ungelöster Fälle, Chats 6 Monate nach Anspruchsabschluss, technische Protokolle 90 Tage und Zahlungsunterlagen 10 Jahre gemäß § 147 AO. Eine rechtliche Sicherungsanordnung betrifft nur die davon erfassten Unterlagen und endet nach ihrer Aufhebung."
-            : "Some records are retained only as needed for safety, fraud prevention, or legal obligations: item reports and photos for 12 months after resolution or 6 months after an unresolved report expires; chats for 6 months after claim resolution; technical logs for 90 days; and payment records for 10 years under German tax law (§ 147 AO). A legal preservation hold applies only to affected records and ends when the hold is released."}
+            ? "Wir speichern personenbezogene Daten nur so lange, wie es für den Betrieb des Dienstes erforderlich ist. Bei einer Kontolöschung gilt eine Frist von 14 Tagen vor der endgültigen Entfernung. Abgeschlossene Fund- und Verlustmeldungen werden normalerweise nach 60 Tagen entfernt. Nachrichten, Ansprüche, Moderations-, Zahlungs-, Steuer-, Sicherheits-, Betrugspräventions- und rechtliche Unterlagen können länger aufbewahrt werden, soweit dies gesetzlich vorgeschrieben, für Streitfälle oder zum Schutz des Dienstes erforderlich ist. Eine rechtliche Sicherungsanordnung gilt nur für die betroffenen Unterlagen."
+            : "We keep personal data only as long as needed to operate the service. Account deletion requests enter a 14-day grace period before permanent removal. Resolved item reports are normally removed after 60 days. Messages, claims, moderation, payment, tax, security, fraud-prevention and legal records may be retained longer where required by law, needed for disputes or necessary to protect the service. Any legal preservation hold applies only to the affected records."}
         </p>
         <p>
           <a href={`/${locale}/privacy`}>
