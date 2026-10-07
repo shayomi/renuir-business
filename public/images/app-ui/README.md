@@ -17,5 +17,5 @@ screen component itself, without the App Store poster, device frame, or headline
 | ownership | 6669:279 | 6669:70036 |
 | handover | 6669:327 | 6669:70084 |
 
-The discovery map uses OpenStreetMap data. Keep the visible OpenStreetMap
-attribution alongside that mockup when changing its placement.
+The discovery map uses OpenStreetMap data. Its attribution is included inside
+the screen export; do not add a duplicate caption beneath the device.

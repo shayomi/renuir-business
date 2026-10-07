@@ -55,12 +55,6 @@ export function AppMockup({
           />
         </div>
       </div>
-      {screen === 'discover' && (
-        <figcaption className={styles.attribution}>
-          © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>
-          {' '}{locale === 'de' ? 'Mitwirkende' : 'contributors'}
-        </figcaption>
-      )}
     </figure>
   );
 }

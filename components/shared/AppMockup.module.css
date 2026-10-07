@@ -28,20 +28,6 @@
   height: auto;
 }
 
-.attribution {
-  margin-top: 14px;
-  color: inherit;
-  font-size: 10px;
-  line-height: 1.4;
-  text-align: center;
-  opacity: 0.75;
-}
-
-.attribution a {
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
 .showcase {
   position: relative;
   isolation: isolate;
