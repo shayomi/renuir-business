@@ -1,38 +1,9 @@
-import { Typography } from "@/components/ui/typography";
-import AnimateIn from "@/components/ui/AnimateIn";
-import { LeadForm } from "@/components/shared/LeadForm";
-import { getTranslations } from "next-intl/server";
+import { getTranslations } from 'next-intl/server';
+import { Link } from '@/i18n/navigation';
+import { Button } from '@/components/ui/button';
+import { ArrowRight } from 'lucide-react';
 
 export async function ClosingCTA() {
-  const t = await getTranslations("home.closing");
-  return (
-    <section className="bg-primary-50/60 dark:bg-primary/5">
-      <div className="app-container py-16 sm:py-24 lg:py-32">
-        <AnimateIn className="mx-auto flex max-w-2xl flex-col items-center text-center">
-          <span className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-1 text-xs font-medium uppercase tracking-wide text-muted-foreground">
-            <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-            {t("badge")}
-          </span>
-
-          <Typography variant="h2" className="mt-5 text-foreground sm:mt-6">
-            {t("headline")}
-          </Typography>
-
-          <Typography variant="lead" className="mt-3 max-w-xl text-muted-foreground sm:mt-4">
-            {t("subtitle")}
-          </Typography>
-
-          <div className="mt-8 flex justify-center sm:mt-10">
-            <LeadForm
-              source="demo"
-              cta={t("leadCta")}
-              placeholder={t("leadPlaceholder")}
-              variant="light"
-              className="mx-auto"
-            />
-          </div>
-        </AnimateIn>
-      </div>
-    </section>
-  );
+  const t = await getTranslations('home.closing');
+  return <section className="border-t border-border py-14 sm:py-20"><div className="app-container flex flex-col gap-7 sm:flex-row sm:items-center sm:justify-between"><div className="max-w-xl"><h2 className="text-balance text-3xl font-medium tracking-tight">{t('headline')}</h2><p className="mt-3 max-w-md text-base leading-relaxed text-muted-foreground">{t('subtitle')}</p></div><Button asChild size="lg" className="shrink-0 self-start rounded-full"><Link href="/individual">{t('leadCta')}<ArrowRight className="size-4" /></Link></Button></div></section>;
 }

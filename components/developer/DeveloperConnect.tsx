@@ -15,14 +15,12 @@ function NodeCard({
   eyebrow,
   Icon,
   title,
-  code,
   desc,
   accent = false,
 }: {
   eyebrow: string;
   Icon: typeof Boxes;
   title: string;
-  code: string;
   desc: string;
   accent?: boolean;
 }) {
@@ -47,9 +45,7 @@ function NodeCard({
         </span>
         <h3 className="text-[17px] font-medium text-white">{title}</h3>
       </div>
-      <code className="mt-4 block overflow-x-auto rounded-lg border border-white/[0.08] bg-black/30 px-3 py-2 font-mono text-[12.5px] text-white/60">
-        {code}
-      </code>
+
       <p className="mt-3 text-[14px] leading-relaxed text-white/55">{desc}</p>
     </div>
   );
@@ -97,7 +93,6 @@ export async function DeveloperConnect() {
               eyebrow={t("sendEyebrow")}
               Icon={Boxes}
               title={t("sendTitle")}
-              code="POST /v1/items"
               desc={t("sendDesc")}
             />
 
@@ -113,7 +108,7 @@ export async function DeveloperConnect() {
                   <Sparkles className="size-5" strokeWidth={1.75} />
                 </span>
                 <h3 className="font-mono text-[15px] font-medium text-white">
-                  api.renuir.com
+                  Renuir
                 </h3>
               </div>
 
@@ -144,7 +139,6 @@ export async function DeveloperConnect() {
               eyebrow={t("callbackEyebrow")}
               Icon={Webhook}
               title={t("callbackTitle")}
-              code={'{ "event": "match.found" }'}
               desc={t("callbackDesc")}
             />
           </div>

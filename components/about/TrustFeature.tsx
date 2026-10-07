@@ -20,7 +20,7 @@ export function TrustFeature({ title, description, image }: TrustFeatureProps) {
       </div>
 
       <div>
-        <Typography variant="h5" className="text-base">
+        <Typography variant="h5" as="h3" className="text-base">
           {title}
         </Typography>
         <Typography variant="mutedText" className="mt-1 max-w-70">

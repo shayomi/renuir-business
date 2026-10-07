@@ -1,3 +1,4 @@
+import { pageMetadata } from "@/lib/page-metadata";
 import { DeveloperHero } from "@/components/developer/DeveloperHero";
 import { DeveloperConnect } from "@/components/developer/DeveloperConnect";
 import { DeveloperStory } from "@/components/developer/DeveloperStory";
@@ -20,4 +21,9 @@ export default function DeveloperPage() {
       ))}
     </main>
   );
+}
+
+export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
+  const {locale} = await params;
+  return pageMetadata(locale, "/developer");
 }

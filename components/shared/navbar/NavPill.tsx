@@ -55,7 +55,7 @@ export function NavPill({ variant }: NavPillProps) {
     if (item.children?.length) {
       return pathname === "/solutions" || pathname === "/individual";
     }
-    return pathname === item.href || (pathname === "/" && item.href.startsWith("/#"));
+    return pathname === item.href.split('#')[0] || (pathname === "/" && item.href.startsWith("/#"));
   };
 
   return (

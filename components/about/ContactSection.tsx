@@ -1,19 +1,17 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { Mail, MapPin, Clock } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 import { Typography } from "@/components/ui/typography";
 import AnimateIn from "@/components/ui/AnimateIn";
 import { BusinessContactForm } from "@/components/shared/BusinessContactForm";
 
-const DETAILS = [
-  { Icon: Mail, label: "Email", value: "sales@renuir.com" },
-  { Icon: Clock, label: "Response time", value: "Within one business day" },
-  { Icon: MapPin, label: "Based in", value: "Berlin, Germany" },
-];
-
 export function ContactSection() {
   const t = useTranslations("about.contact");
+  const DETAILS = [
+    {Icon: Mail, label: t("sidebar.emailLabel"), value: "info@renuir.com"},
+    {Icon: MapPin, label: t("sidebar.location"), value: "Berlin"},
+  ];
 
   return (
     <section id="contact" className="scroll-mt-24 py-20 sm:py-28">

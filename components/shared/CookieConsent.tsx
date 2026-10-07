@@ -111,8 +111,8 @@ export function CookieConsent() {
       role="dialog"
       aria-label={t("title")}
     >
-      <div className="mx-auto max-w-lg rounded-2xl border border-border/60 bg-card/95 backdrop-blur-xl shadow-2xl shadow-black/10 dark:shadow-black/30">
-        <div className="p-5 sm:p-6">
+      <div className="mx-auto max-w-md sm:ml-auto sm:mr-0 rounded-2xl border border-border/60 bg-card/95 backdrop-blur-xl shadow-2xl shadow-black/10 dark:shadow-black/30">
+        <div className="max-h-[75vh] overflow-y-auto p-4">
           {/* Header */}
           <div className="flex items-start justify-between gap-3">
             <div className="flex items-center gap-3">
@@ -137,7 +137,7 @@ export function CookieConsent() {
             <button
               onClick={handleDecline}
               className="shrink-0 rounded-lg p-1.5 text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
-              aria-label="Close"
+              aria-label={t("decline")}
             >
               <X className="h-4 w-4" />
             </button>
@@ -146,7 +146,7 @@ export function CookieConsent() {
           {/* Expandable details */}
           <button
             onClick={() => setShowDetails(!showDetails)}
-            className="mt-4 flex w-full items-center justify-between rounded-lg bg-muted/60 dark:bg-muted/40 px-3 py-2 text-xs font-medium text-muted-foreground hover:text-foreground transition-colors"
+            className="mt-3 flex w-full items-center justify-between rounded-lg bg-muted/60 dark:bg-muted/40 px-3 py-2 text-xs font-medium text-muted-foreground hover:text-foreground transition-colors"
           >
             {t("customize")}
             <ChevronDown
@@ -221,7 +221,7 @@ export function CookieConsent() {
           )}
 
           {/* Actions */}
-          <div className="mt-4 flex gap-2">
+          <div className="mt-3 flex gap-2">
             {showDetails ? (
               <>
                 <Button

@@ -1,3 +1,4 @@
+import { pageMetadata } from "@/lib/page-metadata";
 import SolutionImage from "@/components/solutions/Image";
 import { SolutionHero } from "@/components/solutions/SolutionHero";
 import { ManageChaos } from "@/components/solutions/ManageChaos";
@@ -24,4 +25,9 @@ export default function SolutionsPage() {
       ))}
     </main>
   );
+}
+
+export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
+  const {locale} = await params;
+  return pageMetadata(locale, "/solutions");
 }

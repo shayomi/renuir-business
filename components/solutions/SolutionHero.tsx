@@ -20,7 +20,7 @@ export async function SolutionHero() {
 
       <div className="relative z-10">
         <Nav />
-        <div className="app-container flex flex-col items-center pt-12 pb-24 text-center sm:pt-16 sm:pb-32 lg:pt-24 lg:pb-40">
+        <div className="app-container flex flex-col items-center pt-12 pb-24 text-center sm:pt-16 sm:pb-32 lg:pt-14 lg:pb-28">
           <AnimateIn>
             <span className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-3.5 py-1.5 text-xs font-semibold uppercase tracking-wider text-primary">
               {t("eyebrow")}
@@ -28,8 +28,8 @@ export async function SolutionHero() {
           </AnimateIn>
           <AnimateIn delay={0.08}>
             <Typography
-              variant="extraLargeText"
-              className="mt-6 max-w-3xl font-medium text-foreground"
+              variant="h1"
+              className="mt-6 max-w-3xl text-balance text-4xl sm:text-5xl lg:text-6xl font-medium text-foreground"
             >
               {t("headline")}
             </Typography>

@@ -20,11 +20,11 @@ export function AboutHero() {
         className="object-cover dark:opacity-20"
       />
       <Nav />
-      <div className="relative app-container py-16 sm:py-24 lg:py-32 flex flex-col items-center text-center">
+      <div className="relative app-container py-16 sm:py-24 lg:py-24 flex flex-col items-center text-center">
         <AnimateIn>
           <Typography
-            variant="extraLargeText"
-            className="text-foreground font-normal"
+            variant="h1"
+            className="max-w-3xl text-balance text-4xl sm:text-5xl lg:text-6xl text-foreground font-medium"
           >
             {t('headline')}
           </Typography>
@@ -41,17 +41,13 @@ export function AboutHero() {
 
         <AnimateIn delay={0.12}>
           <div className="mt-8 sm:mt-10 flex flex-wrap justify-center gap-3">
-            <Link href="/about-us#contact">
-              <Button variant="dark" size="lg" className="rounded-full">
+            <Button variant="dark" size="lg" className="rounded-full" asChild><Link href="/about-us#contact">
                 {t('ctaPrimary')}
-              </Button>
-            </Link>
+              </Link></Button>
 
-            <Link href="/solutions">
-              <Button variant="outline" size="lg" className="rounded-full">
+            <Button variant="outline" size="lg" className="rounded-full" asChild><Link href="/individual">
                 {t('ctaSecondary')}
-              </Button>
-            </Link>
+              </Link></Button>
           </div>
         </AnimateIn>
       </div>

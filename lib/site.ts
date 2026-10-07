@@ -21,6 +21,7 @@ export const ROUTES = [
   '/privacy',
   '/support',
   '/terms',
+  '/cookies',
   '/delete-account',
   '/accessibility',
   '/imprint',

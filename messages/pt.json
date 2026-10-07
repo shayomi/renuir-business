@@ -6,7 +6,13 @@
     "enterprise": "Empresas",
     "individual": "Clientes",
     "developers": "Desenvolvedores",
-    "getApp": "Baixe o app"
+    "getApp": "Baixe o app",
+    "help": "Ajuda",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "menuDescription": "Explore a Renuir e escolha o seu idioma",
+    "label": "Navegação principal",
+    "skip": "Saltar para o conteúdo"
   },
   "home": {
     "hero": {
@@ -77,6 +83,31 @@
       "whitelabelTitle": "White-label",
       "whitelabelDesc": "Sua marca. Seu domínio. Toda a funcionalidade da Renuir por baixo dos panos.",
       "cta": "Conheça a API"
+    },
+    "roles": {
+      "headline": "Perdeu ou encontrou algo?",
+      "lostTitle": "Perdi algo",
+      "lostBody": "Descreva o que procura e explore possíveis correspondências nas proximidades.",
+      "foundTitle": "Encontrei algo",
+      "foundBody": "Publique o que encontrou e ajude alguém a reconhecer o seu objeto.",
+      "cta": "Ver os passos"
+    },
+    "faq": {
+      "headline": "Algumas respostas úteis.",
+      "q1": "Quem pode publicar um objeto?",
+      "a1": "Qualquer pessoa pode publicar objetos perdidos ou encontrados. As organizações participantes também podem gerir os seus objetos encontrados com a Renuir.",
+      "q2": "Uma correspondência significa que o objeto é meu?",
+      "a2": "Não. Uma sugestão é apenas uma possibilidade. Compare as fotos e os detalhes identificativos e fale com a outra pessoa antes de combinar a devolução.",
+      "q3": "E se ainda não houver correspondências?",
+      "a3": "Mantenha a publicação atualizada e consulte os objetos encontrados nas proximidades. A Renuir não garante que um objeto seja publicado, identificado ou devolvido.",
+      "q4": "Como combinamos a devolução?",
+      "a4": "Use a app para combinar o local e a hora. Um código de entrega confirma a troca. O envio depende das opções disponíveis para essa devolução.",
+      "q5": "Preciso de partilhar informações sensíveis?",
+      "a5": "Não publique palavras-passe, documentos de identificação completos nem dados de pagamento. Partilhe apenas o necessário para verificar o objeto.",
+      "q6": "Onde posso obter a app?",
+      "a6": "Os links das lojas ainda não são públicos. Adicionaremos os links oficiais da App Store e do Google Play quando estiverem disponíveis.",
+      "help": "Precisa de ajuda com uma publicação ou a sua conta?",
+      "helpCta": "Consultar o suporte"
     }
   },
   "about": {
@@ -444,7 +475,13 @@
       "successBody": "A nossa equipa entrará em contacto no prazo de um dia útil para configurar o seu estabelecimento."
     },
     "consentText": "Ao enviar, concordas em ser contactado pela Renuir.",
-    "consentLink": "Política de Privacidade"
+    "consentLink": "Política de Privacidade",
+    "validation": {
+      "name": "Introduza o seu nome.",
+      "company": "Introduza o nome da sua empresa.",
+      "email": "Introduza um endereço de e-mail válido.",
+      "message": "Use no máximo 1200 caracteres."
+    }
   },
   "legal": {
     "privacy": {
@@ -609,6 +646,8 @@
   },
   "downloads": {
     "platforms": "Para iOS e Android",
-    "unavailable": "Link de download ainda não disponível"
+    "unavailable": "Link de download ainda não disponível",
+    "status": "Os links da App Store e do Google Play serão adicionados quando as páginas forem públicas.",
+    "preview": "Veja como funciona"
   }
 }

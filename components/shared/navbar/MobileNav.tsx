@@ -8,7 +8,7 @@ import { clsx } from "clsx";
 import { useState } from "react";
 import { useTranslations } from 'next-intl';
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetTitle, SheetDescription } from "@/components/ui/sheet";
 import { getMenuItems } from "@/components/data/menuItems";
 import { LanguageSwitcher } from "../LanguageSwitcher";
 
@@ -33,7 +33,7 @@ const MobileNav = () => {
         <SheetTrigger asChild>
           <Button
             size="icon"
-            aria-label="Open navigation menu"
+            aria-label={t('openMenu')}
             aria-expanded={isSheetOpen}
             className={clsx(
               "rounded-xl",
@@ -46,7 +46,10 @@ const MobileNav = () => {
         <SheetContent
           side="right"
           className="w-[300px] sm:w-[350px] p-0 border-l border-border/50"
+          closeLabel={t('closeMenu')}
         >
+          <SheetTitle className="sr-only">{t('label')}</SheetTitle>
+          <SheetDescription className="sr-only">{t('menuDescription')}</SheetDescription>
           <div className="flex flex-col h-full bg-background">
             <div className="flex items-center justify-between px-6 py-5 border-b border-border/50">
               <Link href="/" onClick={() => setSheetOpen(false)}>
@@ -127,7 +130,7 @@ const MobileNav = () => {
                       onClick={() => setSheetOpen(false)}
                       className={clsx(
                         "rounded-lg px-3 py-2.5 text-[0.9375rem] font-medium transition-colors",
-                        pathname === item.href
+                        pathname === item.href.split("#")[0]
                           ? "text-foreground bg-muted"
                           : "text-muted-foreground hover:text-foreground hover:bg-muted/50",
                       )}
@@ -143,11 +146,9 @@ const MobileNav = () => {
               <div className="flex items-center justify-center gap-2">
                 <LanguageSwitcher variant="dark" />
               </div>
-              <Link href="/individual#download" onClick={() => setSheetOpen(false)}>
-                <Button size="lg" className="w-full rounded-xl">
-                  {t('getApp')}
-                </Button>
-              </Link>
+              <Button asChild size="lg" className="w-full rounded-xl">
+                <Link href="/individual#download" onClick={() => setSheetOpen(false)}>{t('getApp')}</Link>
+              </Button>
             </div>
           </div>
         </SheetContent>

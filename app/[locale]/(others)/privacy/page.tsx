@@ -1,3 +1,4 @@
+import { pageMetadata } from "@/lib/page-metadata";
 import { useTranslations } from "next-intl";
 import { LegalPageLayout } from "@/components/shared/legal/LegalPageLayout";
 
@@ -82,4 +83,9 @@ export default function PrivacyPage() {
       </section>
     </LegalPageLayout>
   );
+}
+
+export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
+  const {locale} = await params;
+  return pageMetadata(locale, "/privacy");
 }

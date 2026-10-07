@@ -6,7 +6,7 @@ import { StoreDownloads } from "@/components/shared/StoreDownloads";
 import Nav from "../shared/navbar/Nav";
 import AnimateIn from "@/components/ui/AnimateIn";
 import { useTranslations } from "next-intl";
-import { AppShowcase } from "@/components/shared/AppMockup";
+import { AppMockup } from "@/components/shared/AppMockup";
 
 export function IndividualHero() {
   const t = useTranslations("individual.hero");
@@ -24,7 +24,7 @@ export function IndividualHero() {
 
       <Nav />
 
-      <div className="relative app-container grid items-center gap-10 py-12 sm:py-16 lg:grid-cols-[1fr_1.1fr] lg:gap-8 lg:py-24">
+      <div className="relative app-container grid items-center gap-10 py-12 sm:py-16 lg:grid-cols-[1fr_1.1fr] lg:gap-8 lg:py-16">
         {/* Copy */}
         <AnimateIn>
           <div className="flex max-w-xl flex-col items-start gap-4">
@@ -57,7 +57,7 @@ export function IndividualHero() {
                 filter: "blur(24px)",
               }}
             />
-            <AppShowcase priority />
+            <AppMockup screen="discover" priority sizes="260px" className="mx-auto w-[240px] sm:w-[260px]" />
           </div>
         </AnimateIn>
       </div>

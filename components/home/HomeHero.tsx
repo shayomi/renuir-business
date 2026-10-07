@@ -1,91 +1,36 @@
-import Image from "next/image";
-import { Link } from "@/i18n/navigation";
-import { Button } from "@/components/ui/button";
-import { Typography } from "@/components/ui/typography";
-import AnimateIn from "@/components/ui/AnimateIn";
-import { StoreDownloads } from "@/components/shared/StoreDownloads";
-import { AppMockup } from "@/components/shared/AppMockup";
-import Nav from "./HomeNav";
-import { useTranslations } from "next-intl";
+import { Link } from '@/i18n/navigation';
+import { Button } from '@/components/ui/button';
+import AnimateIn from '@/components/ui/AnimateIn';
+import { StoreDownloads } from '@/components/shared/StoreDownloads';
+import { AppMockup } from '@/components/shared/AppMockup';
+import Nav from './HomeNav';
+import { useTranslations } from 'next-intl';
+import { ArrowRight } from 'lucide-react';
 
 export function HomeHero() {
-  const t = useTranslations("home.hero");
+  const t = useTranslations('home.hero');
   return (
-    <section className="relative overflow-hidden bg-slate-950">
-      <Image
-        src="/images/home/renuir-bg.png"
-        alt=""
-        fill
-        priority
-        className="object-cover"
-      />
-      <div className="absolute inset-0 bg-slate-950/55" />
-
-      <div className="relative">
-        <Nav />
-      </div>
-
-      <div className="relative app-container grid items-center gap-12 py-16 sm:py-20 lg:grid-cols-[1.05fr_0.95fr] lg:gap-10 lg:py-28">
-        {/* Copy */}
-        <div className="max-w-xl text-center lg:text-left">
-          <AnimateIn>
-            <Typography variant="extraLargeText" className="text-white">
-              <span className="block font-normal text-white/70">{t("line1")}</span>
-              <span className="block tracking-tightest">{t("line2")}</span>
-            </Typography>
-          </AnimateIn>
-
-          <AnimateIn delay={0.06}>
-            <Typography
-              variant="lead"
-              className="mx-auto mt-5 max-w-md text-white/80 lg:mx-0"
-            >
-              {t("subtitle")}
-            </Typography>
-          </AnimateIn>
-
-          <AnimateIn delay={0.12}>
-            <div
-              id="download"
-              className="mt-8 flex scroll-mt-24 flex-col items-center gap-4 sm:flex-row lg:items-start"
-            >
-              <div className="w-full max-w-md">
-                <StoreDownloads dark />
-              </div>
+    <section className="overflow-hidden bg-slate-950 text-white">
+      <Nav />
+      <div className="app-container grid items-center gap-10 py-10 sm:py-12 lg:grid-cols-[1.2fr_0.8fr] lg:gap-16 lg:py-12">
+        <AnimateIn>
+          <div className="max-w-xl">
+            <h1 className="text-balance text-[2.75rem] font-medium leading-[1.04] tracking-[-0.035em] sm:text-6xl lg:text-[4.5rem]">
+              <span className="block text-white/75">{t('line1')}</span>
+              <span className="mt-2 block">{t('line2')}</span>
+            </h1>
+            <p className="mt-6 max-w-md text-lg leading-relaxed text-white/75">{t('subtitle')}</p>
+            <div className="mt-7 flex flex-wrap items-center gap-x-6 gap-y-4">
+              <Button asChild size="lg" variant="secondary" className="rounded-full bg-white text-slate-950 hover:bg-white/90">
+                <Link href="/#how-it-works">{t('ctaDownload')}<ArrowRight className="size-4" /></Link>
+              </Button>
+              <Link href="/solutions" className="text-sm font-medium text-white/85 underline-offset-4 hover:underline">{t('ctaBusiness')}</Link>
             </div>
-            <div className="mt-4 flex justify-center lg:justify-start">
-              <Link href="/solutions">
-                <Button
-                  size="lg"
-                  variant="ghost"
-                  className="rounded-full border border-white/20 bg-transparent text-white hover:bg-white/10 hover:text-white"
-                >
-                  {t("ctaBusiness")}
-                </Button>
-              </Link>
-            </div>
-          </AnimateIn>
-        </div>
-
-        {/* Product device */}
-        <AnimateIn delay={0.16}>
-          <div className="relative flex justify-center lg:justify-end">
-            <div
-              aria-hidden
-              className="pointer-events-none absolute inset-0"
-              style={{
-                background:
-                  "radial-gradient(50% 45% at 55% 45%, color-mix(in oklch, var(--primary) 45%, transparent), transparent 70%)",
-                filter: "blur(30px)",
-              }}
-            />
-            <AppMockup
-              screen="discover"
-              priority
-              sizes="(max-width: 639px) 62vw, (max-width: 1023px) 300px, 340px"
-              className="relative w-[62%] max-w-[280px] text-white/80 sm:max-w-[300px] lg:w-[80%] lg:max-w-[340px]"
-            />
+            <div className="mt-7 max-w-md"><StoreDownloads dark compact /></div>
           </div>
+        </AnimateIn>
+        <AnimateIn delay={0.1}>
+          <AppMockup screen="discover" priority sizes="(max-width: 639px) 230px, 250px" className="mx-auto w-[230px] sm:w-[250px] lg:mr-8" />
         </AnimateIn>
       </div>
     </section>

@@ -5,9 +5,8 @@ export interface MenuItem {
 }
 
 export const getMenuItems = (t: (key: string) => string): MenuItem[] => [
-  { name: t('home'), href: '/' },
+  { name: t('home'), href: '/#how-it-works' },
   { name: t('solutions'), href: '/solutions' },
-  { name: t('individual'), href: '/individual' },
-  { name: t('developers'), href: '/developer' },
   { name: t('about'), href: '/about-us' },
+  { name: t('help'), href: '/support' },
 ];

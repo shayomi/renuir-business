@@ -54,7 +54,7 @@ export default function TrustCoreSection() {
                           <Icon className="size-[18px]" strokeWidth={2} />
                         </div>
                         <div>
-                          <Typography variant="h4" className="text-foreground">
+                          <Typography variant="h4" as="h3" className="text-foreground">
                             {feature.title}
                           </Typography>
                           <Typography

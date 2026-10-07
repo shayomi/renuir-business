@@ -1,11 +1,11 @@
 import Nav from '../home/HomeNav';
 import AnimateIn from '@/components/ui/AnimateIn';
 import { LeadForm } from '@/components/shared/LeadForm';
-import { CodeWindow, kw, str, com } from './CodeWindow';
 import { getTranslations } from 'next-intl/server';
 
 export async function DeveloperHero() {
   const t = await getTranslations('developer.hero');
+  const flow = await getTranslations('developer.story');
   return (
     <section className="relative overflow-hidden bg-slate-950">
       <div aria-hidden className="pointer-events-none absolute inset-0">
@@ -14,7 +14,7 @@ export async function DeveloperHero() {
 
       <Nav />
 
-      <div className="relative app-container grid grid-cols-1 items-center gap-12 pt-14 pb-16 sm:pt-20 lg:grid-cols-[1.05fr_1fr] lg:gap-16 lg:pt-24 lg:pb-24">
+      <div className="relative app-container grid grid-cols-1 items-center gap-12 pt-14 pb-16 sm:pt-20 lg:grid-cols-[1.05fr_1fr] lg:gap-16 lg:pt-16 lg:pb-16">
         <div className="min-w-0">
           <AnimateIn>
             <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3.5 py-1.5 text-[12px] font-medium uppercase tracking-[0.14em] text-white/60">
@@ -54,29 +54,11 @@ export async function DeveloperHero() {
         </div>
 
         <AnimateIn delay={0.16} className="min-w-0 lg:pl-4">
-          <CodeWindow endpoint="POST api.renuir.com/v1/items">
-            {kw('const')} client {com('=')} {kw('new')} RenuirClient({'{'}
-            {'\n'}
-            {'  '}apiKey: process.env.RENUIR_KEY,
-            {'\n'}
-            {'}'});
-            {'\n\n'}
-            {com('// Report a found item, we do the matching')}
-            {'\n'}
-            {kw('const')} item {com('=')} {kw('await')} client.items.create({'{'}
-            {'\n'}
-            {'  '}type: {str('"electronics"')},
-            {'\n'}
-            {'  '}brand: {str('"Apple"')},
-            {'\n'}
-            {'  '}photo: upload,
-            {'\n'}
-            {'  '}foundAt: {str('"Terminal 2, Gate 14"')},
-            {'\n'}
-            {'}'});
-            {'\n\n'}
-            item.status; {com('// "matching"')}
-          </CodeWindow>
+          <div className="border-y border-white/15 py-8">
+            <h2 className="text-2xl font-medium text-white">{flow('whyHeadline')}</h2>
+            <p className="mt-4 leading-relaxed text-white/70">{flow('whySubtitle')}</p>
+            <ol className="mt-8 divide-y divide-white/15">{[2,3,4].map(i => <li key={i} className="flex items-center gap-4 py-5 text-lg text-white"><span className="text-primary-300 tabular-nums">0{i-1}</span>{flow(`step${i}Title`)}</li>)}</ol>
+          </div>
         </AnimateIn>
       </div>
     </section>

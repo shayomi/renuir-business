@@ -4,11 +4,6 @@ import { getTranslations } from "next-intl/server";
 
 export async function Mission() {
   const t = await getTranslations("about.mission");
-  const STATS = [
-    { value: "1", label: t("stat1Label") },
-    { value: "24h", label: t("stat2Label") },
-    { value: "GDPR", label: t("stat3Label") },
-  ];
   return (
     <section className="py-16 sm:py-24 lg:py-28">
       <div className="app-container">
@@ -39,23 +34,7 @@ export async function Mission() {
           </AnimateIn>
         </div>
 
-        <AnimateIn delay={0.12}>
-          <div className="mt-12 sm:mt-16 grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
-            {STATS.map((stat) => (
-              <div
-                key={stat.value}
-                className="rounded-2xl border border-border bg-card p-6 shadow-soft"
-              >
-                <Typography variant="h2" as="p" className="text-primary">
-                  {stat.value}
-                </Typography>
-                <Typography variant="mutedText" className="mt-2">
-                  {stat.label}
-                </Typography>
-              </div>
-            ))}
-          </div>
-        </AnimateIn>
+
       </div>
     </section>
   );

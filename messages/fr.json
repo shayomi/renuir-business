@@ -6,7 +6,13 @@
     "enterprise": "Grands comptes",
     "individual": "Particuliers",
     "developers": "Développeurs",
-    "getApp": "Télécharger l'app"
+    "getApp": "Télécharger l'app",
+    "help": "Aide",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "menuDescription": "Parcourir Renuir et choisir votre langue",
+    "label": "Navigation principale",
+    "skip": "Aller au contenu"
   },
   "home": {
     "hero": {
@@ -77,6 +83,31 @@
       "whitelabelTitle": "Marque blanche",
       "whitelabelDesc": "Votre marque. Votre domaine. Toute la puissance de Renuir sous le capot.",
       "cta": "Explorer l'API"
+    },
+    "roles": {
+      "headline": "Vous avez perdu ou trouvé quelque chose ?",
+      "lostTitle": "J’ai perdu un objet",
+      "lostBody": "Décrivez votre recherche et explorez les correspondances possibles à proximité.",
+      "foundTitle": "J’ai trouvé un objet",
+      "foundBody": "Signalez votre trouvaille pour aider quelqu’un à reconnaître son objet.",
+      "cta": "Voir les étapes"
+    },
+    "faq": {
+      "headline": "Quelques réponses utiles.",
+      "q1": "Qui peut signaler un objet ?",
+      "a1": "Chacun peut signaler un objet perdu ou trouvé. Les organisations participantes peuvent aussi gérer leurs objets trouvés avec Renuir.",
+      "q2": "Une correspondance signifie-t-elle que c’est mon objet ?",
+      "a2": "Non. Une suggestion reste une possibilité. Comparez les photos et les signes distinctifs, puis échangez avec l’autre personne avant de convenir d’un retour.",
+      "q3": "Et s’il n’y a pas encore de correspondance ?",
+      "a3": "Gardez votre signalement à jour et consultez les trouvailles à proximité. Renuir ne garantit ni le signalement, ni la correspondance, ni le retour d’un objet.",
+      "q4": "Comment organiser un retour ?",
+      "a4": "Convenez du lieu et de l’heure dans l’app. Un code de remise confirme l’échange. La livraison dépend des options disponibles pour ce retour.",
+      "q5": "Dois-je partager des informations sensibles ?",
+      "a5": "Ne publiez pas de mots de passe, de pièces d’identité complètes ou de données de paiement. Partagez uniquement les informations nécessaires pour vérifier l’objet.",
+      "q6": "Où télécharger l’app ?",
+      "a6": "Les liens des boutiques ne sont pas encore publics. Nous ajouterons les liens officiels App Store et Google Play dès qu’ils seront disponibles.",
+      "help": "Besoin d’aide pour un signalement ou votre compte ?",
+      "helpCta": "Consulter l’assistance"
     }
   },
   "about": {
@@ -444,7 +475,13 @@
       "successBody": "Notre équipe vous contactera sous un jour ouvré pour configurer votre établissement."
     },
     "consentText": "En soumettant, vous acceptez d'être contacté par Renuir.",
-    "consentLink": "Politique de confidentialité"
+    "consentLink": "Politique de confidentialité",
+    "validation": {
+      "name": "Indiquez votre nom.",
+      "company": "Indiquez le nom de votre entreprise.",
+      "email": "Saisissez une adresse e-mail valide.",
+      "message": "Utilisez 1200 caractères maximum."
+    }
   },
   "legal": {
     "privacy": {
@@ -609,6 +646,8 @@
   },
   "downloads": {
     "platforms": "Pour iOS et Android",
-    "unavailable": "Lien de téléchargement pas encore disponible"
+    "unavailable": "Lien de téléchargement pas encore disponible",
+    "status": "Les liens App Store et Google Play seront ajoutés lorsque les fiches seront publiques.",
+    "preview": "Découvrir le fonctionnement"
   }
 }

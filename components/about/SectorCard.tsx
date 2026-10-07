@@ -32,11 +32,11 @@ export function SectorCard({
           />
         </div>
 
-        <Typography variant="h5" className="text-white font-semibold">
+        <Typography variant="h5" as="h3" className="text-white font-semibold">
           {title}
         </Typography>
 
-        <Typography variant="h6" className="text-white font-medium">
+        <Typography variant="h6" as="h3" className="text-white font-medium">
           {description}
         </Typography>
       </div>

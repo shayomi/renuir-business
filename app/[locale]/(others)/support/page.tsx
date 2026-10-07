@@ -1,3 +1,5 @@
+import { pageMetadata } from "@/lib/page-metadata";
+import { getTranslations } from "next-intl/server";
 import { LegalPageLayout } from "@/components/shared/legal/LegalPageLayout";
 
 export default async function SupportPage({
@@ -7,12 +9,17 @@ export default async function SupportPage({
 }) {
   const { locale } = await params;
   const german = locale === "de";
+  const faq = await getTranslations("home.faq");
 
   return (
     <LegalPageLayout
       title={german ? "Renuir-Support" : "Renuir Support"}
       lastUpdated={german ? "Stand: 22. August 2026" : "Last updated: August 22, 2026"}
     >
+      <section>
+        <h2>{faq("headline")}</h2>
+        {[1,2,3,4].map(i => <details key={i} className="border-b border-border py-3"><summary className="cursor-pointer font-medium">{faq(`q${i}`)}</summary><p>{faq(`a${i}`)}</p></details>)}
+      </section>
       <section>
         <h2>{german ? "Wir helfen dir" : "We're here to help"}</h2>
         <p>
@@ -49,4 +56,9 @@ export default async function SupportPage({
       </section>
     </LegalPageLayout>
   );
+}
+
+export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
+  const {locale} = await params;
+  return pageMetadata(locale, "/support");
 }

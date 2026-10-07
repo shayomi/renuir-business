@@ -1,174 +1,23 @@
-import AnimateIn from '@/components/ui/AnimateIn';
-import {
-  Boxes,
-  Sparkles,
-  ShieldCheck,
-  Webhook,
-  Braces,
-  Palette,
-  Package,
-  KeyRound,
-  Radio,
-  BadgeCheck,
-} from 'lucide-react';
 import { getTranslations } from 'next-intl/server';
-
-function SectionEyebrow({ children }: { children: string }) {
-  return (
-    <span className="text-[12px] font-medium uppercase tracking-[0.16em] text-primary-400">
-      {children}
-    </span>
-  );
-}
-
-function IconTile({ Icon }: { Icon: typeof Boxes }) {
-  return (
-    <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary/12 text-primary-400 ring-1 ring-primary/15">
-      <Icon className="h-5 w-5" strokeWidth={1.75} />
-    </span>
-  );
-}
 
 export async function DeveloperStory() {
   const t = await getTranslations('developer.story');
-  const VALUE = [
-    { Icon: Boxes, title: t('value1Title'), desc: t('value1Desc') },
-    { Icon: Sparkles, title: t('value2Title'), desc: t('value2Desc') },
-    { Icon: ShieldCheck, title: t('value3Title'), desc: t('value3Desc') },
-  ];
-  const STEPS = [
-    { n: '01', Icon: KeyRound, title: t('step1Title'), desc: t('step1Desc'), code: 'export RENUIR_KEY=rk_test_…' },
-    { n: '02', Icon: Boxes, title: t('step2Title'), desc: t('step2Desc'), code: 'client.items.create({ photo, foundAt })' },
-    { n: '03', Icon: Radio, title: t('step3Title'), desc: t('step3Desc'), code: 'POST /webhook  { event: "match.found" }' },
-    { n: '04', Icon: BadgeCheck, title: t('step4Title'), desc: t('step4Desc'), code: 'client.claims.verify(claimId)' },
-  ];
-  const CAPABILITIES = [
-    { Icon: Braces, title: t('cap1Title'), desc: t('cap1Desc') },
-    { Icon: Webhook, title: t('cap2Title'), desc: t('cap2Desc') },
-    { Icon: Palette, title: t('cap3Title'), desc: t('cap3Desc') },
-    { Icon: Package, title: t('cap4Title'), desc: t('cap4Desc') },
-  ];
-  const SECURITY = [t('security1'), t('security2'), t('security3')];
-  return (
-    <div className="bg-slate-950 text-white">
-      {/* Why */}
-      <section className="app-container border-t border-white/[0.06] py-20 lg:py-28">
-        <AnimateIn className="max-w-2xl">
-          <SectionEyebrow>{t('whyEyebrow')}</SectionEyebrow>
-          <h2 className="mt-4 text-3xl font-medium tracking-tight sm:text-4xl">
-            {t('whyHeadline')}
-          </h2>
-          <p className="mt-4 text-[17px] leading-relaxed text-white/60">
-            {t('whySubtitle')}
-          </p>
-        </AnimateIn>
-
-        <div className="mt-12 grid grid-cols-1 gap-4 md:grid-cols-3">
-          {VALUE.map((v, i) => (
-            <AnimateIn key={v.title} delay={i * 0.08}>
-              <div className="h-full rounded-2xl border border-white/[0.08] bg-white/[0.02] p-7">
-                <IconTile Icon={v.Icon} />
-                <h3 className="mt-6 text-[19px] font-medium">{v.title}</h3>
-                <p className="mt-2 text-[15px] leading-relaxed text-white/55">
-                  {v.desc}
-                </p>
-              </div>
-            </AnimateIn>
-          ))}
-        </div>
-      </section>
-
-      {/* How it works */}
-      <section className="app-container border-t border-white/[0.06] py-20 lg:py-28">
-        <AnimateIn className="max-w-2xl">
-          <SectionEyebrow>{t('howEyebrow')}</SectionEyebrow>
-          <h2 className="mt-4 text-3xl font-medium tracking-tight sm:text-4xl">
-            {t('howHeadline')}
-          </h2>
-        </AnimateIn>
-
-        <div className="mt-14 grid grid-cols-1 gap-x-10 gap-y-12 md:grid-cols-2">
-          {STEPS.map((s, i) => (
-            <AnimateIn key={s.n} delay={i * 0.06}>
-              <div className="flex gap-5">
-                <div className="flex flex-col items-center">
-                  <IconTile Icon={s.Icon} />
-                  {i < STEPS.length - 1 && (
-                    <span className="mt-3 hidden w-px flex-1 bg-gradient-to-b from-primary/30 to-transparent md:block" />
-                  )}
-                </div>
-                <div className="min-w-0 flex-1">
-                  <div className="flex items-baseline gap-3">
-                    <span className="font-mono text-[13px] text-primary-400">
-                      {s.n}
-                    </span>
-                    <h3 className="text-[19px] font-medium">{s.title}</h3>
-                  </div>
-                  <p className="mt-2 text-[15px] leading-relaxed text-white/55">
-                    {s.desc}
-                  </p>
-                  <div className="mt-4 overflow-x-auto rounded-lg border border-white/[0.08] bg-black/30 px-4 py-2.5">
-                    <code className="whitespace-pre font-mono text-[12.5px] text-white/60">
-                      {s.code}
-                    </code>
-                  </div>
-                </div>
-              </div>
-            </AnimateIn>
-          ))}
-        </div>
-      </section>
-
-      {/* What you get */}
-      <section className="app-container border-t border-white/[0.06] py-20 lg:py-28">
-        <AnimateIn className="max-w-2xl">
-          <SectionEyebrow>{t('whatEyebrow')}</SectionEyebrow>
-          <h2 className="mt-4 text-3xl font-medium tracking-tight sm:text-4xl">
-            {t('whatHeadline')}
-          </h2>
-        </AnimateIn>
-
-        <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2">
-          {CAPABILITIES.map((c, i) => (
-            <AnimateIn key={c.title} delay={i * 0.06}>
-              <div className="flex h-full gap-5 rounded-2xl border border-white/[0.08] bg-white/[0.02] p-7">
-                <IconTile Icon={c.Icon} />
-                <div>
-                  <h3 className="text-[19px] font-medium">{c.title}</h3>
-                  <p className="mt-2 text-[15px] leading-relaxed text-white/55">
-                    {c.desc}
-                  </p>
-                </div>
-              </div>
-            </AnimateIn>
-          ))}
-        </div>
-      </section>
-
-      {/* Security */}
-      <section className="app-container border-t border-white/[0.06] py-20 lg:py-24">
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:gap-16">
-          <AnimateIn>
-            <SectionEyebrow>{t('securityEyebrow')}</SectionEyebrow>
-            <h2 className="mt-4 text-3xl font-medium tracking-tight sm:text-4xl">
-              {t('securityHeadline')}
-            </h2>
-          </AnimateIn>
-          <AnimateIn delay={0.08}>
-            <ul className="divide-y divide-white/[0.08]">
-              {SECURITY.map((s) => (
-                <li key={s} className="flex items-center gap-4 py-4">
-                  <ShieldCheck
-                    className="h-5 w-5 shrink-0 text-primary-400"
-                    strokeWidth={1.75}
-                  />
-                  <span className="text-[16px] text-white/75">{s}</span>
-                </li>
-              ))}
-            </ul>
-          </AnimateIn>
-        </div>
-      </section>
-    </div>
-  );
+  return <div className="bg-slate-950 text-white">
+    <section className="app-container border-t border-white/10 py-16 sm:py-24">
+      <h2 className="max-w-2xl text-3xl font-medium tracking-tight sm:text-4xl">{t('howHeadline')}</h2>
+      <ol className="mt-10 grid gap-x-12 gap-y-8 sm:grid-cols-2">
+        {[1,2,3,4].map(i => <li key={i} className="flex gap-5 border-t border-white/15 pt-6">
+          <span className="text-primary-300 text-xl tabular-nums">0{i}</span>
+          <div><h3 className="text-xl font-medium">{t(`step${i}Title`)}</h3><p className="mt-3 max-w-md leading-relaxed text-white/70">{t(`step${i}Desc`)}</p></div>
+        </li>)}
+      </ol>
+    </section>
+    <section className="app-container border-t border-white/10 py-16 sm:py-24">
+      <h2 className="text-3xl font-medium tracking-tight sm:text-4xl">{t('whatHeadline')}</h2>
+      <dl className="mt-10 grid gap-x-12 gap-y-8 sm:grid-cols-2">
+        {[1,2,3,4].map(i => <div key={i} className="border-t border-white/15 pt-6"><dt className="text-xl font-medium">{t(`cap${i}Title`)}</dt><dd className="mt-3 max-w-md leading-relaxed text-white/70">{t(`cap${i}Desc`)}</dd></div>)}
+      </dl>
+      <div className="mt-14 border-t border-white/15 pt-8"><h3 className="text-xl font-medium">{t('securityHeadline')}</h3><ul className="mt-4 list-disc space-y-3 pl-5 text-white/70">{[1,2,3].map(i => <li key={i}>{t(`security${i}`)}</li>)}</ul></div>
+    </section>
+  </div>;
 }

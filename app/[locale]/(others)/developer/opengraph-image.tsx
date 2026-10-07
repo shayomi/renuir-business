@@ -61,7 +61,7 @@ export default function OpengraphImage() {
               fontFamily: "monospace",
             }}
           >
-            POST api.renuir.com/v1/items
+            Explore API access with our team.
           </div>
         </div>
       </div>

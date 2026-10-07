@@ -30,7 +30,7 @@ const Nav = () => {
             ? "bg-background/80 backdrop-blur-xl shadow-sm border-b border-border/50 dark:bg-background/90"
             : "bg-transparent",
         )}
-        aria-label="Main navigation"
+        aria-label={t('label')}
       >
         <div className="app-container flex items-center justify-between h-16 sm:h-[72px]">
           <Link href="/" className="flex items-center shrink-0">
@@ -58,14 +58,12 @@ const Nav = () => {
 
           <div className="hidden items-center gap-2 lg:flex">
             <LanguageSwitcher variant="dark" />
-            <Link href="/individual#download">
-              <Button
+            <Button asChild
                 size="sm"
                 className="rounded-full"
               >
-                {t('getApp')}
+                <Link href="/individual#download">{t('getApp')}</Link>
               </Button>
-            </Link>
           </div>
 
           <MobileNav />

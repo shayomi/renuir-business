@@ -6,7 +6,13 @@
     "enterprise": "Empresas",
     "individual": "Clientes",
     "developers": "Desarrolladores",
-    "getApp": "Descargar la app"
+    "getApp": "Descargar la app",
+    "help": "Ayuda",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "menuDescription": "Navega por Renuir y elige tu idioma",
+    "label": "Navegación principal",
+    "skip": "Saltar al contenido"
   },
   "home": {
     "hero": {
@@ -77,6 +83,31 @@
       "whitelabelTitle": "White-label",
       "whitelabelDesc": "Tu marca. Tu dominio. Toda la funcionalidad de Renuir bajo el capó.",
       "cta": "Explorar la API"
+    },
+    "roles": {
+      "headline": "¿Has perdido o encontrado algo?",
+      "lostTitle": "He perdido algo",
+      "lostBody": "Cuenta qué buscas y explora posibles coincidencias cercanas.",
+      "foundTitle": "He encontrado algo",
+      "foundBody": "Publica un hallazgo y ayuda a alguien a reconocer lo que ha perdido.",
+      "cta": "Ver los pasos"
+    },
+    "faq": {
+      "headline": "Lo que conviene saber.",
+      "q1": "¿Quién puede publicar un objeto?",
+      "a1": "Las personas pueden publicar objetos perdidos o encontrados. Las organizaciones participantes también pueden gestionar sus objetos encontrados con Renuir.",
+      "q2": "¿Una coincidencia significa que es mi objeto?",
+      "a2": "No. Una coincidencia sugerida es una posibilidad. Compara las fotos y los detalles identificativos y habla con la otra persona antes de acordar la devolución.",
+      "q3": "¿Y si todavía no hay coincidencias?",
+      "a3": "Mantén tu publicación actualizada y revisa los hallazgos cercanos. Renuir no garantiza que un objeto se publique, coincida o se devuelva.",
+      "q4": "¿Cómo acordamos una devolución?",
+      "a4": "Usa la app para acordar lugar y hora. Un código de entrega confirma el intercambio. El envío depende de las opciones disponibles para esa devolución.",
+      "q5": "¿Tengo que compartir información sensible?",
+      "a5": "No publiques contraseñas, documentos de identidad completos ni datos de pago. Comparte solo lo necesario para comprobar el objeto.",
+      "q6": "¿Dónde consigo la app?",
+      "a6": "Los enlaces de las tiendas aún no son públicos. Añadiremos los enlaces oficiales de App Store y Google Play cuando estén disponibles.",
+      "help": "¿Necesitas ayuda con una publicación o tu cuenta?",
+      "helpCta": "Visitar soporte"
     }
   },
   "about": {
@@ -444,7 +475,13 @@
       "successBody": "Nuestro equipo se pondrá en contacto en un plazo de un día laborable para configurar tu establecimiento."
     },
     "consentText": "Al enviar, aceptas que Renuir se ponga en contacto contigo.",
-    "consentLink": "Política de privacidad"
+    "consentLink": "Política de privacidad",
+    "validation": {
+      "name": "Introduce tu nombre.",
+      "company": "Introduce el nombre de tu empresa.",
+      "email": "Introduce una dirección de correo válida.",
+      "message": "Usa un máximo de 1200 caracteres."
+    }
   },
   "legal": {
     "privacy": {
@@ -609,6 +646,8 @@
   },
   "downloads": {
     "platforms": "Para iOS y Android",
-    "unavailable": "Enlace de descarga aún no disponible"
+    "unavailable": "Enlace de descarga aún no disponible",
+    "status": "Añadiremos los enlaces de App Store y Google Play cuando las fichas sean públicas.",
+    "preview": "Ver cómo funciona"
   }
 }

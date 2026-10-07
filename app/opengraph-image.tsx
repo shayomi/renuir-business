@@ -40,7 +40,7 @@ export default function OpengraphImage() {
             R
           </div>
           <div style={{ fontSize: 34, fontWeight: 600, letterSpacing: '-0.02em' }}>
-            Renuir for Business
+            Renuir
           </div>
         </div>
 
@@ -54,10 +54,10 @@ export default function OpengraphImage() {
               maxWidth: 900,
             }}
           >
-            The recovery platform for lost-and-found.
+            Lost something? Start here.
           </div>
           <div style={{ fontSize: 32, color: 'rgba(255,255,255,0.82)', maxWidth: 820 }}>
-            Turn the lost-and-found box into an auditable, automated system.
+            Report a loss or a find. Compare possible matches. Arrange a return.
           </div>
         </div>
       </div>

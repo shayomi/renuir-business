@@ -1,27 +1,5 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/page-metadata";
 import { LegalPageLayout } from "@/components/shared/legal/LegalPageLayout";
-import { languageAlternates, SITE_URL } from "@/lib/site";
-
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}): Promise<Metadata> {
-  const { locale } = await params;
-  const german = locale === "de";
-
-  return {
-    title: german ? "Renuir-Konto löschen" : "Delete your Renuir account",
-    description: german
-      ? "So beantragst du die Löschung deines Renuir-Kontos und deiner zugehörigen Daten."
-      : "How to request deletion of your Renuir account and associated data.",
-    alternates: {
-      canonical: `${SITE_URL}/${locale}/delete-account`,
-      languages: languageAlternates("/delete-account"),
-    },
-  };
-}
-
 export default async function DeleteAccountPage({
   params,
 }: {
@@ -71,4 +49,9 @@ export default async function DeleteAccountPage({
       </section>
     </LegalPageLayout>
   );
+}
+
+export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
+  const {locale} = await params;
+  return pageMetadata(locale, "/delete-account");
 }

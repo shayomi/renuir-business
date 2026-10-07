@@ -2,7 +2,7 @@ import { z } from 'zod';
 import { Resend } from 'resend';
 
 export const leadSchema = z.object({
-  email: z.string().email(),
+  email: z.string().trim().email(),
   name: z.string().max(120).optional(),
   company: z.string().max(160).optional(),
   message: z.string().max(2000).optional(),
@@ -61,18 +61,24 @@ export async function sendEmails(lead: Lead): Promise<boolean> {
   const resend = new Resend(RESEND_API_KEY);
   const source = lead.source ?? 'contact';
 
-  await resend.emails.send({
+  const notification = await resend.emails.send({
     from: FROM,
     to: [TEAM_INBOX],
     subject: 'New Renuir enquiry',
-    html: `
-      <p>New Renuir enquiry</p>
-      <p><strong>Email:</strong> ${lead.email}</p>
-      <p><strong>Source:</strong> ${source}</p>
-    `,
+    text: [
+      'New Renuir enquiry',
+      `Email: ${lead.email}`,
+      `Source: ${source}`,
+      `Name: ${lead.name ?? '—'}`,
+      `Company: ${lead.company ?? '—'}`,
+      '',
+      lead.message ?? '',
+    ].join('\n'),
   });
 
-  await resend.emails.send({
+  if (notification.error) throw new Error('team_email_failed');
+
+  const confirmation = await resend.emails.send({
     from: FROM,
     to: lead.email,
     subject: 'Thank you for contacting Renuir',
@@ -82,6 +88,8 @@ export async function sendEmails(lead: Lead): Promise<boolean> {
       <p>— Renuir Team</p>
     `,
   });
+
+  if (confirmation.error) console.error('Enquiry confirmation could not be delivered');
 
   return true;
 }

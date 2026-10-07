@@ -6,7 +6,13 @@
     "enterprise": "Przedsiębiorstwa",
     "individual": "Klienci",
     "developers": "Deweloperzy",
-    "getApp": "Pobierz aplikację"
+    "getApp": "Pobierz aplikację",
+    "help": "Pomoc",
+    "openMenu": "Otwórz menu",
+    "closeMenu": "Zamknij menu",
+    "menuDescription": "Przeglądaj Renuir i wybierz język",
+    "label": "Nawigacja główna",
+    "skip": "Przejdź do treści"
   },
   "home": {
     "hero": {
@@ -77,6 +83,31 @@
       "whitelabelTitle": "White-label",
       "whitelabelDesc": "Twoja marka. Twoja domena. Pełna funkcjonalność Renuir pod maską.",
       "cta": "Poznaj API"
+    },
+    "roles": {
+      "headline": "Zgubiłeś czy znalazłeś coś?",
+      "lostTitle": "Coś zgubiłem",
+      "lostBody": "Opisz, czego szukasz, i sprawdź możliwe dopasowania w pobliżu.",
+      "foundTitle": "Coś znalazłem",
+      "foundBody": "Dodaj znalezisko i pomóż komuś rozpoznać zgubiony przedmiot.",
+      "cta": "Zobacz kroki"
+    },
+    "faq": {
+      "headline": "Kilka przydatnych odpowiedzi.",
+      "q1": "Kto może zgłosić przedmiot?",
+      "a1": "Każdy może zgłosić zgubiony lub znaleziony przedmiot. Uczestniczące organizacje mogą też zarządzać znaleziskami w Renuir.",
+      "q2": "Czy dopasowanie oznacza, że to mój przedmiot?",
+      "a2": "Nie. Sugestia to tylko możliwość. Porównaj zdjęcia i cechy przedmiotu, a następnie porozmawiaj z drugą osobą przed ustaleniem zwrotu.",
+      "q3": "Co jeśli nie ma jeszcze dopasowania?",
+      "a3": "Aktualizuj zgłoszenie i sprawdzaj znaleziska w pobliżu. Renuir nie gwarantuje zgłoszenia, dopasowania ani zwrotu przedmiotu.",
+      "q4": "Jak ustalić zwrot?",
+      "a4": "Ustalcie miejsce i czas w aplikacji. Kod przekazania potwierdza wymianę. Wysyłka zależy od dostępnych opcji dla danego zwrotu.",
+      "q5": "Czy muszę udostępniać wrażliwe dane?",
+      "a5": "Nie publikuj haseł, pełnych dokumentów tożsamości ani danych płatniczych. Udostępniaj tylko informacje potrzebne do sprawdzenia przedmiotu.",
+      "q6": "Gdzie pobrać aplikację?",
+      "a6": "Linki do sklepów nie są jeszcze publiczne. Dodamy oficjalne linki do App Store i Google Play, gdy będą dostępne.",
+      "help": "Potrzebujesz pomocy ze zgłoszeniem lub kontem?",
+      "helpCta": "Przejdź do pomocy"
     }
   },
   "about": {
@@ -444,7 +475,13 @@
       "successBody": "Nasz zespół skontaktuje się w ciągu jednego dnia roboczego, aby skonfigurować Twój obiekt."
     },
     "consentText": "Wysyłając, zgadzasz się na kontakt ze strony Renuir.",
-    "consentLink": "Polityka prywatności"
+    "consentLink": "Polityka prywatności",
+    "validation": {
+      "name": "Podaj imię i nazwisko.",
+      "company": "Podaj nazwę firmy.",
+      "email": "Podaj poprawny adres e-mail.",
+      "message": "Użyj maksymalnie 1200 znaków."
+    }
   },
   "legal": {
     "privacy": {
@@ -609,6 +646,8 @@
   },
   "downloads": {
     "platforms": "Na iOS i Androida",
-    "unavailable": "Link do pobrania nie jest jeszcze dostępny"
+    "unavailable": "Link do pobrania nie jest jeszcze dostępny",
+    "status": "Dodamy linki do App Store i Google Play, gdy strony aplikacji będą publiczne.",
+    "preview": "Zobacz, jak to działa"
   }
 }

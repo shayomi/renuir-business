@@ -6,7 +6,13 @@
     "enterprise": "Kurumsal",
     "individual": "Müşteriler",
     "developers": "Geliştiriciler",
-    "getApp": "Uygulamayı indir"
+    "getApp": "Uygulamayı indir",
+    "help": "Yardım",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "menuDescription": "Renuir’i keşfedin ve dilinizi seçin",
+    "label": "Ana menü",
+    "skip": "İçeriğe geç"
   },
   "home": {
     "hero": {
@@ -77,6 +83,31 @@
       "whitelabelTitle": "White-label",
       "whitelabelDesc": "Sizin markanız. Sizin alan adınız. Altyapıda tam Renuir işlevselliği.",
       "cta": "API'yi keşfedin"
+    },
+    "roles": {
+      "headline": "Bir şey mi kaybettiniz, buldunuz mu?",
+      "lostTitle": "Bir şey kaybettim",
+      "lostBody": "Aradığınız eşyayı tarif edin ve yakındaki olası eşleşmeleri inceleyin.",
+      "foundTitle": "Bir şey buldum",
+      "foundBody": "Bulduğunuz eşyayı paylaşarak sahibinin onu tanımasına yardımcı olun.",
+      "cta": "Adımları görün"
+    },
+    "faq": {
+      "headline": "Bilmeniz gerekenler.",
+      "q1": "Kim eşya bildirebilir?",
+      "a1": "Herkes kaybettiği veya bulduğu eşyaları bildirebilir. Katılımcı kuruluşlar da bulunan eşya süreçlerini Renuir ile yönetebilir.",
+      "q2": "Eşleşme, eşyanın benim olduğu anlamına mı gelir?",
+      "a2": "Hayır. Önerilen eşleşme yalnızca bir olasılıktır. Fotoğrafları ve ayırt edici özellikleri karşılaştırın, iade ayarlamadan önce diğer kişiyle konuşun.",
+      "q3": "Henüz eşleşme yoksa ne yapmalıyım?",
+      "a3": "Bildiriminizi güncel tutun ve yakındaki bulunan eşyaları inceleyin. Renuir, bir eşyanın bildirilmesini, eşleşmesini veya iade edilmesini garanti etmez.",
+      "q4": "İadeyi nasıl ayarlarız?",
+      "a4": "Uygulamada yer ve saat belirleyin. Teslim kodu değişimi doğrular. Kargo, o iade için mevcut seçeneklere bağlıdır.",
+      "q5": "Hassas bilgileri paylaşmam gerekir mi?",
+      "a5": "Şifreleri, tam kimlik belgelerini veya ödeme bilgilerini herkese açık bildirimlerde ya da e-postalarda paylaşmayın. Yalnızca eşyayı değerlendirmek için gereken bilgileri paylaşın.",
+      "q6": "Uygulamayı nereden indirebilirim?",
+      "a6": "Mağaza bağlantıları henüz herkese açık değil. Resmî App Store ve Google Play bağlantılarını hazır olduğunda ekleyeceğiz.",
+      "help": "Bildiriminiz veya hesabınızla ilgili yardım mı gerekiyor?",
+      "helpCta": "Destek sayfasına gidin"
     }
   },
   "about": {
@@ -444,7 +475,13 @@
       "successBody": "Ekibimiz, mekanınızı kurmak için bir iş günü içinde sizinle iletişime geçecek."
     },
     "consentText": "Göndererek, Renuir tarafından iletişime geçilmesini kabul edersiniz.",
-    "consentLink": "Gizlilik Politikası"
+    "consentLink": "Gizlilik Politikası",
+    "validation": {
+      "name": "Adınızı girin.",
+      "company": "Şirketinizin adını girin.",
+      "email": "Geçerli bir e-posta adresi girin.",
+      "message": "En fazla 1200 karakter kullanın."
+    }
   },
   "legal": {
     "privacy": {
@@ -609,6 +646,8 @@
   },
   "downloads": {
     "platforms": "iOS ve Android için",
-    "unavailable": "İndirme bağlantısı henüz mevcut değil"
+    "unavailable": "İndirme bağlantısı henüz mevcut değil",
+    "status": "Mağaza sayfaları herkese açıldığında App Store ve Google Play bağlantıları eklenecek.",
+    "preview": "Nasıl çalıştığını görün"
   }
 }

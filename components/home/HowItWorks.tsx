@@ -1,70 +1,37 @@
-import { AppMockup, type AppScreen } from "@/components/shared/AppMockup";
-import { Typography } from "@/components/ui/typography";
-import AnimateIn from "@/components/ui/AnimateIn";
-import { useTranslations } from "next-intl";
+'use client';
+
+import { useState } from 'react';
+import { useTranslations } from 'next-intl';
+import { AppMockup, type AppScreen } from '@/components/shared/AppMockup';
+import AnimateIn from '@/components/ui/AnimateIn';
+import { ArrowRight, Check } from 'lucide-react';
+import { cn } from '@/lib/utils';
+
+const screens: AppScreen[] = ['report', 'matches', 'ownership', 'handover'];
 
 export function HowItWorks() {
-  const t = useTranslations("home.howItWorks");
-
-  const STEPS: { number: string; screen: AppScreen; title: string; desc: string }[] = [
-    { number: "01", screen: "report", title: t("step1Title"), desc: t("step1Desc") },
-    { number: "02", screen: "matches", title: t("step2Title"), desc: t("step2Desc") },
-    { number: "03", screen: "ownership", title: t("step3Title"), desc: t("step3Desc") },
-    { number: "04", screen: "handover", title: t("step4Title"), desc: t("step4Desc") },
-  ];
-
+  const t = useTranslations('home.howItWorks');
+  const [active, setActive] = useState(0);
+  const steps = screens.map((screen, index) => ({ screen, title: t(`step${index + 1}Title`), description: t(`step${index + 1}Desc`) }));
   return (
-    <section className="relative overflow-hidden py-20 sm:py-28 lg:py-32">
-      <div className="app-container relative">
-        <AnimateIn>
-          <div className="max-w-2xl">
-            <span className="text-[12px] font-medium uppercase tracking-[0.16em] text-primary">
-              {t("badge")}
-            </span>
-            <Typography variant="h2" className="mt-4 text-foreground tracking-tight">
-              {t("headline")}
-            </Typography>
-            <Typography variant="lead" className="mt-4 text-muted-foreground">
-              {t("subtitle")}
-            </Typography>
+    <section id="how-it-works" className="scroll-mt-24 py-16 sm:py-20 lg:py-24">
+      <div className="app-container">
+        <AnimateIn><div className="max-w-2xl">
+          <h2 className="text-balance text-3xl font-medium tracking-tight sm:text-4xl">{t('headline')}</h2>
+          <p className="mt-4 max-w-xl text-lg leading-relaxed text-muted-foreground">{t('subtitle')}</p>
+        </div></AnimateIn>
+        <div className="mt-10 grid gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:items-center lg:gap-20">
+          <div className="grid divide-y divide-border">
+            {steps.map((step, index) => <button key={step.screen} type="button" onClick={() => setActive(index)} aria-pressed={active === index} aria-controls="recovery-preview" className="group flex gap-5 py-6 text-start focus-visible:rounded-lg focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary">
+              <span className={cn('mt-0.5 flex size-8 shrink-0 items-center justify-center rounded-full text-sm font-medium', active === index ? 'bg-primary text-white' : 'bg-muted text-muted-foreground')}>{index === 3 ? <Check className="size-4" /> : index + 1}</span>
+              <span className="min-w-0 flex-1"><span className={cn('block text-xl font-medium', active === index ? 'text-primary' : 'text-foreground')}>{step.title}</span><span className="mt-2 block max-w-md text-base leading-relaxed text-muted-foreground">{step.description}</span></span>
+              <ArrowRight aria-hidden className={cn('mt-1 size-5 shrink-0 transition-transform group-hover:translate-x-1', active === index ? 'text-primary' : 'text-muted-foreground')} />
+            </button>)}
           </div>
-        </AnimateIn>
-
-        <div className="mt-16 grid gap-x-6 gap-y-12 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
-          {STEPS.map((step, i) => (
-            <AnimateIn key={step.number} delay={i * 0.08}>
-              <div className="flex flex-col">
-                {/* Device well */}
-                <div className="relative overflow-hidden rounded-[1.5rem] bg-gradient-to-b from-primary/[0.08] to-transparent py-7">
-                  <div
-                    aria-hidden
-                    className="pointer-events-none absolute inset-x-6 top-5 bottom-0 rounded-t-[1.5rem] bg-primary/[0.04]"
-                  />
-                  <AppMockup
-                    screen={step.screen}
-                    sizes="(max-width: 639px) 220px, (max-width: 1023px) 210px, 200px"
-                    className="relative mx-auto w-[78%] max-w-[220px]"
-                  />
-                </div>
-
-                {/* Label */}
-                <div className="mt-6 flex items-baseline gap-2.5">
-                  <span className="font-mono text-[13px] font-medium text-primary">
-                    {step.number}
-                  </span>
-                  <Typography variant="h5" className="text-foreground">
-                    {step.title}
-                  </Typography>
-                </div>
-                <Typography
-                  variant="mutedText"
-                  className="mt-2 text-[14.5px] leading-relaxed text-muted-foreground"
-                >
-                  {step.desc}
-                </Typography>
-              </div>
-            </AnimateIn>
-          ))}
+          <div id="recovery-preview" className="flex flex-col items-center rounded-2xl bg-muted/65 px-6 py-8" aria-label={steps[active].title}>
+            <AppMockup screen={steps[active].screen} sizes="260px" className="w-[240px] max-w-full sm:w-[260px]" />
+            <p className="mt-6 text-sm font-medium text-muted-foreground" aria-live="polite">{steps[active].title}</p>
+          </div>
         </div>
       </div>
     </section>

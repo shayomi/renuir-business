@@ -61,12 +61,11 @@ export async function POST(req: Request) {
     const persisted = await saveToAirtable(lead);
     const emailed = await sendEmails(lead);
 
-    // No integrations configured (e.g. preview deploy). Accept so the UI can
-    // confirm honestly, but log a NON-PII marker only (never the lead payload).
-    if (!persisted && !emailed) {
-      console.error('Lead received but no collector configured', {
-        source: lead.source,
-      });
+    // Only confirm receipt when a collector actually accepted the enquiry.
+    // Airtable stores email only; detailed contact requests need team delivery.
+    if ((!persisted && !emailed) || ((lead.name || lead.company || lead.message) && !emailed)) {
+      console.error('Enquiry delivery is not configured');
+      return NextResponse.json({error: 'Please contact info@renuir.com.'}, {status: 503});
     }
 
     return NextResponse.json({ ok: true });

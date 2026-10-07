@@ -3,7 +3,6 @@
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Typography } from "@/components/ui/typography";
-import { Button } from "@/components/ui/button";
 import { Linkedin, Twitter } from "lucide-react";
 import AnimateIn from "@/components/ui/AnimateIn";
 import { useTranslations } from 'next-intl';
@@ -13,63 +12,7 @@ const Footer = () => {
 
   return (
     <footer className="relative overflow-hidden bg-slate-950 text-white" role="contentinfo">
-      <div className="app-container py-16 sm:py-20 lg:py-24">
-        <AnimateIn>
-          <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl">
-            <Image
-              src="/images/home/glossybg.svg"
-              alt=""
-              fill
-              className="object-cover"
-            />
-            <div className="absolute inset-0 bg-black/10 backdrop-blur-md" />
-
-            <div className="relative grid divide-y divide-white/20 lg:grid-cols-2 lg:divide-x lg:divide-y-0">
-              <div className="flex flex-col gap-3 items-center px-6 sm:px-8 py-10 sm:py-14 lg:py-16 text-center">
-                <Typography variant="h2" className="text-white">
-                  {t('forBusiness')}
-                </Typography>
-
-                <Typography variant="lead" className="text-white/80">
-                  {t('forBusinessDesc')}
-                </Typography>
-
-                <Link href="/solutions">
-                  <Button
-                    size="lg"
-                    variant="secondary"
-                    className="mt-3 sm:mt-4 rounded-full"
-                  >
-                    {t('forBusinessCta')}
-                  </Button>
-                </Link>
-              </div>
-
-              <div className="flex flex-col gap-3 items-center px-6 sm:px-8 py-10 sm:py-14 lg:py-16 text-center">
-                <Typography variant="h2" className="text-white">
-                  {t('forIndividuals')}
-                </Typography>
-
-                <Typography variant="lead" className="text-white/80">
-                  {t('forIndividualsDesc')}
-                </Typography>
-
-                <Link href="/individual#download">
-                  <Button
-                    size="lg"
-                    variant="secondary"
-                    className="mt-3 sm:mt-4 rounded-full"
-                  >
-                    {t('forIndividualsCta')}
-                  </Button>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </AnimateIn>
-      </div>
-
-      <div className="relative app-container pb-10 sm:pb-16 lg:pb-20">
+      <div className="relative app-container py-12 sm:py-16">
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center overflow-hidden">
           <span className="select-none text-[120px] sm:text-[200px] lg:text-[300px] font-semibold text-white/[0.02]">
             Renuir

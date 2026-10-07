@@ -37,7 +37,7 @@ export function LanguageSwitcher({ variant = "dark" }: LanguageSwitcherProps) {
 
   const switchLocale = (newLocale: Locale) => {
     startTransition(() => {
-      router.replace(pathname, { locale: newLocale });
+      router.replace(`${pathname}${window.location.search}${window.location.hash}`, { locale: newLocale });
     });
   };
 

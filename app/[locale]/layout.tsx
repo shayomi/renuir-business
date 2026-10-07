@@ -21,24 +21,14 @@ export async function generateMetadata({
   return {
     metadataBase: new URL(SITE_URL),
     title: {
-      default: "Renuir: AI Lost & Found",
+      default: locale === "de" ? "Renuir: Verloren & Gefunden" : "Renuir: Lost & Found",
       template: "%s | Renuir",
     },
     description,
-    keywords: [
-      "Renuir",
-      "lost and found software",
-      "lost and found for hotels",
-      "airport lost and found",
-      "venue item recovery",
-      "chain of custody lost property",
-      "lost property management platform",
-      "GDPR lost and found",
-    ],
     authors: [{ name: "Renuir" }],
     applicationName: "Renuir",
     openGraph: {
-      title: "Renuir: AI Lost & Found",
+      title: locale === "de" ? "Renuir: Verloren & Gefunden" : "Renuir: Lost & Found",
       description,
       type: "website",
       siteName: "Renuir",
@@ -46,7 +36,7 @@ export async function generateMetadata({
       locale,
     },
     twitter: {
-      title: "Renuir: AI Lost & Found",
+      title: locale === "de" ? "Renuir: Verloren & Gefunden" : "Renuir: Lost & Found",
       description,
       card: "summary_large_image",
     },
@@ -80,6 +70,7 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
 
   const messages = await getMessages();
+  const t = await getTranslations("nav");
   const dir = locale === "ar" ? "rtl" : "ltr";
 
   return (
@@ -89,7 +80,7 @@ export default async function LocaleLayout({
           href="#main-content"
           className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:rounded-lg focus:bg-primary focus:px-4 focus:py-2 focus:text-white focus:outline-none"
         >
-          Skip to main content
+          {t("skip")}
         </a>
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
