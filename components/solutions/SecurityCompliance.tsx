@@ -12,7 +12,7 @@ export async function SecurityCompliance() {
     { icon: Lock, title: t("item4Title"), desc: t("item4Desc") },
   ];
   return (
-    <section className="bg-card py-20 sm:py-28">
+    <section className="bg-card py-12 sm:py-16 lg:py-20">
       <div className="app-container">
         <div className="mx-auto max-w-2xl text-center">
           <AnimateIn>

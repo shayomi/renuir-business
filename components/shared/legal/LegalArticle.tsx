@@ -73,7 +73,7 @@ export function LegalArticle({
       <div>
         <div
           ref={articleRef}
-          className="prose max-w-[70ch] prose-headings:font-semibold prose-headings:tracking-tight prose-headings:text-foreground prose-h2:mt-14 prose-h2:mb-4 prose-h2:text-[1.375rem] prose-h2:border-t prose-h2:border-border prose-h2:pt-10 first:prose-h2:mt-0 first:prose-h2:border-t-0 first:prose-h2:pt-0 prose-p:text-muted-foreground prose-p:leading-[1.75] prose-li:text-muted-foreground prose-li:leading-[1.7] prose-li:my-1.5 prose-a:text-primary prose-a:font-medium prose-a:no-underline hover:prose-a:underline prose-strong:text-foreground dark:prose-invert"
+          className="legal-prose prose max-w-[70ch] prose-headings:font-semibold prose-headings:tracking-tight prose-headings:text-foreground prose-h2:text-[1.375rem] prose-p:text-muted-foreground prose-p:leading-[1.75] prose-li:text-muted-foreground prose-li:leading-[1.7] prose-li:my-1.5 prose-a:text-primary prose-a:font-medium prose-a:no-underline hover:prose-a:underline prose-strong:text-foreground dark:prose-invert"
         >
           {children}
         </div>
@@ -95,7 +95,7 @@ export function LegalArticle({
           aria-label={onThisPageLabel}
           className="hidden lg:block"
         >
-          <div className="sticky top-28">
+          <div className="sticky top-28 pt-1">
             <p className="mb-4 text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">
               {onThisPageLabel}
             </p>

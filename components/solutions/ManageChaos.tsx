@@ -14,7 +14,7 @@ export async function ManageChaos() {
   ];
 
   return (
-    <section className="bg-background py-20 sm:py-28">
+    <section className="bg-background py-12 sm:py-16 lg:py-20">
       <div className="app-container">
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-20">
           <AnimateIn>

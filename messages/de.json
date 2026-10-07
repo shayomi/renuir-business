@@ -45,7 +45,19 @@
       "step3Title": "Besondere Merkmale prüfen",
       "step3Desc": "Besprecht Erkennungsmerkmale im App-Chat und teilt bei Bedarf unterstützende Angaben, bevor ihr die Rückgabe vereinbart.",
       "step4Title": "Die Übergabe vereinbaren",
-      "step4Desc": "Vereinbart gemeinsam Ort und Zeit und bestätigt die Übergabe mit einem Code."
+      "step4Desc": "Vereinbart gemeinsam Ort und Zeit und bestätigt die Übergabe mit einem Code.",
+      "lostStep1Title": "Melde deinen Verlust",
+      "lostStep1Desc": "Füge ein Foto hinzu, falls vorhanden, beschreibe den Gegenstand und nenne den letzten bekannten Ort. Halte besondere Merkmale für das private Gespräch bereit.",
+      "foundStep1Title": "Melde deinen Fund",
+      "foundStep1Desc": "Füge Fotos, den Fundort und eine hilfreiche Beschreibung hinzu. Halte besondere Merkmale zunächst privat, damit der Eigentümer den Gegenstand beschreiben kann.",
+      "lostStep2Title": "Entdecke mögliche Funde",
+      "lostStep2Desc": "Prüfe Meldungen in deiner Nähe und vorgeschlagene Treffer. Vergleiche Fotos, Zeitpunkte und Orte, bevor du den Finder kontaktierst.",
+      "foundStep2Title": "Prüfe mögliche Eigentümer",
+      "foundStep2Desc": "Vergleiche vorgeschlagene Verlustmeldungen mit deinem Fund. Ein möglicher Treffer eröffnet das Gespräch und ist kein Eigentumsnachweis.",
+      "lostStep3Desc": "Beschreibe besondere Merkmale im App-Chat und teile bei Bedarf unterstützende Angaben. Der Finder prüft die Details vor der Rückgabe.",
+      "foundStep3Desc": "Frage nach besonderen Merkmalen und prüfe unterstützende Angaben, bevor du der Rückgabe zustimmst.",
+      "lostStep4Desc": "Vereinbare Ort und Zeit mit dem Finder und bestätige die Übergabe mit dem Code.",
+      "foundStep4Desc": "Vereinbare Ort und Zeit mit dem Eigentümer und bestätige die Übergabe mit dem Code."
     },
     "forIndividual": {
       "badge": "FÜR PRIVATPERSONEN",
@@ -90,7 +102,9 @@
       "lostBody": "Teile, was du suchst, und entdecke mögliche Treffer in deiner Nähe.",
       "foundTitle": "Ich habe etwas gefunden",
       "foundBody": "Teile einen Fund und hilf jemandem, seinen Gegenstand wiederzuerkennen.",
-      "cta": "Die Schritte ansehen"
+      "cta": "Die Schritte ansehen",
+      "lostCta": "Schritte für Verlorenes",
+      "foundCta": "Schritte für Gefundenes"
     },
     "faq": {
       "headline": "Gut zu wissen.",
@@ -481,7 +495,8 @@
       "company": "Bitte geben Sie Ihre Organisation ein.",
       "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
       "message": "Bitte begrenzen Sie Ihre Nachricht auf 1.200 Zeichen."
-    }
+    },
+    "onThisPage": "Auf dieser Seite"
   },
   "legal": {
     "privacy": {

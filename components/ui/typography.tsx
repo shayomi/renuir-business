@@ -9,7 +9,7 @@ const typographyVariants = cva("text-foreground", {
       h1: "scroll-m-20 text-[2rem] sm:text-[2.5rem] lg:text-[3.25rem] font-semibold tracking-tight leading-[1.1]",
       extraLargeText:
         "scroll-m-20 text-[2.75rem] sm:text-[3.5rem] lg:text-[5rem] font-extrabold tracking-tight leading-[1.05]",
-      h2: "scroll-m-20 pb-2 text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] font-semibold tracking-tight leading-[1.15] first:mt-0",
+      h2: "scroll-m-20 pb-2 text-[1.75rem] sm:text-[2rem] lg:text-[2.5rem] font-semibold tracking-tight leading-[1.15]",
       h3: "scroll-m-20 text-xl sm:text-[1.375rem] lg:text-2xl font-semibold tracking-tight leading-[1.2]",
       h4: "scroll-m-20 text-lg lg:text-xl font-semibold tracking-tight leading-[1.25]",
       h5: "scroll-m-20 text-base sm:text-lg font-semibold tracking-tight leading-[1.3]",

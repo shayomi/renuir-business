@@ -1,3 +1,5 @@
+import { Link } from "@/i18n/navigation";
+import { ArrowRight } from "lucide-react";
 import { Typography } from "@/components/ui/typography";
 import { LeadForm } from "@/components/shared/LeadForm";
 import Nav from "../shared/navbar/Nav";
@@ -6,6 +8,7 @@ import { getTranslations } from "next-intl/server";
 
 export async function SolutionHero() {
   const t = await getTranslations("solutions.hero");
+  const nav = await getTranslations("nav");
 
   return (
     <section className="relative overflow-hidden bg-background">
@@ -58,6 +61,7 @@ export async function SolutionHero() {
               {t("socialProof")}
             </Typography>
           </AnimateIn>
+          <Link href="/developer" className="mt-3 inline-flex min-h-11 items-center gap-2 text-sm font-medium text-primary underline-offset-4 hover:underline">{nav("developers")}<ArrowRight aria-hidden className="size-4" /></Link>
         </div>
       </div>
     </section>

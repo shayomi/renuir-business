@@ -1,3 +1,4 @@
+import { Plus } from "lucide-react";
 import { pageMetadata } from "@/lib/page-metadata";
 import { getTranslations } from "next-intl/server";
 import { LegalPageLayout } from "@/components/shared/legal/LegalPageLayout";
@@ -14,11 +15,21 @@ export default async function SupportPage({
   return (
     <LegalPageLayout
       title={german ? "Renuir-Support" : "Renuir Support"}
-      lastUpdated={german ? "Stand: 22. August 2026" : "Last updated: August 22, 2026"}
+      description={german ? "Hilfe zu Meldungen, möglichen Treffern, Übergaben und deinem Konto." : "Help with reports, possible matches, handovers and your account."}
     >
       <section>
         <h2>{faq("headline")}</h2>
-        {[1,2,3,4].map(i => <details key={i} className="border-b border-border py-3"><summary className="cursor-pointer font-medium">{faq(`q${i}`)}</summary><p>{faq(`a${i}`)}</p></details>)}
+        <div className="support-faq">
+          {[1, 2, 3, 4].map(i => (
+            <details key={i} className="group border-b border-border">
+              <summary className="flex min-h-14 cursor-pointer list-none items-center justify-between gap-5 py-4 font-medium marker:content-none focus-visible:rounded focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary">
+                {faq(`q${i}`)}
+                <Plus aria-hidden className="size-4 shrink-0 text-muted-foreground transition-transform group-open:rotate-45" />
+              </summary>
+              <p>{faq(`a${i}`)}</p>
+            </details>
+          ))}
+        </div>
       </section>
       <section>
         <h2>{german ? "Wir helfen dir" : "We're here to help"}</h2>

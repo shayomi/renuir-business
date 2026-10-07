@@ -45,7 +45,19 @@
       "step3Title": "Check what makes it yours",
       "step3Desc": "Discuss distinguishing details in the app and provide supporting information before agreeing on a return.",
       "step4Title": "Agree on the handover",
-      "step4Desc": "Arrange a place and time together, then use a handover code to confirm the exchange."
+      "step4Desc": "Arrange a place and time together, then use a handover code to confirm the exchange.",
+      "lostStep1Title": "Report what you lost",
+      "lostStep1Desc": "Add a photo if you have one, describe the item and say where you last had it. Keep identifying details ready for a private conversation.",
+      "foundStep1Title": "Report what you found",
+      "foundStep1Desc": "Add photos, the find location and a useful description. Keep distinctive details private so the owner can help identify the item.",
+      "lostStep2Title": "Look for possible finds",
+      "lostStep2Desc": "Review nearby reports and suggested matches. Compare the photos, dates and locations before contacting a finder.",
+      "foundStep2Title": "Review possible owners",
+      "foundStep2Desc": "Compare suggested lost-item reports with your find. A possible match is a starting point for a conversation, not proof of ownership.",
+      "lostStep3Desc": "Explain identifying details in the app chat and provide supporting information if needed. The finder checks the details before agreeing to a return.",
+      "foundStep3Desc": "Ask the claimant about distinctive details and review any supporting information before agreeing to return the item.",
+      "lostStep4Desc": "Agree on a place and time with the finder, then use the handover code to confirm the exchange.",
+      "foundStep4Desc": "Agree on a place and time with the owner, then use the handover code to confirm the exchange."
     },
     "forIndividual": {
       "badge": "FOR INDIVIDUALS",
@@ -90,7 +102,9 @@
       "lostBody": "Share what you’re looking for and explore possible matches nearby.",
       "foundTitle": "I found something",
       "foundBody": "Share a find and help someone recognize what they’re missing.",
-      "cta": "See the steps"
+      "cta": "See the steps",
+      "lostCta": "Steps for lost items",
+      "foundCta": "Steps for found items"
     },
     "faq": {
       "headline": "A few things worth knowing.",
@@ -481,7 +495,8 @@
       "company": "Please enter your organization.",
       "email": "Please enter a valid email address.",
       "message": "Please keep your message under 1,200 characters."
-    }
+    },
+    "onThisPage": "On this page"
   },
   "legal": {
     "privacy": {

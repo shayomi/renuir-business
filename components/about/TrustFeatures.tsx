@@ -31,7 +31,7 @@ export function TrustFeatures() {
   ];
 
   return (
-    <section className="py-16 sm:py-24 lg:py-32">
+    <section className="py-12 sm:py-16 lg:py-20">
       <div className="app-container">
         <div className="flex flex-col lg:flex-row gap-10 lg:gap-16 items-start justify-between">
           <AnimateIn>

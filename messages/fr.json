@@ -481,7 +481,8 @@
       "company": "Indiquez le nom de votre entreprise.",
       "email": "Saisissez une adresse e-mail valide.",
       "message": "Utilisez 1200 caractères maximum."
-    }
+    },
+    "onThisPage": "Sur cette page"
   },
   "legal": {
     "privacy": {

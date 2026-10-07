@@ -481,7 +481,8 @@
       "company": "Şirketinizin adını girin.",
       "email": "Geçerli bir e-posta adresi girin.",
       "message": "En fazla 1200 karakter kullanın."
-    }
+    },
+    "onThisPage": "Bu sayfada"
   },
   "legal": {
     "privacy": {

@@ -72,7 +72,7 @@ export async function DeveloperConnect() {
     { Icon: PackageCheck, label: t("pipelineReturn"), meta: t("pipelineReturnMeta") },
   ];
   return (
-    <section className="bg-slate-950 py-20 text-white lg:py-28">
+    <section className="bg-slate-950 py-12 text-white sm:py-16 lg:py-20">
       <div className="app-container">
         <AnimateIn className="max-w-2xl">
           <span className="text-[12px] font-medium uppercase tracking-[0.16em] text-primary-400">

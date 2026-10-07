@@ -10,7 +10,7 @@ import { getSectors } from "../data/sectorData";
 export function Sectors() {
   const t = useTranslations('about.sectors');
   return (
-    <section className="py-16 sm:py-24 lg:py-32">
+    <section className="py-12 sm:py-16 lg:py-20">
       <div className="app-container">
         <AnimateIn>
           <Typography

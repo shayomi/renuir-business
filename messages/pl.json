@@ -481,7 +481,8 @@
       "company": "Podaj nazwę firmy.",
       "email": "Podaj poprawny adres e-mail.",
       "message": "Użyj maksymalnie 1200 znaków."
-    }
+    },
+    "onThisPage": "Na tej stronie"
   },
   "legal": {
     "privacy": {

@@ -20,7 +20,7 @@ export default function TrustCoreSection() {
   }));
 
   return (
-    <section className="w-full py-16 sm:py-24 lg:py-32">
+    <section className="w-full py-12 sm:py-16 lg:py-20">
       <div className="app-container">
         <AnimateIn>
           <div className="overflow-hidden rounded-3xl bg-card shadow-elevated ring-1 ring-border">

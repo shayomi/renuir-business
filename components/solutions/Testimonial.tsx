@@ -14,7 +14,7 @@ export default async function TestimonialsSection() {
 
   return (
     <section className="w-full bg-background">
-      <div className="app-container py-20 sm:py-28 lg:py-32">
+      <div className="app-container py-12 sm:py-16 lg:py-20">
         <div className="flex flex-col items-center text-center">
           <AnimateIn>
             <span className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-3.5 py-1.5 text-xs font-semibold uppercase tracking-wider text-primary">
