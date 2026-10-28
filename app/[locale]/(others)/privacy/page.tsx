@@ -20,6 +20,7 @@ export default function PrivacyPage() {
           <li>{t("dataPhotos")}</li>
           <li>{t("dataLocation")}</li>
           <li>{t("dataChat")}</li>
+          <li>{t("dataActivity")}</li>
           <li>{t("dataPayments")}</li>
           <li>{t("dataTechnical")}</li>
         </ul>
@@ -44,6 +45,7 @@ export default function PrivacyPage() {
           <li>{t("processorPayments")}</li>
           <li>{t("processorAI")}</li>
           <li>{t("processorAnalytics")}</li>
+          <li>{t("processorCommunications")}</li>
         </ul>
       </section>
 
