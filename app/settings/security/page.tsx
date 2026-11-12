@@ -18,7 +18,7 @@ export default function CancelDeletionHelpPage() {
           <ol style={{ paddingLeft: 24 }}>
             <li>Open Renuir and sign in to the account you scheduled for deletion.</li>
             <li>Open <strong>Profile → Legal → Data Processing (GDPR)</strong>.</li>
-            <li>Tap <strong>Cancel pending deletion</strong>.</li>
+            <li>Scroll to the bottom and tap <strong>Cancel pending deletion</strong>.</li>
             <li>Wait for the app to confirm <strong>Deletion cancelled</strong>.</li>
           </ol>
           <p>If you cannot sign in or cannot find the cancellation option, contact <a href="mailto:datenschutz@renuir.com">datenschutz@renuir.com</a> for help. Do not send your password or verification codes.</p>
