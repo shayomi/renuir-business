@@ -18,7 +18,7 @@
     "hero": {
       "line1": "Kayıp Eşya,",
       "line2": "Yeniden Tasarlandı.",
-      "subtitle": "Tek bildirim. Akıllı eşleştirme. Güvenli iade. Renuir, insanları ve mekanları bir araya getirerek önemli eşyaların geri dönmesini sağlar.",
+      "subtitle": "Kayıp veya bulunan bir eşya bildirin, olası eşleşmeleri inceleyin ve Renuir’de iadeyi planlayın.",
       "ctaBusiness": "Kurumsal Çözümler",
       "ctaDownload": "Uygulamayı indir"
     },
@@ -95,7 +95,7 @@
     "faq": {
       "headline": "Bilmeniz gerekenler.",
       "q1": "Kim eşya bildirebilir?",
-      "a1": "Herkes kaybettiği veya bulduğu eşyaları bildirebilir. Katılımcı kuruluşlar da bulunan eşya süreçlerini Renuir ile yönetebilir.",
+      "a1": "Misafir olarak bildirimleri inceleyin. Katılmak için hesap oluşturun. Yayınlamak doğrulama gerektirebilir. İsteğe bağlı Boostlar ücretlidir.",
       "q2": "Eşleşme, eşyanın benim olduğu anlamına mı gelir?",
       "a2": "Hayır. Önerilen eşleşme yalnızca bir olasılıktır. Fotoğrafları ve ayırt edici özellikleri karşılaştırın, iade ayarlamadan önce diğer kişiyle konuşun.",
       "q3": "Henüz eşleşme yoksa ne yapmalıyım?",
@@ -115,7 +115,7 @@
       "eyebrow": "Neden varız",
       "headline": "Kayıp eşya süreci bozuk. Biz altyapıyı onarıyoruz.",
       "lead": "Her gün mekanlar, sahibine ulaştırılamayan eşyalar topluyor ve insanlar geri alabilecekleri eşyalardan vazgeçiyor.",
-      "body": "Renuir, mekanlara bulunan eşyaları kaydetmek, gerçek sahibini doğrulamak ve kimsenin kişisel verisini açığa çıkarmadan iade etmek için tek bir platform sunar. Berlin'de birkaç tasarım ortağıyla başlayarak bunu titizlikle inşa eden küçük bir ekibiz.",
+      "body": "Kayıp veya bulunan bir eşya bildirin, olası eşleşmeleri inceleyin ve Renuir’de iadeyi planlayın.",
       "stat1Label": "Kayıttan iadeye, her kayıp eşya için tek platform",
       "stat2Label": "Her ortak demo talebinde hedeflenen yanıt süresi",
       "stat3Label": "İlk günden itibaren AB veri koruma standartlarına uygun"
@@ -155,7 +155,7 @@
     "contact": {
       "badge": "İletişim",
       "headline": "Konuşalım.",
-      "subtitle": "Otel, havalimanı, kampüs ya da mağaza mı işletiyorsunuz? Bir tanıtım görüşmesi ayarlayın ve Renuir'ün bulunan eşyaları baştan sona nasıl yönettiğini görün.",
+      "subtitle": "Renuir hakkında sorunuz mu var?",
       "sidebar": {
         "title": "İletişim Bilgileri",
         "emailLabel": "E-posta",

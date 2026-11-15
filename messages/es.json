@@ -18,7 +18,7 @@
     "hero": {
       "line1": "Objetos perdidos,",
       "line2": "reinventados.",
-      "subtitle": "Un reporte. Coincidencia inteligente. Devolución segura. Renuir conecta personas y lugares para recuperar lo que importa.",
+      "subtitle": "Publica un objeto perdido o encontrado, revisa posibles coincidencias y acuerda la devolución en Renuir.",
       "ctaBusiness": "Soluciones empresariales",
       "ctaDownload": "Descargar la app"
     },
@@ -95,7 +95,7 @@
     "faq": {
       "headline": "Lo que conviene saber.",
       "q1": "¿Quién puede publicar un objeto?",
-      "a1": "Las personas pueden publicar objetos perdidos o encontrados. Las organizaciones participantes también pueden gestionar sus objetos encontrados con Renuir.",
+      "a1": "Explora publicaciones como invitado. Crea una cuenta para participar. Publicar puede requerir verificación. Los Boosts opcionales son de pago.",
       "q2": "¿Una coincidencia significa que es mi objeto?",
       "a2": "No. Una coincidencia sugerida es una posibilidad. Compara las fotos y los detalles identificativos y habla con la otra persona antes de acordar la devolución.",
       "q3": "¿Y si todavía no hay coincidencias?",
@@ -115,7 +115,7 @@
       "eyebrow": "Por qué existimos",
       "headline": "La gestión de objetos perdidos está rota. Nosotros arreglamos la base.",
       "lead": "Cada día, los establecimientos acumulan objetos que nadie puede vincular a un propietario, y las personas renuncian a cosas que podrían haber recuperado.",
-      "body": "Renuir ofrece a los establecimientos un único lugar para registrar los objetos encontrados, verificar quién es su verdadero propietario y devolverlos sin exponer los datos personales de nadie. Somos un equipo pequeño que construye esto con cuidado, empezando por un puñado de socios de diseño en Berlín.",
+      "body": "Publica un objeto perdido o encontrado, revisa posibles coincidencias y acuerda la devolución en Renuir.",
       "stat1Label": "Plataforma para cada objeto perdido, desde el registro hasta la devolución",
       "stat2Label": "Tiempo de respuesta previsto para cada solicitud de demostración de socios",
       "stat3Label": "Diseñado según los estándares de protección de datos de la UE desde el primer día"
@@ -155,7 +155,7 @@
     "contact": {
       "badge": "Contáctanos",
       "headline": "Hablemos.",
-      "subtitle": "¿Gestionas un hotel, aeropuerto, campus o comercio? Reserva una demostración y descubre cómo Renuir gestiona los objetos encontrados de principio a fin.",
+      "subtitle": "¿Preguntas sobre Renuir?",
       "sidebar": {
         "title": "Información de contacto",
         "emailLabel": "Email",

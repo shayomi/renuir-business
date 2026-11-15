@@ -1,29 +1,6 @@
-import { pageMetadata } from "@/lib/page-metadata";
-import { DeveloperHero } from "@/components/developer/DeveloperHero";
-import { DeveloperConnect } from "@/components/developer/DeveloperConnect";
-import { DeveloperStory } from "@/components/developer/DeveloperStory";
-import ReadyToBuildCTA from "@/components/developer/ReadytoBuild";
+import { redirect } from 'next/navigation';
 
-const SECTIONS = [
-  { Component: DeveloperHero, className: "" },
-  { Component: DeveloperConnect, className: "" },
-  { Component: DeveloperStory, className: "" },
-  { Component: ReadyToBuildCTA, className: "" },
-];
-
-export default function DeveloperPage() {
-  return (
-    <main id="main-content" className="overflow-hidden">
-      {SECTIONS.map(({ Component, className }, index) => (
-        <section key={index} className={className}>
-          <Component />
-        </section>
-      ))}
-    </main>
-  );
-}
-
-export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
-  const {locale} = await params;
-  return pageMetadata(locale, "/developer");
+export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  redirect(`/${locale}/support`);
 }

@@ -18,7 +18,7 @@
     "hero": {
       "line1": "Objets perdus,",
       "line2": "retrouvés.",
-      "subtitle": "Un signalement. Un matching intelligent. Un retour sécurisé. Renuir relie les personnes et les lieux pour retrouver ce qui compte.",
+      "subtitle": "Signalez un objet perdu ou trouvé, comparez les correspondances possibles et organisez sa restitution dans Renuir.",
       "ctaBusiness": "Solutions entreprises",
       "ctaDownload": "Télécharger l'app"
     },
@@ -95,7 +95,7 @@
     "faq": {
       "headline": "Quelques réponses utiles.",
       "q1": "Qui peut signaler un objet ?",
-      "a1": "Chacun peut signaler un objet perdu ou trouvé. Les organisations participantes peuvent aussi gérer leurs objets trouvés avec Renuir.",
+      "a1": "Consultez les annonces en tant qu’invité. Créez un compte pour participer. Une vérification peut être nécessaire pour publier. Les Boosts facultatifs sont payants.",
       "q2": "Une correspondance signifie-t-elle que c’est mon objet ?",
       "a2": "Non. Une suggestion reste une possibilité. Comparez les photos et les signes distinctifs, puis échangez avec l’autre personne avant de convenir d’un retour.",
       "q3": "Et s’il n’y a pas encore de correspondance ?",
@@ -115,7 +115,7 @@
       "eyebrow": "Pourquoi nous existons",
       "headline": "Les objets perdus, un système défaillant. Nous réparons la tuyauterie.",
       "lead": "Chaque jour, des établissements récupèrent des objets que personne ne peut relier à un propriétaire, et des gens renoncent à des affaires qu'ils auraient pu retrouver.",
-      "body": "Renuir offre aux établissements un seul endroit pour enregistrer les objets trouvés, vérifier à qui ils appartiennent réellement et les restituer sans exposer les données personnelles de quiconque. Nous sommes une petite équipe qui construit cela avec soin, en commençant par une poignée de partenaires de conception à Berlin.",
+      "body": "Signalez un objet perdu ou trouvé, comparez les correspondances possibles et organisez sa restitution dans Renuir.",
       "stat1Label": "Une plateforme pour chaque objet perdu, de l'enregistrement à la restitution",
       "stat2Label": "Délai de réponse visé pour chaque demande de démo de partenaire",
       "stat3Label": "Conçu selon les normes européennes de protection des données dès le premier jour"
@@ -155,7 +155,7 @@
     "contact": {
       "badge": "Nous contacter",
       "headline": "Parlons-en.",
-      "subtitle": "Vous gérez un hôtel, un aéroport, un campus ou un magasin ? Réservez une démonstration et découvrez comment Renuir prend en charge les objets trouvés de bout en bout.",
+      "subtitle": "Une question sur Renuir ?",
       "sidebar": {
         "title": "Coordonnées",
         "emailLabel": "E-mail",

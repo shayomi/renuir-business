@@ -18,7 +18,7 @@
     "hero": {
       "line1": "Lost something?",
       "line2": "Start here.",
-      "subtitle": "Report what you lost or found, explore nearby reports and possible matches, and arrange a return in one place.",
+      "subtitle": "Report a lost or found item, explore possible matches and arrange a return in Renuir.",
       "ctaBusiness": "For businesses",
       "ctaDownload": "See how it works"
     },
@@ -109,7 +109,7 @@
     "faq": {
       "headline": "A few things worth knowing.",
       "q1": "Who can report an item?",
-      "a1": "People can report things they have lost or found. Participating organizations can also use Renuir for their found-item workflow.",
+      "a1": "Browse reports as a guest. Create an account to take part. Publishing may require verification. Optional Boosts are paid.",
       "q2": "Does a match mean it is my item?",
       "a2": "No. A suggested match is a possibility. Compare photos and identifying details, then discuss them with the other person before arranging a return.",
       "q3": "What if there is no match yet?",
@@ -129,7 +129,7 @@
       "eyebrow": "Why we exist",
       "headline": "Good finds deserve a way back.",
       "lead": "A found item and the person looking for it may be closer than they think. The information that connects them is often scattered.",
-      "body": "We’re building a practical place to share reports, compare details and coordinate returns. For organizations, that means a clearer way to handle the finds and enquiries that reach their teams.",
+      "body": "Report a lost or found item, explore possible matches and arrange a return in Renuir.",
       "stat1Label": "Platform for every lost item, from log to return",
       "stat2Label": "Target response on every partner demo request",
       "stat3Label": "Built to EU data-protection standards from day one"
@@ -169,7 +169,7 @@
     "contact": {
       "badge": "Contact us",
       "headline": "Let’s talk.",
-      "subtitle": "Ask about Renuir for your team, an integration, or the way the product works. For account or item-report help, visit Support.",
+      "subtitle": "Questions about Renuir?",
       "sidebar": {
         "title": "Contact Information",
         "emailLabel": "Email",

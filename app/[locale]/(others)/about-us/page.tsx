@@ -2,14 +2,10 @@ import { pageMetadata } from "@/lib/page-metadata";
 import { AboutHero } from "@/components/about/AboutHero";
 import { Mission } from "@/components/about/Mission";
 import { ContactSection } from "@/components/about/ContactSection";
-import { Sectors } from "@/components/about/Sectors";
-import { TrustFeatures } from "@/components/about/TrustFeatures";
 
 const SECTIONS = [
   { Component: AboutHero, className: "" },
   { Component: Mission, className: "" },
-  { Component: Sectors, className: "" },
-  { Component: TrustFeatures, className: "" },
   { Component: ContactSection, className: "" },
 ];
 

@@ -14,9 +14,6 @@ export const shouldIndex = process.env.SITE_NOINDEX !== 'true';
 /** Top-level routes (locale is prefixed per entry). */
 export const ROUTES = [
   '',
-  '/solutions',
-  '/individual',
-  '/developer',
   '/about-us',
   '/privacy',
   '/support',

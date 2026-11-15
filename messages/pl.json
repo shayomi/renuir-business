@@ -18,7 +18,7 @@
     "hero": {
       "line1": "Biuro rzeczy znalezionych,",
       "line2": "na nowo.",
-      "subtitle": "Jedno zgłoszenie. Inteligentne dopasowanie. Bezpieczny zwrot. Renuir łączy ludzi i miejsca, by odzyskać to, co ważne.",
+      "subtitle": "Zgłoś zgubę lub znalezisko, sprawdź możliwe dopasowania i umów zwrot w Renuir.",
       "ctaBusiness": "Rozwiązania dla firm",
       "ctaDownload": "Pobierz aplikację"
     },
@@ -95,7 +95,7 @@
     "faq": {
       "headline": "Kilka przydatnych odpowiedzi.",
       "q1": "Kto może zgłosić przedmiot?",
-      "a1": "Każdy może zgłosić zgubiony lub znaleziony przedmiot. Uczestniczące organizacje mogą też zarządzać znaleziskami w Renuir.",
+      "a1": "Przeglądaj zgłoszenia jako gość. Załóż konto, aby uczestniczyć. Publikacja może wymagać weryfikacji. Opcjonalne Boosty są płatne.",
       "q2": "Czy dopasowanie oznacza, że to mój przedmiot?",
       "a2": "Nie. Sugestia to tylko możliwość. Porównaj zdjęcia i cechy przedmiotu, a następnie porozmawiaj z drugą osobą przed ustaleniem zwrotu.",
       "q3": "Co jeśli nie ma jeszcze dopasowania?",
@@ -115,7 +115,7 @@
       "eyebrow": "Dlaczego istniejemy",
       "headline": "Obsługa rzeczy znalezionych jest niewydolna. My naprawiamy jej fundamenty.",
       "lead": "Każdego dnia obiekty gromadzą przedmioty, których nie da się powiązać z właścicielem, a ludzie rezygnują z rzeczy, które mogliby odzyskać.",
-      "body": "Renuir daje obiektom jedno miejsce do rejestrowania znalezionych przedmiotów, weryfikowania ich prawdziwych właścicieli i zwracania ich bez ujawniania czyichkolwiek danych osobowych. Jesteśmy małym zespołem, który buduje to rozwiązanie z rozwagą, zaczynając od kilku partnerów projektowych w Berlinie.",
+      "body": "Zgłoś zgubę lub znalezisko, sprawdź możliwe dopasowania i umów zwrot w Renuir.",
       "stat1Label": "Platforma dla każdego zgubionego przedmiotu, od rejestracji po zwrot",
       "stat2Label": "Docelowy czas odpowiedzi na każdą prośbę partnera o prezentację",
       "stat3Label": "Zbudowana zgodnie z unijnymi standardami ochrony danych od pierwszego dnia"
@@ -155,7 +155,7 @@
     "contact": {
       "badge": "Kontakt",
       "headline": "Porozmawiajmy.",
-      "subtitle": "Prowadzisz hotel, lotnisko, kampus lub sklep? Umów prezentację i zobacz, jak Renuir obsługuje znalezione przedmioty od początku do końca.",
+      "subtitle": "Pytania o Renuir?",
       "sidebar": {
         "title": "Dane kontaktowe",
         "emailLabel": "E-mail",

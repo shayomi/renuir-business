@@ -1,33 +1,6 @@
-import { pageMetadata } from "@/lib/page-metadata";
-import SolutionImage from "@/components/solutions/Image";
-import { SolutionHero } from "@/components/solutions/SolutionHero";
-import { ManageChaos } from "@/components/solutions/ManageChaos";
-import { SecurityCompliance } from "@/components/solutions/SecurityCompliance";
-import TestimonialsSection from "@/components/solutions/Testimonial";
-import { ClosingCTA } from "@/components/solutions/ClosingCTA";
+import { redirect } from 'next/navigation';
 
-const SECTIONS = [
-  { Component: SolutionHero, className: "" },
-  { Component: SolutionImage, className: "-mt-12 sm:-mt-16 lg:-mt-24" },
-  { Component: ManageChaos, className: "" },
-  { Component: SecurityCompliance, className: "" },
-  { Component: TestimonialsSection, className: "" },
-  { Component: ClosingCTA, className: "" },
-];
-
-export default function SolutionsPage() {
-  return (
-    <main id="main-content" className="overflow-hidden">
-      {SECTIONS.map(({ Component, className }, index) => (
-        <section key={index} className={className}>
-          <Component />
-        </section>
-      ))}
-    </main>
-  );
-}
-
-export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
-  const {locale} = await params;
-  return pageMetadata(locale, "/solutions");
+export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  redirect(`/${locale}/support`);
 }

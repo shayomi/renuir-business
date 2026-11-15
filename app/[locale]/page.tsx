@@ -1,12 +1,14 @@
-import { HomeHero } from '@/components/home/HomeHero';
-import { AudienceRoutes } from '@/components/home/AudienceRoutes';
-import { HowItWorks } from '@/components/home/HowItWorks';
-import { BusinessBridge } from '@/components/home/BusinessBridge';
-import { RecoveryFAQ } from '@/components/home/RecoveryFAQ';
-import { ClosingCTA } from '@/components/home/ClosingCTA';
+import type { Metadata } from 'next';
+import ProductLanding from '@/components/product/ProductLanding';
+import { getProductContent } from '@/components/product/content';
+import { SITE_URL, languageAlternates } from '@/lib/site';
 
-const SECTIONS = [HomeHero, AudienceRoutes, HowItWorks, BusinessBridge, RecoveryFAQ, ClosingCTA];
-
-export default function Home() {
-  return <main id="main-content" className="overflow-hidden">{SECTIONS.map(Component => <Component key={Component.name} />)}</main>;
+export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  return <ProductLanding locale={locale} />;
+}
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const c = getProductContent(locale);
+  return { title: c.title, description: c.intro, alternates: { canonical: `${SITE_URL}/${locale}`, languages: languageAlternates('') }, openGraph: { title: c.title, description: c.intro }, twitter: { title: c.title, description: c.intro } };
 }

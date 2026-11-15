@@ -18,7 +18,7 @@
     "hero": {
       "line1": "Verloren oder gefunden?",
       "line2": "Hier geht’s weiter.",
-      "subtitle": "Melde verlorene oder gefundene Gegenstände, entdecke mögliche Treffer in deiner Nähe und vereinbare die Rückgabe direkt in der App.",
+      "subtitle": "Melde Verlorenes oder Gefundenes, prüfe mögliche Treffer und vereinbare eine Rückgabe in Renuir.",
       "ctaBusiness": "Für Unternehmen",
       "ctaDownload": "So funktioniert’s"
     },
@@ -109,7 +109,7 @@
     "faq": {
       "headline": "Gut zu wissen.",
       "q1": "Wer kann einen Gegenstand melden?",
-      "a1": "Menschen können Gegenstände melden, die sie verloren oder gefunden haben. Teilnehmende Einrichtungen können Renuir ebenfalls für ihre Fundabwicklung nutzen.",
+      "a1": "Als Gast kannst du Meldungen ansehen. Zum Mitmachen brauchst du ein Konto. Vor dem Veröffentlichen kann eine Verifizierung nötig sein. Optionale Boosts sind kostenpflichtig.",
       "q2": "Bedeutet ein Treffer, dass es mein Gegenstand ist?",
       "a2": "Nein. Ein vorgeschlagener Treffer ist eine Möglichkeit. Vergleiche Fotos und besondere Merkmale und besprecht sie, bevor ihr die Rückgabe vereinbart.",
       "q3": "Was passiert, wenn es noch keinen Treffer gibt?",
@@ -129,7 +129,7 @@
       "eyebrow": "Warum es uns gibt",
       "headline": "Gute Funde brauchen einen Weg zurück.",
       "lead": "Ein gefundener Gegenstand und die Person, die ihn sucht, sind sich vielleicht näher als gedacht. Die verbindenden Informationen liegen oft verstreut.",
-      "body": "Wir schaffen einen praktischen Ort, um Meldungen zu teilen, Details zu vergleichen und Rückgaben zu vereinbaren. Einrichtungen erhalten einen klareren Ablauf für Funde und Anfragen.",
+      "body": "Melde Verlorenes oder Gefundenes, prüfe mögliche Treffer und vereinbare eine Rückgabe in Renuir.",
       "stat1Label": "Plattform für jeden verlorenen Gegenstand, von der Erfassung bis zur Rückgabe",
       "stat2Label": "Angestrebte Reaktionszeit auf jede Partner-Demoanfrage",
       "stat3Label": "Von Tag eins an nach EU-Datenschutzstandards entwickelt"
@@ -169,7 +169,7 @@
     "contact": {
       "badge": "Kontakt",
       "headline": "Sprechen wir miteinander.",
-      "subtitle": "Fragen Sie nach Renuir für Ihr Team, einer Integration oder der Funktionsweise. Bei Fragen zu Konto oder Meldungen hilft der Support.",
+      "subtitle": "Fragen zu Renuir?",
       "sidebar": {
         "title": "Kontaktinformationen",
         "emailLabel": "E-Mail",
