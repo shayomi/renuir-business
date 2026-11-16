@@ -26,5 +26,60 @@
   "safety": "Bezpieczeństwo",
   "support": "Pomoc",
   "safetyTitle": "Prywatność w praktyce.",
-  "safetyBody": "Nie ujawniaj publicznie cech pozwalających potwierdzić własność. Sprawdzaj właściciela, spotykaj się publicznie i zgłaszaj nieodpowiednie treści w aplikacji."
+  "safetyBody": "Nie ujawniaj publicznie cech pozwalających potwierdzić własność. Sprawdzaj właściciela, spotykaj się publicznie i zgłaszaj nieodpowiednie treści w aplikacji.",
+  "comparisonTitle": "Zguby są rozproszone. Renuir zbiera je w jednym miejscu.",
+  "comparisonIntro": "Dziś odzyskanie rzeczy oznacza publikowanie wszędzie i nadzieję, że zobaczy to właściwa osoba. Renuir łączy właścicieli i znalazców bezpośrednio.",
+  "traditionalTitle": "Tak jak zwykle",
+  "traditionalItems": [
+    "Publikowanie w dziesiątkach lokalnych grup",
+    "Dzwonienie po kolei do biur rzeczy znalezionych",
+    "Codzienne przeglądanie ogłoszeń",
+    "Podawanie numeru telefonu obcym osobom"
+  ],
+  "renuirItems": [
+    "Jedno miejsce na zgłoszenie zguby lub znaleziska",
+    "Porównywanie możliwych dopasowań z pomocą AI",
+    "Powiadomienia o możliwych dopasowaniach",
+    "Czat w aplikacji do ustalenia zwrotu"
+  ],
+  "sidesTitle": "Niezależnie od tego, po której stronie jesteś.",
+  "lostLabel": "Zgubiłem coś",
+  "foundLabel": "Znalazłem coś",
+  "lostBody": "Opisz zgubę. Sprawdź pobliskie znaleziska i możliwe dopasowania.",
+  "foundBody": "Zgłoś znalezisko, sprawdź szczegóły własności i umów przekazanie.",
+  "venueTitle": "Prowadzisz hotel, lotnisko lub obiekt?",
+  "venueBody": "Pytania o rzeczy znalezione w Twoim obiekcie? Porozmawiajmy.",
+  "faqTitle": "Pytania i odpowiedzi.",
+  "faqQuestions": [
+    "Czy Renuir jest darmowy?",
+    "Jak działa dopasowywanie?",
+    "Czy moje dane osobowe są bezpieczne?",
+    "Jak wyglądają spotkania?",
+    "Znalazłem coś. Co mam opublikować?"
+  ],
+  "faqAnswers": [
+    "Przeglądaj zgłoszenia jako gość. Załóż konto, aby uczestniczyć. Publikacja może wymagać weryfikacji. Opcjonalne Boosty są płatne.",
+    "Porównaj zdjęcia, miejsca i daty. Sugestie AI pomagają w poszukiwaniach, ale nie są dowodem własności.",
+    "Pisz w aplikacji i sprawdź cechy szczególne przed ustaleniem zwrotu. Nie musisz udostępniać numeru telefonu, aby rozmawiać.",
+    "Ustal publiczne miejsce spotkania i potwierdź osobisty zwrot jednorazowym kodem przekazania.",
+    "Dodaj zdjęcia, opis, miejsce i czas. Za Twoją zgodą AI może zaproponować szczegóły zgłoszenia."
+  ],
+  "safetyItems": [
+    {
+      "title": "Anonimowy czat",
+      "body": "Pisz w aplikacji i sprawdź cechy szczególne przed ustaleniem zwrotu. Nie musisz udostępniać numeru telefonu, aby rozmawiać."
+    },
+    {
+      "title": "Weryfikacja własności",
+      "body": "Znalazca pyta o szczegóły, które zna tylko prawdziwy właściciel."
+    },
+    {
+      "title": "Bezpieczne miejsca spotkań",
+      "body": "Wybierz miejsce publiczne, np. dworzec, bibliotekę lub komisariat."
+    },
+    {
+      "title": "Jednorazowy kod przekazania",
+      "body": "6-cyfrowy kod potwierdza zwrot na miejscu."
+    }
+  ]
 }

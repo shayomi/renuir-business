@@ -22,8 +22,8 @@ export default function ImprintPage() {
 
       <section>
         <h2>{t("contactTitle")}</h2>
-        <p>{t("contactEmail")}</p>
-        <p>{t("contactPhone")}</p>
+        <p><a href="mailto:info@renuir.com">{t("contactEmail")}</a></p>
+        <p><a href="tel:+4917632303721">{t("contactPhone")}</a></p>
       </section>
 
       <section>

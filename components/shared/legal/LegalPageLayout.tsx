@@ -23,7 +23,7 @@ export async function LegalPageLayout({
       <main id="main-content" className="app-container py-10 sm:py-12 lg:py-14">
         <div className="mx-auto max-w-5xl">
           <header className="mb-9 max-w-[70ch] sm:mb-10">
-            <Typography variant="h1" className="mb-4">
+            <Typography variant="h1" className="mb-4 text-balance hyphens-auto [overflow-wrap:anywhere] text-[clamp(2.1rem,4.2vw,3.4rem)] font-bold leading-[1.08] tracking-[-.045em]">
               {title}
             </Typography>
             {description && <p className="mt-4 max-w-xl text-base leading-relaxed text-muted-foreground">{description}</p>}

@@ -20,7 +20,7 @@ export default async function SupportPage({
       <section>
         <h2>{faq("headline")}</h2>
         <div className="support-faq">
-          {[1, 2, 3, 4].map(i => (
+          {[1, 2, 3, 4, 5, 6].map(i => (
             <details key={i} className="group border-b border-border">
               <summary className="flex min-h-14 cursor-pointer list-none items-center justify-between gap-5 py-4 font-medium marker:content-none focus-visible:rounded focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary">
                 {faq(`q${i}`)}
@@ -44,8 +44,8 @@ export default async function SupportPage({
         <h2>{german ? "Direkt in der App" : "Contact us in the app"}</h2>
         <p>
           {german
-            ? "Öffne Profil → Einstellungen → Hilfe & Support → Support kontaktieren. So können wir deine Anfrage schneller dem richtigen Bereich zuordnen."
-            : "Open Profile → Settings → Help & Support → Contact Support. This helps us route your request to the right team more quickly."}
+            ? "Öffne Profil → Hilfe & Support → Support kontaktieren. So können wir deine Anfrage schneller dem richtigen Bereich zuordnen."
+            : "Open Profile → Help & Support → Contact Support. This helps us route your request to the right team more quickly."}
         </p>
       </section>
       <section>

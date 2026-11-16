@@ -19,7 +19,7 @@ export function BusinessContactForm({ source = 'contact', cta, className }: Busi
   const v = useTranslations('common.validation');
   const id = useId();
   const [status, setStatus] = useState<'idle' | 'loading' | 'done' | 'error'>('idle');
-  const schema = z.object({ name: z.string().trim().min(2, v('name')).max(120, v('name')), company: z.string().trim().min(2, v('company')).max(160, v('company')), email: z.string().trim().email(v('email')), message: z.string().max(1200, v('message')).optional(), website: z.string().optional() });
+  const schema = z.object({ name: z.string().trim().min(2, v('name')).max(120, v('name')), company: z.string().trim().max(160, v('company')), email: z.string().trim().email(v('email')), message: z.string().max(1200, v('message')).optional(), website: z.string().optional() });
   const { register, handleSubmit, formState: { errors } } = useForm<Values>({ resolver: zodResolver(schema) });
   const submit = async (values: Values) => {
     setStatus('loading');
@@ -34,7 +34,7 @@ export function BusinessContactForm({ source = 'contact', cta, className }: Busi
   return <form onSubmit={handleSubmit(submit)} noValidate aria-busy={status === 'loading'} className={cn('grid gap-5', className)}>
     <input type="text" tabIndex={-1} autoComplete="off" aria-hidden className="hidden" {...register('website')} />
     <div className="grid gap-5 sm:grid-cols-2">{fields.map(name => <div key={name} className={cn('grid gap-2', name === 'email' && 'sm:col-span-2')}>
-      <label htmlFor={`${id}-${name}`} className="text-sm font-medium">{t(name === 'company' ? 'organization' : name)}</label>
+      <label htmlFor={`${id}-${name}`} className="text-sm font-medium">{t(name === 'company' ? 'organization' : name)} {name === 'company' ? t('messageOptional') : ''}</label>
       <input id={`${id}-${name}`} type={name === 'email' ? 'email' : 'text'} autoComplete={name === 'company' ? 'organization' : name} placeholder={t(name === 'company' ? 'organizationPlaceholder' : `${name}Placeholder`)} disabled={status === 'loading'} aria-invalid={!!errors[name]} aria-describedby={errors[name] ? `${id}-${name}-error` : undefined} className={fieldClass} {...register(name)} />
       {errors[name] && <p id={`${id}-${name}-error`} role="alert" className="text-sm text-destructive">{errors[name]?.message}</p>}
     </div>)}</div>

@@ -26,5 +26,60 @@
   "safety": "Safety",
   "support": "Support",
   "safetyTitle": "Privacy first, practical always.",
-  "safetyBody": "Keep identifying details out of public posts. Check ownership, meet in a public place, and report inappropriate content in the app."
+  "safetyBody": "Keep identifying details out of public posts. Check ownership, meet in a public place, and report inappropriate content in the app.",
+  "comparisonTitle": "Lost and found is scattered. Renuir brings it together.",
+  "comparisonIntro": "Today, getting something back means posting everywhere and hoping the right person sees it. Renuir connects owners and finders directly.",
+  "traditionalTitle": "The usual way",
+  "traditionalItems": [
+    "Post in a dozen neighborhood groups and hope",
+    "Call lost-property offices one by one",
+    "Scroll through posts and check back every day",
+    "Give your phone number to strangers"
+  ],
+  "renuirItems": [
+    "One place for your lost or found report",
+    "AI-assisted comparisons of possible matches",
+    "Notifications about possible matches",
+    "In-app chat to arrange a return"
+  ],
+  "sidesTitle": "Whichever side you’re on.",
+  "lostLabel": "I lost something",
+  "foundLabel": "I found something",
+  "lostBody": "Describe your lost item. Check nearby finds and possible matches.",
+  "foundBody": "Share what you found, check ownership details and arrange a handover.",
+  "venueTitle": "Run a hotel, airport or venue?",
+  "venueBody": "Questions about lost property at your venue? Talk to us.",
+  "faqTitle": "Questions, answered.",
+  "faqQuestions": [
+    "Is Renuir free to use?",
+    "How does matching work?",
+    "Is my personal information safe?",
+    "How do meetings work?",
+    "I found something. What should I post?"
+  ],
+  "faqAnswers": [
+    "Browse reports as a guest. Create an account to take part. Publishing may require verification. Optional Boosts are paid.",
+    "Compare lost and found reports using photos, location and timing. AI suggestions help you look; they do not prove ownership.",
+    "Message the other person in the app and check identifying details before arranging a return. You do not need to share your phone number to chat.",
+    "Agree on a public meeting place and confirm an in-person return with a one-time handover code.",
+    "Add photos, a description, and where and when. With your permission, AI can suggest details for your report."
+  ],
+  "safetyItems": [
+    {
+      "title": "Anonymous chat",
+      "body": "Message the other person in the app and check identifying details before arranging a return. You do not need to share your phone number to chat."
+    },
+    {
+      "title": "Ownership check",
+      "body": "Finders ask for details only the real owner would know."
+    },
+    {
+      "title": "Safe meeting spots",
+      "body": "Pick a public place like a station, library or police station."
+    },
+    {
+      "title": "One-time handover code",
+      "body": "A 6-digit code confirms the return in person."
+    }
+  ]
 }

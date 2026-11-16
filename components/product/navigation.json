@@ -1,0 +1,202 @@
+{
+  "de": {
+    "links": [
+      {
+        "href": "#why",
+        "label": "Warum Renuir"
+      },
+      {
+        "href": "#how",
+        "label": "So funktioniert’s"
+      },
+      {
+        "href": "#safety",
+        "label": "Sicherheit"
+      },
+      {
+        "href": "#venues",
+        "label": "Für Unternehmen"
+      },
+      {
+        "href": "#faq",
+        "label": "FAQ"
+      }
+    ],
+    "cta": "App entdecken"
+  },
+  "en": {
+    "links": [
+      {
+        "href": "#why",
+        "label": "Why Renuir"
+      },
+      {
+        "href": "#how",
+        "label": "How it works"
+      },
+      {
+        "href": "#safety",
+        "label": "Safety"
+      },
+      {
+        "href": "#venues",
+        "label": "For venues"
+      },
+      {
+        "href": "#faq",
+        "label": "FAQ"
+      }
+    ],
+    "cta": "Explore the app"
+  },
+  "ar": {
+    "links": [
+      {
+        "href": "#why",
+        "label": "لماذا Renuir"
+      },
+      {
+        "href": "#how",
+        "label": "كيف يعمل"
+      },
+      {
+        "href": "#safety",
+        "label": "الأمان"
+      },
+      {
+        "href": "#venues",
+        "label": "للأعمال"
+      },
+      {
+        "href": "#faq",
+        "label": "الأسئلة الشائعة"
+      }
+    ],
+    "cta": "اكتشف التطبيق"
+  },
+  "es": {
+    "links": [
+      {
+        "href": "#why",
+        "label": "Por qué Renuir"
+      },
+      {
+        "href": "#how",
+        "label": "Cómo funciona"
+      },
+      {
+        "href": "#safety",
+        "label": "Seguridad"
+      },
+      {
+        "href": "#venues",
+        "label": "Para empresas"
+      },
+      {
+        "href": "#faq",
+        "label": "Preguntas"
+      }
+    ],
+    "cta": "Descubre la app"
+  },
+  "fr": {
+    "links": [
+      {
+        "href": "#why",
+        "label": "Pourquoi Renuir"
+      },
+      {
+        "href": "#how",
+        "label": "Comment ça marche"
+      },
+      {
+        "href": "#safety",
+        "label": "Sécurité"
+      },
+      {
+        "href": "#venues",
+        "label": "Pour les pros"
+      },
+      {
+        "href": "#faq",
+        "label": "FAQ"
+      }
+    ],
+    "cta": "Découvrir l’app"
+  },
+  "pl": {
+    "links": [
+      {
+        "href": "#why",
+        "label": "Dlaczego Renuir"
+      },
+      {
+        "href": "#how",
+        "label": "Jak to działa"
+      },
+      {
+        "href": "#safety",
+        "label": "Bezpieczeństwo"
+      },
+      {
+        "href": "#venues",
+        "label": "Dla firm"
+      },
+      {
+        "href": "#faq",
+        "label": "FAQ"
+      }
+    ],
+    "cta": "Poznaj aplikację"
+  },
+  "pt": {
+    "links": [
+      {
+        "href": "#why",
+        "label": "Porquê a Renuir"
+      },
+      {
+        "href": "#how",
+        "label": "Como funciona"
+      },
+      {
+        "href": "#safety",
+        "label": "Segurança"
+      },
+      {
+        "href": "#venues",
+        "label": "Para empresas"
+      },
+      {
+        "href": "#faq",
+        "label": "FAQ"
+      }
+    ],
+    "cta": "Conheça a app"
+  },
+  "tr": {
+    "links": [
+      {
+        "href": "#why",
+        "label": "Neden Renuir"
+      },
+      {
+        "href": "#how",
+        "label": "Nasıl çalışır"
+      },
+      {
+        "href": "#safety",
+        "label": "Güvenlik"
+      },
+      {
+        "href": "#venues",
+        "label": "İşletmeler için"
+      },
+      {
+        "href": "#faq",
+        "label": "SSS"
+      }
+    ],
+    "cta": "Uygulamayı keşfet"
+  }
+}

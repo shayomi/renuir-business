@@ -26,5 +26,60 @@
   "safety": "Sécurité",
   "support": "Assistance",
   "safetyTitle": "Protéger sa vie privée, concrètement.",
-  "safetyBody": "Gardez les détails distinctifs hors des publications publiques. Vérifiez la propriété, rencontrez-vous dans un lieu public et signalez les contenus inappropriés dans l’app."
+  "safetyBody": "Gardez les détails distinctifs hors des publications publiques. Vérifiez la propriété, rencontrez-vous dans un lieu public et signalez les contenus inappropriés dans l’app.",
+  "comparisonTitle": "Les objets perdus sont éparpillés. Renuir les rassemble.",
+  "comparisonIntro": "Aujourd’hui, récupérer un objet, c’est publier partout en espérant que la bonne personne le voie. Renuir met directement en relation propriétaires et personnes qui trouvent.",
+  "traditionalTitle": "La méthode habituelle",
+  "traditionalItems": [
+    "Publier dans des dizaines de groupes de quartier",
+    "Appeler les bureaux des objets trouvés un par un",
+    "Parcourir les annonces tous les jours",
+    "Donner ton numéro à des inconnus"
+  ],
+  "renuirItems": [
+    "Un seul endroit pour vos signalements",
+    "Comparaison des pistes assistée par IA",
+    "Notifications de correspondances possibles",
+    "Une messagerie pour organiser la restitution"
+  ],
+  "sidesTitle": "Quel que soit ton côté.",
+  "lostLabel": "J’ai perdu quelque chose",
+  "foundLabel": "J’ai trouvé quelque chose",
+  "lostBody": "Décrivez l’objet perdu. Consultez les objets trouvés à proximité et les correspondances possibles.",
+  "foundBody": "Signalez votre trouvaille, vérifiez les détails de propriété et organisez la remise.",
+  "venueTitle": "Tu gères un hôtel, un aéroport ou un lieu public ?",
+  "venueBody": "Des questions sur les objets trouvés dans votre établissement ? Contactez-nous.",
+  "faqTitle": "Questions fréquentes.",
+  "faqQuestions": [
+    "Renuir est-il gratuit ?",
+    "Comment fonctionnent les correspondances ?",
+    "Mes données personnelles sont-elles protégées ?",
+    "Comment se passent les rendez-vous ?",
+    "J’ai trouvé un objet. Que dois-je publier ?"
+  ],
+  "faqAnswers": [
+    "Consultez les annonces en tant qu’invité. Créez un compte pour participer. Une vérification peut être nécessaire pour publier. Les Boosts facultatifs sont payants.",
+    "Comparez les photos, les lieux et les dates. Les suggestions de l’IA aident à chercher, mais ne prouvent pas la propriété.",
+    "Discutez dans l’app et vérifiez les signes distinctifs avant de convenir d’une restitution. Inutile de partager votre numéro de téléphone pour discuter.",
+    "Choisissez un lieu public et confirmez la remise en personne avec un code à usage unique.",
+    "Ajoutez des photos, une description, un lieu et une date. Avec votre accord, l’IA peut suggérer des détails pour votre signalement."
+  ],
+  "safetyItems": [
+    {
+      "title": "Chat anonyme",
+      "body": "Discutez dans l’app et vérifiez les signes distinctifs avant de convenir d’une restitution. Inutile de partager votre numéro de téléphone pour discuter."
+    },
+    {
+      "title": "Vérification de propriété",
+      "body": "La personne qui a trouvé l’objet pose des questions que seul le vrai propriétaire peut connaître."
+    },
+    {
+      "title": "Lieux de rendez-vous sûrs",
+      "body": "Choisis un lieu public comme une gare, une bibliothèque ou un commissariat."
+    },
+    {
+      "title": "Code de remise unique",
+      "body": "Un code à 6 chiffres confirme la remise en personne."
+    }
+  ]
 }

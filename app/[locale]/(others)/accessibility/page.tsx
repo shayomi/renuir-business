@@ -42,11 +42,13 @@ export default function AccessibilityPage() {
       <section>
         <h2>{t("feedbackTitle")}</h2>
         <p>{t("feedbackBody")}</p>
+        <p><a href="mailto:info@renuir.com">info@renuir.com</a></p>
       </section>
 
       <section>
         <h2>{t("enforcementTitle")}</h2>
         <p>{t("enforcementBody")}</p>
+        <p><a href="https://www.mlbf-barrierefrei.de/Kontakt/">MLBF – Kontakt</a></p>
       </section>
     </LegalPageLayout>
   );

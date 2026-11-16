@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { pageMetadata } from "@/lib/page-metadata";
 import { LegalPageLayout } from "@/components/shared/legal/LegalPageLayout";
 export default async function DeleteAccountPage({
@@ -11,22 +12,29 @@ export default async function DeleteAccountPage({
   return (
     <LegalPageLayout
       title={german ? "Renuir-Konto löschen" : "Delete your Renuir account"}
-      lastUpdated={german ? "Stand: 31. August 2026" : "Last updated: August 31, 2026"}
+      lastUpdated={german ? "Stand: 16. November 2026" : "Last updated: November 16, 2026"}
     >
       <section>
         <h2>{german ? "In der App löschen" : "Delete in the app"}</h2>
         <p>
           {german
-            ? "Öffne Renuir und gehe zu Profil → Einstellungen → Sicherheit → Konto löschen. Bestätige die Anfrage mit der angezeigten Sicherheitsprüfung."
-            : "Open Renuir and go to Profile → Settings → Security → Delete Account. Complete the security check shown in the app to confirm your request."}
+            ? "Öffne Renuir und gehe zu Profil → Sicherheit → Konto löschen. Bestätige die Anfrage mit der angezeigten Sicherheitsprüfung."
+            : "Open Renuir and go to Profile → Security → Delete Account. Complete the security check shown in the app to confirm your request."}
         </p>
+      </section>
+      <section>
+        <h2>{german ? "Löschung abbrechen" : "Cancel a pending deletion"}</h2>
+        <p>{german
+          ? "Melde dich vor dem in deiner E-Mail genannten Löschdatum in der App an und nutze die Abbruchfunktion. Warte auf die Bestätigung in der App. Das Öffnen einer Website oder eines E-Mail-Links allein bricht die Löschung nicht ab."
+          : "Sign in to the app before the deletion date in your email and use the cancellation option. Wait for confirmation in the app. Opening a website or email link alone does not cancel deletion."}</p>
+        <p><Link href="/settings/security">{german ? "Schritte zum Abbrechen der Löschung" : "Steps to cancel deletion"}</Link></p>
       </section>
       <section>
         <h2>{german ? "Was danach passiert" : "What happens next"}</h2>
         <p>
           {german
-            ? "Dein Konto wird für 14 Tage zur Löschung vorgemerkt und pausiert. Während dieser Frist kannst du die Löschung unter Einstellungen → Sicherheit abbrechen. Nach Ablauf der Frist wird dein Konto endgültig gelöscht, sofern keine gesetzliche Aufbewahrungspflicht oder offene Zahlung die Löschung verhindert."
-            : "Your account is paused and scheduled for deletion with a 14-day grace period. You can cancel the request in Settings → Security during that period. After the grace period, your account is permanently deleted unless a legal preservation obligation or an unresolved payment prevents deletion."}
+            ? "Dein Konto wird für 14 Tage zur Löschung vorgemerkt und pausiert. Während dieser Frist kannst du die Löschung unter Profil → Rechtliches → Datenverarbeitung (DSGVO) mit „Geplante Löschung abbrechen“ stornieren. Nach Ablauf der Frist wird dein Konto endgültig gelöscht, sofern keine gesetzliche Aufbewahrungspflicht oder offene Zahlung die Löschung verhindert."
+            : "Your account is paused and scheduled for deletion with a 14-day grace period. You can cancel the request under Profile → Legal → Data Processing (GDPR) → Cancel pending deletion during that period. After the grace period, your account is permanently deleted unless a legal preservation obligation or an unresolved payment prevents deletion."}
         </p>
         <p>
           {german
@@ -46,6 +54,7 @@ export default async function DeleteAccountPage({
             ? "Schreibe von der E-Mail-Adresse deines Renuir-Kontos an privacy@renuir.com. Gib niemals dein Passwort, Einmalcodes oder Ausweisdokumente per E-Mail weiter. Wir führen vor der Bearbeitung eine Identitätsprüfung durch."
             : "Email privacy@renuir.com from the address associated with your Renuir account. Never send your password, one-time codes, or identity documents by email. We will complete an identity check before processing the request."}
         </p>
+        <p><a href="mailto:privacy@renuir.com?subject=Renuir%20account%20deletion">privacy@renuir.com</a></p>
       </section>
     </LegalPageLayout>
   );

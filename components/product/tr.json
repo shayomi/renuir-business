@@ -26,5 +26,60 @@
   "safety": "Güvenlik",
   "support": "Destek",
   "safetyTitle": "Gizlilik ve pratik yardım.",
-  "safetyBody": "Ayırt edici ayrıntıları herkese açık gönderilerde paylaşmayın. Sahipliği kontrol edin, halka açık bir yerde buluşun ve uygunsuz içeriği uygulamada bildirin."
+  "safetyBody": "Ayırt edici ayrıntıları herkese açık gönderilerde paylaşmayın. Sahipliği kontrol edin, halka açık bir yerde buluşun ve uygunsuz içeriği uygulamada bildirin.",
+  "comparisonTitle": "Kayıp eşyalar her yere dağılmış durumda. Renuir hepsini bir araya getirir.",
+  "comparisonIntro": "Bugün bir eşyayı geri almak, her yerde paylaşıp doğru kişinin görmesini ummak demek. Renuir eşya sahiplerini ve bulanları doğrudan buluşturur.",
+  "traditionalTitle": "Alışılmış yol",
+  "traditionalItems": [
+    "Onlarca mahalle grubunda paylaşıp ummak",
+    "Kayıp eşya bürolarını tek tek aramak",
+    "Her gün ilanlara bakmak",
+    "Telefon numaranızı yabancılara vermek"
+  ],
+  "renuirItems": [
+    "Kayıp veya bulunan eşya bildiriminiz için tek yer",
+    "Olası eşleşmelerin yapay zekâ destekli karşılaştırması",
+    "Olası eşleşmeler hakkında bildirimler",
+    "İadeyi planlamak için uygulama içi sohbet"
+  ],
+  "sidesTitle": "Hangi taraftaysanız.",
+  "lostLabel": "Bir şey kaybettim",
+  "foundLabel": "Bir şey buldum",
+  "lostBody": "Kaybolan eşyanızı tarif edin. Yakındaki bulunan eşyaları ve olası eşleşmeleri inceleyin.",
+  "foundBody": "Bulduğunuz eşyayı paylaşın, sahiplik ayrıntılarını kontrol edin ve teslimatı planlayın.",
+  "venueTitle": "Bir otel, havalimanı veya mekân mı işletiyorsunuz?",
+  "venueBody": "İşletmenizdeki kayıp eşyalar hakkında sorunuz mu var? Bize ulaşın.",
+  "faqTitle": "Sık sorulan sorular.",
+  "faqQuestions": [
+    "Renuir ücretsiz mi?",
+    "Eşleştirme nasıl çalışır?",
+    "Kişisel bilgilerim güvende mi?",
+    "Buluşmalar nasıl işler?",
+    "Bir şey buldum. Ne paylaşmalıyım?"
+  ],
+  "faqAnswers": [
+    "Misafir olarak bildirimleri inceleyin. Katılmak için hesap oluşturun. Yayınlamak doğrulama gerektirebilir. İsteğe bağlı Boostlar ücretlidir.",
+    "Fotoğrafları, yerleri ve zamanları karşılaştırın. Yapay zekâ önerileri aramaya yardımcı olur; sahipliği kanıtlamaz.",
+    "İadeyi planlamadan önce uygulamada mesajlaşın ve ayırt edici ayrıntıları kontrol edin. Sohbet için telefon numaranızı paylaşmanız gerekmez.",
+    "Halka açık bir buluşma yeri seçin ve yüz yüze iadeyi tek kullanımlık teslim koduyla onaylayın.",
+    "Fotoğraf, açıklama, yer ve zaman ekleyin. İzninizle yapay zekâ bildiriminiz için ayrıntılar önerebilir."
+  ],
+  "safetyItems": [
+    {
+      "title": "Anonim sohbet",
+      "body": "İadeyi planlamadan önce uygulamada mesajlaşın ve ayırt edici ayrıntıları kontrol edin. Sohbet için telefon numaranızı paylaşmanız gerekmez."
+    },
+    {
+      "title": "Sahiplik kontrolü",
+      "body": "Bulan kişi, yalnızca gerçek sahibinin bileceği ayrıntıları sorar."
+    },
+    {
+      "title": "Güvenli buluşma noktaları",
+      "body": "İstasyon, kütüphane veya karakol gibi herkese açık bir yer seçin."
+    },
+    {
+      "title": "Tek kullanımlık teslim kodu",
+      "body": "6 haneli bir kod, teslimi yüz yüze onaylar."
+    }
+  ]
 }

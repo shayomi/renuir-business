@@ -59,7 +59,7 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       ...['ar', 'es', 'fr', 'pl', 'pt', 'tr'].flatMap((locale) =>
-        ['privacy', 'terms', 'support', 'delete-account'].map((page) => ({
+        ['privacy', 'terms', 'support', 'delete-account', 'cookies', 'imprint', 'accessibility'].map((page) => ({
           source: `/${locale}/${page}`,
           destination: `/en/${page}`,
           permanent: false,

@@ -45,7 +45,7 @@ export function ContactSection() {
                       {label}
                     </span>
                     <span className="block text-[15px] font-medium text-foreground">
-                      {value}
+                      {value.includes("@") ? <a href={`mailto:${value}`} className="underline underline-offset-4">{value}</a> : value}
                     </span>
                   </span>
                 </li>

@@ -26,5 +26,60 @@
   "safety": "Segurança",
   "support": "Ajuda",
   "safetyTitle": "Privacidade com sentido prático.",
-  "safetyBody": "Não publique detalhes identificativos únicos. Verifique a propriedade, encontre-se num local público e denuncie conteúdo inadequado na app."
+  "safetyBody": "Não publique detalhes identificativos únicos. Verifique a propriedade, encontre-se num local público e denuncie conteúdo inadequado na app.",
+  "comparisonTitle": "Os perdidos e achados estão espalhados. A Renuir junta tudo.",
+  "comparisonIntro": "Hoje, recuperar algo significa publicar em todo o lado e esperar que a pessoa certa veja. A Renuir liga diretamente donos e quem encontra.",
+  "traditionalTitle": "O costume",
+  "traditionalItems": [
+    "Publicar em dezenas de grupos do bairro e esperar",
+    "Ligar para os perdidos e achados um a um",
+    "Ver publicações todos os dias",
+    "Dar o teu número a desconhecidos"
+  ],
+  "renuirItems": [
+    "Um lugar para as suas publicações",
+    "Comparação de possíveis correspondências com IA",
+    "Notificações de possíveis correspondências",
+    "Conversa na app para combinar a devolução"
+  ],
+  "sidesTitle": "Seja qual for o teu lado.",
+  "lostLabel": "Perdi algo",
+  "foundLabel": "Encontrei algo",
+  "lostBody": "Descreva o objeto perdido. Consulte achados próximos e possíveis correspondências.",
+  "foundBody": "Publique o que encontrou, verifique detalhes de propriedade e combine a entrega.",
+  "venueTitle": "Geres um hotel, um aeroporto ou um espaço?",
+  "venueBody": "Dúvidas sobre objetos perdidos no seu estabelecimento? Fale connosco.",
+  "faqTitle": "Perguntas frequentes.",
+  "faqQuestions": [
+    "A Renuir é gratuita?",
+    "Como funcionam as correspondências?",
+    "Os meus dados pessoais estão seguros?",
+    "Como funcionam os encontros?",
+    "Encontrei algo. O que devo publicar?"
+  ],
+  "faqAnswers": [
+    "Explore publicações como visitante. Crie uma conta para participar. Publicar pode exigir verificação. Os Boosts opcionais são pagos.",
+    "Compare fotografias, locais e datas. As sugestões de IA ajudam na pesquisa, mas não comprovam a propriedade.",
+    "Troque mensagens na app e verifique detalhes distintivos antes de combinar a devolução. Não precisa de partilhar o telefone para conversar.",
+    "Combine um local público e confirme a devolução presencial com um código de entrega de utilização única.",
+    "Adicione fotografias, uma descrição, o local e a data. Com a sua autorização, a IA pode sugerir detalhes para a publicação."
+  ],
+  "safetyItems": [
+    {
+      "title": "Conversa anónima",
+      "body": "Troque mensagens na app e verifique detalhes distintivos antes de combinar a devolução. Não precisa de partilhar o telefone para conversar."
+    },
+    {
+      "title": "Verificação de propriedade",
+      "body": "Quem encontrou pergunta detalhes que só o verdadeiro dono conhece."
+    },
+    {
+      "title": "Pontos de encontro seguros",
+      "body": "Escolhe um local público, como uma estação, uma biblioteca ou uma esquadra."
+    },
+    {
+      "title": "Código de entrega único",
+      "body": "Um código de 6 dígitos confirma a devolução em pessoa."
+    }
+  ]
 }

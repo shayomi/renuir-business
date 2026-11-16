@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { SITE_URL, shouldIndex, languageAlternates } from "@/lib/site";
 import "../globals.css";
+import "@/components/product/supplied.css";
 import Footer from "@/components/shared/footer/Footer";
 import { CookieConsent } from "@/components/shared/CookieConsent";
 import { ConsentedAnalytics } from "@/components/shared/ConsentedAnalytics";

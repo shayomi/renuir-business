@@ -57,6 +57,8 @@ export default function PrivacyPage() {
       <section>
         <h2>{t("transfersTitle")}</h2>
         <p>{t("transfersBody")}</p>
+        <p><a href="https://stripe.com/legal/dpa">Stripe Data Processing Agreement</a></p>
+        <p><a href="mailto:privacy@renuir.com">privacy@renuir.com</a></p>
       </section>
 
       <section>
@@ -77,6 +79,7 @@ export default function PrivacyPage() {
       <section>
         <h2>{t("supervisoryTitle")}</h2>
         <p>{t("supervisoryBody")}</p>
+        <p><a href="https://www.datenschutz-berlin.de/ueber-uns/kontakt/">Berliner Beauftragte für Datenschutz und Informationsfreiheit</a></p>
       </section>
 
       <section>

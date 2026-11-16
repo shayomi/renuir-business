@@ -26,5 +26,60 @@
   "safety": "Sicherheit",
   "support": "Support",
   "safetyTitle": "Privatsphäre und praktische Hilfe.",
-  "safetyBody": "Veröffentliche keine eindeutigen Erkennungsmerkmale. Prüfe das Eigentum, trefft euch öffentlich und melde unangemessene Inhalte in der App."
+  "safetyBody": "Veröffentliche keine eindeutigen Erkennungsmerkmale. Prüfe das Eigentum, trefft euch öffentlich und melde unangemessene Inhalte in der App.",
+  "comparisonTitle": "Fundsachen sind überall verstreut. Renuir bringt sie zusammen.",
+  "comparisonIntro": "Heute heißt etwas zurückbekommen: überall posten und hoffen, dass die richtige Person es sieht. Renuir verbindet Besitzer und Finder direkt.",
+  "traditionalTitle": "Der übliche Weg",
+  "traditionalItems": [
+    "In unzähligen Nachbarschaftsgruppen posten und hoffen",
+    "Fundbüros einzeln abtelefonieren",
+    "Jeden Tag durch Beiträge scrollen",
+    "Fremden die eigene Telefonnummer geben"
+  ],
+  "renuirItems": [
+    "Ein Ort für deine Verlust- oder Fundmeldung",
+    "KI-gestützter Vergleich möglicher Treffer",
+    "Benachrichtigungen über mögliche Treffer",
+    "In der App chatten und die Rückgabe vereinbaren"
+  ],
+  "sidesTitle": "Egal, auf welcher Seite du stehst.",
+  "lostLabel": "Ich habe etwas verloren",
+  "foundLabel": "Ich habe etwas gefunden",
+  "lostBody": "Beschreibe deinen verlorenen Gegenstand. Prüfe Funde in deiner Nähe und mögliche Treffer.",
+  "foundBody": "Teile deinen Fund, prüfe Eigentumsmerkmale und vereinbare eine Übergabe.",
+  "venueTitle": "Du betreibst ein Hotel, einen Flughafen oder eine Location?",
+  "venueBody": "Fragen zu Fundsachen in deiner Einrichtung? Sprich mit uns.",
+  "faqTitle": "Häufige Fragen.",
+  "faqQuestions": [
+    "Ist Renuir kostenlos?",
+    "Wie funktioniert der Abgleich?",
+    "Sind meine persönlichen Daten sicher?",
+    "Wie laufen Treffen ab?",
+    "Ich habe etwas gefunden. Was soll ich posten?"
+  ],
+  "faqAnswers": [
+    "Als Gast kannst du Meldungen ansehen. Zum Mitmachen brauchst du ein Konto. Vor dem Veröffentlichen kann eine Verifizierung nötig sein. Optionale Boosts sind kostenpflichtig.",
+    "Vergleiche Fund- und Verlustmeldungen anhand von Fotos, Ort und Zeit. KI-Vorschläge helfen bei der Suche, beweisen aber kein Eigentum.",
+    "Schreibt euch in der App und prüft besondere Merkmale, bevor ihr eine Rückgabe vereinbart. Zum Chatten müsst ihr keine Telefonnummer teilen.",
+    "Vereinbart einen öffentlichen Treffpunkt und bestätigt die persönliche Rückgabe mit einem einmaligen Übergabecode.",
+    "Ergänze Fotos, eine Beschreibung sowie Ort und Zeitpunkt. Mit deiner Zustimmung kann die KI Details für deine Meldung vorschlagen."
+  ],
+  "safetyItems": [
+    {
+      "title": "Anonymer Chat",
+      "body": "Schreibt euch in der App und prüft besondere Merkmale, bevor ihr eine Rückgabe vereinbart. Zum Chatten müsst ihr keine Telefonnummer teilen."
+    },
+    {
+      "title": "Besitzprüfung",
+      "body": "Finder fragen nach Details, die nur der echte Besitzer kennt."
+    },
+    {
+      "title": "Sichere Treffpunkte",
+      "body": "Wähle einen öffentlichen Ort wie einen Bahnhof, eine Bibliothek oder eine Polizeiwache."
+    },
+    {
+      "title": "Einmaliger Übergabecode",
+      "body": "Ein 6-stelliger Code bestätigt die Rückgabe vor Ort."
+    }
+  ]
 }
