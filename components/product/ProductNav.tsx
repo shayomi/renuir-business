@@ -28,7 +28,7 @@ export default function ProductNav() {
       <Link className="brand" href="/" aria-label="Renuir"><Image src="/images/product/wm-white.png" alt="Renuir" width={94} height={30} priority /></Link>
       <nav aria-label="Renuir"><ul>{content.links.map(link => <li key={link.href}><Link href={`/${link.href}`}>{link.label}</Link></li>)}</ul></nav>
       <div className="actions"><div className="lang" ref={languageRef}>
-        <button ref={buttonRef} className="lang-btn" type="button" aria-label={languages[locale]} aria-expanded={open} aria-controls="site-languages" onClick={() => setOpen(!open)}>
+        <button ref={buttonRef} className="lang-btn" type="button" aria-label={`${locale.toUpperCase()} — ${languages[locale]}`} aria-expanded={open} aria-controls="site-languages" onClick={() => setOpen(!open)}>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18"/></svg>
           <span>{locale.toUpperCase()}</span>
         </button>

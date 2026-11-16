@@ -2,7 +2,7 @@ import { locales } from '@/i18n/config';
 
 /** Canonical production origin. Override with NEXT_PUBLIC_SITE_URL at deploy time. */
 export const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL ?? 'https://renuir.com'
+  process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.renuir.com'
 ).replace(/\/$/, '');
 
 /**
